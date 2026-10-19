@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Símbolo de acessibilidade</title>
+  <desc id="descricao">Símbolo branco de acessibilidade em fundo azul</desc>
+  <rect width="64" height="64" rx="8" fill="#07549a"/>
+  <circle cx="32" cy="13" r="5" fill="#fff"/>
+  <path d="M27 22h9l4 12h9v6H36l-2-6-6 9a11 11 0 1 0 8 7h7a18 18 0 1 1-16-23z" fill="#fff"/>
+</svg>

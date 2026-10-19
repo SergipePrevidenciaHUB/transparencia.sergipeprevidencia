@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receitas previstas e arrecadadas — SergipePrevidência</title>
+  <meta name="description" content="Tabela de teste de receitas previstas e arrecadadas do SergipePrevidência.">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script defer src="/assets/js/site.js"></script>
+  <script defer src="/assets/js/tabelas.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+  <div class="gov-stripe" aria-hidden="true"></div>
+  <div class="utility-bar"><div class="container utility-inner">
+    <form class="site-search" data-site-search serigySchema="https://serigy.tce.se.gov.br/comum/informacoes.html" serigyItem="pesquisaConteudo" role="search"><input name="q" type="search" placeholder="Pesquisar no portal" aria-label="Pesquisar no portal"><button type="submit">Pesquisar</button></form>
+    <div class="access-tools" aria-label="Ferramentas de acessibilidade"><a href="/mapa-do-site/" title="Acessibilidade e mapa do site"><img src="/assets/imagens/simbolo-acessibilidade.svg" alt="Acessibilidade" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeSimbolo"></a><span serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeRedimensionamentoTexto"><button type="button" data-action="increase" title="Aumentar texto">A+</button><button type="button" data-action="decrease" title="Diminuir texto">A−</button><button type="button" data-action="reset-font" title="Tamanho original">A</button></span><button type="button" data-action="contrast" aria-pressed="false" title="Alternar alto contraste" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeAltoContraste">◐</button></div>
+  </div></div>
+  <header class="main-header"><div class="container header-inner"><a class="brand" href="/"><img src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência — Governo do Estado de Sergipe"></a><nav class="main-nav" aria-label="Navegação principal"><ul><li><a href="/">Início</a></li><li><a href="/Portal-da-Transparencia/Institucional/Informacoes/">Institucional</a></li><li><a href="/Portal-da-Transparencia/" aria-current="page">Transparência</a></li><li><a href="/mapa-do-site/">Mapa do site</a></li></ul></nav></div></header>
+  <div class="green-line" aria-hidden="true"></div>
+  <div class="container breadcrumb-wrap" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeCaminhoPaginas"><nav class="breadcrumb" aria-label="Caminho da página"><a href="/">Início</a><span class="separator" aria-hidden="true">›</span><a href="/Portal-da-Transparencia/">Transparência</a><span class="separator" aria-hidden="true">›</span><span>Receitas</span><span class="separator" aria-hidden="true">›</span><span aria-current="page">Previstas e arrecadadas</span></nav></div>
+
+  <main id="conteudo" class="container">
+    <div class="prototype-notice"><strong>DADOS FICTÍCIOS — AMBIENTE DE PROTÓTIPO.</strong> Os valores abaixo servem apenas para testar filtros, exportação e leitura das marcações.</div>
+    <h1>Receitas previstas e arrecadadas</h1>
+    <p class="lead">Comparação mensal entre a previsão e a realização da receita.</p>
+
+    <form class="filter-panel" data-table-filter data-target="receitaTabela" serigySchema="https://serigy.tce.se.gov.br/comum/receitas.html" serigyItem="filtroPesquisa">
+      <div class="field"><label for="receita-ano">Ano</label><select id="receita-ano" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option><option value="2026" serigyValue="2026">2026</option><option value="2025" serigyValue="2025">2025</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option></select></div>
+      <div class="field"><label for="receita-mes">Mês</label><select id="receita-mes" name="mes"><option value="">Todos</option><option value="01">Janeiro</option><option value="02">Fevereiro</option><option value="03">Março</option></select></div>
+      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="receitaTabela">Pesquisar</button><button class="secondary" type="reset" serigyClearForm>Limpar filtros</button></div>
+    </form>
+
+    <div class="exports" serigySchema="https://serigy.tce.se.gov.br/comum/receitas.html"><strong>Baixar conjunto de dados:</strong><a href="/dados/receitas/receitas-teste.csv" download serigyItem="salvarRelatorio" serigyValue="csv">CSV</a><a href="/dados/receitas/receitas-teste.json" download serigyItem="salvarRelatorio" serigyValue="json">JSON</a></div>
+    <p class="result-count" data-count-for="receitaTabela" aria-live="polite"></p>
+
+    <div class="table-wrap">
+      <table id="receitaTabela" serigySchema="https://serigy.tce.se.gov.br/comum/receitas.html" serigyLoadSection="receitaTabela">
+        <caption>Receitas consolidadas — valores fictícios</caption>
+        <thead><tr><th scope="col">Mês</th><th scope="col">Ano</th><th scope="col">Valor previsto</th><th scope="col">Valor arrecadado</th></tr></thead>
+        <tbody>
+          <!-- DADOS_RECEITAS_INICIO -->
+          <tr data-year="2026" data-month="01"><td>Janeiro</td><td>2026</td><td class="money" serigyItem="valorPrevistoReceita">R$ 128.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 126.850.000,00</td></tr>
+          <tr data-year="2026" data-month="02"><td>Fevereiro</td><td>2026</td><td class="money" serigyItem="valorPrevistoReceita">R$ 129.500.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 130.210.000,00</td></tr>
+          <tr data-year="2026" data-month="03"><td>Março</td><td>2026</td><td class="money" serigyItem="valorPrevistoReceita">R$ 131.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 130.780.000,00</td></tr>
+          <tr data-year="2025" data-month="01"><td>Janeiro</td><td>2025</td><td class="money" serigyItem="valorPrevistoReceita">R$ 119.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 118.440.000,00</td></tr>
+          <tr data-year="2025" data-month="02"><td>Fevereiro</td><td>2025</td><td class="money" serigyItem="valorPrevistoReceita">R$ 120.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 121.320.000,00</td></tr>
+          <tr data-year="2025" data-month="03"><td>Março</td><td>2025</td><td class="money" serigyItem="valorPrevistoReceita">R$ 121.500.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 120.980.000,00</td></tr>
+          <tr data-year="2024" data-month="01"><td>Janeiro</td><td>2024</td><td class="money" serigyItem="valorPrevistoReceita">R$ 111.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 110.660.000,00</td></tr>
+          <tr data-year="2024" data-month="02"><td>Fevereiro</td><td>2024</td><td class="money" serigyItem="valorPrevistoReceita">R$ 112.500.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 113.040.000,00</td></tr>
+          <tr data-year="2024" data-month="03"><td>Março</td><td>2024</td><td class="money" serigyItem="valorPrevistoReceita">R$ 114.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 113.720.000,00</td></tr>
+          <tr data-year="2023" data-month="01"><td>Janeiro</td><td>2023</td><td class="money" serigyItem="valorPrevistoReceita">R$ 103.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 102.480.000,00</td></tr>
+          <tr data-year="2023" data-month="02"><td>Fevereiro</td><td>2023</td><td class="money" serigyItem="valorPrevistoReceita">R$ 104.500.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 105.100.000,00</td></tr>
+          <tr data-year="2023" data-month="03"><td>Março</td><td>2023</td><td class="money" serigyItem="valorPrevistoReceita">R$ 106.000.000,00</td><td class="money" serigyItem="valorArrecadadoReceita">R$ 105.770.000,00</td></tr>
+          <!-- DADOS_RECEITAS_FIM -->
+        </tbody>
+      </table>
+    </div>
+    <p class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/receitas.html" serigyItem="dataUltimaAtualizacao">Conjunto de informações de teste atualizado em <strong>18/10/2026</strong>, com dados fictícios até <strong>30/09/2026</strong>.</p>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Protótipo PETP 2026</span></div></div></footer>
+</body>
+</html>
