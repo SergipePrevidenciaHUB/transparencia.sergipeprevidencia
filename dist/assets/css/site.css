@@ -88,8 +88,16 @@ a:hover { text-decoration-thickness: 2px; }
 
 .site-search {
   display: flex;
+  flex-wrap: wrap;
   width: min(460px, 100%);
 }
+
+.site-search-results { flex-basis: 100%; min-width: 0; color: var(--texto); }
+.site-search-results p { margin: .65rem 0 0; }
+.site-search-results p:empty { margin: 0; }
+.site-search-results ul { margin: .65rem 0; padding-left: 1.4rem; }
+.site-search-results li { margin: .4rem 0; }
+.site-search-results a { overflow-wrap: anywhere; }
 
 .site-search input,
 .filter-panel select,
@@ -104,6 +112,7 @@ a:hover { text-decoration-thickness: 2px; }
 
 .site-search input {
   flex: 1;
+  min-width: 0;
   border-radius: 5px 0 0 5px;
 }
 

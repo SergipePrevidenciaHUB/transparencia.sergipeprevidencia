@@ -23,20 +23,148 @@
     applyState();
   });
 
-  document.querySelectorAll("[data-site-search]").forEach(function (form) {
-    form.addEventListener("submit", function (event) {
+  // Acrescentar aqui o caminho de cada nova página publicada do protótipo.
+  const searchPages = [
+    "/",
+    "/Portal-da-Transparencia/",
+    "/Portal-da-Transparencia/Institucional/Informacoes/",
+    "/Portal-da-Transparencia/Receitas/PrevistaArrecada/",
+    "/Portal-da-Transparencia/RecursosHumanos/Estagiarios/",
+    "/mapa-do-site/"
+  ];
+  // Apenas pares conhecidos: não cortar sufixos indiscriminadamente (ex.: "lápis").
+  // Não é uma análise morfológica completa; novos plurais exigem pares revisados.
+  const searchPlurals = new Map(Object.entries({
+    normas: "norma", receitas: "receita", previstas: "prevista", arrecadadas: "arrecadada",
+    informacoes: "informacao", competencias: "competencia", estagiarios: "estagiario",
+    beneficios: "beneficio", servidores: "servidor", responsaveis: "responsavel",
+    curriculos: "curriculo", diretores: "diretor", documentos: "documento",
+    pensoes: "pensao", contribuicoes: "contribuicao", servicos: "servico",
+    recursos: "recurso", paginas: "pagina", organogramas: "organograma"
+  }));
+  const searchStopWords = new Set("a as o os de da das do dos e em no nos na nas para por com um uma".split(" "));
+  let searchIndexPromise;
+
+  function searchWords(text) {
+    const normalized = text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    return (normalized.match(/[a-z0-9]+/g) || [])
+      .filter(function (word) { return !searchStopWords.has(word); })
+      .map(function (word) { return searchPlurals.get(word) || word; });
+  }
+
+  function mainSearchText(parsed) {
+    const main = parsed.querySelector("main");
+    if (!main) throw new Error("Página sem conteúdo principal.");
+    main.querySelectorAll("script, style, template, noscript, nav, header, footer, [hidden], [aria-hidden='true'], .visually-hidden")
+      .forEach(function (element) { element.remove(); });
+    main.querySelectorAll("[style]").forEach(function (element) {
+      if (element.style.display === "none" || /^(hidden|collapse)$/.test(element.style.visibility)) element.remove();
+    });
+    const walker = parsed.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+    const text = [];
+    while (walker.nextNode()) text.push(walker.currentNode.nodeValue);
+    return text.join(" ");
+  }
+
+  async function loadSearchPage(url, order) {
+    const controller = new AbortController();
+    const timeout = setTimeout(function () { controller.abort(); }, 15000);
+    try {
+      const response = await fetch(url, { mode: "same-origin", redirect: "error", signal: controller.signal });
+      if (!response.ok) throw new Error("Página indisponível.");
+      // Documento inerte: seus scripts não são executados nem seus nós inseridos na página atual.
+      const parsed = new DOMParser().parseFromString(await response.text(), "text/html");
+      const title = parsed.title.trim() || url;
+      const titleWords = new Set(searchWords(title));
+      return {
+        url: url, title: title, order: order, titleWords: titleWords,
+        words: new Set([...titleWords, ...searchWords(mainSearchText(parsed))])
+      };
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  function loadSearchIndex() {
+    if (!/^https?:$/.test(window.location.protocol)) return Promise.reject(new Error("A busca requer HTTP."));
+    if (!searchIndexPromise) {
+      // Cache em memória; falhas não ficam armazenadas e permitem tentar novamente.
+      // Se qualquer página falhar, não apresentar uma busca incompleta como resultado definitivo.
+      searchIndexPromise = Promise.all(searchPages.map(loadSearchPage)).catch(function (error) {
+        searchIndexPromise = null;
+        throw error;
+      });
+    }
+    return searchIndexPromise;
+  }
+
+  document.querySelectorAll("[data-site-search]").forEach(function (form, index) {
+    const input = form.querySelector("input");
+    const results = document.createElement("div");
+    results.className = "site-search-results";
+    results.id = "site-search-results-" + index;
+    const status = document.createElement("p");
+    status.setAttribute("role", "status");
+    status.setAttribute("aria-live", "polite");
+    status.setAttribute("aria-atomic", "true");
+    const list = document.createElement("ul");
+    list.setAttribute("aria-label", "Resultados da pesquisa");
+    list.hidden = true;
+    results.append(status, list);
+    form.append(results);
+    input.setAttribute("aria-controls", results.id);
+    let requestId = 0;
+
+    input.addEventListener("input", function () {
+      requestId += 1;
+      status.textContent = "";
+      list.replaceChildren();
+      list.hidden = true;
+      list.removeAttribute("aria-busy");
+    });
+
+    form.addEventListener("submit", async function (event) {
       event.preventDefault();
-      const query = form.querySelector("input").value.trim().toLowerCase();
-      const pages = [
-        { terms: "transparencia portal", url: "/Portal-da-Transparencia/" },
-        { terms: "institucional informacoes estrutura organizacional organograma norma", url: "/Portal-da-Transparencia/Institucional/Informacoes/" },
-        { terms: "receita receitas prevista arrecadada realização", url: "/Portal-da-Transparencia/Receitas/PrevistaArrecada/" },
-        { terms: "recursos humanos estagiarios estágio", url: "/Portal-da-Transparencia/RecursosHumanos/Estagiarios/" },
-        { terms: "mapa do site acessibilidade", url: "/mapa-do-site/" }
-      ];
-      const result = pages.find(function (page) { return page.terms.includes(query); });
-      if (result) window.location.href = result.url;
-      else alert("Nenhuma página do protótipo foi encontrada para essa pesquisa.");
+      const currentRequest = ++requestId;
+      const queryWords = [...new Set(searchWords(input.value))];
+      list.replaceChildren();
+      list.hidden = true;
+      list.removeAttribute("aria-busy");
+      if (!queryWords.length) {
+        status.textContent = "Digite uma palavra para pesquisar.";
+        return;
+      }
+      status.textContent = "Pesquisando…";
+      list.setAttribute("aria-busy", "true");
+      try {
+        const pages = await loadSearchIndex();
+        if (currentRequest !== requestId) return;
+        const matches = pages.filter(function (page) {
+          return queryWords.every(function (word) { return page.words.has(word); });
+        }).map(function (page) {
+          return { page: page, score: queryWords.filter(function (word) { return page.titleWords.has(word); }).length };
+        });
+        // Mais termos no título primeiro; empates seguem a ordem do manifesto.
+        matches.sort(function (a, b) { return b.score - a.score || a.page.order - b.page.order; });
+        matches.forEach(function (match) {
+          const item = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = match.page.url;
+          link.textContent = match.page.title;
+          item.append(link);
+          list.append(item);
+        });
+        list.hidden = !matches.length;
+        status.textContent = matches.length
+          ? matches.length + (matches.length === 1 ? " página encontrada." : " páginas encontradas.")
+          : "Nenhuma página foi encontrada para essa pesquisa.";
+      } catch (error) {
+        if (currentRequest !== requestId) return;
+        status.textContent = "Não foi possível carregar as páginas para pesquisa. Tente novamente.";
+      } finally {
+        if (currentRequest === requestId) list.removeAttribute("aria-busy");
+      }
+      // Não deslocar o foco: os links permanecem acessíveis pela navegação normal por Tab.
     });
   });
 
