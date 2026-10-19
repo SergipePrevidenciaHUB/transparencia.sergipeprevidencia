@@ -378,10 +378,10 @@ tbody tr:last-child td { border-bottom: 0; }
 .high-contrast th,
 .high-contrast .hero,
 .high-contrast button,
-.high-contrast .button { color: #000; background: #ffff00; }
+.high-contrast .button { color: var(--texto); background: var(--fundo-suave); }
 .high-contrast .main-nav a,
-.high-contrast .hero h1,
-.high-contrast .site-footer a { color: #000; }
+.high-contrast .site-footer a { color: var(--azul); }
+.high-contrast .hero h1 { color: var(--texto); }
 .high-contrast .card,
 .high-contrast .content-box,
 .high-contrast table,
@@ -392,6 +392,14 @@ tbody tr:last-child td { border-bottom: 0; }
 .high-contrast .utility-bar input,
 .high-contrast .filter-panel select { color: #fff; background: #000; }
 .high-contrast tbody tr:nth-child(even) { background: #111; }
+.high-contrast .prototype-notice,
+.high-contrast .warning-notice {
+  color: var(--texto);
+  background: var(--fundo);
+  border-left-color: var(--amarelo);
+}
+.high-contrast .prototype-notice a,
+.high-contrast .warning-notice a { color: var(--azul); }
 
 [hidden] { display: none !important; }
 
