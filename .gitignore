@@ -6,3 +6,6 @@ __pycache__/
 /dados-entrada/**
 !/dados-entrada/**/
 !/dados-entrada/**/.gitkeep
+# Documentos locais utilizados como referência
+referencias/*
+!referencias/.gitkeep
