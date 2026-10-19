@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Arquivos internos de entrada; manter apenas a estrutura de pastas
+/dados-entrada/**
+!/dados-entrada/**/
+!/dados-entrada/**/.gitkeep
