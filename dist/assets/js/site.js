@@ -28,6 +28,7 @@
     "/",
     "/Portal-da-Transparencia/",
     "/Portal-da-Transparencia/Institucional/Informacoes/",
+    "/Portal-da-Transparencia/Institucional/LegislacaoInterna/",
     "/Portal-da-Transparencia/Receitas/PrevistaArrecada/",
     "/Portal-da-Transparencia/RecursosHumanos/Estagiarios/",
     "/mapa-do-site/"
