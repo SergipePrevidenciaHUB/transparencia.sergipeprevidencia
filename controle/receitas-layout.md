@@ -10,6 +10,7 @@ Fontes consultadas:
 - **C — Cartilha:** `referencias/petp/Cartilha PETP 2026 Sergipe VERSÃO FINAL v2.pdf`, pp. 32–35, paginação impressa e do PDF coincidentes.
 - **S — Serigy:** `referencias/serigy/3. Receitas _ Serigy Docs.pdf`, pp. 1–2, itens 3.1–3.6 e exemplos de filtros, resultados, exportação e atualização.
 - **I — informação institucional fornecida pelo usuário nesta tarefa:** UOs 37201, 37401 e 37403; a arrecadação do SPSM é registrada na UO 37201, sem opção própria de SPSM em Receitas.
+- **I — confirmação institucional desta revisão:** FUNPREV/37403 iniciou operações em junho de 2026 e tem previsão anual de receita de **R$ 0,00 em 2026**, pois não constou da LOA elaborada em 2025. Para 37201 e 37401, mantém-se a regra observada na planilha: previsão anual nas linhas de janeiro e arrecadação por mês. A regra específica está detalhada na seção 3.1; não é dedução dos exemplos Serigy.
 
 **DT** identifica decisão técnica de preparação/relacionamento dos dados. C e S definem conteúdo ou funcionalidades de publicação; não fixam esses nomes de colunas, arquivos ou abas. A informação I não foi inferida dos dados fictícios ou dos exemplos normativos.
 
@@ -25,7 +26,7 @@ Fontes consultadas:
 | Histórico | Pelo menos os três anos anteriores à pesquisa; os anos do exemplo Serigy não limitam a série. Preservar também o exercício corrente disponível. | C, p. 34; S 3.6, `historicoExercicio`. |
 | Exportação | Gravar o conjunto selecionado em pelo menos um formato editável. As extensões são exemplos, não obrigação de oferecer todas. Acesso estruturado automatizado aparece como sugestão. PDF isolado no exemplo S não elimina o editável exigido em C. | C, p. 34; S 3.4, `salvarRelatorio`. |
 
-Os trechos consultados não definem chave de entrada, granularidade por lançamento ou mês, previsão inicial versus atualizada, valores líquidos versus brutos ou regras de consolidação entre UOs. O modelo mensal abaixo é uma **DT condicionada à fonte real**, coerente com a apresentação mensal atual; não transforma essas escolhas em exigências oficiais.
+Os trechos consultados não definem chave de entrada, granularidade por lançamento ou mês, previsão inicial versus atualizada, valores líquidos versus brutos ou regras de consolidação entre UOs. A confirmação institucional da seção 3.1 esclarece como a previsão anual e a arrecadação mensal aparecem nesta entrada. A preparação do resumo continua sendo **DT condicionada à conciliação da fonte**, sem transformar a previsão anual em previsão mensal nem essas escolhas em exigências oficiais.
 
 ## 3. Unidades orçamentárias e futura consulta — I e DT
 
@@ -45,19 +46,28 @@ O código é texto; o nome exibido é obtido dessa correspondência, sem necessi
 
 Qualquer total deverá manter separados valor previsto e valor arrecadado e respeitar exercício, período, unidades selecionadas e a mesma base de comparação. Não somar consolidados aos componentes, meses a acumulados que já os incluem, versões sucessivas do mesmo valor ou uma cópia da arrecadação do SPSM ao registro de 37201. A opção conjunta não autoriza compensar ou eliminar repasses entre unidades sem regra contábil validada.
 
+### 3.1. Previsão anual, arrecadação mensal e início do FUNPREV — I
+
+- **SergipePrevidência/37201 e FINANPREV/37401:** a previsão anual aparece nas linhas de janeiro, detalhada pelas classificações da fonte. Nos meses seguintes, `Valor Previsto` permanece em `0,00`; `Valor Arrecadado` contém os valores de cada mês. Não repetir a previsão anual em cada mês nem dividi-la por doze. O zero dos meses posteriores não significa inexistência da previsão anual.
+- **FUNPREV/37403 em 2026:** as operações começaram em **junho de 2026**. A previsão anual de receita é **R$ 0,00**, confirmada pela instituição, porque o fundo não constou da LOA elaborada em 2025. Esse zero é dado conhecido, não valor faltante, e não deve ficar pendente por ausência de janeiro. A ausência de linhas de janeiro a maio corresponde ao período anterior ao início das operações; não fabricar esses registros para representar a previsão anual zero.
+- A arrecadação do FUNPREV deve ser registrada nos meses a que pertencem os valores informados, a partir do início das operações. Não antecipar ou distribuir esses valores pelos meses anteriores. A confirmação sobre a previsão de 2026 não permite presumir a previsão de exercícios posteriores.
+- **DT de apresentação futura:** identificar explicitamente a previsão como anual e a arrecadação como mensal ou do recorte selecionado. Para 37201 e 37401, a referência anual vem das rubricas de janeiro, consideradas uma única vez por UO/ano após conciliação; consultar outro mês não transforma o zero dessa linha em previsão anual inexistente. Para FUNPREV/2026, a referência anual zero é a confirmação institucional, sem necessidade de criar janeiro. Não somar uma referência anual apresentada como contexto novamente aos registros de janeiro, nem comparar as medidas como se ambas fossem previsões/realizações mensais.
+
+O início do FUNPREV e sua previsão de 2026 estão esclarecidos. Permanecem pendentes as alterações posteriores da previsão, a conferência dos valores arrecadados negativos, o tratamento das receitas intraorçamentárias e o fechamento de outubro de 2026.
+
 ## 4. Entrada lógica `receitas`
 
-**DT de granularidade:** uma linha por UO, ano e mês, com previsão e arrecadação comparáveis para aquele período. Chave candidata: (`codigo_uo`, `ano`, `mes`). Essa proposta só é utilizável após confirmar que a origem permite obter medidas mensais coerentes. A chave identifica o resumo preparado para a página, não o lançamento contábil original.
+**DT de granularidade:** uma linha de resumo por UO, ano e mês, respeitando a diferença entre previsão anual e arrecadação mensal descrita na seção 3.1. Chave candidata: (`codigo_uo`, `ano`, `mes`). A chave identifica o resumo preparado para a página, não o lançamento contábil original. Não interpretar o `valor_previsto` desse registro como uma previsão mensal.
 
-Se a fonte trouxer várias naturezas, repasses ou lançamentos por competência, a agregação precisa ser definida e conciliada antes de gerar esse resumo. Se trouxer apenas previsão anual ou saldos acumulados, **revisar o desenho antes de criar o modelo**, sem repetir a previsão anual em cada mês, dividir por doze ou fabricar movimentos. A Cartilha não resolve essas escolhas nos trechos consultados.
+Quando a fonte trouxer várias naturezas, repasses ou classificações por competência, a agregação precisa ser definida e conciliada antes de gerar esse resumo. Preservar a previsão anual nas linhas de janeiro de 37201/37401 e os zeros posteriores; no resumo, considerar cada rubrica uma única vez. Para FUNPREV/2026, preservar o zero confirmado e os meses efetivamente informados desde junho. Não repetir, ratear ou fabricar previsão/movimentos. Uma eventual fonte futura de saldos acumulados exigirá revisão própria; a entrada aqui descrita registra arrecadação mensal, conforme a regra institucional.
 
 | Coluna proposta | Tipo de entrada — DT | Origem do conteúdo e uso | Dependência de esclarecimento |
 | --- | --- | --- | --- |
 | `codigo_uo` | Texto | **I:** identifica uma das três UOs. **DT:** atribuição do registro, parte da chave e suporte ao seletor; sem item próprio em S Receitas. | Confirmar a identificação efetiva da UO na origem. A arrecadação SPSM permanece em 37201. |
 | `ano` | Ano informado pela origem | **C, p. 35:** filtro de ano. **DT:** coluna e parte da chave do resumo. | Definir a referência fiscal/temporal usada pela instituição, sem inferir do nome do arquivo ou da data de importação. |
-| `mes` | Mês informado pela origem | **C, p. 35:** filtro de mês. **DT:** coluna e granularidade do resumo. | Confirmar qual competência as duas medidas representam; não derivar da data de publicação. |
-| `valor_previsto` | Decimal monetário | **C, p. 32:** receita prevista; **S 3.1:** `valorPrevistoReceita`. Nome da coluna e armazenamento numérico são **DT**. | Confirmar origem da previsão, inicial/atualizada e anual/mensal/acumulada. Não transformar ausência em zero. |
-| `valor_arrecadado` | Decimal monetário | **C, p. 32:** receita realizada, incluindo recursos extraordinários; **S 3.2:** `valorArrecadadoReceita`. Nome e armazenamento numérico são **DT**. | Confirmar origem, competência, abrangência, deduções, restituições e ajustes. Não presumir valor líquido, bruto ou regime contábil. |
+| `mes` | Mês informado pela origem | **C, p. 35:** filtro de mês. **DT:** coluna e granularidade do resumo. | Arrecadação por mês; em 37201/37401, janeiro também carrega a previsão anual. FUNPREV/2026 tem registros desde junho. Não derivar competência da publicação. |
+| `valor_previsto` | Decimal monetário | **C, p. 32:** receita prevista; **S 3.1:** `valorPrevistoReceita`; **I:** regra da seção 3.1. Nome e armazenamento são **DT**. | 37201/37401: anual em janeiro e zero nos meses seguintes, sem repetição/rateio. FUNPREV/2026: previsão anual zero confirmada, não faltante. Continua pendente como alterações posteriores da previsão são registradas. Não converter outras ausências em zero por suposição. |
+| `valor_arrecadado` | Decimal monetário | **C, p. 32:** receita realizada, incluindo recursos extraordinários; **S 3.2:** `valorArrecadadoReceita`; **I:** valores por mês. Nome e armazenamento são **DT**. | Preservar os valores nos meses informados. Permanecem pendentes competência contábil detalhada, abrangência, bruto/líquido, deduções, restituições e ajustes, inclusive valores negativos e receitas intraorçamentárias. |
 
 Exemplo somente de cabeçalho, sem registros:
 
@@ -85,7 +95,7 @@ Exemplo somente de cabeçalho, sem registros:
 codigo_uo;data_atualizacao;dados_ate
 ```
 
-Os dois conjuntos lógicos podem ser arquivos separados ou abas de uma entrega futura; essa separação é DT. A existência desses metadados não comprova a série histórica: os dados dos exercícios anteriores e suas referências precisam estar efetivamente disponíveis. Não criar meses/anos zerados para preencher lacunas, nem declaração automática de não ocorrência. Atualização mensal da entrada não é, por si, garantia de cumprimento das regras contábeis de atualização.
+Os dois conjuntos lógicos podem ser arquivos separados ou abas de uma entrega futura; essa separação é DT. A existência desses metadados não comprova a série histórica: os dados dos exercícios anteriores e suas referências precisam estar efetivamente disponíveis. Não criar meses/anos zerados para preencher lacunas, nem declaração automática de não ocorrência. No FUNPREV/2026, janeiro a maio são anteriores ao início das operações e não devem ser fabricados; isso não invalida a previsão anual zero confirmada. Atualização mensal da entrada não é, por si, garantia de cumprimento das regras contábeis de atualização. O fechamento e a cobertura de outubro de 2026 permanecem pendentes de confirmação, sem presumir mês encerrado.
 
 ## 6. Relação com a página e as marcações existentes
 
@@ -95,7 +105,7 @@ O layout proposto acrescenta a atribuição por UO aos quatro conceitos já exib
 
 Schema documentado: `https://serigy.tce.se.gov.br/comum/receitas.html`; caminho S: `[Portal da Transparencia]/Receitas/PrevistaArrecada`.
 
-- Associar `valorPrevistoReceita` e `valorArrecadadoReceita` às duas medidas reais do mesmo registro e referência, preservando sua comparabilidade.
+- Associar `valorPrevistoReceita` e `valorArrecadadoReceita` às medidas reais do registro, explicitando a referência anual da previsão e a mensal da arrecadação conforme a seção 3.1. O zero confirmado de previsão do FUNPREV/2026 não deve receber tratamento de informação ausente.
 - `filtroPesquisa` marca a consulta funcional. O exemplo usa `historicoExercicio` no seletor de exercício e `serigyValue` nos anos; esses anos não limitam o histórico C. Os campos de mês/ano não recebem novos itens inventados.
 - A ação `serigyExecuteWaitSection` e o contêiner `serigyLoadSection` precisam se corresponder quando usados. São estrutura de interface, não colunas financeiras de entrada.
 - `salvarRelatorio` e `serigyValue` do formato devem corresponder ao arquivo funcional do conjunto selecionado. A entrada privada não é automaticamente o relatório público, e o PDF do exemplo S não substitui o editável C.
@@ -105,13 +115,13 @@ Schema documentado: `https://serigy.tce.se.gov.br/comum/receitas.html`; caminho 
 ## 7. Dúvidas a resolver com a instituição antes dos modelos
 
 1. **Origem e abrangência dos valores:** qual exportação oficial fornece previsão e realização por UO? Contém receitas próprias, repasses, duodécimos e recursos extraordinários? Como confirmar completude sem incluir receitas de outra natureza ou duplicar fontes?
-2. **Competência:** o mês/ano significa registro contábil, efetivo ingresso, repasse programado ou outro referencial? As duas medidas são comparáveis no mesmo recorte? Há competências reabertas ou correções de exercícios anteriores? Não presumir uma dessas respostas.
-3. **Previsão:** é inicial ou atualizada, anual, mensal programada ou acumulada? Como as revisões são identificadas e qual versão deve ser apresentada? Sem resposta, o resumo mensal permanece condicionado e não se deve repetir ou ratear o valor anual.
-4. **Arrecadação:** os valores são mensais ou acumulados, brutos ou líquidos? Como entram restituições, deduções, estornos, reclassificações e receitas extraordinárias? Não criar sinais, fórmulas ou critérios de reconhecimento por suposição.
-5. **Ajustes e reentregas:** os arquivos substituem períodos anteriores ou acrescentam fatos novos? Como identificar uma versão válida sem somar a mesma arrecadação duas vezes? Se só houver acumulados, quais bases e ajustes permitiriam uma conversão reconciliada, caso institucionalmente aprovada?
-6. **Consolidação das UOs:** há repasses entre as três unidades ou totais consolidados junto dos componentes? Qual é o universo conciliável e quais regras oficiais se aplicam? O registro do SPSM na UO 37201 é orientação já fornecida; resta conferir que as entregas não acrescentem uma segunda cópia desses mesmos valores. Não inventar eliminações ou compensações.
-7. **Atualização e histórico:** quais são as referências reais por UO, a data de cobertura e os exercícios disponíveis? Repasses em datas fixas têm qual calendário confirmado? Essa particularidade C não autoriza presumir ausência de arrecadação nem dispensar atualização.
+2. **Competência contábil:** a arrecadação é mensal, mas o mês/ano corresponde ao registro contábil, efetivo ingresso, repasse programado ou outro referencial? Há competências reabertas ou correções de exercícios anteriores? A previsão anual não deve ser interpretada como mensal para compará-la à arrecadação.
+3. **Alterações da previsão:** para 37201/37401, está estabelecido o registro anual em janeiro; falta esclarecer se o valor ali apresentado é inicial ou atualizado e como alterações posteriores são identificadas. FUNPREV/2026 tem previsão anual zero confirmada: sua ausência na LOA elaborada em 2025 e o início em junho não são mais dúvidas. Não repetir nem ratear a previsão anual e não presumir regras para outros exercícios.
+4. **Arrecadação negativa e ajustes:** permanece pendente a conferência dos valores arrecadados negativos identificados na planilha. Confirmar se os valores mensais são brutos ou líquidos e como entram restituições, deduções, estornos, reclassificações e receitas extraordinárias. Não descartar negativos, zerá-los ou criar critérios de reconhecimento por suposição.
+5. **Ajustes e reentregas:** os arquivos substituem períodos anteriores ou acrescentam fatos novos? Como identificar a versão válida sem somar a mesma arrecadação ou previsão duas vezes? A regra de arrecadação mensal não resolve o tratamento de revisões e ajustes.
+6. **Receitas intraorçamentárias e consolidação das UOs:** permanece pendente definir seu tratamento na apresentação e em eventual consolidação. Há repasses entre as três unidades ou totais consolidados junto dos componentes? Qual é o universo conciliável e quais regras oficiais se aplicam? O registro do SPSM na UO 37201 é orientação já fornecida; resta conferir que as entregas não acrescentem uma segunda cópia desses mesmos valores. Não inventar eliminações ou compensações.
+7. **Fechamento de outubro de 2026 e referências de atualização:** confirmar se outubro está encerrado ou parcial e qual a data de cobertura por UO, além das referências e exercícios disponíveis. O início do FUNPREV em junho de 2026 está confirmado; a ausência de janeiro a maio não é falha a preencher. A particularidade C de repasses em datas fixas não autoriza presumir ausência de arrecadação nem dispensar atualização.
 
 ## 8. Limites desta entrega
 
-Criado somente `controle/receitas-layout.md`. Cabeçalhos sem linhas fictícias; nenhum CSV, XLSX, importador, dado existente ou arquivo de `dist` foi criado/alterado. A estrutura é proposta, com conceitos contábeis pendentes de esclarecimento. A conferência desta entrega documental é `git diff --check`, sem declaração de validação financeira ou atendimento integral ao PETP.
+Nesta revisão foi atualizado somente `controle/receitas-layout.md`, com a regra institucional sobre a previsão anual, o início do FUNPREV e o zero confirmado de 2026. Cabeçalhos preservados, sem linhas fictícias; nenhum CSV, XLSX, importador, dado existente ou arquivo de `dist` foi criado/alterado. As demais pendências contábeis indicadas acima permanecem abertas. A conferência desta entrega documental é `git diff --check`, sem declaração de validação financeira ou atendimento integral ao PETP.
