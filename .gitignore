@@ -3,6 +3,9 @@ __pycache__/
 .DS_Store
 _site/
 
+# Prévias e arquivos de trabalho locais; preservar fora do versionamento
+/trabalho/
+
 # Arquivos internos de entrada; manter apenas a estrutura de pastas
 /dados-entrada/**
 !/dados-entrada/**/
