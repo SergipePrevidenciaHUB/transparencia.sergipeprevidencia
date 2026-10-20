@@ -30,6 +30,7 @@
     "/Portal-da-Transparencia/Institucional/AtosNormativos/",
     "/Portal-da-Transparencia/Institucional/LegislacaoInterna/",
     "/Portal-da-Transparencia/Receitas/PrevistaArrecada/",
+    "/Portal-da-Transparencia/Despesas/",
     "/Portal-da-Transparencia/RecursosHumanos/Estagiarios/",
     "/mapa-do-site/"
   ];
