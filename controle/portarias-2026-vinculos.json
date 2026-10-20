@@ -1,0 +1,1817 @@
+{
+  "versao": 1,
+  "fonte": "https://sergipeprevidencia.se.gov.br/transparencia/legislacao/portaria/",
+  "conferido_em": "2026-10-20T11:12:09-03:00",
+  "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+  "escopo": "Somente os 100 registros importados de 2026. O Portal está previsto em /Portal-da-Transparencia/ no domínio oficial; o WordPress permanece sítio institucional e repositório público de documentos.",
+  "metodo": "GET sem cookies, login ou credenciais; HTTP 200, assinatura PDF, abertura pelo pypdf e leitura do texto de todas as páginas. Conferência de número/ano, data e ementa/conteúdo; nomes dos arquivos não foram usados para presumir associação. URLs codificadas a partir dos href efetivamente encontrados.",
+  "limites": "Conferência de correspondência e acessibilidade na data acima, sem homologação institucional, auditoria jurídica, validação de assinaturas ou garantia de completude, atualização e disponibilidade futura. Datas administrativas, de assinatura e do título não são automaticamente equivalentes.",
+  "resumo": {
+    "registros": 100,
+    "vinculados": 96,
+    "pendentes": 4,
+    "urls_distintas_examinadas": 99
+  },
+  "registros": [
+    {
+      "ano": 2026,
+      "numero": 100,
+      "titulo": "Portaria Nº 100/2026",
+      "data": "De 07 de Outubro de 2026",
+      "descricao": "Designa o Diretor de Finanças e Investimentos para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 08 a 21 de outubro de 2026.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-N%C2%B0100.2026-NORMANDO-EXERCICIO-DA-PR.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-N%C2%B0100.2026-NORMANDO-EXERCICIO-DA-PR.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "33e85c218a30009c528f581a641da156a24b7cf517b908ca523308ef0a08c101"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 99,
+      "titulo": "Portaria Nº 99/2026",
+      "data": "De 30 de Setembro de 2026",
+      "descricao": "Regulamenta, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, o procedimento de verificação de óbitos mediante cruzamento de bases de dados, para fins de controle cadastral, apoio às ações de prova de vida e prevenção de pagamentos indevidos, e dá providências correlatas.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-No-99-Regulamentao-procedimento-de-verificacao-de-obitos-mediante-cruzamento-de-bases-de-dados-para-fins-de-controle-cadastral-apoio-as-acoes.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-No-99-Regulamentao-procedimento-de-verificacao-de-obitos-mediante-cruzamento-de-bases-de-dados-para-fins-de-controle-cadastral-apoio-as-acoes.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 6,
+        "sha256": "f7dc69df5a9bf6dc288a9ae770f0bf8efb8610d544af94b2b99f441a57d5af52"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 98,
+      "titulo": "Portaria Nº 98/2026",
+      "data": "De 23 de Setembro de 2026",
+      "descricao": "Designa servidor para exercer a função de responsável pela Unidade Setorial de Controle Interno – USCI do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "O corpo identifica Portaria nº 98/2026 de 21/09/2026, mas a listagem informa 23/09/2026 e o cabeçalho SEI traz PORTARIA 20/2026 (Aracaju, 23/09/2026). O nome do arquivo menciona republicação. Confirmar institucionalmente a identificação e a data da versão antes de vincular.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-N%C2%B098.2026-UNIDADE-SETORIAL-CONTROLE-INTERNO-USCI-republicacao-em-23.09.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "074522f4d9d9e3fa1d26fdea927d88728618f719e4b0d329b2c564a48e8223d9"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 97,
+      "titulo": "Portaria Nº 97/2026",
+      "data": "De 18 de Setembro de 2026",
+      "descricao": "Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 19 de setembro a 08 de outubro de 2026.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-N%C2%B097.2026-NORMANDO-EXERCICIO-DA-DIPLAG.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-N%C2%B097.2026-NORMANDO-EXERCICIO-DA-DIPLAG.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "2c7d624d2a8cd7d55b623829e454712e224f9b4771e837c44702267fa4edafb0"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 96,
+      "titulo": "Portaria Nº 96/2026",
+      "data": "De 17 de Setembro de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-96-2026-ALTERACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "Ementa com redação diferente: a listagem diz institui a composição; o PDF diz dispõe sobre o grupo. Mesmo número 96/2026, data 17/09/2026, alteração da Portaria 74/2026 e GT Gestão da Qualidade; correspondência confirmada sem alterar a ementa importada.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-96-2026-ALTERACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "5adbe02b82130ecc71f05b651c0baa479479a1965d69463c636abe3f1102b74a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 95,
+      "titulo": "Portaria Nº 95/2026",
+      "data": "De 31 de Agosto de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 68/2026 que dispõe sobre o Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE APOSENTADORIA” do SERGIPEPREVIDÊNCIA, a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-95-2026-ALTERACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-95-2026-ALTERACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "31b574764e672f3d1c83f1c0071f9b7d38b35c42f6ad6bc6bd14b45dffe8225f"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 94,
+      "titulo": "Portaria Nº 94/2026",
+      "data": "De 31 de Agosto de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 74/2026 que dispõe sobre o Grupo de Trabalho “GESTÃO DA QUALIDADE” do SERGIPEPREVIDÊNCIA a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-94-2026-ALTERACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-94-2026-ALTERACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "328a66523aae6c3a77f2f2bb1dcbf6ccb17ae8b7bc8f33520c3fb203ca81e136"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 93,
+      "titulo": "Portaria Nº 93/2026",
+      "data": "De 31 de Agosto de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 60/2026 que dispõe sobre o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES” do SERGIPEPREVIDÊNCIA, a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-93-2026-ALTERACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-93-2026-ALTERACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "5cbb8843b7173ca4e6cfb59338b9414abb25bf4afe452e38a7f194fb8cdefa14"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 92,
+      "titulo": "Portaria Nº 92/2026",
+      "data": "De 28 de Agosto de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Concessão de Benefícios do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-92-2026-DESIGNACAO-GERENTE-DE-CONCESSAO-DE-BENEFICIOS-1.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-92-2026-DESIGNACAO-GERENTE-DE-CONCESSAO-DE-BENEFICIOS-1.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "8ab22e6f3e660f046fd4f819942071b1efbdfc31d4afbc18e564d02f478426ac"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 91,
+      "titulo": "Portaria Nº 91/2026",
+      "data": "De 28 de Agosto de 2026",
+      "descricao": "Nomear ANNA BEATRIZ DE CARVALHO GÓIS, no Cargo em Comissão de ASSESSOR TÉCNICO I.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "A listagem e a ementa importada informam 28/08/2026. O PDF identifica 91/2026, Aracaju, 22/09/2026, e informa republicação por incorreção de informações. A nomeação e a pessoa correspondem, mas a data da versão diverge; confirmar antes de vincular.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-91-2026-NOMEACAO-ANNA-BEATRIZ-GOIS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "750235cd8eceb70b8728828a6f91a0ac786f30851501767beb2c0e89efc58200"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 90,
+      "titulo": "Portaria Nº 90/2026",
+      "data": "De 21 de Agosto de 2026",
+      "descricao": "EXONERAR o(a) servidor(a) CARLA GONÇALVES LEITE, no Cargo em Comissão de ASSESSOR TÉCNICO I.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-90-2026-EXONERACAO-CARLA-GONCALVES-LEITE.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "O nome e o cargo da ementa aparecem no dispositivo de exoneração do PDF, com CPF intercalado. Número 90/2026 e data 21/08/2026 conferidos; não se exige igualdade literal da frase inteira para reconhecer o mesmo ato.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-90-2026-EXONERACAO-CARLA-GONCALVES-LEITE.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "49104b619c75d7c1d782e2fdb0aeadbf171041f07074574defc30f4ad284092b"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 89,
+      "titulo": "Portaria Nº 89/2026",
+      "data": "De 26 de Agosto de 2026",
+      "descricao": "Nomeia servidora para exercer Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe–SERGIPEPREVI e designa servidora para responder pelo expediente de função em substituição.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "O PDF identifica 89/2026, Aracaju, 28/08/2026, enquanto o registro informa 26/08/2026. A descrição corresponde ao assunto, mas a divergência de data impede associação segura nesta rodada.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/PORTARIA-89-2026-NOMEACAO-E-DESIGNACAO-1.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "ab12efcfa990436ac55aaa02d450e62be3027ba10cb6cf8f93726c1d14355633"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 88,
+      "titulo": "Portaria Nº 88/2026",
+      "data": "De 26 de Agosto de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidoresdo Estado de Sergipe – SERGIPEPREVIDENCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-88-2026-EXONERACAO-TAMARA-ARAUJO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "O cabeçalho SEI diz PORTARIA 5/2026 e Aracaju, 20/08/2026; o título do ato no corpo diz expressamente PORTARIA Nº 88/2026, de 26/08/2026, e a ementa corresponde. Vínculo confirmado pelo título/data do corpo, sem corrigir a inconsistência interna do PDF.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-88-2026-EXONERACAO-TAMARA-ARAUJO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "7815faee268be2a50463288affca9c55baf62784fb4f755ea5abcd57a517b7e4"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 87,
+      "titulo": "Portaria Nº 87/2026",
+      "data": "De 19 de Agosto de 2026",
+      "descricao": "Designa servidores para atuarem como responsáveis pelo acompanhamento e fiscalização da execução do Termo de Cooperação Técnica nº 11/2026, celebrado entre a Secretaria de Estado da Fazenda – SEFAZ/SE e o Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B087.2026-DeisgnaGestor-Termo-Coop.-SEFAZ-SERPREV-11.2026.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B087.2026-DeisgnaGestor-Termo-Coop.-SEFAZ-SERPREV-11.2026.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "9e78c7d709317cdfc1e03b9af803fc6966558ef27833944cedfc71b1ae6da2c9"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 86,
+      "titulo": "Portaria Nº 86/2026",
+      "data": "De 19 de Agosto de 2026",
+      "descricao": "Revoga a Portaria nº 58, de 11 de setembro de 2025, que dispõe sobre a Comissão de Credenciamento – CDC, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B086.2026-Revoga-a-portaria-58.2025-CDC.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B086.2026-Revoga-a-portaria-58.2025-CDC.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "ea28b75b4d760fde59504b98128f12395eae591213ae95f3e3551a3961864ca3"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 84,
+      "titulo": "Portaria Nº 84/2026",
+      "data": "De 06 de Agosto de 2026",
+      "descricao": "Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-84-2026-GOZO-DE-LICENCA-PREMIO-EUNICE.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "Registro repetido distinguido pela data 06/08/2026 e pela concessão de licença-prêmio. O corpo traz PORTARIA Nº 84/2026, 06 de Agosto de 2026; o cabeçalho administrativo traz Aracaju, 05/08/2026. A outra 84/2026, de 05/08, trata do Censo e possui outro PDF. A data do título do ato e a ementa sustentam o vínculo, sem resolver a inconsistência interna do cabeçalho.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-84-2026-GOZO-DE-LICENCA-PREMIO-EUNICE.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "ea7ec0e0142868bc6805b9090ea955cfb43aa9ca91360d968e6d90c27902ccc0"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 84,
+      "titulo": "Portaria Nº 84/2026",
+      "data": "De 05 de Agosto de 2026",
+      "descricao": "Altera e revoga dispositivos da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B084.2026-Altera-portaria-33-que-dispoe-Censo-de-Ativos.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "Registro repetido distinguido pela data 05/08/2026 e pela alteração/revogação da Portaria 33/2026 sobre o Censo. PDF diferente do ato de licença-prêmio de 06/08/2026.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B084.2026-Altera-portaria-33-que-dispoe-Censo-de-Ativos.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "8f020cc1dfefa46d731fe6164e0ed3aeaf6c938f6399cdfbfaa405549612d2af"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 83,
+      "titulo": "Portaria Nº 83/2026",
+      "data": "De 31 de Julho de 2026",
+      "descricao": "Altera dispositivo da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "O href do registro 83/2026 (31/07/2026, alteração do Censo) é exatamente o mesmo do registro 82/2026. O PDF lido identifica 82/2026, de 13/07/2026, encerramento do Grupo de Trabalho Revisão de Cadastro. Não é o ato descrito em 83/2026; obter o link correto, sem deduzir caminho.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-82-2026-ENCERRAMENTO-REVISAO-DE-CADASTRO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "038d7be26fc33ae7cbd4987213e89b304765e56c34c7c0fe78285ba502668919"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 82,
+      "titulo": "Portaria Nº 82/2026",
+      "data": "De 13 de Julho de 2026",
+      "descricao": "Dispõe sobre a Finalização das atividades do Grupo de Trabalho “REVISÃO DE CADASTRO” instituído pela Portaria n° 002/2026 do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-82-2026-ENCERRAMENTO-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-82-2026-ENCERRAMENTO-REVISAO-DE-CADASTRO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "038d7be26fc33ae7cbd4987213e89b304765e56c34c7c0fe78285ba502668919"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 81,
+      "titulo": "Portaria Nº 81/2026",
+      "data": "De 10 de Julho de 2026",
+      "descricao": "Designa os responsáveis pela gestão das aplicações dos recursos do Instituto de Previdência dos Servidores do Estado de Sergipe, estabelece competências e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-81.2026-DESIGNA-RESPOSNAVEIS-POR-GESTAO-DE-INVESTIMENTOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/PORTARIA-81.2026-DESIGNA-RESPOSNAVEIS-POR-GESTAO-DE-INVESTIMENTOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "16c71d61f27552dd706eb4e123a2f8deb3f51cec95ae9beac1fe798e72b67ec2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 80,
+      "titulo": "Portaria Nº 80/2026",
+      "data": "De 28 de Julho de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-80-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-80-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "5175b11060762034d23f46b7c603d8ddb2c02ebb74bae216672da8000b34db9a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 79,
+      "titulo": "Portaria Nº 79/2026",
+      "data": "De 03 de Julho de 2026",
+      "descricao": "Altera dispositivos da Portaria nº 33/2026 e prorroga o prazo para realização do Censo Cadastral Previdenciário dos segurados ativos.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-79.2026-ALTERA-DISPOSITIVOS-DA-PORTARIA-33.2026-CENSO-ATIVOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "Número repetido: os dois PDFs identificam 79/2026. Este vínculo foi distinguido pela data do título e pelo assunto: Censo (03/07/2026). Não houve deduplicação ou renumeração.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-79.2026-ALTERA-DISPOSITIVOS-DA-PORTARIA-33.2026-CENSO-ATIVOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "3dcc6cf5ecdff53472955a5227ee20cc076ddef37b0c9d48a4434aee66463033"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 79,
+      "titulo": "Portaria Nº 79/2026",
+      "data": "De 07 de Julho de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-79-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "Número repetido: os dois PDFs identificam 79/2026. Este vínculo foi distinguido pela data do título e pelo assunto: GT Gestão da Qualidade (07/07/2026). Não houve deduplicação ou renumeração.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-79-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "e20f46eae6cb840956abe1de8d72f9107ee528913b00c7eb155cc340404ca93d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 78,
+      "titulo": "Portaria Nº 78/2026",
+      "data": "De 02 de Julho de 2026",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-78-2026-NOMEACAO-VICTOR-GUSTAVO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-78-2026-NOMEACAO-VICTOR-GUSTAVO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "f3096e8378d3d2050e33eed2f2d792c2e35d080af56fd3186b5095f2ede6fb5a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 77,
+      "titulo": "Portaria Nº 77/2026",
+      "data": "De 02 de Julho de 2026",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-77-2026-NOMEACAO-CARLA-LEITE.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-77-2026-NOMEACAO-CARLA-LEITE.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "6c9d26894a309d787d98530a430c495ab021847d4851f4f2940fac6077dddb76"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 76,
+      "titulo": "Portaria Nº 76/2026",
+      "data": "De 02 de Julho de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-76-2026-EXONERACAO-VICTOR-GUSTAVO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-76-2026-EXONERACAO-VICTOR-GUSTAVO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "d15f6499a374c4efe418bcf82e6d32b631be0d6eadfdff22cd6ad9856b93ef63"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 75,
+      "titulo": "Portaria Nº 75/2026",
+      "data": "De 22 de Junho de 2026",
+      "descricao": "Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Previdência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA no período de 22 de junho a 06 de julho de 2026.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/65-PORTARIA-75-2026-DESIGNACAO-DIPREV.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/65-PORTARIA-75-2026-DESIGNACAO-DIPREV.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "3a0faf27b90f77ec4158b33cf4ceaee75f767b0bf731248cc70189f1227d8044"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 74,
+      "titulo": "Portaria Nº 74/2026",
+      "data": "De 01 de Junho de 2026",
+      "descricao": "Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 67 de 01 de maio de 2026, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/64-PORTARIA-74-2026-REFORMULACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/64-PORTARIA-74-2026-REFORMULACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "174842f8965fb95f3edc988dd0dcd009782ebaf3a930946a3d613a69a6be15e2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 73,
+      "titulo": "Portaria Nº 73/2026",
+      "data": "De 06 de Julho de 2026",
+      "descricao": "Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 65 de 01 de maio de 2026, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-73-2026-REFORMULACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-73-2026-REFORMULACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a0d98faf068046308c1b41b9380e85ad98351f5190e6b977f2dff9ee0a501b8d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 72,
+      "titulo": "Portaria Nº 72/2026",
+      "data": "De 01 de Junho de 2026",
+      "descricao": "Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 61 de 01 de maio de 2026, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/62-PORTARIA-72-2026-REFORMULACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/62-PORTARIA-72-2026-REFORMULACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "639b35f4d990d063d5ceb85e0096dc84aa3957bceb87cabeeef52c8f9a02a8d0"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 71,
+      "titulo": "Portaria Nº 71/2026",
+      "data": "De 21 de Maio de 2026",
+      "descricao": "Altera dispositivo da Portaria n° 64 de setembro de 2022, que instituiu o Comitê de Ética no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/61-PORTARIA-71-2026-COMITE-DE-ETICA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/61-PORTARIA-71-2026-COMITE-DE-ETICA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "6bfa07f773d9d84c309ab3eaf93206015e607ec2cdc05f8401675b9d2300d31b"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 70,
+      "titulo": "Portaria Nº 70/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓGESTÃO”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/60-PORTARIA-70-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/60-PORTARIA-70-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "edb01ab6ce8da9fc33f6a0e82a5784e428b5cffa967430c9ebdc6c0498e627ec"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 69,
+      "titulo": "Portaria Nº 69/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/59-PORTARIA-69-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/59-PORTARIA-69-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "73c8b58b8532879b323ff00c55965e8b55ecfd405552f7885cffb28f78f3dc46"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 68,
+      "titulo": "Portaria Nº 68/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE APOSENTADORIA”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/58-PORTARIA-68-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/58-PORTARIA-68-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a246355667e15ef7a5de9e2ec8546c4e7c6a89c84b7af61770ccc1d8a8d13c73"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 67,
+      "titulo": "Portaria Nº 67/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS PRECATÓRIOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/57-PORTARIA-67-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/57-PORTARIA-67-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a8c9343c8396fae875950e692b5635b2bb65a82e7c29b410cc55e1b3395e228d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 66,
+      "titulo": "Portaria Nº 66/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/56-PORTARIA-66-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/56-PORTARIA-66-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "3fe44d79687e631c965db6555cdde993807ae30071cf56d0fdad830ce07d070e"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 65,
+      "titulo": "Portaria Nº 65/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/55-PORTARIA-65-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/55-PORTARIA-65-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "22779025a7cc907019570b962962a871f66c36a03bd2f394b4f2f26b188826d2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 64,
+      "titulo": "Portaria Nº 64/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO PROVA DE VIDA”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/54-PORTARIA-64-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/54-PORTARIA-64-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "d6a19587254273a0777c03691dc94b08fab433df84fef04da9c840e3e2fc537c"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 63,
+      "titulo": "Portaria Nº 63/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERICIA MÉDICA”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/53-PORTARIA-63-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/53-PORTARIA-63-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "fe3ab55339a7ec5c0084d2583c9125404ff9385234d4e56af8c2d9d2850aa630"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 62,
+      "titulo": "Portaria Nº 62/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GERENCIAMENTO DE RISCO”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/52-PORTARIA-62-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/52-PORTARIA-62-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "9b7fa6c3b04679d4c781d0ea3d4f71c954a8f68d850c28502431dd6ae4ce5fba"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 61,
+      "titulo": "Portaria Nº 61/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/51-PORTARIA-61-2026-RENOVACAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/51-PORTARIA-61-2026-RENOVACAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "7daa48e52b6476471b7bc22070b3664a58ee339e0949dfd13e03c0895f8eae64"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 60,
+      "titulo": "Portaria Nº 60/2026",
+      "data": "De 12 de Maio de 2026",
+      "descricao": "Altera dispositivos da Portaria 58/2026 que institui o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES”, a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/50-PORTARIA-60-2026-EXTITUI-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/50-PORTARIA-60-2026-EXTITUI-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a327e47e38fb552665f0f8621b18531f83ddb379650c067911b20afb95fd1c05"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 59,
+      "titulo": "Portaria Nº 59/2026",
+      "data": "De 08 de Maio de 2026",
+      "descricao": "Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 11 a 15 de maio de 2026.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/N%C2%B0-59-2026-DESIGNA-NORMANDO-EXERCICIO-DA-DIPLAG.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/N%C2%B0-59-2026-DESIGNA-NORMANDO-EXERCICIO-DA-DIPLAG.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "c6a9901a8f395408ea78a097913dcdf79b69942d2a670d853d3b8f11c5101039"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 58,
+      "titulo": "Portaria Nº 58/2026",
+      "data": "De 08 de Maio de 2026",
+      "descricao": "Institui o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES”, a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/49-PORTARIA-58-2026-EXTITUI-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/49-PORTARIA-58-2026-EXTITUI-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "8b91a8fb7187ba2bad094850bc17fb59e11c6f528d0a1b69a9ddf5f2ee4996a6"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 57,
+      "titulo": "Portaria Nº 57/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Arrecadação e investimento do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/48-PORTARIA-57-2026-DESIGNACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/48-PORTARIA-57-2026-DESIGNACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "53ce1678bf910843c08c1d66555f19578618b6805736d7ec05f111be5ff512d3"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 56,
+      "titulo": "Portaria Nº 56/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Altera a composition dos integrantes do Grupo de Trabalho da Portaria n° 009/2026 – “GESTÃO DOS PRECATÓRIOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/48-PORTARIA-56-2026-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "A fonte importada traz composition, enquanto o PDF traz composição. Número 56/2026, data 30/04/2026, GT Gestão dos Precatórios e referência 009/2026 conferem; preservado o texto importado.",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/48-PORTARIA-56-2026-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "fe38a6abf6dbfa76e2be0c2123e10784762d5e6441ed33bc6f02df0f9d82fdae"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 55,
+      "titulo": "Portaria Nº 55/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 007/2026 – “GESTÃO DOS INVESTIMENTOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/47-PORTARIA-55-2025-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/47-PORTARIA-55-2025-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "5f3c85d356ae1f4ae2dd39d0ff539a23631281e4bcaa7e36594ec34f88476115"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 54,
+      "titulo": "Portaria Nº 54/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/46-PORTARIA-54-2026-EXONERACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/46-PORTARIA-54-2026-EXONERACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "3cbad194019c14b244fd612e98f7b605fce6847652cee938b4b3f0a32bcb28c1"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 52,
+      "titulo": "Portaria Nº 52/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2026 – “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/44-PORTARIA-52-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/06/44-PORTARIA-52-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "4391e1c9ff6d7d4af02d0db6d6ccbcb58995395b0bf5e36e48ffff32fa77f282"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 51,
+      "titulo": "Portaria Nº 51/2026",
+      "data": "De 04 de Maio de 2026",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/43-PORTARIA-51-2026-NOMEACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/43-PORTARIA-51-2026-NOMEACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "ab9b65dd3f35a6456d4a4d3342e4a9ecd9ed8d120b2941a3848276d7bca689ce"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 50,
+      "titulo": "Portaria Nº 50/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 012/2026 – “MONITORAMENTO DO PROGRAMA PRÓGESTÃO”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/42-PORTARIA-50-2026-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/42-PORTARIA-50-2026-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "aaa9667d641b5d96f4b462ae5699bf2ac1800322dcf5bd5771bf294c2136599b"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 49,
+      "titulo": "Portaria Nº 49/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2026 – “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/41-PORTARIA-49-2026-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/41-PORTARIA-49-2026-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "7fb154e0c14901e4635277adca241ceebf4cd6274dcdf5fbc558817bb72ee62d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 48,
+      "titulo": "Portaria Nº 48/2026",
+      "data": "De 30 de Abril de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/40-PORTARIA-48-2026-EXONERACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/05/40-PORTARIA-48-2026-EXONERACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "8578a3369c5d469006b50b695c4f3a79adebdf24b6b1e6d49ba8254b52a3cb6b"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 47,
+      "titulo": "Portaria Nº 47/2026",
+      "data": "De 23 de Abril de 2026",
+      "descricao": "Dispõe sobre a inclusão de inciso em dispositivo da Portaria nº15/2026, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/PORTARIA-N%C2%B0-47-2026-ALTERA-PORTARIA-15.2026-COMISSAO-GESTAO-DE-QUALIDADE.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/PORTARIA-N%C2%B0-47-2026-ALTERA-PORTARIA-15.2026-COMISSAO-GESTAO-DE-QUALIDADE.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "122b07294cebdc85ddd7c9221c80d5b7a78b785992a6d77f4582fe31ba5b17bc"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 46,
+      "titulo": "Portaria Nº 46/2026",
+      "data": "De 22 de Abril de 2026",
+      "descricao": "Dispõe sobre a inclusão de alínea em dispositivo da Portaria nº75/2021, e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/PORTARIA-N%C2%B0-46-2026-ALTERA-PORTARIA-75.2021-COMITE-LGPD.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/PORTARIA-N%C2%B0-46-2026-ALTERA-PORTARIA-75.2021-COMITE-LGPD.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a343225edee39acf5d8d1b82831976e215eb1b9e66350cc3b55b620f507713a2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 45,
+      "titulo": "Portaria Nº 45/2026",
+      "data": "De 14 de Abril de 2026",
+      "descricao": "Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/39-PORTARIA-45-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/39-PORTARIA-45-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "2a31387fc813501606397a9df8c5ec09eade4b0a9cfb7934f3da0a2e92bc8ca8"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 44,
+      "titulo": "Portaria Nº 44/2026",
+      "data": "De 14 de Abril de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/38-PORTARIA-44-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/38-PORTARIA-44-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "747f5b6b0c9e745dcf246f6737fa3adb2a499e324370b0fd04b3a32433c0dc0d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 43,
+      "titulo": "Portaria Nº 43/2026",
+      "data": "De 14 de Abril de 2026",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/37-PORTARIA-43-2026-NOMEACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/37-PORTARIA-43-2026-NOMEACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "ef2c5c93bf53886405c469172845d4be3368a30a174f714e08fe8aaf3679d5e1"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 42,
+      "titulo": "Portaria Nº 42/2026",
+      "data": "De 14 de Abril de 2026",
+      "descricao": "Concede o gozo de Licença Prêmio à servidora, ocupante do cargo de Executor de serviços administrativos do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/36-PORTARIA-42-2026-GOZO-DE-LICENCA-PREMIO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/36-PORTARIA-42-2026-GOZO-DE-LICENCA-PREMIO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "2a2fcc9fbbd144d5b3d7926fd9cc58829ee11e5e350d2604549a96548bca97ee"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 41,
+      "titulo": "Portaria Nº 41/2026",
+      "data": "De 14 de Abril de 2026",
+      "descricao": "Exclui da composição dos integrantes do Grupo de Trabalho da Portaria n° 03/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/35-PORTARIA-41-2026-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/35-PORTARIA-41-2026-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "23403fa4a22051b6b6482a9c3f7ec6c06d89029a3fb239a1d9340ae3729cdd4e"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 40,
+      "titulo": "Portaria Nº 40/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 06/2026 – “GESTÃO PROVA DE VIDA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/34-PORTARIA-40-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/34-PORTARIA-40-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "bc4572a5e941d9ed622febda9a131794ef0baabd17889d25fa2b999512fdc446"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 39,
+      "titulo": "Portaria Nº 39/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 05/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/33-PORTARIA-39-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/33-PORTARIA-39-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "9f2ecec2badb38ef63f7542fd0ae6deebacbd177b7f0428886c8823655341d1a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 38,
+      "titulo": "Portaria Nº 38/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/32-PORTARIA-38-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/32-PORTARIA-38-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "5e368e75f0cd8c387ebce2033f0d165107d78d2155a32a8676710a8392ecceb4"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 37,
+      "titulo": "Portaria Nº 37/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Recursos Humanos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/31-PORTARIA-37-2026-DESIGNACAO-GEREH.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/31-PORTARIA-37-2026-DESIGNACAO-GEREH.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "fd7e05f055119814e3d732c5d0021f2eb14e494837786a60685dc4638ee5108b"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 36,
+      "titulo": "Portaria Nº 36/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Execução Orçamentária e Financeira do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/30-PORTARIA-36-2026-DESIGNACAO-GEOF.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/30-PORTARIA-36-2026-DESIGNACAO-GEOF.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "9fcdbd051e4c9c4816bc2fcfa7ef103f72cb42986793b79626de25948781192a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 35,
+      "titulo": "Portaria Nº 35/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/29-PORTARIA-35-2026-EXCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/29-PORTARIA-35-2026-EXCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "049836cdf57a8c7ceb2b3f74e67c70bc5e8f0a4849de485f1a67f2ff6eb1966d"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 34,
+      "titulo": "Portaria Nº 34/2026",
+      "data": "De 30 de Março de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/28-PORTARIA-34-2026-EXONERACAO-JORGE-KRAUSS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/28-PORTARIA-34-2026-EXONERACAO-JORGE-KRAUSS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "dc9a9a83c3fc6a885c660a12c7f97218cab9e1e7b6f6e19341124fa8edf36259"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 33,
+      "titulo": "Portaria Nº 33/2026",
+      "data": "De 18 de Março de 2026",
+      "descricao": "Estabelece normas para a realização do Censo Cadastral Previdenciário dos segurados ativos, instituído pelo Decreto nº 455, de 16 de outubro de 2023.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B0-33-dispoe-Censo-de-Ativos-atualizada-08.2026.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/PORTARIA-N%C2%B0-33-dispoe-Censo-de-Ativos-atualizada-08.2026.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 6,
+        "sha256": "09a95795db024ecc7857bd1dfbd6fa7b14b6c5484021c92f5122c64110fb35ab"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 32,
+      "titulo": "Portaria Nº 32/2026",
+      "data": "De 12 de Março de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 05/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/27-PORTARIA-32-2026-INCLUSAO-GT.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/27-PORTARIA-32-2026-INCLUSAO-GT.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "85a7b737d721906da881c1d75e1b6b8074fb5df9e5ea811be42a0e6c4b44f82a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 31,
+      "titulo": "Portaria Nº 31/2026",
+      "data": "De 04 de Março de 2026",
+      "descricao": "Regulamenta a instrução e os procedimentos para concessão de aposentadorias, reformas e reserva remunerada no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, e dá outras providências correlatas.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/PORTARIA-N%C2%B0-31-2026-REGULAMENTA-CONCESSAO-DE-APOSENTADORIA-RESERVA-E-REFORMA-1.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/PORTARIA-N%C2%B0-31-2026-REGULAMENTA-CONCESSAO-DE-APOSENTADORIA-RESERVA-E-REFORMA-1.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 12,
+        "sha256": "2962a53f4164006e2f5a7224d162bf70854d5f96aba06b7bd9db21e87e890459"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 30,
+      "titulo": "Portaria Nº 30/2026",
+      "data": "De 19 de Fevereiro de 2026",
+      "descricao": "Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 23 a 27 de fevereiro de 2026.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-30-2026-DESIGNA-NORMANDO-EXERCICIO-DA-DIPLAG-2.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-30-2026-DESIGNA-NORMANDO-EXERCICIO-DA-DIPLAG-2.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "45a4d32025cbc49e68aefdec018c02bdada5e5795782f1f96205ce2b5d4de11e"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 29,
+      "titulo": "Portaria Nº 29/2026",
+      "data": "De 11 de Fevereiro de 2026",
+      "descricao": "Designa servidores para exercerem a função de Gestor e Fiscal de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-29-2026-DESIGNA-GESTORES-E-FISCAIS-DE-CONTRATOS-CENTRALIZADOS-2.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-29-2026-DESIGNA-GESTORES-E-FISCAIS-DE-CONTRATOS-CENTRALIZADOS-2.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "29fbb56a92b736bdb0cfd0671aae4102c5c279a37011a8063340304fe3d6c1ad"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 28,
+      "titulo": "Portaria Nº 28/2026",
+      "data": "De 11 de Fevereiro de 2026",
+      "descricao": "Altera o Inciso II do Art. 1º da Portaria nº 19/2025 que designa servidor(a) para atuar como Agente de Contratação no âmbito dos procedimentos previstos na Lei Federal nº 14.133/2021.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-28-2026-ALTERA-PORTARIA-N%C2%B0-19-2025-AGENTE-DE-CONTRATACAO-2.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/N%C2%B0-28-2026-ALTERA-PORTARIA-N%C2%B0-19-2025-AGENTE-DE-CONTRATACAO-2.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "442de00dc9a25347ffe99f1755f1a9b2336cf3ac682751675f4a98fd4ef27644"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 27,
+      "titulo": "Portaria Nº 27/2026",
+      "data": "De 05 de Fevereiro de 2026",
+      "descricao": "Designa a substituição de servidor para exercer a função de Gestor e Fiscal de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/02/N%C2%B0-27.2026-DESIGNA-SUBSTITUICAO-DE-GESTOR-E-FISCAL-DE-CONTRATOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/02/N%C2%B0-27.2026-DESIGNA-SUBSTITUICAO-DE-GESTOR-E-FISCAL-DE-CONTRATOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "da4d8a76e0dcd06d57b6ff4b6f1034216610366fe3797fb55b77afb2cddade03"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 26,
+      "titulo": "Portaria Nº 26/2026",
+      "data": "De 04 de Fevereiro de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/02/24-PORTARIA-26-2026-DESIGNACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/02/24-PORTARIA-26-2026-DESIGNACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "c382ab562f4fb8be1371276046e2504af75dd4cdd7cda3a187ca26e9c9f75229"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 25,
+      "titulo": "Portaria Nº 25/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2026 – “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/23-PORTARIA-25-2026-INCLUSAO-LICITACOES-E-CONTRATOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/23-PORTARIA-25-2026-INCLUSAO-LICITACOES-E-CONTRATOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "008d5118bc91d6c919886e7a1545b3812131472eb7733794efa8cfc6681a05c4"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 24,
+      "titulo": "Portaria Nº 24/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/22-PORTARIA-24-2026-INCLUSAO-GT-FCVS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/22-PORTARIA-24-2026-INCLUSAO-GT-FCVS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "27d2d0b4157588555343522cc07550d36b934c428f668bc32567856fc3a288d2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 23,
+      "titulo": "Portaria Nº 23/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Excluir servidor(a) da composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2026 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/21-PORTARIA-23-2026-EXCLUSAO-GT-INSTRUCAO-DE-PROVA-DE-VIDA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/21-PORTARIA-23-2026-EXCLUSAO-GT-INSTRUCAO-DE-PROVA-DE-VIDA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "e6e5735b7af71b86d648bdc8ab2fb14263f43829741628f2e716f641171b6da7"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 22,
+      "titulo": "Portaria Nº 22/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Excluir servidor(a) da composição dos integrantes do Grupo de Trabalho da Portaria n° 005/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/20-PORTARIA-22-2026-EXCLUSAO-GT-GESTAO-DA-PERICIA-MEDICA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/20-PORTARIA-22-2026-EXCLUSAO-GT-GESTAO-DA-PERICIA-MEDICA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "6142c2c7eabaeab8c69ce1f2f7e41dc41c460cf2f5495fcc0e30d1e19260c8e6"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 21,
+      "titulo": "Portaria Nº 21/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 004/2026 – “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCO”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/19-PORTARIA-21-2026-INCLUSAO-GT-PESQUISA-ESTRATEGICA-E-GERENCIAMENTO-DE-RISCO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/19-PORTARIA-21-2026-INCLUSAO-GT-PESQUISA-ESTRATEGICA-E-GERENCIAMENTO-DE-RISCO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "13a80c0fdcd1a2d40104342f8d025005a2aff451d498fd15ad9ca4595103619a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 20,
+      "titulo": "Portaria Nº 20/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/18-PORTARIA-20-2026-INCLUSAO-GT-FCVS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/18-PORTARIA-20-2026-INCLUSAO-GT-FCVS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "8b08efcbcab4d6979f00ff5f497ecace17e6b8929a15827bf514aa59c89042a3"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 19,
+      "titulo": "Portaria Nº 19/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2026 – “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/17-PORTARIA-19-2026-EXCLUSAO-GT-LICITACOES-E-CONTRATOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/17-PORTARIA-19-2026-EXCLUSAO-GT-LICITACOES-E-CONTRATOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "f1b5e7a292972299829e27c6add5308445a532485447cc4cd3f1c6b9d6f578c9"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 18,
+      "titulo": "Portaria Nº 18/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/16-PORTARIA-18-2026-EXCLUSAO-GT-FCVS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/16-PORTARIA-18-2026-EXCLUSAO-GT-FCVS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "c23485fa059f60e8e02f51fd96e060356448d1b7a19d09647daa2983e4d2eba3"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 17,
+      "titulo": "Portaria Nº 17/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/15-PORTARIA-17-2026-NOMEACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/15-PORTARIA-17-2026-NOMEACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "7c84712270755522e791bec39742e7f5049f58732c46c0f8834ac303fff472f2"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 16,
+      "titulo": "Portaria Nº 16/2026",
+      "data": "De 28 de Janeiro de 2026",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/14-PORTARIA-16-2026-EXONERACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/14-PORTARIA-16-2026-EXONERACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "9d84522c43eac204c424e450712113e270bb2c2ed8a24626ee66a8488d7a0d6c"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 15,
+      "titulo": "Portaria Nº 15/2026",
+      "data": "De 23 de Janeiro de 2026",
+      "descricao": "Institui a Comissão de Trabalho de Gestão da Qualidade no âmbito do SERGIPEPREVIDÊNCIA e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-No15.2026-Gestao-de-qualidade-ALTERADA-07.2026.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/PORTARIA-No15.2026-Gestao-de-qualidade-ALTERADA-07.2026.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "a6025302580983f2e8dd43c33108a6a61dfddc836199355be3e9512082a87c70"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 14,
+      "titulo": "Portaria Nº 14/2026",
+      "data": "De 14 de Janeiro de 2026",
+      "descricao": "Concessão de Licença Prêmio ao servidor, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/13-PORTARIA-14-2026-CONCESSAO-DE-LICENCA-PREMIO-DOM-ARTHUR.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/13-PORTARIA-14-2026-CONCESSAO-DE-LICENCA-PREMIO-DOM-ARTHUR.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "79b943fe131d7ade7625e47b5fcdf2127b5b4c9b8c1fbffb3d9c670ce1c5d921"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 13,
+      "titulo": "Portaria Nº 13/2026",
+      "data": "De 14 de Janeiro de 2026",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Atendimento do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/12-PORTARIA-13-2026-DESIGNACAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/12-PORTARIA-13-2026-DESIGNACAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "6df49b6200eb5173b39099d10079adcee58d7ed1edfec4d16764c4075bc58e6a"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 12,
+      "titulo": "Portaria Nº 12/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓ GESTÃO”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/11-12-2026-RENOVACAO-GT-MONITORAMENTO-PRO-GESTAO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/11-12-2026-RENOVACAO-GT-MONITORAMENTO-PRO-GESTAO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "4a9e3c5061f4f7c68e1a79d98bce022b7a6f3784ad69898c8ebfa555c646ee84"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 11,
+      "titulo": "Portaria Nº 11/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DOS PROCESSOS DE PENSÃO POR MORTE”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/10-11-2026-RENOVACAO-GT-REVISAO-DOS-PROCESSOS-DE-PENSAO-POR-MORTE.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/10-11-2026-RENOVACAO-GT-REVISAO-DOS-PROCESSOS-DE-PENSAO-POR-MORTE.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "fb810c5ed1f525291745d08cf6c32de12330c69de850efc9c75ecb37a121371f"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 10,
+      "titulo": "Portaria Nº 10/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DOS PROCESSOS DE APOSENTADORIA” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/09-10-2026-RENOVACAO-GT-REVISAO-DOS-PROCESSOS-DE-APOSENTADORIA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/09-10-2026-RENOVACAO-GT-REVISAO-DOS-PROCESSOS-DE-APOSENTADORIA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "355dffa2ae6d80ca5b40f331e9bb8fe4cbd05b8bd45d69bc279c19930fef6d3e"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 9,
+      "titulo": "Portaria Nº 09/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE ANÁLISE DOS PRECATÓRIOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/08-09-2026-RENOVACAO-GT-INSTRUCAO-DE-ANALISE-DOS-PRECATORIOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/08-09-2026-RENOVACAO-GT-INSTRUCAO-DE-ANALISE-DOS-PRECATORIOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 1,
+        "sha256": "6b558f1be8fa7951f8a0c81b9ef98b3967d2417d549519cfcd2247c92a67442f"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 8,
+      "titulo": "Portaria Nº 08/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/07-08-2026-RENOVACAO-GT-LICITACOES-E-CONTRATOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/07-08-2026-RENOVACAO-GT-LICITACOES-E-CONTRATOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "732b141806ca944cc2bcbaa930098746c85adee9cc7bb2dfcc6225e024994240"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 7,
+      "titulo": "Portaria Nº 07/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/06-07-2026-RENOVACAO-GT-GESTAO-DOS-INVESTIMENTOS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/06-07-2026-RENOVACAO-GT-GESTAO-DOS-INVESTIMENTOS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "c7ca61f1a5dc16e16ea6dbf6d63e4f70e77af4b2c3a95c2a3baacbf1e2a06a93"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 6,
+      "titulo": "Portaria Nº 06/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE PROVA DE VIDA”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/05-06-2026-RENOVACAO-GT-INSTRUCAO-DE-PROVA-DE-VIDA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/05-06-2026-RENOVACAO-GT-INSTRUCAO-DE-PROVA-DE-VIDA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "2404d1600b4d057abb99ecde41e80444302af648cc9d8588c35e8396881ed43c"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 5,
+      "titulo": "Portaria Nº 05/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERICIA MÉDICA”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/04-05-2026-RENOVACAO-GT-GESTAO-DA-PERICIA-MEDICA.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/04-05-2026-RENOVACAO-GT-GESTAO-DA-PERICIA-MEDICA.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "fd53279b8614de93bc5520f24f57458632365b2664eb48c6147eef5bc19055eb"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 4,
+      "titulo": "Portaria Nº 04/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCO”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/03-04-2026-RENOVACAO-GT-GERENCIAMENTO-DE-RISCO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/03-04-2026-RENOVACAO-GT-GERENCIAMENTO-DE-RISCO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "d07bdf2708201fa31f4469976065880b69219e598ef998c4c3ad3a397697c2e1"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 3,
+      "titulo": "Portaria Nº 03/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/02-03-2026-RENOVACAO-GT-ACOMPANHAMENTO-FCVS.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/02-03-2026-RENOVACAO-GT-ACOMPANHAMENTO-FCVS.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "484b7a99cf178a096505ed6d86e1aa09b66ed1e29a203f95ffd09971a4eb9fd6"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 2,
+      "titulo": "Portaria Nº 02/2026",
+      "data": "De 07 de Janeiro de 2026",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DE CADASTRO”, altera a composição de membros e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/01-02-2026-RENOVACAO-GT-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/01-02-2026-RENOVACAO-GT-REVISAO-DE-CADASTRO.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 2,
+        "sha256": "e58b0ab9ed92a5c14ee675577274dd9ac2777afb8225d65bd9a2893b8cd17658"
+      }
+    },
+    {
+      "ano": 2026,
+      "numero": 1,
+      "titulo": "Portaria Nº 01/2026",
+      "data": "De 06 de Janeiro de 2026",
+      "descricao": "Designa servidores para atuarem como Gestores de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA e dá as providências correlatas.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/N%C2%B001-2026-DESIGNA-GESTORES.pdf",
+      "motivo": "Número, ano, data do ato e conteúdo correspondentes, conferidos no PDF acessível sem autenticação.",
+      "observacao": "",
+      "conferencia": {
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/N%C2%B001-2026-DESIGNA-GESTORES.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "paginas": 3,
+        "sha256": "4c6a26312c8276e69e880fb192be746efbff6bed084a697334ce187b934a9b34"
+      }
+    }
+  ]
+}

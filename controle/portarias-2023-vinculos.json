@@ -1,0 +1,2630 @@
+{
+  "versao": 1,
+  "fonte": "https://sergipeprevidencia.se.gov.br/transparencia/legislacao/portaria/",
+  "conferido_em": "2026-10-20T11:36:38-03:00",
+  "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+  "escopo": "Somente portarias importadas de 2023",
+  "metodo": "Correspondência exata normalizada de número/ano, data e descrição no HTML, href exclusivo e nome compatível, com HEAD público PDF. Na insuficiência do HTML ou em amostra: título, data e descrição literal do PDF. Sem correspondência aproximada por similaridade.",
+  "limites": "Associação automática conservadora; não homologa vigência, completude, atualidade, assinaturas ou conteúdo institucional. Respostas HTTP em cache mantêm a data real de coleta.",
+  "resumo": {
+    "registros": 87,
+    "vinculados": 85,
+    "pendentes": 2
+  },
+  "registros": [
+    {
+      "ano": 2023,
+      "numero": 94,
+      "titulo": "Portaria Nº 094/2023",
+      "data": "De 28 de Dezembro de 2023",
+      "descricao": "Altera dispositivo da Portaria n° 69, de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do SergipePrevidência.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "Leitura/conferência PDF: Título de número/ano não reconhecido no início do PDF",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_PDF",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/01/PORTARIA-N%C2%B0-94-Altera-portaria-n%C2%B069-2019-Ouvidoria.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:27-03:00",
+        "sha256": "f2aa4a76e1a3b4e21b6cacdce6be7f352deea757338443b3e30b70d87d478b04",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/01/PORTARIA-N%C2%B0-94-Altera-portaria-n%C2%B069-2019-Ouvidoria.pdf",
+        "paginas": 2,
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 094/2023",
+        "data_fonte": "De 28 de Dezembro de 2023",
+        "descricao_fonte": "Altera dispositivo da Portaria n° 69, de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do SergipePrevidência.",
+        "href_unico": true,
+        "amostra": true
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 93,
+      "titulo": "Portaria Nº 093/2023",
+      "data": "De 28 de Dezembro de 2023",
+      "descricao": "Altera dispositivo da Portaria n° 64, de 19 de setembro de 2022, que institui o Comitê de Ética do SERGIPEPREVIDÊNCIA e dá providências correlatas.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/01/PORTARIA-N%C2%B0-93-Altera-portaria-n%C2%B064-2022-COMITE-DE-ETICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/01/PORTARIA-N%C2%B0-93-Altera-portaria-n%C2%B064-2022-COMITE-DE-ETICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 093/2023",
+        "data_fonte": "De 28 de Dezembro de 2023",
+        "descricao_fonte": "Altera dispositivo da Portaria n° 64, de 19 de setembro de 2022, que institui o Comitê de Ética do SERGIPEPREVIDÊNCIA e dá providências correlatas.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:28-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/01/PORTARIA-N%C2%B0-93-Altera-portaria-n%C2%B064-2022-COMITE-DE-ETICA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 92,
+      "titulo": "Portaria Nº 092/2023",
+      "data": "De 27 de Dezembro de 2023",
+      "descricao": "Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-92-CONCESSAO-D-ELICENCA-PREMIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-92-CONCESSAO-D-ELICENCA-PREMIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 092/2023",
+        "data_fonte": "De 27 de Dezembro de 2023",
+        "descricao_fonte": "Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:28-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-92-CONCESSAO-D-ELICENCA-PREMIO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 91,
+      "titulo": "Portaria Nº 091/2023",
+      "data": "De 27 de Dezembro de 2023",
+      "descricao": "Excluir da composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Programa Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-91-EXCLUSAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-91-EXCLUSAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 091/2023",
+        "data_fonte": "De 27 de Dezembro de 2023",
+        "descricao_fonte": "Excluir da composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Programa Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:29-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-91-EXCLUSAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 90,
+      "titulo": "Portaria Nº 090/2023",
+      "data": "De 27 de Dezembro de 2023",
+      "descricao": "Excluir na composição dos integrantes do Grupo de Trabalho da Portaria n° 016/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-90-EXCLUSAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-90-EXCLUSAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 090/2023",
+        "data_fonte": "De 27 de Dezembro de 2023",
+        "descricao_fonte": "Excluir na composição dos integrantes do Grupo de Trabalho da Portaria n° 016/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:29-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-90-EXCLUSAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 88,
+      "titulo": "Portaria Nº 088/2023",
+      "data": "De 04 de Dezembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-88-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-88-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 088/2023",
+        "data_fonte": "De 04 de Dezembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:29-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-88-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 87,
+      "titulo": "Portaria Nº 087/2023",
+      "data": "De 04 de Dezembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-87-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-87-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 087/2023",
+        "data_fonte": "De 04 de Dezembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:30-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-87-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 86,
+      "titulo": "Portaria Nº 086/2023",
+      "data": "De 04 de Dezembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-86-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-86-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 086/2023",
+        "data_fonte": "De 04 de Dezembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:30-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-86-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 85,
+      "titulo": "Portaria Nº 085/2023",
+      "data": "De 30 de Novembro de 2023",
+      "descricao": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-85-INDEFERIMENTO-DE-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-85-INDEFERIMENTO-DE-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 085/2023",
+        "data_fonte": "De 30 de Novembro de 2023",
+        "descricao_fonte": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:30-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-85-INDEFERIMENTO-DE-CONCESSAO-DE-LICENCA-PREMIO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 84,
+      "titulo": "Portaria Nº 084/2023",
+      "data": "De 30 de Novembro de 2023",
+      "descricao": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-84-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-84-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 084/2023",
+        "data_fonte": "De 30 de Novembro de 2023",
+        "descricao_fonte": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:31-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-84-CONCESSAO-DE-LICENCA-PREMIO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 83,
+      "titulo": "Portaria Nº 083/2023",
+      "data": "De 30 de Novembro de 2023",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-83-DESIGNACAO-DE-JOSE-VITOR-GABRIEL.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-83-DESIGNACAO-DE-JOSE-VITOR-GABRIEL.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 083/2023",
+        "data_fonte": "De 30 de Novembro de 2023",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:31-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-83-DESIGNACAO-DE-JOSE-VITOR-GABRIEL.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 82,
+      "titulo": "Portaria Nº 082/2023",
+      "data": "De 24 de Novembro de 2023",
+      "descricao": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-82-GOZO-DE-LICENCA-PREMIO-ALBERTO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-82-GOZO-DE-LICENCA-PREMIO-ALBERTO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 082/2023",
+        "data_fonte": "De 24 de Novembro de 2023",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:31-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-82-GOZO-DE-LICENCA-PREMIO-ALBERTO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 81,
+      "titulo": "Portaria Nº 081/2023",
+      "data": "De 24 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-81-SUBSTITUICAO-GT-REVISAO-DE-APOSENTADORIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-81-SUBSTITUICAO-GT-REVISAO-DE-APOSENTADORIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 081/2023",
+        "data_fonte": "De 24 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:32-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-81-SUBSTITUICAO-GT-REVISAO-DE-APOSENTADORIA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 80,
+      "titulo": "Portaria Nº 080/2023",
+      "data": "De 24 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-80-SUBSTITUICAO-GT-LICITACOES.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-80-SUBSTITUICAO-GT-LICITACOES.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 080/2023",
+        "data_fonte": "De 24 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:32-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-80-SUBSTITUICAO-GT-LICITACOES.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 79,
+      "titulo": "Portaria Nº 079/2023",
+      "data": "De 10 de Novembro de 2023",
+      "descricao": "Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2023 – “ GESTÃO DE PERÍCIA MÉDICA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-79-GT-EXCLUSAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-79-GT-EXCLUSAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 079/2023",
+        "data_fonte": "De 10 de Novembro de 2023",
+        "descricao_fonte": "Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2023 – “ GESTÃO DE PERÍCIA MÉDICA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:32-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-79-GT-EXCLUSAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 78,
+      "titulo": "Portaria Nº 078/2023",
+      "data": "De 10 de Novembro de 2023",
+      "descricao": "Institui Comissão de Trabalho com objetivo de Reformular o Quadro de Pessoal dos Servidores Efetivos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDENCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-78-COMISSAO-DE-TRABALHO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-78-COMISSAO-DE-TRABALHO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 078/2023",
+        "data_fonte": "De 10 de Novembro de 2023",
+        "descricao_fonte": "Institui Comissão de Trabalho com objetivo de Reformular o Quadro de Pessoal dos Servidores Efetivos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDENCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:33-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-78-COMISSAO-DE-TRABALHO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 77,
+      "titulo": "Portaria Nº 077/2023",
+      "data": "De 10 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-77-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-77-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 077/2023",
+        "data_fonte": "De 10 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:33-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-77-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 76,
+      "titulo": "Portaria Nº 076/2023",
+      "data": "De 10 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-76-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-76-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 076/2023",
+        "data_fonte": "De 10 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:33-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-76-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 74,
+      "titulo": "Portaria Nº 074/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-74-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-74-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 074/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:34-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-74-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 73,
+      "titulo": "Portaria Nº 073/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-73-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-73-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 073/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:34-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-73-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 72,
+      "titulo": "Portaria Nº 072/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-72-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-72-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 072/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:34-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-72-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 71,
+      "titulo": "Portaria Nº 071/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-71-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-71-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 071/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:35-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-71-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 70,
+      "titulo": "Portaria Nº 070/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2022 – Instrução de Análise dos Precatórios, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-70-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-70-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 070/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2022 – Instrução de Análise dos Precatórios, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:35-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-70-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 69,
+      "titulo": "Portaria Nº 069/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-69-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-69-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 069/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:36-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-69-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 68,
+      "titulo": "Portaria Nº 068/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 013/2022 – Revisão de Cadastro, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-68-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-68-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 068/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 013/2022 – Revisão de Cadastro, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:37-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-68-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 67,
+      "titulo": "Portaria Nº 067/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-67-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-67-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 067/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:37-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-67-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 66,
+      "titulo": "Portaria Nº 066/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-66-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-66-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 066/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:37-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-66-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 65,
+      "titulo": "Portaria Nº 065/2023",
+      "data": "De 09 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2022 – Revisão do Benefício Previdenciário de Pensão por Morte, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-65-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-65-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 065/2023",
+        "data_fonte": "De 09 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2022 – Revisão do Benefício Previdenciário de Pensão por Morte, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:38-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-65-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 64,
+      "titulo": "Portaria Nº 064/2023",
+      "data": "De 08 de Novembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 007/2022 – Gestão dos investimentos, de 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-64-ALTERACAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-64-ALTERACAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 064/2023",
+        "data_fonte": "De 08 de Novembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 007/2022 – Gestão dos investimentos, de 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:38-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-64-ALTERACAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 62,
+      "titulo": "Portaria Nº 062/2023",
+      "data": "De 08 de Novembro de 2023",
+      "descricao": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-62-CONCESSAO-DE-LICENCA-PREMIO-ALBERTO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-62-CONCESSAO-DE-LICENCA-PREMIO-ALBERTO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 062/2023",
+        "data_fonte": "De 08 de Novembro de 2023",
+        "descricao_fonte": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:39-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-62-CONCESSAO-DE-LICENCA-PREMIO-ALBERTO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 61,
+      "titulo": "Portaria Nº 061/2023",
+      "data": "De 08 de Novembro de 2023",
+      "descricao": "Concessão de Licença Prêmio ao Administrador, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-61-CONCESSAO-DE-LICENCA-PREMIO-CLORIS-CENIRA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-61-CONCESSAO-DE-LICENCA-PREMIO-CLORIS-CENIRA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 061/2023",
+        "data_fonte": "De 08 de Novembro de 2023",
+        "descricao_fonte": "Concessão de Licença Prêmio ao Administrador, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:39-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-61-CONCESSAO-DE-LICENCA-PREMIO-CLORIS-CENIRA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 60,
+      "titulo": "Portaria Nº 060/2023",
+      "data": "De 8 de Novembro de 2023",
+      "descricao": "Disciplina a revisão dos benefícios de aposentadoria por incapacidade permanente e de pensão por morte motivada por invalidez, incapacidade ou deficiência, para verificação da continuidade das condições que ensejaram a concessão do benefício, no âmbito do SERGIPEPREVIDENCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/11/Portaria-n%C2%B0-60-Revisao-dos-invalidos.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/11/Portaria-n%C2%B0-60-Revisao-dos-invalidos.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 060/2023",
+        "data_fonte": "De 8 de Novembro de 2023",
+        "descricao_fonte": "Disciplina a revisão dos benefícios de aposentadoria por incapacidade permanente e de pensão por morte motivada por invalidez, incapacidade ou deficiência, para verificação da continuidade das condições que ensejaram a concessão do benefício, no âmbito do SERGIPEPREVIDENCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:40-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/11/Portaria-n%C2%B0-60-Revisao-dos-invalidos.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 59,
+      "titulo": "Portaria Nº 059/2023",
+      "data": "De 26 de outubro de 2023",
+      "descricao": "Estabelece normas para a realização do Censo Cadastral Previdenciário, instituído pelo Decreto n.455, de 16 de outubro de 2023.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/10/Portaria-n%C2%B0-59-Censo-cadastral.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/10/Portaria-n%C2%B0-59-Censo-cadastral.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 059/2023",
+        "data_fonte": "De 26 de outubro de 2023",
+        "descricao_fonte": "Estabelece normas para a realização do Censo Cadastral Previdenciário, instituído pelo Decreto n.455, de 16 de outubro de 2023.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:40-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/10/Portaria-n%C2%B0-59-Censo-cadastral.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 58,
+      "titulo": "Portaria Nº 058/2023",
+      "data": "De 21 de Setembro de 2023",
+      "descricao": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-58-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-58-CONCESSAO-DE-LICENCA-PREMIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 058/2023",
+        "data_fonte": "De 21 de Setembro de 2023",
+        "descricao_fonte": "Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:40-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-58-CONCESSAO-DE-LICENCA-PREMIO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 57,
+      "titulo": "Portaria Nº 057/2023",
+      "data": "De 21 de Setembro de 2023",
+      "descricao": "Concede o gozo de Licença Prêmio ao Balconista, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-57-GOZO-DE-LICENCA-AILTON.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-57-GOZO-DE-LICENCA-AILTON.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 057/2023",
+        "data_fonte": "De 21 de Setembro de 2023",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Balconista, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:41-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-57-GOZO-DE-LICENCA-AILTON.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 56,
+      "titulo": "Portaria Nº 056/2023",
+      "data": "21 de Setembro de 2023.",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/PORTARIA-56.2023-DESIGNACAO-SERGIO-REVOGADA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/PORTARIA-56.2023-DESIGNACAO-SERGIO-REVOGADA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 056/2023",
+        "data_fonte": "21 de Setembro de 2023.",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:41-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/PORTARIA-56.2023-DESIGNACAO-SERGIO-REVOGADA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 55,
+      "titulo": "Portaria Nº 055/2023",
+      "data": "22 de setembro de 2023",
+      "descricao": "Altera e acrescenta dispositivos da Portaria nº 48, de 11 de maio de 2021, que dispõe sobre a emissão de Certidão de Tempo de Contribuição – CTC, documentação necessária e providências correlatas",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-55-Altera-portaria-n%C2%B048-2021-CTC.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-55-Altera-portaria-n%C2%B048-2021-CTC.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 055/2023",
+        "data_fonte": "22 de setembro de 2023",
+        "descricao_fonte": "Altera e acrescenta dispositivos da Portaria nº 48, de 11 de maio de 2021, que dispõe sobre a emissão de Certidão de Tempo de Contribuição – CTC, documentação necessária e providências correlatas",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:41-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-55-Altera-portaria-n%C2%B048-2021-CTC.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 52,
+      "titulo": "Portaria Nº 052/2023",
+      "data": "De 05 de Setembro de 2023",
+      "descricao": "Instaura Comissão para instrução e acompanhamento de Processo Administrativo, com o objetivo de apurar as circunstâncias, os motivos, os fatos, e as eventuais responsabilidades quanto ao pagamento de multas e juros, pelo SERGIPEPREVIDENCIA .",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-52-CRIA-COMISSAO-PARA-APURACAO-DE-MULTAS-assinado.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-52-CRIA-COMISSAO-PARA-APURACAO-DE-MULTAS-assinado.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 052/2023",
+        "data_fonte": "De 05 de Setembro de 2023",
+        "descricao_fonte": "Instaura Comissão para instrução e acompanhamento de Processo Administrativo, com o objetivo de apurar as circunstâncias, os motivos, os fatos, e as eventuais responsabilidades quanto ao pagamento de multas e juros, pelo SERGIPEPREVIDENCIA .",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:42-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-52-CRIA-COMISSAO-PARA-APURACAO-DE-MULTAS-assinado.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 51,
+      "titulo": "Portaria Nº 051/2023",
+      "data": "De 05 de Setembro de 2023",
+      "descricao": "Exclusão do ex servidor na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2023 – “ Gestão de Perícia Médica”, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-51-SUBSTITUICAO-GT-PERICIA-MEDICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-51-SUBSTITUICAO-GT-PERICIA-MEDICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 051/2023",
+        "data_fonte": "De 05 de Setembro de 2023",
+        "descricao_fonte": "Exclusão do ex servidor na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2023 – “ Gestão de Perícia Médica”, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:42-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-51-SUBSTITUICAO-GT-PERICIA-MEDICA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 50,
+      "titulo": "Portaria Nº 050/2023",
+      "data": "De 05 de Setembro de 2023",
+      "descricao": "Nomear o(a) servidor(a) para responder pelo expediente da Função de confiança, do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-50-FUNCAO-DE-CONFIANCA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-50-FUNCAO-DE-CONFIANCA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 050/2023",
+        "data_fonte": "De 05 de Setembro de 2023",
+        "descricao_fonte": "Nomear o(a) servidor(a) para responder pelo expediente da Função de confiança, do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:42-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-50-FUNCAO-DE-CONFIANCA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 49,
+      "titulo": "Portaria Nº 049/2023",
+      "data": "De 05 de Setembro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa Estratégica e Gerenciamento de Riscos, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-49-SUBSTITUICAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-49-SUBSTITUICAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 049/2023",
+        "data_fonte": "De 05 de Setembro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa Estratégica e Gerenciamento de Riscos, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:43-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-49-SUBSTITUICAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 48,
+      "titulo": "Portaria Nº 048/2023",
+      "data": "De 05 de Setembro de 2023",
+      "descricao": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2023 – Instrução de Análise de Precatórios, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-48-SUBSTITUICAO-GT-PRECATORIOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-48-SUBSTITUICAO-GT-PRECATORIOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 048/2023",
+        "data_fonte": "De 05 de Setembro de 2023",
+        "descricao_fonte": "Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2023 – Instrução de Análise de Precatórios, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:43-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-48-SUBSTITUICAO-GT-PRECATORIOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 47,
+      "titulo": "Portaria Nº 047/2023",
+      "data": "De 31 de Agosto de 2023",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-47-NOMEACAO-GERENTE-DE-CONTABILIDADE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-47-NOMEACAO-GERENTE-DE-CONTABILIDADE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 047/2023",
+        "data_fonte": "De 31 de Agosto de 2023",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:43-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-47-NOMEACAO-GERENTE-DE-CONTABILIDADE.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 45,
+      "titulo": "Portaria Nº 045/2023",
+      "data": "De 16 de Agosto de 2023",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-NOMEACAO-ASSESSOR-TECNICO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-NOMEACAO-ASSESSOR-TECNICO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 045/2023",
+        "data_fonte": "De 16 de Agosto de 2023",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:44-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-NOMEACAO-ASSESSOR-TECNICO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 44,
+      "titulo": "Portaria Nº 044/2023",
+      "data": "De 16 de Agosto de 2023",
+      "descricao": "Substituir o servidor para responder pelo expediente de membro Titular do Comitê de Ética do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-TITULAR-DO-COMITE-DE-ETICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-TITULAR-DO-COMITE-DE-ETICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 044/2023",
+        "data_fonte": "De 16 de Agosto de 2023",
+        "descricao_fonte": "Substituir o servidor para responder pelo expediente de membro Titular do Comitê de Ética do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:44-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-TITULAR-DO-COMITE-DE-ETICA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 43,
+      "titulo": "Portaria Nº 043/2023",
+      "data": "De 4 de agosto de 2023",
+      "descricao": "Altera dispositivos da Portaria nº 44, de 04 de agosto de 2023, que dispõe sobre a Comissão Especial para acompanhamento e processamento do Credenciamento referente às Consignações facultativas em folha de pagamento dos servidores públicos estaduais inativos e pensionistas.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/08/N%C2%B0-43-Altera-portaria-n%C2%B044-2022-comissao-de-trabalho-das-instituicao-financeira-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/08/N%C2%B0-43-Altera-portaria-n%C2%B044-2022-comissao-de-trabalho-das-instituicao-financeira-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 043/2023",
+        "data_fonte": "De 4 de agosto de 2023",
+        "descricao_fonte": "Altera dispositivos da Portaria nº 44, de 04 de agosto de 2023, que dispõe sobre a Comissão Especial para acompanhamento e processamento do Credenciamento referente às Consignações facultativas em folha de pagamento dos servidores públicos estaduais inativos e pensionistas.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:45-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/08/N%C2%B0-43-Altera-portaria-n%C2%B044-2022-comissao-de-trabalho-das-instituicao-financeira-1.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 42,
+      "titulo": "Portaria Nº 042/2023",
+      "data": "De 02 de Agosto de 2023",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Arrecadação e investimentos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-DESIGNACAO-ALINE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-DESIGNACAO-ALINE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 042/2023",
+        "data_fonte": "De 02 de Agosto de 2023",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Arrecadação e investimentos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:45-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-DESIGNACAO-ALINE.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 41,
+      "titulo": "Portaria Nº 041/2023",
+      "data": "De 28 de julho de 2023",
+      "descricao": "Altera dispositivos da Portaria nº 22, de 29 de janeiro de 2021, que dispõe sobre o recadastramento de todos os pensionistas universitários e dá providências correlatas.",
+      "situacao": "PENDENTE",
+      "url": null,
+      "motivo": "Leitura/conferência PDF: Título de número/ano não reconhecido no início do PDF",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_PDF",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/07/N%C2%B0-41-Altera-portaria-n%C2%B0-22-2021-Censo-Universitario.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:45-03:00",
+        "sha256": "d3ea0f8a2a10d994359d3aba11bb454f316c9af4340b89a357aedafa8a61b5ae",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/07/N%C2%B0-41-Altera-portaria-n%C2%B0-22-2021-Censo-Universitario.pdf",
+        "paginas": 2,
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 041/2023",
+        "data_fonte": "De 28 de julho de 2023",
+        "descricao_fonte": "Altera dispositivos da Portaria nº 22, de 29 de janeiro de 2021, que dispõe sobre o recadastramento de todos os pensionistas universitários e dá providências correlatas.",
+        "href_unico": true,
+        "amostra": false
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 40,
+      "titulo": "Portaria Nº 040/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-40-EXONERACAO-MARIA-ARACELY.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-40-EXONERACAO-MARIA-ARACELY.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 040/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:45-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-40-EXONERACAO-MARIA-ARACELY.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 39,
+      "titulo": "Portaria Nº 039/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-39-INCLUSAO-GT-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-39-INCLUSAO-GT-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 039/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:46-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-39-INCLUSAO-GT-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 38,
+      "titulo": "Portaria Nº 038/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-38-INCLUSAO-GT-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-38-INCLUSAO-GT-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 038/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:46-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-38-INCLUSAO-GT-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 37,
+      "titulo": "Portaria Nº 037/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-DESIGNACAO-GISLAINE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-DESIGNACAO-GISLAINE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 037/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:47-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-DESIGNACAO-GISLAINE.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 36,
+      "titulo": "Portaria Nº 036/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Concede o gozo de Licença Prêmio ao Executor de serviços administrativos, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-36-GOZO-DE-LICENCA-JOAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-36-GOZO-DE-LICENCA-JOAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 036/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Executor de serviços administrativos, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:47-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-36-GOZO-DE-LICENCA-JOAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 35,
+      "titulo": "Portaria Nº 035/2023",
+      "data": "De 31 de Maio de 2023",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-35-NOMEACAO-GISLAINE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-35-NOMEACAO-GISLAINE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 035/2023",
+        "data_fonte": "De 31 de Maio de 2023",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:48-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-35-NOMEACAO-GISLAINE.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 34,
+      "titulo": "Portaria Nº 034/2023",
+      "data": "De 17 de maio de 2023",
+      "descricao": "Altera e acrescenta dispositivos da Portaria nº 01, de 02 de janeiro de 2023, que dispõe sobre a instrução da concessão do benefício de pensão por morte, e dá providências correlatas",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/N%C2%B0-034-ALTERA-DISPOSITIVOS-DA-PORTARIA-N%C2%B0-01-2023-PENSAO-POR-MORTE-REPUBLICADA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/N%C2%B0-034-ALTERA-DISPOSITIVOS-DA-PORTARIA-N%C2%B0-01-2023-PENSAO-POR-MORTE-REPUBLICADA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 034/2023",
+        "data_fonte": "De 17 de maio de 2023",
+        "descricao_fonte": "Altera e acrescenta dispositivos da Portaria nº 01, de 02 de janeiro de 2023, que dispõe sobre a instrução da concessão do benefício de pensão por morte, e dá providências correlatas",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:48-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/N%C2%B0-034-ALTERA-DISPOSITIVOS-DA-PORTARIA-N%C2%B0-01-2023-PENSAO-POR-MORTE-REPUBLICADA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 33,
+      "titulo": "Portaria Nº 033/2023",
+      "data": "De 18 de Abril de 2023",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Relações Institucionais do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-DESIGNACAO-ASSESSOR-ESPECIAL-DE-RELACOES-INSTITUCIONAIS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-DESIGNACAO-ASSESSOR-ESPECIAL-DE-RELACOES-INSTITUCIONAIS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 033/2023",
+        "data_fonte": "De 18 de Abril de 2023",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Relações Institucionais do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:48-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-DESIGNACAO-ASSESSOR-ESPECIAL-DE-RELACOES-INSTITUCIONAIS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 32,
+      "titulo": "Portaria Nº 032/2023",
+      "data": "De 18 de Abril de 2023",
+      "descricao": "Resolve Retificar os processos de Licença Prêmio a Oficial Administrativo, padrão M-1 e ref.J, do grupo Ocupacional de Apoio Administrativo do quadro permanente de pessoal efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-32-RETIFICACAO-DE-LICENCA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-32-RETIFICACAO-DE-LICENCA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 032/2023",
+        "data_fonte": "De 18 de Abril de 2023",
+        "descricao_fonte": "Resolve Retificar os processos de Licença Prêmio a Oficial Administrativo, padrão M-1 e ref.J, do grupo Ocupacional de Apoio Administrativo do quadro permanente de pessoal efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:49-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-32-RETIFICACAO-DE-LICENCA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 31,
+      "titulo": "Portaria Nº 031/2023",
+      "data": "De 12 de Abril de 2023",
+      "descricao": "Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-GOZO-DE-LICENCA-PREMIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-GOZO-DE-LICENCA-PREMIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 031/2023",
+        "data_fonte": "De 12 de Abril de 2023",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:49-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-GOZO-DE-LICENCA-PREMIO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 30,
+      "titulo": "Portaria Nº 030/2023",
+      "data": "De 12 de Abril de 2023",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 17/2023 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-INCLUSAO-GT-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-INCLUSAO-GT-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 030/2023",
+        "data_fonte": "De 12 de Abril de 2023",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 17/2023 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:49-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-INCLUSAO-GT-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 29,
+      "titulo": "Portaria Nº 029/2023",
+      "data": "De 14 de Abril de 2023",
+      "descricao": "Substituir servidor como membro no Grupo de Trabalho da Portaria nº 15/2023 – Revisão de cadastro do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-SUBSTITUICAO-GT-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-SUBSTITUICAO-GT-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 029/2023",
+        "data_fonte": "De 14 de Abril de 2023",
+        "descricao_fonte": "Substituir servidor como membro no Grupo de Trabalho da Portaria nº 15/2023 – Revisão de cadastro do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:50-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-SUBSTITUICAO-GT-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 28,
+      "titulo": "Portaria Nº 028/2023",
+      "data": "De 10 de Abril de 2023",
+      "descricao": "Substituir servidor como membro no Grupo de Trabalho da Portaria nº 07/2023 – Acompanhamento da Habitação,,Validação e Novação dos Saldos devedores do FCVS do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-SUBSTITUICAO-GT-FCVS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-SUBSTITUICAO-GT-FCVS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 028/2023",
+        "data_fonte": "De 10 de Abril de 2023",
+        "descricao_fonte": "Substituir servidor como membro no Grupo de Trabalho da Portaria nº 07/2023 – Acompanhamento da Habitação,,Validação e Novação dos Saldos devedores do FCVS do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:50-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-SUBSTITUICAO-GT-FCVS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 27,
+      "titulo": "Portaria Nº 027/2023",
+      "data": "De 10 de Abril de 2023",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-NOMEACAO-OUVIDOR-GERAL.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-NOMEACAO-OUVIDOR-GERAL.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 027/2023",
+        "data_fonte": "De 10 de Abril de 2023",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:50-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-NOMEACAO-OUVIDOR-GERAL.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 26,
+      "titulo": "Portaria Nº 026/2023",
+      "data": "De 27 de Fevereiro de 2023",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-INCLUSAO-GT-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-INCLUSAO-GT-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 026/2023",
+        "data_fonte": "De 27 de Fevereiro de 2023",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:51-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-INCLUSAO-GT-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 25,
+      "titulo": "Portaria Nº 025/2023",
+      "data": "De 27 de Fevereiro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 08/2023 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-EXCLUSAO-GT-PERICIA-MEDICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-EXCLUSAO-GT-PERICIA-MEDICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 025/2023",
+        "data_fonte": "De 27 de Fevereiro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 08/2023 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:52-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-EXCLUSAO-GT-PERICIA-MEDICA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 24,
+      "titulo": "Portaria Nº 024/2023",
+      "data": "De 23 de Fevereiro de 2023",
+      "descricao": "Incluir servidor(a) como membro Grupo de Trabalho da Portaria nº 15/2023 Cadastro, de 01 SERGIPEPREVIDENCIA de janeiro de do Revisão de 2023, do SERGIPEPREVIDENCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-INCLUSAO-GT-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-INCLUSAO-GT-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 024/2023",
+        "data_fonte": "De 23 de Fevereiro de 2023",
+        "descricao_fonte": "Incluir servidor(a) como membro Grupo de Trabalho da Portaria nº 15/2023 Cadastro, de 01 SERGIPEPREVIDENCIA de janeiro de do Revisão de 2023, do SERGIPEPREVIDENCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:52-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-INCLUSAO-GT-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 23,
+      "titulo": "Portaria Nº 023/2023",
+      "data": "De 15 de Fevereiro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-EXCLUSAO-GT-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-EXCLUSAO-GT-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 023/2023",
+        "data_fonte": "De 15 de Fevereiro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:52-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-EXCLUSAO-GT-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 22,
+      "titulo": "Portaria Nº 022/2023",
+      "data": "De 08 de Fevereiro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ Instrução da Prova de Vida”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-EXCLUSAO-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-EXCLUSAO-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 022/2023",
+        "data_fonte": "De 08 de Fevereiro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ Instrução da Prova de Vida”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:53-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-EXCLUSAO-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 21,
+      "titulo": "Portaria Nº 021/2023",
+      "data": "De 08 de Fevereiro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 16/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-EXCLUSAO-GT-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-EXCLUSAO-GT-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 021/2023",
+        "data_fonte": "De 08 de Fevereiro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 16/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:53-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-EXCLUSAO-GT-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 20,
+      "titulo": "Portaria Nº 020/2023",
+      "data": "De 08 de Fevereiro de 2023",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 17/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-EXCLUSAO-GT-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-EXCLUSAO-GT-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 020/2023",
+        "data_fonte": "De 08 de Fevereiro de 2023",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 17/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:53-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-EXCLUSAO-GT-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 19,
+      "titulo": "Portaria Nº 019/2023",
+      "data": "De 06 de Fevereiro de 2023",
+      "descricao": "Substitui os ouvidores setoriais nomeados pela Portaria n° 037 de 23 de março de 2021, para responder pela Ouvidoria Setorial do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-Indicacao-Ouvidoria.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-Indicacao-Ouvidoria.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 019/2023",
+        "data_fonte": "De 06 de Fevereiro de 2023",
+        "descricao_fonte": "Substitui os ouvidores setoriais nomeados pela Portaria n° 037 de 23 de março de 2021, para responder pela Ouvidoria Setorial do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:54-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-Indicacao-Ouvidoria.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 18,
+      "titulo": "Portaria Nº 018/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-PRORROGACAO-COMITE-INVESTIMENTOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-PRORROGACAO-COMITE-INVESTIMENTOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 018/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:54-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-PRORROGACAO-COMITE-INVESTIMENTOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 17,
+      "titulo": "Portaria Nº 017/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-PRORROGACAO-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-PRORROGACAO-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 017/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:55-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-PRORROGACAO-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 16,
+      "titulo": "Portaria Nº 016/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-PRORROGACAO-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-PRORROGACAO-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 016/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:55-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-PRORROGACAO-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 15,
+      "titulo": "Portaria Nº 015/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-PRORROGACAO-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-PRORROGACAO-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 015/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:55-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-PRORROGACAO-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 14,
+      "titulo": "Portaria Nº 014/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-PRORROGACAO-APOSENTADORIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-PRORROGACAO-APOSENTADORIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 014/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:56-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-PRORROGACAO-APOSENTADORIA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 13,
+      "titulo": "Portaria Nº 013/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-PRORROGACAO-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-PRORROGACAO-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 013/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:56-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-PRORROGACAO-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 12,
+      "titulo": "Portaria Nº 012/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-PRORROGACAO-PRECATORIOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-PRORROGACAO-PRECATORIOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 012/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:56-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-PRORROGACAO-PRECATORIOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 11,
+      "titulo": "Portaria Nº 011/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-PRORROGACAO-PENSAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-PRORROGACAO-PENSAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 011/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:57-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-PRORROGACAO-PENSAO.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 10,
+      "titulo": "Portaria Nº 010/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-PRORROGACAO-LICITACOES.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-PRORROGACAO-LICITACOES.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 010/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:57-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-PRORROGACAO-LICITACOES.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 9,
+      "titulo": "Portaria Nº 009/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-PRORROGACAO-INVESTIMENTOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-PRORROGACAO-INVESTIMENTOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 009/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:57-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-PRORROGACAO-INVESTIMENTOS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 8,
+      "titulo": "Portaria Nº 08/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-PRORROGACAO-PERICIA-MEDICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-PRORROGACAO-PERICIA-MEDICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 08/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:58-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-PRORROGACAO-PERICIA-MEDICA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 7,
+      "titulo": "Portaria Nº 07/2023",
+      "data": "De 31 de janeiro de 2023",
+      "descricao": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-PRORROGACAO-FCVS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-PRORROGACAO-FCVS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 07/2023",
+        "data_fonte": "De 31 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:58-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-PRORROGACAO-FCVS.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 5,
+      "titulo": "Portaria Nº 05/2023",
+      "data": "De 30 de janeiro de 2023",
+      "descricao": "O Diretor – Presidente do Instituto de Previdência dos Servidores do Estado de SergipeSERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 003 de 04 de janeiro de 2023 da Polícia Militar de Sergipe.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-005-Passagem-militares-da-reserva-para-reforma-PM.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-005-Passagem-militares-da-reserva-para-reforma-PM.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 05/2023",
+        "data_fonte": "De 30 de janeiro de 2023",
+        "descricao_fonte": "O Diretor – Presidente do Instituto de Previdência dos Servidores do Estado de SergipeSERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 003 de 04 de janeiro de 2023 da Polícia Militar de Sergipe.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:58-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-005-Passagem-militares-da-reserva-para-reforma-PM.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 4,
+      "titulo": "Portaria Nº 04/2023",
+      "data": "De 30 de janeiro de 2023",
+      "descricao": "O Diretor-Presidente do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 238 de 28 de dezembro de 2022 do Corpo de Bombeiros Militar de Sergipe",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-004-Passagem-milotares-da-reserva-para-reforma-CBM.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-004-Passagem-milotares-da-reserva-para-reforma-CBM.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 04/2023",
+        "data_fonte": "De 30 de janeiro de 2023",
+        "descricao_fonte": "O Diretor-Presidente do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 238 de 28 de dezembro de 2022 do Corpo de Bombeiros Militar de Sergipe",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:59-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-004-Passagem-milotares-da-reserva-para-reforma-CBM.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 3,
+      "titulo": "Portaria Nº 03/2023",
+      "data": "De 25 de janeiro de 2023",
+      "descricao": "Designa servidora para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-DESIGNACAO-NATALIA-SOUZA-DOS-SANTOS-ANDRADE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-DESIGNACAO-NATALIA-SOUZA-DOS-SANTOS-ANDRADE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 03/2023",
+        "data_fonte": "De 25 de janeiro de 2023",
+        "descricao_fonte": "Designa servidora para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:59-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-DESIGNACAO-NATALIA-SOUZA-DOS-SANTOS-ANDRADE.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 2,
+      "titulo": "Portaria Nº 02/2023",
+      "data": "De 17 de janeiro de 2023",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-EXONERACAO-LUCAS-PEDROSA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-EXONERACAO-LUCAS-PEDROSA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 02/2023",
+        "data_fonte": "De 17 de janeiro de 2023",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:59-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-EXONERACAO-LUCAS-PEDROSA.pdf"
+      }
+    },
+    {
+      "ano": 2023,
+      "numero": 1,
+      "titulo": "Portaria Nº 01/2023",
+      "data": "De 2 de janeiro de 2023",
+      "descricao": "Dispõe sobre a instrução da concessão do benefício de Pensão por Morte.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/03/PORTARIA-N%C2%B0-001-DISPOE-SOBRE-PENSAO-POR-MORTE-COMPILADA-V.2025.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/03/PORTARIA-N%C2%B0-001-DISPOE-SOBRE-PENSAO-POR-MORTE-COMPILADA-V.2025.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 01/2023",
+        "data_fonte": "De 2 de janeiro de 2023",
+        "descricao_fonte": "Dispõe sobre a instrução da concessão do benefício de Pensão por Morte.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:38:00-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/03/PORTARIA-N%C2%B0-001-DISPOE-SOBRE-PENSAO-POR-MORTE-COMPILADA-V.2025.pdf"
+      }
+    }
+  ]
+}

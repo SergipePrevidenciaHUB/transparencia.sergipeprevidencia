@@ -1,0 +1,1885 @@
+{
+  "versao": 1,
+  "fonte": "https://sergipeprevidencia.se.gov.br/transparencia/legislacao/portaria/",
+  "conferido_em": "2026-10-20T11:36:38-03:00",
+  "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+  "escopo": "Somente portarias importadas de 2024",
+  "metodo": "Correspondência exata normalizada de número/ano, data e descrição no HTML, href exclusivo e nome compatível, com HEAD público PDF. Na insuficiência do HTML ou em amostra: título, data e descrição literal do PDF. Sem correspondência aproximada por similaridade.",
+  "limites": "Associação automática conservadora; não homologa vigência, completude, atualidade, assinaturas ou conteúdo institucional. Respostas HTTP em cache mantêm a data real de coleta.",
+  "resumo": {
+    "registros": 62,
+    "vinculados": 62,
+    "pendentes": 0
+  },
+  "registros": [
+    {
+      "ano": 2024,
+      "numero": 83,
+      "titulo": "Portaria Nº 083/2024",
+      "data": "De 18 de setembro de 2024.",
+      "descricao": "Designa o Diretor Administratrivo e Financeiro para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 19 a 26 de novembro de 2024.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/11/PORTARIA-N%C2%B0-83-2024-DESIGNA-DIRETOR-ADMINISTRATIVO-E-FINANCEIRO-PARA-PRESIDENCIA-2.pdf",
+      "motivo": "Número/ano, data e descrição confirmados automaticamente no PDF",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_PDF",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/11/PORTARIA-N%C2%B0-83-2024-DESIGNA-DIRETOR-ADMINISTRATIVO-E-FINANCEIRO-PARA-PRESIDENCIA-2.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:04-03:00",
+        "sha256": "9ce78ceddc0fb6108c1cd89476bb61af053b37f445d9ba224dec405911f6166d",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/11/PORTARIA-N%C2%B0-83-2024-DESIGNA-DIRETOR-ADMINISTRATIVO-E-FINANCEIRO-PARA-PRESIDENCIA-2.pdf",
+        "paginas": 2,
+        "campos_pdf": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_pdf": "PORTARIA Nº 83/2024",
+        "data_pdf": "18 de setembro de 2024",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 083/2024",
+        "data_fonte": "De 18 de setembro de 2024.",
+        "descricao_fonte": "Designa o Diretor Administratrivo e Financeiro para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 19 a 26 de novembro de 2024.",
+        "href_unico": true,
+        "amostra": true
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 67,
+      "titulo": "Portaria Nº 067/2024",
+      "data": "De 10 de setembro de 2024.",
+      "descricao": "Altera e acrescenta dispositivos da Portaria nº 75, de 04 de novembro de 2021, que Instituiu o Comitê Executivo da Política Estadual de Proteção de Dados e Designa o Encarregado Setorial, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-N%C2%B0-67-ALTERA-E-ACRESCENTA-A-PORTARIA-75-201-COMITE-LGPD.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-N%C2%B0-67-ALTERA-E-ACRESCENTA-A-PORTARIA-75-201-COMITE-LGPD.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 067/2024",
+        "data_fonte": "De 10 de setembro de 2024.",
+        "descricao_fonte": "Altera e acrescenta dispositivos da Portaria nº 75, de 04 de novembro de 2021, que Instituiu o Comitê Executivo da Política Estadual de Proteção de Dados e Designa o Encarregado Setorial, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:05-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-N%C2%B0-67-ALTERA-E-ACRESCENTA-A-PORTARIA-75-201-COMITE-LGPD.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 66,
+      "titulo": "Portaria Nº 066/2024",
+      "data": "De 03 de Setembro de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-66-2024-INCUSAO-GT-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-66-2024-INCUSAO-GT-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 066/2024",
+        "data_fonte": "De 03 de Setembro de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:05-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-66-2024-INCUSAO-GT-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 65,
+      "titulo": "Portaria Nº 065/2024",
+      "data": "De 03 de Setembro de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 004/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-65-2024-INCLUSAO-GT-PERICIA-MEDICA-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-65-2024-INCLUSAO-GT-PERICIA-MEDICA-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 065/2024",
+        "data_fonte": "De 03 de Setembro de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 004/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:05-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-65-2024-INCLUSAO-GT-PERICIA-MEDICA-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 64,
+      "titulo": "Portaria Nº 064/2024",
+      "data": "De 03 de Setembro de 2024",
+      "descricao": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-64-2024-NOMEACAO-HUGO-ALOISIO-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-64-2024-NOMEACAO-HUGO-ALOISIO-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 064/2024",
+        "data_fonte": "De 03 de Setembro de 2024",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:06-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-64-2024-NOMEACAO-HUGO-ALOISIO-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 59,
+      "titulo": "Portaria Nº 059/2024",
+      "data": "De 14 de Agosto de 2024",
+      "descricao": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-59-2024-DOM-ARTHUR-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-59-2024-DOM-ARTHUR-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 059/2024",
+        "data_fonte": "De 14 de Agosto de 2024",
+        "descricao_fonte": "Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:06-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-59-2024-DOM-ARTHUR-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 58,
+      "titulo": "Portaria Nº 058/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Retifica Portaria nº 49/2024 que concede a Licença Prêmio a Oficial Administrativo do Grupo Operacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-58-2024-RETIFICACAO-DA-PORTARIA-49-2024.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-58-2024-RETIFICACAO-DA-PORTARIA-49-2024.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 058/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Retifica Portaria nº 49/2024 que concede a Licença Prêmio a Oficial Administrativo do Grupo Operacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:06-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-58-2024-RETIFICACAO-DA-PORTARIA-49-2024.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 57,
+      "titulo": "Portaria Nº 057/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 012/2024 – “PESQUISA ESTRATEGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-57-2024-EXCLUSAO-GT-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-57-2024-EXCLUSAO-GT-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 057/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 012/2024 – “PESQUISA ESTRATEGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:07-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-57-2024-EXCLUSAO-GT-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 56,
+      "titulo": "Portaria Nº 056/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 011/2024 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-56-2024-EXCLUSAO-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-56-2024-EXCLUSAO-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 056/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 011/2024 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:07-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-56-2024-EXCLUSAO-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 55,
+      "titulo": "Portaria Nº 055/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-55-2024-EXCLUSAO-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-55-2024-EXCLUSAO-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 055/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:07-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-55-2024-EXCLUSAO-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 54,
+      "titulo": "Portaria Nº 054/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Retifica Portaria nº 055/2021 que Nomeia ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-54-2024-RETIFICACAO-DA-PORTARIA-055-2021.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-54-2024-RETIFICACAO-DA-PORTARIA-055-2021.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 054/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Retifica Portaria nº 055/2021 que Nomeia ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:08-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-54-2024-RETIFICACAO-DA-PORTARIA-055-2021.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 53,
+      "titulo": "Portaria Nº 053/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-53-2024-SUBSTITUICAO-INSTRUCAO-PROVA-DE-VIDA-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-53-2024-SUBSTITUICAO-INSTRUCAO-PROVA-DE-VIDA-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 053/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:08-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-53-2024-SUBSTITUICAO-INSTRUCAO-PROVA-DE-VIDA-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 52,
+      "titulo": "Portaria Nº 052/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-52-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-52-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 052/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:09-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-52-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 51,
+      "titulo": "Portaria Nº 051/2024",
+      "data": "De 31 de Julho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-51-2024-SUBSTITUICAO-GT.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-51-2024-SUBSTITUICAO-GT.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 051/2024",
+        "data_fonte": "De 31 de Julho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:09-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-51-2024-SUBSTITUICAO-GT.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 50,
+      "titulo": "Portaria Nº 050/2024",
+      "data": "De 10 de Julho de 2024",
+      "descricao": "Nomeia servidor comissionado para desempenhar a função de Coordenador da Assessoria Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-N%C2%B0-50-2024-NOMEIA-SERVIDOR-P-COORDENADOR-DE-C-INTERNO-1.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-N%C2%B0-50-2024-NOMEIA-SERVIDOR-P-COORDENADOR-DE-C-INTERNO-1.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 050/2024",
+        "data_fonte": "De 10 de Julho de 2024",
+        "descricao_fonte": "Nomeia servidor comissionado para desempenhar a função de Coordenador da Assessoria Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:09-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-N%C2%B0-50-2024-NOMEIA-SERVIDOR-P-COORDENADOR-DE-C-INTERNO-1.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 49,
+      "titulo": "Portaria Nº 049/2024",
+      "data": "De 28 de Junho de 2024",
+      "descricao": "Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-49-2024-SIRLEY.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-49-2024-SIRLEY.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 049/2024",
+        "data_fonte": "De 28 de Junho de 2024",
+        "descricao_fonte": "Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:10-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-49-2024-SIRLEY.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 48,
+      "titulo": "Portaria Nº 048/2024",
+      "data": "De 25 de Junho de 2024",
+      "descricao": "Revoga a Portaria n° 56/2023, onde designa servidor(a) para responder pelo expediente dafunção de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-48-2024-SERGIO-RICARDO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-48-2024-SERGIO-RICARDO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 048/2024",
+        "data_fonte": "De 25 de Junho de 2024",
+        "descricao_fonte": "Revoga a Portaria n° 56/2023, onde designa servidor(a) para responder pelo expediente dafunção de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:10-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-48-2024-SERGIO-RICARDO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 47,
+      "titulo": "Portaria Nº 047/2024",
+      "data": "De 13 de Junho de 2024",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Pagamento do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-47-2024-IVANA-PRISCILA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-47-2024-IVANA-PRISCILA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 047/2024",
+        "data_fonte": "De 13 de Junho de 2024",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Pagamento do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:10-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-47-2024-IVANA-PRISCILA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 46,
+      "titulo": "Portaria Nº 046/2024",
+      "data": "De 04 de Junho de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-46-2024-INCLUSAO-GT-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-46-2024-INCLUSAO-GT-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 046/2024",
+        "data_fonte": "De 04 de Junho de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:11-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-46-2024-INCLUSAO-GT-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 45,
+      "titulo": "Portaria Nº 045/2024",
+      "data": "De 04 de Junho de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-2024-INCLUSAO-PERICIA-MEDICA-NATALIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-2024-INCLUSAO-PERICIA-MEDICA-NATALIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 045/2024",
+        "data_fonte": "De 04 de Junho de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:11-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-45-2024-INCLUSAO-PERICIA-MEDICA-NATALIA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 44,
+      "titulo": "Portaria Nº 044/2024",
+      "data": "De 04 de Junho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2024 – Revisão de Cadastro, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-2024-SUBSTITUICAO-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-2024-SUBSTITUICAO-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 044/2024",
+        "data_fonte": "De 04 de Junho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2024 – Revisão de Cadastro, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:13-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-44-2024-SUBSTITUICAO-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 43,
+      "titulo": "Portaria Nº 043/2024",
+      "data": "De 04 de Junho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-43-2024-INCLUSAO-GT-JAIANE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-43-2024-INCLUSAO-GT-JAIANE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 043/2024",
+        "data_fonte": "De 04 de Junho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:13-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-43-2024-INCLUSAO-GT-JAIANE.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 42,
+      "titulo": "Portaria Nº 042/2024",
+      "data": "De 04 de Junho de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-2024-INCLUSAO-PERICIA-MEDICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-2024-INCLUSAO-PERICIA-MEDICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 042/2024",
+        "data_fonte": "De 04 de Junho de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:13-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-42-2024-INCLUSAO-PERICIA-MEDICA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 41,
+      "titulo": "Portaria Nº 041/2024",
+      "data": "De 03 de Junho de 2024",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-41-2024-NOMEACAO-JAIANE-MARILIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-41-2024-NOMEACAO-JAIANE-MARILIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 041/2024",
+        "data_fonte": "De 03 de Junho de 2024",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:13-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-41-2024-NOMEACAO-JAIANE-MARILIA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 40,
+      "titulo": "Portaria Nº 040/2024",
+      "data": "De 03 de Junho de 2024",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-40-2024-ANA-PAULA-LISBOA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-40-2024-ANA-PAULA-LISBOA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 040/2024",
+        "data_fonte": "De 03 de Junho de 2024",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:14-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-40-2024-ANA-PAULA-LISBOA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 37,
+      "titulo": "Portaria Nº 037/2024",
+      "data": "De 07 de Maio de 2024",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente Administrativo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-2024-DESIGNACAO-LUCAS-PEDROSA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-2024-DESIGNACAO-LUCAS-PEDROSA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 037/2024",
+        "data_fonte": "De 07 de Maio de 2024",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente Administrativo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:14-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-37-2024-DESIGNACAO-LUCAS-PEDROSA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 34,
+      "titulo": "Portaria Nº 034/2024",
+      "data": "De 19 de Março de 2024",
+      "descricao": "Altera dispositivos da Portaria nº 88, de 27 de dezembro de 2021, que dispõe sobre a Prova de Vida de inativos e pensionistas do Sergipeprevidência. – SERGIPEPREVIDENCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/06/PORTARIA-N_-34-2024-ALTERA-PORT.-88-2021-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/06/PORTARIA-N_-34-2024-ALTERA-PORT.-88-2021-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 034/2024",
+        "data_fonte": "De 19 de Março de 2024",
+        "descricao_fonte": "Altera dispositivos da Portaria nº 88, de 27 de dezembro de 2021, que dispõe sobre a Prova de Vida de inativos e pensionistas do Sergipeprevidência. – SERGIPEPREVIDENCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:14-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/06/PORTARIA-N_-34-2024-ALTERA-PORT.-88-2021-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 35,
+      "titulo": "Portaria Nº 035/2024",
+      "data": "De 07 de Março de 2024",
+      "descricao": "Institui a Comissão de Trabalho de Cadastro Acompanhamento do Almoxarifado e Patrimônio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDENCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-35-2024-INSTITUI-COMISSAO-DE-TRABALHO-ALMOXARIFADO-E-PATRIMONIO-COM-ALTERACAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-35-2024-INSTITUI-COMISSAO-DE-TRABALHO-ALMOXARIFADO-E-PATRIMONIO-COM-ALTERACAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 035/2024",
+        "data_fonte": "De 07 de Março de 2024",
+        "descricao_fonte": "Institui a Comissão de Trabalho de Cadastro Acompanhamento do Almoxarifado e Patrimônio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDENCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:15-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-35-2024-INSTITUI-COMISSAO-DE-TRABALHO-ALMOXARIFADO-E-PATRIMONIO-COM-ALTERACAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 38,
+      "titulo": "Portaria Nº 038/2024",
+      "data": "De 07 de Maio de 2024",
+      "descricao": "Altera o inciso I do art. 3º da Portaria n° 44/2022- que dispõe sobre a Comissão Especial para acompanhamento e processamento de Credenciamento.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-38-2024-ALTERA-PORTARIA-44-2022-COMISSAO-DE-CREDENCIAMENTO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-38-2024-ALTERA-PORTARIA-44-2022-COMISSAO-DE-CREDENCIAMENTO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria Nº 038/2024",
+        "data_fonte": "De 07 de Maio de 2024",
+        "descricao_fonte": "Altera o inciso I do art. 3º da Portaria n° 44/2022- que dispõe sobre a Comissão Especial para acompanhamento e processamento de Credenciamento.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:15-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-38-2024-ALTERA-PORTARIA-44-2022-COMISSAO-DE-CREDENCIAMENTO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 39,
+      "titulo": "Portaria 039/2024",
+      "data": "De 07 de Maio de 2024",
+      "descricao": "Acrescenta os incisos III e IV Ao art. 1° da Portaria n° 35/2024- que dispõe sobre a Comissão de Almoxarifado.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-39-2024-ALTERA-PORTARIA-35-2024-COMISSAO-DE-ALMOXARIFADO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-39-2024-ALTERA-PORTARIA-35-2024-COMISSAO-DE-ALMOXARIFADO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 039/2024",
+        "data_fonte": "De 07 de Maio de 2024",
+        "descricao_fonte": "Acrescenta os incisos III e IV Ao art. 1° da Portaria n° 35/2024- que dispõe sobre a Comissão de Almoxarifado.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:15-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/05/PORTARIA-N%C2%B0-39-2024-ALTERA-PORTARIA-35-2024-COMISSAO-DE-ALMOXARIFADO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 33,
+      "titulo": "Portaria 033/2024",
+      "data": "De 14 de Março de 2024",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-2024-DESIGNACAO-PATRICIA-GOIS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-2024-DESIGNACAO-PATRICIA-GOIS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 033/2024",
+        "data_fonte": "De 14 de Março de 2024",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:16-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-33-2024-DESIGNACAO-PATRICIA-GOIS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 31,
+      "titulo": "Portaria 031/2024",
+      "data": "De 19 de Fevereiro de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 013/2024 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-2024-INCLUSAO-MONITORAMENTO-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-2024-INCLUSAO-MONITORAMENTO-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 031/2024",
+        "data_fonte": "De 19 de Fevereiro de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 013/2024 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:16-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-31-2024-INCLUSAO-MONITORAMENTO-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 30,
+      "titulo": "Portaria 030/2024",
+      "data": "De 19 de Fevereiro de 2024",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-2024-NOMEACAO-LUCAS-PEDROSA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-2024-NOMEACAO-LUCAS-PEDROSA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 030/2024",
+        "data_fonte": "De 19 de Fevereiro de 2024",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:16-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-30-2024-NOMEACAO-LUCAS-PEDROSA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 29,
+      "titulo": "Portaria 029/2024",
+      "data": "De 05 de Fevereiro de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – Revisão do Benefício Previdenciário de Aposentadoria, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 029/2024",
+        "data_fonte": "De 05 de Fevereiro de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – Revisão do Benefício Previdenciário de Aposentadoria, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:17-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-29-2024-SUBSTITUICAO-REVISAO-DE-APOSENTADORIA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 28,
+      "titulo": "Portaria 028/2024",
+      "data": "De 05 de Fevereiro de 2024",
+      "descricao": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 01 de Fevereiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-2024-SUBSTITUICAO-LICITACOES.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-2024-SUBSTITUICAO-LICITACOES.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 028/2024",
+        "data_fonte": "De 05 de Fevereiro de 2024",
+        "descricao_fonte": "Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 01 de Fevereiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:17-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-28-2024-SUBSTITUICAO-LICITACOES.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 27,
+      "titulo": "Portaria 027/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de concessão de benefícios do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-2024-DESIGNACAO-AMANDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-2024-DESIGNACAO-AMANDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 027/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de concessão de benefícios do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:18-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-27-2024-DESIGNACAO-AMANDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 26,
+      "titulo": "Portaria 026/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-2024-NOMEACAO-AMANDA-GUIMARAES.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-2024-NOMEACAO-AMANDA-GUIMARAES.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 026/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:18-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-26-2024-NOMEACAO-AMANDA-GUIMARAES.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 25,
+      "titulo": "Portaria 025/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-2024-NOMEACAO-PATRICIA-GOIS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-2024-NOMEACAO-PATRICIA-GOIS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 025/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:18-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-25-2024-NOMEACAO-PATRICIA-GOIS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 24,
+      "titulo": "Portaria 024/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-2024-EXONERACAO-PATRICIA-GOIS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-2024-EXONERACAO-PATRICIA-GOIS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 024/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:19-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-24-2024-EXONERACAO-PATRICIA-GOIS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 23,
+      "titulo": "Portaria 023/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-2024-EXONERACAO-BARBARA-LYANDRA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-2024-EXONERACAO-BARBARA-LYANDRA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 023/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:19-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-23-2024-EXONERACAO-BARBARA-LYANDRA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 22,
+      "titulo": "Portaria 022/2024",
+      "data": "De 30 de Janeiro de 2024",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-2024-EXONERACAO-GISLAINE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-2024-EXONERACAO-GISLAINE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 022/2024",
+        "data_fonte": "De 30 de Janeiro de 2024",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:19-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-22-2024-EXONERACAO-GISLAINE.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 21,
+      "titulo": "Portaria 021/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-2024-NOMEACAO-KELLY-UCHOA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-2024-NOMEACAO-KELLY-UCHOA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 021/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:20-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-21-2024-NOMEACAO-KELLY-UCHOA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 20,
+      "titulo": "Portaria 020/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-2024-EXONERACAO-LUIS-2.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-2024-EXONERACAO-LUIS-2.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 020/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:20-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-20-2024-EXONERACAO-LUIS-2.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 19,
+      "titulo": "Portaria 019/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 10/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-2024-EXCLUSAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-2024-EXCLUSAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 019/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 10/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:20-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-19-2024-EXCLUSAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 18,
+      "titulo": "Portaria 018/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2024 – “MONITORAMENTO NO PROGRAMA PRÓ GESTÃO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-2024-EXCLUSAO-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-2024-EXCLUSAO-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 018/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2024 – “MONITORAMENTO NO PROGRAMA PRÓ GESTÃO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:21-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-18-2024-EXCLUSAO-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 17,
+      "titulo": "Portaria 017/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 07/2024 – “ REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-2024-INCLUSAO-REVISAO-DE-PENSAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-2024-INCLUSAO-REVISAO-DE-PENSAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 017/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 07/2024 – “ REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:21-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-17-2024-INCLUSAO-REVISAO-DE-PENSAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 16,
+      "titulo": "Portaria 016/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Nomear ocupantes em cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-2024-NOMEACAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-2024-NOMEACAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 016/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Nomear ocupantes em cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:21-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-16-2024-NOMEACAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 15,
+      "titulo": "Portaria 015/2024",
+      "data": "De 18 de Janeiro de 2024",
+      "descricao": "Exonera ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-2024-EXONERACAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-2024-EXONERACAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 015/2024",
+        "data_fonte": "De 18 de Janeiro de 2024",
+        "descricao_fonte": "Exonera ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:22-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-15-2024-EXONERACAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 14,
+      "titulo": "Portaria 014/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “COMITÊ DE INVESTIMENTOS DOS RECURSOS PREVIDENCIÁRIOS” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-2024-RENOVACAO-COMITE-INVESTIMENTOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-2024-RENOVACAO-COMITE-INVESTIMENTOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 014/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “COMITÊ DE INVESTIMENTOS DOS RECURSOS PREVIDENCIÁRIOS” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:23-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-14-2024-RENOVACAO-COMITE-INVESTIMENTOS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 13,
+      "titulo": "Portaria 013/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓ GESTÃO” e dá outras previdências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-2024-RENOVACAO-PRO-GESTAO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-2024-RENOVACAO-PRO-GESTAO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 013/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓ GESTÃO” e dá outras previdências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:23-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-13-2024-RENOVACAO-PRO-GESTAO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 12,
+      "titulo": "Portaria 012/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-2024-RENOVACAO-RISCOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-2024-RENOVACAO-RISCOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 012/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:23-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-12-2024-RENOVACAO-RISCOS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 11,
+      "titulo": "Portaria 011/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DE CADASTRO” e dá outras previdências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-2024-RENOVACAO-REVISAO-DE-CADASTRO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-2024-RENOVACAO-REVISAO-DE-CADASTRO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 011/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DE CADASTRO” e dá outras previdências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:24-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-11-2024-RENOVACAO-REVISAO-DE-CADASTRO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 10,
+      "titulo": "Portaria 010/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-2024-RENOVACAO-REVISAO-APOSENTADORIA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-2024-RENOVACAO-REVISAO-APOSENTADORIA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 010/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:24-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-10-2024-RENOVACAO-REVISAO-APOSENTADORIA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 9,
+      "titulo": "Portaria 009/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE PROVA DE VIDA” e dá outras previdência",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-2024-RENOVACAO-PROVA-DE-VIDA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-2024-RENOVACAO-PROVA-DE-VIDA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 009/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE PROVA DE VIDA” e dá outras previdência",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:24-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-09-2024-RENOVACAO-PROVA-DE-VIDA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 8,
+      "titulo": "Portaria 008/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE ANALISE DOS PRECATÓRIOS” e dá outras previdências",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-2024-RENOVACAO-PRECATORIOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-2024-RENOVACAO-PRECATORIOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 008/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE ANALISE DOS PRECATÓRIOS” e dá outras previdências",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:25-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-08-2024-RENOVACAO-PRECATORIOS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 7,
+      "titulo": "Portaria 007/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-2024-RENOVACAO-REVISAO-PENSAO-POR-MORTE.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-2024-RENOVACAO-REVISAO-PENSAO-POR-MORTE.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 007/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:25-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-07-2024-RENOVACAO-REVISAO-PENSAO-POR-MORTE.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 6,
+      "titulo": "Portaria 006/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-06-2024-RENOVACAO-LICITACOES.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-06-2024-RENOVACAO-LICITACOES.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 006/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:25-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-06-2024-RENOVACAO-LICITACOES.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 5,
+      "titulo": "Portaria 005/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-05-2024-RENOVACAO-INVESTIMENTOS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-05-2024-RENOVACAO-INVESTIMENTOS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 005/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:26-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-05-2024-RENOVACAO-INVESTIMENTOS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 4,
+      "titulo": "Portaria 004/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERÍCIA MÉDICA” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-04-2024-RENOVACAO-PERICIA-MEDICA.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-04-2024-RENOVACAO-PERICIA-MEDICA.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 004/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERÍCIA MÉDICA” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:26-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-04-2024-RENOVACAO-PERICIA-MEDICA.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 3,
+      "titulo": "Portaria 003/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS” e dá outras previdências.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-2024-RENOVACAO-FCVS.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-2024-RENOVACAO-FCVS.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 003/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS” e dá outras previdências.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:26-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-03-2024-RENOVACAO-FCVS.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 2,
+      "titulo": "Portaria 002/2024",
+      "data": "De 16 de Janeiro de 2024",
+      "descricao": "Altera o art. 3º da Portaria nº 121 de 03 de abril de 2008, que regulamenta o estágio extracurricular para estudantes de cursos superiores e estudantes de ensino médio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDÊNCIA.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-2024-NOVOS-CURSOS-DE-ESTAGIO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-2024-NOVOS-CURSOS-DE-ESTAGIO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 002/2024",
+        "data_fonte": "De 16 de Janeiro de 2024",
+        "descricao_fonte": "Altera o art. 3º da Portaria nº 121 de 03 de abril de 2008, que regulamenta o estágio extracurricular para estudantes de cursos superiores e estudantes de ensino médio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDÊNCIA.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:27-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-02-2024-NOVOS-CURSOS-DE-ESTAGIO.pdf"
+      }
+    },
+    {
+      "ano": 2024,
+      "numero": 1,
+      "titulo": "Portaria 001/2024",
+      "data": "De 11 de Janeiro de 2024",
+      "descricao": "Torna sem efeito as Portarias n°s 90 e 91, de 27 de janeiro de 2023, onde exclui integrante da composição dos Grupos de Trabalho, no âmbito do Sergipeprevidência.",
+      "situacao": "CONFIRMADO",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-01-2024-SEM-EFEITO.pdf",
+      "motivo": "Número/ano, data e descrição iguais no HTML; href exclusivo com identidade compatível; HEAD HTTP 200 application/pdf sem autenticação",
+      "observacao": "",
+      "conferencia": {
+        "metodo": "HTML_E_HEAD",
+        "url_examinada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-01-2024-SEM-EFEITO.pdf",
+        "fonte_sha256": "9b84f45d2067519ea77a00b881d67892888f3689ff9b5daf254ded903cdee13d",
+        "campos_html": {
+          "numero_ano": true,
+          "data": true,
+          "descricao": true
+        },
+        "titulo_fonte": "Portaria 001/2024",
+        "data_fonte": "De 11 de Janeiro de 2024",
+        "descricao_fonte": "Torna sem efeito as Portarias n°s 90 e 91, de 27 de janeiro de 2023, onde exclui integrante da composição dos Grupos de Trabalho, no âmbito do Sergipeprevidência.",
+        "href_unico": true,
+        "nome_arquivo_compativel": true,
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "verificado_em": "2026-10-20T11:37:27-03:00",
+        "final_url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-01-2024-SEM-EFEITO.pdf"
+      }
+    }
+  ]
+}
