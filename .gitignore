@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+_site/
 
 # Arquivos internos de entrada; manter apenas a estrutura de pastas
 /dados-entrada/**
