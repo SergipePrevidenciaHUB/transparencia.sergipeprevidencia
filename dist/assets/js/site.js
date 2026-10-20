@@ -25,7 +25,6 @@
 
   // Acrescentar aqui o caminho de cada nova página publicada do protótipo.
   const searchPages = [
-    "/",
     "/Portal-da-Transparencia/",
     "/Portal-da-Transparencia/Institucional/Informacoes/",
     "/Portal-da-Transparencia/Institucional/AtosNormativos/",
