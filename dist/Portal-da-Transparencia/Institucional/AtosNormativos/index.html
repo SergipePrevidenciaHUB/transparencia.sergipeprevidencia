@@ -1,0 +1,1359 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atos Normativos — SergipePrevidência</title>
+  <meta name="description" content="Consulta parcial de atos normativos próprios do SergipePrevidência em ambiente de protótipo.">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script defer src="/assets/js/site.js"></script>
+  <script defer src="/assets/js/tabelas.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+  <div class="gov-stripe" aria-hidden="true"></div>
+  <div class="utility-bar"><div class="container utility-inner">
+    <form class="site-search" data-site-search serigySchema="https://serigy.tce.se.gov.br/comum/informacoes.html" serigyItem="pesquisaConteudo" role="search"><input name="q" type="search" placeholder="Pesquisar no portal" aria-label="Pesquisar no portal"><button type="submit">Pesquisar</button></form>
+    <div class="access-tools" aria-label="Ferramentas de acessibilidade">
+      <a href="/mapa-do-site/" title="Acessibilidade e mapa do site"><img src="/assets/imagens/simbolo-acessibilidade.svg" alt="Acessibilidade" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeSimbolo"></a>
+      <span serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeRedimensionamentoTexto"><button type="button" data-action="increase" title="Aumentar texto">A+</button><button type="button" data-action="decrease" title="Diminuir texto">A−</button><button type="button" data-action="reset-font" title="Tamanho original">A</button></span>
+      <button type="button" data-action="contrast" aria-pressed="false" title="Alternar alto contraste" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeAltoContraste">◐</button>
+    </div>
+  </div></div>
+  <header class="main-header"><div class="container header-inner"><a class="brand" href="/"><img src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência — Governo do Estado de Sergipe"></a><nav class="main-nav" aria-label="Navegação principal"><ul><li><a href="/">Início</a></li><li><a href="/Portal-da-Transparencia/Institucional/Informacoes/" aria-current="true">Institucional</a></li><li><a href="/Portal-da-Transparencia/">Transparência</a></li><li><a href="/mapa-do-site/">Mapa do site</a></li></ul></nav></div></header>
+  <div class="green-line" aria-hidden="true"></div>
+  <div class="container breadcrumb-wrap" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeCaminhoPaginas"><nav class="breadcrumb" aria-label="Caminho da página"><a href="/">Início</a><span class="separator" aria-hidden="true">›</span><a href="/Portal-da-Transparencia/">Transparência</a><span class="separator" aria-hidden="true">›</span><a href="/Portal-da-Transparencia/Institucional/Informacoes/">Institucional</a><span class="separator" aria-hidden="true">›</span><span aria-current="page">Atos Normativos</span></nav></div>
+
+  <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/institucional.html">
+    <div class="prototype-notice"><strong>Acervo parcial de protótipo:</strong> esta página apresenta ementas de portarias do SergipePrevidência. Os documentos integrais ainda serão vinculados; o acervo e sua atualização dependem de validação institucional.</div>
+    <h1>Atos Normativos</h1>
+    <p class="lead">Consulta de atos normativos próprios por tipo, ano e palavra-chave.</p>
+    <!-- PORTARIAS:INICIO -->
+    <section class="content-box" aria-labelledby="atos-titulo">
+      <h2 id="atos-titulo">Atos normativos próprios — Portarias</h2>
+      <div class="warning-notice" id="atos-aviso"><strong>Acervo parcial de protótipo:</strong> as ementas abaixo reproduzem as fontes fornecidas e dependem de conferência institucional. Os documentos integrais ainda serão vinculados. A listagem não comprova a completude do acervo, sua atualidade ou a abrangência histórica exigida. Os dados precisam de validação institucional antes da publicação definitiva.</div>
+      <p>Registros importados por ano: 2023: 87; 2024: 62; 2025: 74; 2026: 100. Total: 323. Dentro de cada ano, foi preservada a ordem da fonte.</p>
+      <form class="filter-panel" data-table-filter data-target="atos-tabela" serigyItem="filtroPesquisa" aria-label="Consultar atos normativos próprios" aria-describedby="atos-aviso">
+        <div class="field"><label for="atos-tipo">Tipo de ato</label><select id="atos-tipo" name="tipo"><option value="">Todos os tipos disponíveis</option><option value="Portaria">Portaria</option></select></div>
+        <div class="field"><label for="atos-ano">Ano</label><select id="atos-ano" name="ano" serigyItem="historicoExercicio">
+            <option value="">Todos os anos disponíveis</option>
+            <option value="2026" serigyValue="2026">2026</option>
+            <option value="2025" serigyValue="2025">2025</option>
+            <option value="2024" serigyValue="2024">2024</option>
+            <option value="2023" serigyValue="2023">2023</option>
+        </select></div>
+        <div class="field"><label for="atos-palavra">Palavra-chave (número ou descrição)</label><input id="atos-palavra" type="search" name="palavra" aria-controls="atos-resultados"></div>
+        <div class="filter-actions"><button class="button" type="submit" serigyExecuteWaitSection="atos-resultados" aria-controls="atos-resultados">Pesquisar</button><button class="button secondary" type="reset" serigyClearForm>Limpar filtros</button></div>
+      </form>
+      <div id="atos-resultados" serigyLoadSection="atos-resultados">
+        <p class="result-count" data-count-for="atos-tabela" role="status" aria-live="polite" aria-atomic="true">323 registro(s) encontrado(s).</p>
+        <noscript><p>Os filtros precisam de JavaScript. Todos os registros estão disponíveis na tabela abaixo.</p></noscript>
+        <div class="table-wrap" tabindex="0" role="region" aria-labelledby="atos-titulo">
+          <table id="atos-tabela">
+            <caption>Portarias — número, data e descrição conforme as fontes; inteiro teor pendente</caption>
+            <thead><tr><th scope="col">Tipo</th><th scope="col">Número</th><th scope="col">Data</th><th scope="col">Descrição</th></tr></thead>
+            <tbody>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 100/2026</th><td>De 07 de Outubro de 2026</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 08 a 21 de outubro de 2026.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 99/2026</th><td>De 30 de Setembro de 2026</td>
+            <td data-search-text>Regulamenta, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, o procedimento de verificação de óbitos mediante cruzamento de bases de dados, para fins de controle cadastral, apoio às ações de prova de vida e prevenção de pagamentos indevidos, e dá providências correlatas.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 98/2026</th><td>De 23 de Setembro de 2026</td>
+            <td data-search-text>Designa servidor para exercer a função de responsável pela Unidade Setorial de Controle Interno – USCI do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 97/2026</th><td>De 18 de Setembro de 2026</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 19 de setembro a 08 de outubro de 2026.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 96/2026</th><td>De 17 de Setembro de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 95/2026</th><td>De 31 de Agosto de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 68/2026 que dispõe sobre o Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE APOSENTADORIA” do SERGIPEPREVIDÊNCIA, a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 94/2026</th><td>De 31 de Agosto de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 74/2026 que dispõe sobre o Grupo de Trabalho “GESTÃO DA QUALIDADE” do SERGIPEPREVIDÊNCIA a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 93/2026</th><td>De 31 de Agosto de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 60/2026 que dispõe sobre o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES” do SERGIPEPREVIDÊNCIA, a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 92/2026</th><td>De 28 de Agosto de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Concessão de Benefícios do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 91/2026</th><td>De 28 de Agosto de 2026</td>
+            <td data-search-text>Nomear ANNA BEATRIZ DE CARVALHO GÓIS, no Cargo em Comissão de ASSESSOR TÉCNICO I.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 90/2026</th><td>De 21 de Agosto de 2026</td>
+            <td data-search-text>EXONERAR o(a) servidor(a) CARLA GONÇALVES LEITE, no Cargo em Comissão de ASSESSOR TÉCNICO I.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 89/2026</th><td>De 26 de Agosto de 2026</td>
+            <td data-search-text>Nomeia servidora para exercer Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe–SERGIPEPREVI e designa servidora para responder pelo expediente de função em substituição.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 88/2026</th><td>De 26 de Agosto de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidoresdo Estado de Sergipe – SERGIPEPREVIDENCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 87/2026</th><td>De 19 de Agosto de 2026</td>
+            <td data-search-text>Designa servidores para atuarem como responsáveis pelo acompanhamento e fiscalização da execução do Termo de Cooperação Técnica nº 11/2026, celebrado entre a Secretaria de Estado da Fazenda – SEFAZ/SE e o Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 86/2026</th><td>De 19 de Agosto de 2026</td>
+            <td data-search-text>Revoga a Portaria nº 58, de 11 de setembro de 2025, que dispõe sobre a Comissão de Credenciamento – CDC, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 84/2026</th><td>De 06 de Agosto de 2026</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 84/2026</th><td>De 05 de Agosto de 2026</td>
+            <td data-search-text>Altera e revoga dispositivos da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 83/2026</th><td>De 31 de Julho de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 82/2026</th><td>De 13 de Julho de 2026</td>
+            <td data-search-text>Dispõe sobre a Finalização das atividades do Grupo de Trabalho “REVISÃO DE CADASTRO” instituído pela Portaria n° 002/2026 do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 81/2026</th><td>De 10 de Julho de 2026</td>
+            <td data-search-text>Designa os responsáveis pela gestão das aplicações dos recursos do Instituto de Previdência dos Servidores do Estado de Sergipe, estabelece competências e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 80/2026</th><td>De 28 de Julho de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 79/2026</th><td>De 03 de Julho de 2026</td>
+            <td data-search-text>Altera dispositivos da Portaria nº 33/2026 e prorroga o prazo para realização do Censo Cadastral Previdenciário dos segurados ativos.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 79/2026</th><td>De 07 de Julho de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 74/2026 que institui a composição dos integrantes do Grupo de Trabalho “GESTÃO DA QUALIDADE”, de 01 de Junho de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 78/2026</th><td>De 02 de Julho de 2026</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 77/2026</th><td>De 02 de Julho de 2026</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 76/2026</th><td>De 02 de Julho de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 75/2026</th><td>De 22 de Junho de 2026</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Previdência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA no período de 22 de junho a 06 de julho de 2026.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 74/2026</th><td>De 01 de Junho de 2026</td>
+            <td data-search-text>Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 67 de 01 de maio de 2026, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 73/2026</th><td>De 06 de Julho de 2026</td>
+            <td data-search-text>Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 65 de 01 de maio de 2026, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 72/2026</th><td>De 01 de Junho de 2026</td>
+            <td data-search-text>Dispõe sobre a reformulação do Grupo de Trabalho renovado pela Portaria n° 61 de 01 de maio de 2026, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 71/2026</th><td>De 21 de Maio de 2026</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 64 de setembro de 2022, que instituiu o Comitê de Ética no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 70/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓGESTÃO”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 69/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 68/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE APOSENTADORIA”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 67/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS PRECATÓRIOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 66/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 65/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 64/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO PROVA DE VIDA”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 63/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERICIA MÉDICA”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 62/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GERENCIAMENTO DE RISCO”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 61/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 60/2026</th><td>De 12 de Maio de 2026</td>
+            <td data-search-text>Altera dispositivos da Portaria 58/2026 que institui o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES”, a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 59/2026</th><td>De 08 de Maio de 2026</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 11 a 15 de maio de 2026.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 58/2026</th><td>De 08 de Maio de 2026</td>
+            <td data-search-text>Institui o Grupo de Trabalho “EQUIPE DE PLANEJAMENTO DE CONTRATAÇÕES”, a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 57/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Arrecadação e investimento do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 56/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Altera a composition dos integrantes do Grupo de Trabalho da Portaria n° 009/2026 – “GESTÃO DOS PRECATÓRIOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 55/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 007/2026 – “GESTÃO DOS INVESTIMENTOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 54/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 52/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2026 – “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 51/2026</th><td>De 04 de Maio de 2026</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 50/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 012/2026 – “MONITORAMENTO DO PROGRAMA PRÓGESTÃO”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 49/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2026 – “CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 48/2026</th><td>De 30 de Abril de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 47/2026</th><td>De 23 de Abril de 2026</td>
+            <td data-search-text>Dispõe sobre a inclusão de inciso em dispositivo da Portaria nº15/2026, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 46/2026</th><td>De 22 de Abril de 2026</td>
+            <td data-search-text>Dispõe sobre a inclusão de alínea em dispositivo da Portaria nº75/2021, e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 45/2026</th><td>De 14 de Abril de 2026</td>
+            <td data-search-text>Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 44/2026</th><td>De 14 de Abril de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 43/2026</th><td>De 14 de Abril de 2026</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 42/2026</th><td>De 14 de Abril de 2026</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio à servidora, ocupante do cargo de Executor de serviços administrativos do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 41/2026</th><td>De 14 de Abril de 2026</td>
+            <td data-search-text>Exclui da composição dos integrantes do Grupo de Trabalho da Portaria n° 03/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 40/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 06/2026 – “GESTÃO PROVA DE VIDA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 39/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 05/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 38/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 37/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Recursos Humanos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 36/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Execução Orçamentária e Financeira do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 35/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 11/2026 – “REVISÃO DO BENEFÍCIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 34/2026</th><td>De 30 de Março de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 33/2026</th><td>De 18 de Março de 2026</td>
+            <td data-search-text>Estabelece normas para a realização do Censo Cadastral Previdenciário dos segurados ativos, instituído pelo Decreto nº 455, de 16 de outubro de 2023.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 32/2026</th><td>De 12 de Março de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 05/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 31/2026</th><td>De 04 de Março de 2026</td>
+            <td data-search-text>Regulamenta a instrução e os procedimentos para concessão de aposentadorias, reformas e reserva remunerada no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, e dá outras providências correlatas.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 30/2026</th><td>De 19 de Fevereiro de 2026</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Planejamento e Gestão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 23 a 27 de fevereiro de 2026.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 29/2026</th><td>De 11 de Fevereiro de 2026</td>
+            <td data-search-text>Designa servidores para exercerem a função de Gestor e Fiscal de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 28/2026</th><td>De 11 de Fevereiro de 2026</td>
+            <td data-search-text>Altera o Inciso II do Art. 1º da Portaria nº 19/2025 que designa servidor(a) para atuar como Agente de Contratação no âmbito dos procedimentos previstos na Lei Federal nº 14.133/2021.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 27/2026</th><td>De 05 de Fevereiro de 2026</td>
+            <td data-search-text>Designa a substituição de servidor para exercer a função de Gestor e Fiscal de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 26/2026</th><td>De 04 de Fevereiro de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 25/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2026 – “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 24/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 23/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Excluir servidor(a) da composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2026 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 22/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Excluir servidor(a) da composição dos integrantes do Grupo de Trabalho da Portaria n° 005/2026 – “GESTÃO DA PERÍCIA MÉDICA”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 21/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 004/2026 – “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCO”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 20/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Incluir servido(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 19/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2026 – “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, de 01 de janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 18/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2026 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2026, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 17/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 16/2026</th><td>De 28 de Janeiro de 2026</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 15/2026</th><td>De 23 de Janeiro de 2026</td>
+            <td data-search-text>Institui a Comissão de Trabalho de Gestão da Qualidade no âmbito do SERGIPEPREVIDÊNCIA e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 14/2026</th><td>De 14 de Janeiro de 2026</td>
+            <td data-search-text>Concessão de Licença Prêmio ao servidor, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 13/2026</th><td>De 14 de Janeiro de 2026</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Atendimento do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 12/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓ GESTÃO”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 11/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DOS PROCESSOS DE PENSÃO POR MORTE”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 10/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DOS PROCESSOS DE APOSENTADORIA” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 09/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE ANÁLISE DOS PRECATÓRIOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 08/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 07/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 06/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE PROVA DE VIDA”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 05/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERICIA MÉDICA”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 04/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCO”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 03/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 02/2026</th><td>De 07 de Janeiro de 2026</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DE CADASTRO”, altera a composição de membros e dá outras providências.</td>
+          </tr>
+          <tr data-year="2026" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 01/2026</th><td>De 06 de Janeiro de 2026</td>
+            <td data-search-text>Designa servidores para atuarem como Gestores de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA e dá as providências correlatas.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 77/2025</th><td>De 18 de Dezembro de 2025</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Previdência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 22 de dezembro a 09 de janeiro de 2025.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 76/2025</th><td>De 18 de Dezembro de 2025</td>
+            <td data-search-text>Institui Comissão de Trabalho no âmbito do SERGIPEPREVIDÊNCIA para acompanhamento, análise e implementação de providências elencadas na decorrência da Portaria nº 52/2025.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 75/2025</th><td>De 17 de Dezembro de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Geral de Informática do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 73/2025</th><td>De 22 de Outubro de 2025</td>
+            <td data-search-text>Designa servidores para atuarem como Gestores dos contratos firmados no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA e dá as providências correlatas.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 72/2025</th><td>De 20 de Outubro de 2025</td>
+            <td data-search-text>Revoga a Portaria nº 61, de 01 de agosto de 2022, que dispõe sobre a alteração de conta bancária de recebimento de benefício e dá providências correlatas.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 71/2025</th><td>De 20 de Outubro de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2025 – GESTÃO DA PROVA DE VIDA, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 70/2025</th><td>De 20 de Outubro de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 002/2025 – REVISÃO DE CADASTRO, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 69/2025</th><td>De 17 de Outubro de 2025</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n°002/2025 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 68/2025</th><td>De 16 de Outubro de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Recursos Humanos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 67/2025</th><td>De 16 de Outubro de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 66/2025</th><td>De 06 de Outubro de 2025</td>
+            <td data-search-text>Concessão de Licença Prêmio a Oficial Administrativo, Categoria M-1, Classe A, Padrão V e Ref. 15, do Grupo Ocupacional de Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 65/2025</th><td>De 30 de Setembro de 2025</td>
+            <td data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 01 a 15 de outubro de 2025.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 64/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Inclui servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2025 – “ INSTRUÇÃO DA PROVA DE VIDA”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 63/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Inclui servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 005/2025 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 62/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2025 – “ INSTRUÇÃO DA PROVA DE VIDA”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 61/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Exclui servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 005/2025 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 60/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe– SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 59/2025</th><td>De 25 de Setembro de 2025</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 58/2025</th><td>De 11 de Setembro de 2025</td>
+            <td data-search-text>Dispõe sobre a Comissão de Credenciamento – CDC no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDENCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 57/2025</th><td>De 10 de Setembro de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Geral de Informática do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 56/2025</th><td>De 05 de Setembro de 2025</td>
+            <td data-search-text>Altera o Art. 1° da Portaria n° 35/2024 que Instituiu a Comissão de Trabalho de Cadastro e Acompanhamento do Almoxarifado e Patrimônio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe-SERGIPEPREVIDENCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 55/2025</th><td>De 29 de Agosto de 2025</td>
+            <td data-search-text>Altera o Art. 1° da Portaria n° 40/2025 que designa a substituição de servidor para exercer a função de Fiscal de Contratos para a condução dos procedimentos previstos na Lei nº 14.133/2021.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 54/2025</th><td>De 15 de Agosto de 2025</td>
+            <td data-search-text>Designa servidor(a) para exercer a função de Agente de Contratação para conduta dos procedimentos previstos na Lei n° 14.133/2021.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 53/2025</th><td>De 08 de Agosto de 2025</td>
+            <td data-search-text>Altera a Portaria nº 75 de 04 de novembro de 2021, que institui o Comitê Executivo da Política Estadual de Proteção de Dados e Designa o Encarregado Setorial, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA e dá outras providências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 52/2025</th><td>De 07 de Agosto de 2025</td>
+            <td data-search-text>Constitui Comissão de trabalho para analise de conformidade de processos de despesa do instituto de previdência dos servidores do estado de Sergipe.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 51/2025</th><td>De 31 de Julho de 2025</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio à servidora, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 50/2025</th><td>De 28 de Julho de 2025</td>
+            <td data-search-text>Concessão de Licença Prêmio ao servidor, ocupante do cargo de Executor de Serviços Administrativos do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 49/2025</th><td>De 28 de Julho de 2025</td>
+            <td data-search-text>Concessão de Licença Prêmio a servidora, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 48/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2025 – “Instrução Execução e Controle dos Processos de Licitações e Contratos”, de 01 de janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 47/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2025 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 46/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2025 – “Instrução Execução e Controle dos Processos de Licitações e Contratos”, de 01 de janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 45/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2025 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 44/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 43/2025</th><td>De 17 de Julho de 2025</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 42/2025</th><td>De 14 de Julho de 2025</td>
+            <td data-search-text>Concessão de Licença Prêmio a servidora, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 41/2025</th><td>De 10 de Julho de 2025</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 19 de 03 de abril de 2025, onde designa servidores para exercerem a função de Agente de Contratação do Instituto de Previdência dos Servidores do Estado de Sergipe- SergipePrevidência.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 40/2025</th><td>De 10 de Julho de 2025</td>
+            <td data-search-text>Designa a substituição de servidor para exercer a função de Fiscal de Contratos para a condução dos procedimentos previstos na Lei nº 14.133/2021.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 39/2025</th><td>De 07 de Julho de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente Administrativo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 37/2025</th><td>De 01 de Julho de 2025</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio à servidora, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 36/2025</th><td>De 26 de Junho de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Chefe de Gabinete do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 35/2025</th><td>De 20 de Junho de 2025</td>
+            <td data-search-text>Concede o Gozo de Licença Prêmio ao servidor, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 33/2025</th><td>De 13 de Junho de 2025</td>
+            <td data-search-text>Concede o Gozo de Licença Prêmio ao servidor, ocupante do cargo de Executor de serviços Administrativos do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 32/2025</th><td>De 05 de Junho de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 002/2025 – REVISÃO DE CADASTRO, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 31/2025</th><td>De 05 de Junho de 2025</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 002/2025 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 30/2025</th><td>De 15 de Maio de 2025</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio à servidora, ocupante do cargo de Oficial Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 29/2025</th><td>De 28 de abril de 2025</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 002/2025 – “REVISÃO DE CADASTRO” de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 28/2025</th><td>De 25 de abril de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 27/2025</th><td>De 25 de abril de 2025</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 005/2025 – “GESTÃO DA PERÍCIA MÉDICA” de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 26/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2025 – CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 25/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 006/2025 – GESTÃO DA PROVA DE VIDA, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 24/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Inclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2025 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 23/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 003/2025 – “ACOMPANHAMENTO DA HABILITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 22/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 002/2025 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2025, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 21/2025</th><td>De 14 de abril de 2025</td>
+            <td data-search-text>Altera dispositivo da Portaria nº 75, de 04 de novembro de 2021, que Instituiu o Comitê Executivo da Política Estadual de Proteção de Dados e Designa o Encarregado Setorial, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 20/2025</th><td>De 04 de abril de 2025</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 69 de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do Instituto de Previdência dos Servidores do Estado de SergipeSergipePrevidência.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 19/2025</th><td>De 03 de Abril de 2025</td>
+            <td data-search-text>Designa servidores para exercer a função de Agente de Contratação para a condução dos procedimentos previstos na Lei nº 14.133/2021.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 18/2025</th><td>De 26 de Março de 2025</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Recursos Humanos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria N° 17/2025</th><td>DE 12 DE MARÇO DE 2025</td>
+            <td data-search-text>Dispõe sobre disciplinas e medidas a serem adotadas a respeito dos prazos de tramitação dos processos no âmbito do SISPREV ou sistema que venha a substituí-lo e dá outras providências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 16/2025</th><td>De 28 de Fevereiro de 2025.</td>
+            <td data-search-text>Altera e acrescenta dispositivos da Portaria nº 01, de 02 de janeiro de 2023, que dispõe sobre a instrução da concessão do benefício de Pensão por Morte.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 015/2025</th><td>De 24 de Fevereiro de 2025.</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 014/2025</th><td>De 31 de Janeiro de 2025.</td>
+            <td data-search-text>Substituir o servidor para responder pelo expediente de membro suplente do Comitê de Ética do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 013/2025</th><td>De 20 de Janeiro de 2025.</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao servidor, ocupante do cargo de Motorista do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 012/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Monitoramento do Programa Pró-Gestão” e dá outras providências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 011/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Revisão dos Processos de Pensão por Morte” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 010/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Revisão dos Processos de Aposentadoria” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 009/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão dos Precatórios” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 008/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Controle dos Processos de Licitação e Contratos” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 007/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão dos Investimentos” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 006/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão da Prova de Vida” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 005/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão da Perícia Médica” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 004/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gerenciamento de Risco” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 003/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Acompanhamento do FCVS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 002/2025</th><td>De 15 de Janeiro de 2025.</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Revisão de Cadastro” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2025" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 001/2025</th><td>De 09 de janeiro de 2025.</td>
+            <td data-search-text>Cria Comissão para instauração de Processo Administrativo, com o objetivo de apurar as circunstâncias, os motivos, os fatos, e as eventuais responsabilidades quanto ao transcurso de prazo prescricional para cobrança de saldo de proventos.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 083/2024</th><td>De 18 de setembro de 2024.</td>
+            <td data-search-text>Designa o Diretor Administratrivo e Financeiro para o exercício interino da Presidência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 19 a 26 de novembro de 2024.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 067/2024</th><td>De 10 de setembro de 2024.</td>
+            <td data-search-text>Altera e acrescenta dispositivos da Portaria nº 75, de 04 de novembro de 2021, que Instituiu o Comitê Executivo da Política Estadual de Proteção de Dados e Designa o Encarregado Setorial, no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 066/2024</th><td>De 03 de Setembro de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 065/2024</th><td>De 03 de Setembro de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 004/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 064/2024</th><td>De 03 de Setembro de 2024</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 059/2024</th><td>De 14 de Agosto de 2024</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 058/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Retifica Portaria nº 49/2024 que concede a Licença Prêmio a Oficial Administrativo do Grupo Operacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 057/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 012/2024 – “PESQUISA ESTRATEGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 056/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 011/2024 – “REVISÃO DE CADASTRO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 055/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Exclui na composição dos integrantes do Grupo de Trabalho da Portaria n° 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 054/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Retifica Portaria nº 055/2021 que Nomeia ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 053/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2024 – “INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 052/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 051/2024</th><td>De 31 de Julho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 050/2024</th><td>De 10 de Julho de 2024</td>
+            <td data-search-text>Nomeia servidor comissionado para desempenhar a função de Coordenador da Assessoria Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 049/2024</th><td>De 28 de Junho de 2024</td>
+            <td data-search-text>Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 048/2024</th><td>De 25 de Junho de 2024</td>
+            <td data-search-text>Revoga a Portaria n° 56/2023, onde designa servidor(a) para responder pelo expediente dafunção de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 047/2024</th><td>De 13 de Junho de 2024</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Pagamento do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 046/2024</th><td>De 04 de Junho de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “ Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 045/2024</th><td>De 04 de Junho de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 044/2024</th><td>De 04 de Junho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2024 – Revisão de Cadastro, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 043/2024</th><td>De 04 de Junho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 09/2024 – “Instrução de Prova de Vida”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 042/2024</th><td>De 04 de Junho de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 04/2024 – “Gestão da Perícia Médica”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 041/2024</th><td>De 03 de Junho de 2024</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 040/2024</th><td>De 03 de Junho de 2024</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 037/2024</th><td>De 07 de Maio de 2024</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente Administrativo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 034/2024</th><td>De 19 de Março de 2024</td>
+            <td data-search-text>Altera dispositivos da Portaria nº 88, de 27 de dezembro de 2021, que dispõe sobre a Prova de Vida de inativos e pensionistas do Sergipeprevidência. – SERGIPEPREVIDENCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 035/2024</th><td>De 07 de Março de 2024</td>
+            <td data-search-text>Institui a Comissão de Trabalho de Cadastro Acompanhamento do Almoxarifado e Patrimônio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDENCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 038/2024</th><td>De 07 de Maio de 2024</td>
+            <td data-search-text>Altera o inciso I do art. 3º da Portaria n° 44/2022- que dispõe sobre a Comissão Especial para acompanhamento e processamento de Credenciamento.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 039/2024</th><td>De 07 de Maio de 2024</td>
+            <td data-search-text>Acrescenta os incisos III e IV Ao art. 1° da Portaria n° 35/2024- que dispõe sobre a Comissão de Almoxarifado.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 033/2024</th><td>De 14 de Março de 2024</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 031/2024</th><td>De 19 de Fevereiro de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 013/2024 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 030/2024</th><td>De 19 de Fevereiro de 2024</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 029/2024</th><td>De 05 de Fevereiro de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2024 – Revisão do Benefício Previdenciário de Aposentadoria, 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 028/2024</th><td>De 05 de Fevereiro de 2024</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 006/2024 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 01 de Fevereiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 027/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de concessão de benefícios do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 026/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 025/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 024/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 023/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 022/2024</th><td>De 30 de Janeiro de 2024</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 021/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 020/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 019/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 10/2024 – “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 018/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Excluir membro na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2024 – “MONITORAMENTO NO PROGRAMA PRÓ GESTÃO”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 017/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 07/2024 – “ REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE”, de 01 de Janeiro de 2024, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 016/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Nomear ocupantes em cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 015/2024</th><td>De 18 de Janeiro de 2024</td>
+            <td data-search-text>Exonera ocupantes de cargos em comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 014/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “COMITÊ DE INVESTIMENTOS DOS RECURSOS PREVIDENCIÁRIOS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 013/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “MONITORAMENTO DO PROGRAMA PRÓ GESTÃO” e dá outras previdências</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 012/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 011/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DE CADASTRO” e dá outras previdências</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 010/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE APOSENTADORIA” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 009/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE PROVA DE VIDA” e dá outras previdência</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 008/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO DE ANALISE DOS PRECATÓRIOS” e dá outras previdências</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 007/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “REVISÃO DO BENEFICIO PREVIDENCIÁRIO DE PENSÃO POR MORTE” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 006/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “INSTRUÇÃO, EXECUÇÃO E CONTROLE DOS PROCESSOS DE LICITAÇÕES E CONTRATOS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 005/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DOS INVESTIMENTOS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 004/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “GESTÃO DA PERÍCIA MÉDICA” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 003/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “ACOMPANHAMENTO DA HABITAÇÃO, VALIDAÇÃO E NOVAÇÃO DOS SALDOS DEVEDORES DO FCVS” e dá outras previdências.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 002/2024</th><td>De 16 de Janeiro de 2024</td>
+            <td data-search-text>Altera o art. 3º da Portaria nº 121 de 03 de abril de 2008, que regulamenta o estágio extracurricular para estudantes de cursos superiores e estudantes de ensino médio no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2024" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria 001/2024</th><td>De 11 de Janeiro de 2024</td>
+            <td data-search-text>Torna sem efeito as Portarias n°s 90 e 91, de 27 de janeiro de 2023, onde exclui integrante da composição dos Grupos de Trabalho, no âmbito do Sergipeprevidência.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 094/2023</th><td>De 28 de Dezembro de 2023</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 69, de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do SergipePrevidência.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 093/2023</th><td>De 28 de Dezembro de 2023</td>
+            <td data-search-text>Altera dispositivo da Portaria n° 64, de 19 de setembro de 2022, que institui o Comitê de Ética do SERGIPEPREVIDÊNCIA e dá providências correlatas.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 092/2023</th><td>De 27 de Dezembro de 2023</td>
+            <td data-search-text>Concede a Licença Prêmio ao Oficial administrativo do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 091/2023</th><td>De 27 de Dezembro de 2023</td>
+            <td data-search-text>Excluir da composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Programa Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 090/2023</th><td>De 27 de Dezembro de 2023</td>
+            <td data-search-text>Excluir na composição dos integrantes do Grupo de Trabalho da Portaria n° 016/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 088/2023</th><td>De 04 de Dezembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 087/2023</th><td>De 04 de Dezembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 086/2023</th><td>De 04 de Dezembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 085/2023</th><td>De 30 de Novembro de 2023</td>
+            <td data-search-text>Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 084/2023</th><td>De 30 de Novembro de 2023</td>
+            <td data-search-text>Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 083/2023</th><td>De 30 de Novembro de 2023</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 082/2023</th><td>De 24 de Novembro de 2023</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 081/2023</th><td>De 24 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 080/2023</th><td>De 24 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 079/2023</th><td>De 10 de Novembro de 2023</td>
+            <td data-search-text>Excluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 008/2023 – “ GESTÃO DE PERÍCIA MÉDICA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 078/2023</th><td>De 10 de Novembro de 2023</td>
+            <td data-search-text>Institui Comissão de Trabalho com objetivo de Reformular o Quadro de Pessoal dos Servidores Efetivos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe –SERGIPEPREVIDENCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 077/2023</th><td>De 10 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2023– Revisão de Cadastro, 01 de Fevereiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 076/2023</th><td>De 10 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2021 – Instrução Execução e Controle dos Processos de Licitações e Contratos, de 18 de janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 074/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 073/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa estratégica e Gerenciamento de Riscos, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 072/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 071/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 070/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 010/2022 – Instrução de Análise dos Precatórios, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 069/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2022 – Revisão do Benefício Previdenciário de Aposentadoria, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 068/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 013/2022 – Revisão de Cadastro, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 067/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 015/2022 – Monitoramento do Pró Gestão, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 066/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 011/2022 – Instrução de Prova de Vida, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 065/2023</th><td>De 09 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 009/2022 – Revisão do Benefício Previdenciário de Pensão por Morte, 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 064/2023</th><td>De 08 de Novembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 007/2022 – Gestão dos investimentos, de 18 de Janeiro de 2022, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 062/2023</th><td>De 08 de Novembro de 2023</td>
+            <td data-search-text>Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 061/2023</th><td>De 08 de Novembro de 2023</td>
+            <td data-search-text>Concessão de Licença Prêmio ao Administrador, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 060/2023</th><td>De 8 de Novembro de 2023</td>
+            <td data-search-text>Disciplina a revisão dos benefícios de aposentadoria por incapacidade permanente e de pensão por morte motivada por invalidez, incapacidade ou deficiência, para verificação da continuidade das condições que ensejaram a concessão do benefício, no âmbito do SERGIPEPREVIDENCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 059/2023</th><td>De 26 de outubro de 2023</td>
+            <td data-search-text>Estabelece normas para a realização do Censo Cadastral Previdenciário, instituído pelo Decreto n.455, de 16 de outubro de 2023.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 058/2023</th><td>De 21 de Setembro de 2023</td>
+            <td data-search-text>Concessão de Licença Prêmio ao Oficial Administrativo, do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 057/2023</th><td>De 21 de Setembro de 2023</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Balconista, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 056/2023</th><td>21 de Setembro de 2023.</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Processos e Controle Interno do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 055/2023</th><td>22 de setembro de 2023</td>
+            <td data-search-text>Altera e acrescenta dispositivos da Portaria nº 48, de 11 de maio de 2021, que dispõe sobre a emissão de Certidão de Tempo de Contribuição – CTC, documentação necessária e providências correlatas</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 052/2023</th><td>De 05 de Setembro de 2023</td>
+            <td data-search-text>Instaura Comissão para instrução e acompanhamento de Processo Administrativo, com o objetivo de apurar as circunstâncias, os motivos, os fatos, e as eventuais responsabilidades quanto ao pagamento de multas e juros, pelo SERGIPEPREVIDENCIA .</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 051/2023</th><td>De 05 de Setembro de 2023</td>
+            <td data-search-text>Exclusão do ex servidor na composição dos integrantes do Grupo de Trabalho da Portaria nº 008/2023 – “ Gestão de Perícia Médica”, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 050/2023</th><td>De 05 de Setembro de 2023</td>
+            <td data-search-text>Nomear o(a) servidor(a) para responder pelo expediente da Função de confiança, do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 049/2023</th><td>De 05 de Setembro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 016/2023 – Pesquisa Estratégica e Gerenciamento de Riscos, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 048/2023</th><td>De 05 de Setembro de 2023</td>
+            <td data-search-text>Substituir na composição dos integrantes do Grupo de Trabalho da Portaria nº 012/2023 – Instrução de Análise de Precatórios, 01 de janeiro de 2023, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 047/2023</th><td>De 31 de Agosto de 2023</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 045/2023</th><td>De 16 de Agosto de 2023</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 044/2023</th><td>De 16 de Agosto de 2023</td>
+            <td data-search-text>Substituir o servidor para responder pelo expediente de membro Titular do Comitê de Ética do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 043/2023</th><td>De 4 de agosto de 2023</td>
+            <td data-search-text>Altera dispositivos da Portaria nº 44, de 04 de agosto de 2023, que dispõe sobre a Comissão Especial para acompanhamento e processamento do Credenciamento referente às Consignações facultativas em folha de pagamento dos servidores públicos estaduais inativos e pensionistas.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 042/2023</th><td>De 02 de Agosto de 2023</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Arrecadação e investimentos do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 041/2023</th><td>De 28 de julho de 2023</td>
+            <td data-search-text>Altera dispositivos da Portaria nº 22, de 29 de janeiro de 2021, que dispõe sobre o recadastramento de todos os pensionistas universitários e dá providências correlatas.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 040/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 039/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ PESQUISA ESTRATÉGICA E GERENCIAMENTO DE RISCOS”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 038/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ INSTRUÇÃO DE PROVA DE VIDA”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 037/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 036/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Executor de serviços administrativos, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 035/2023</th><td>De 31 de Maio de 2023</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 034/2023</th><td>De 17 de maio de 2023</td>
+            <td data-search-text>Altera e acrescenta dispositivos da Portaria nº 01, de 02 de janeiro de 2023, que dispõe sobre a instrução da concessão do benefício de pensão por morte, e dá providências correlatas</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 033/2023</th><td>De 18 de Abril de 2023</td>
+            <td data-search-text>Designa o(a) servidor(a) para responder pelo expediente da função de Assessor Especial de Relações Institucionais do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 032/2023</th><td>De 18 de Abril de 2023</td>
+            <td data-search-text>Resolve Retificar os processos de Licença Prêmio a Oficial Administrativo, padrão M-1 e ref.J, do grupo Ocupacional de Apoio Administrativo do quadro permanente de pessoal efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 031/2023</th><td>De 12 de Abril de 2023</td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Oficial Administrativo, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 030/2023</th><td>De 12 de Abril de 2023</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 17/2023 – “ Monitoramento do Programa Pró Gestão”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 029/2023</th><td>De 14 de Abril de 2023</td>
+            <td data-search-text>Substituir servidor como membro no Grupo de Trabalho da Portaria nº 15/2023 – Revisão de cadastro do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 028/2023</th><td>De 10 de Abril de 2023</td>
+            <td data-search-text>Substituir servidor como membro no Grupo de Trabalho da Portaria nº 07/2023 – Acompanhamento da Habitação,,Validação e Novação dos Saldos devedores do FCVS do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 027/2023</th><td>De 10 de Abril de 2023</td>
+            <td data-search-text>Nomear no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 026/2023</th><td>De 27 de Fevereiro de 2023</td>
+            <td data-search-text>Incluir servidor(a) na composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 025/2023</th><td>De 27 de Fevereiro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 08/2023 – “ Gestão da Perícia Médica”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 024/2023</th><td>De 23 de Fevereiro de 2023</td>
+            <td data-search-text>Incluir servidor(a) como membro Grupo de Trabalho da Portaria nº 15/2023 Cadastro, de 01 SERGIPEPREVIDENCIA de janeiro de do Revisão de 2023, do SERGIPEPREVIDENCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 023/2023</th><td>De 15 de Fevereiro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 16/2023 – “ Pesquisa Estratégica e Gerenciamento de Riscos”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 022/2023</th><td>De 08 de Fevereiro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria n° 13/2023 – “ Instrução da Prova de Vida”, de 01 de Janeiro de 2023, do SERGIPEPREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 021/2023</th><td>De 08 de Fevereiro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 16/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 020/2023</th><td>De 08 de Fevereiro de 2023</td>
+            <td data-search-text>Altera a composição dos integrantes do Grupo de Trabalho da Portaria nº 17/2023 Gestão”, de – * de Monitoramento do Programa Pró 01 de Janeiro de 2023, SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 019/2023</th><td>De 06 de Fevereiro de 2023</td>
+            <td data-search-text>Substitui os ouvidores setoriais nomeados pela Portaria n° 037 de 23 de março de 2021, para responder pela Ouvidoria Setorial do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 018/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 017/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 016/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 015/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 014/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 013/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 012/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 011/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 010/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 009/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 08/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 07/2023</th><td>De 31 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a prorrogação de Grupo de Trabalho e dá outras providências.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 05/2023</th><td>De 30 de janeiro de 2023</td>
+            <td data-search-text>O Diretor – Presidente do Instituto de Previdência dos Servidores do Estado de SergipeSERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 003 de 04 de janeiro de 2023 da Polícia Militar de Sergipe.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 04/2023</th><td>De 30 de janeiro de 2023</td>
+            <td data-search-text>O Diretor-Presidente do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no uso de suas atribuições conferidas pela Lei n 5.852, de 20 de março de 2006 e de acordo com o que consta no processo nº 2023.59.100188PA e Boletim Geral Ostensivo n° 238 de 28 de dezembro de 2022 do Corpo de Bombeiros Militar de Sergipe</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 03/2023</th><td>De 25 de janeiro de 2023</td>
+            <td data-search-text>Designa servidora para responder pelo expediente da função de Gerente de Planejamento, Estatística e Atuária do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPE PREVIDÊNCIA.</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 02/2023</th><td>De 17 de janeiro de 2023</td>
+            <td data-search-text>Exonerar no Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA</td>
+          </tr>
+          <tr data-year="2023" data-type="Portaria">
+            <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 01/2023</th><td>De 2 de janeiro de 2023</td>
+            <td data-search-text>Dispõe sobre a instrução da concessão do benefício de Pensão por Morte.</td>
+          </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- PORTARIAS:FIM -->
+    <p><a class="button secondary" href="/Portal-da-Transparencia/Institucional/Informacoes/">Voltar às informações institucionais</a> <a class="button secondary" href="/Portal-da-Transparencia/Institucional/LegislacaoInterna/">Legislação Interna</a></p>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address id="contato-e-atendimento" serigySchema="https://serigy.tce.se.gov.br/comum/institucional.html"><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br><span serigyItem="enderecos">Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520</span><br><span serigyItem="telefones">Telefone: (79) 3198-0801 · Telefone e WhatsApp: <a href="https://wa.me/557931980800" serigyItem="redeSocial">(79) 3198-0800</a></span><br><span serigyItem="emails">E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a></span><br><span serigyItem="horariosAtendimento">Atendimento: segunda a sexta-feira, das 7h às 13h</span><br><a href="https://instagram.com/seprevidencia" serigyItem="redeSocial">Instagram do SergipePrevidência</a></address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Protótipo PETP 2026</span></div></div></footer>
+</body>
+</html>

@@ -138,6 +138,12 @@ button.secondary {
   background: #fff;
 }
 
+.institutional-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .access-tools {
   display: flex;
   gap: 6px;
@@ -301,6 +307,27 @@ h3 { font-size: 1.12rem; }
   background: #fff;
 }
 
+.management-profile {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+  margin: 24px 0;
+}
+
+.management-profile h3 { margin-top: 0; }
+
+.management-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--borda);
+  border-radius: 7px;
+}
+
 .organogram {
   display: block;
   max-width: 100%;
@@ -421,6 +448,7 @@ tbody tr:last-child td { border-bottom: 0; }
 }
 
 @media (max-width: 600px) {
+  .management-profile { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   .container { width: min(var(--largura), calc(100% - 20px)); }
   .cards, .main-nav ul { grid-template-columns: 1fr; }
   .access-tools { flex-wrap: wrap; }
