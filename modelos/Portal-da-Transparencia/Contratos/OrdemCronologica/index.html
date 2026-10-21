@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordem Cronológica — Portal da Transparência — SergipePrevidência</title>
+  <meta name="description" content="Ordem Cronológica do SergipePrevidência.">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script defer src="/assets/js/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+  <div class="gov-stripe" aria-hidden="true"></div>
+  <div class="utility-bar"><div class="container utility-inner">
+    <form class="site-search" data-site-search serigySchema="https://serigy.tce.se.gov.br/comum/informacoes.html" serigyItem="pesquisaConteudo" role="search"><input name="q" type="search" placeholder="Pesquisar no portal" aria-label="Pesquisar no portal"><button type="submit">Pesquisar</button></form>
+    <div class="access-tools" aria-label="Ferramentas de acessibilidade"><a href="/mapa-do-site/" title="Acessibilidade e mapa do site"><img src="/assets/imagens/simbolo-acessibilidade.svg" alt="Acessibilidade" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeSimbolo"></a><span serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeRedimensionamentoTexto"><button type="button" data-action="increase" title="Aumentar texto">A+</button><button type="button" data-action="decrease" title="Diminuir texto">A−</button><button type="button" data-action="reset-font" title="Tamanho original">A</button></span><button type="button" data-action="contrast" aria-pressed="false" title="Alternar alto contraste" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeAltoContraste">◐</button></div>
+  </div></div>
+  <header class="main-header"><div class="container header-inner"><a class="brand" href="/Portal-da-Transparencia/"><img src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência — Governo do Estado de Sergipe"></a><nav class="main-nav" aria-label="Navegação principal"><ul><li><a href="/Portal-da-Transparencia/">Início</a></li><li><a href="/Portal-da-Transparencia/Institucional/Informacoes/">Institucional</a></li><li><a href="https://sergipeprevidencia.se.gov.br/">Site institucional</a></li><li><a href="/mapa-do-site/">Mapa do site</a></li></ul></nav></div></header>
+  <div class="green-line" aria-hidden="true"></div>
+  <div class="container breadcrumb-wrap" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeCaminhoPaginas"><nav class="breadcrumb" aria-label="Caminho da página"><a href="/Portal-da-Transparencia/">Início</a><span class="separator" aria-hidden="true">›</span><span>Contratos</span><span class="separator" aria-hidden="true">›</span><span aria-current="page">Ordem Cronológica</span></nav></div>
+
+  <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/contratos.html">
+    <h1>Ordem Cronológica</h1>
+    <p class="lead">Ordem cronológica dos créditos e pagamentos, por fonte de recursos e categoria contratual, com justificativas das alterações.</p>
+    <form id="filtro-ordem" class="filter-panel" role="search" aria-label="Consultar ordem cronológica">
+      <div class="field"><label for="ano-ordem">Exercício</label><select id="ano-ordem" name="ano" disabled><option value="" selected disabled>Selecione o exercício</option></select></div>
+      <div class="field"><label for="mes-ordem">Mês de referência</label><select id="mes-ordem" name="mes" disabled><option value="" selected disabled>Selecione o mês</option></select></div>
+      <div class="field"><label for="fonte-ordem">Fonte dos recursos</label><select id="fonte-ordem" name="fonte" disabled><option value="" selected disabled>Selecione a fonte</option></select></div>
+      <div class="field"><label for="categoria-ordem">Categoria contratual</label><select id="categoria-ordem" name="categoria" disabled><option value="" selected disabled>Selecione a categoria</option></select></div>
+      <div class="filter-actions">
+        <button id="pesquisar-ordem" type="submit" disabled>Pesquisar</button>
+        <button type="reset" class="secondary" disabled>Limpar filtros</button>
+      </div>
+    </form>
+    <section id="resultados-ordem" aria-labelledby="titulo-relacao-ordem">
+      <h2 id="titulo-relacao-ordem">Ordem Cronológica</h2>
+      <div class="exports"><button id="exportar-ordem" type="button" disabled>Exportar conjunto selecionado</button></div>
+      <div class="table-wrap">
+        <table id="tabela-ordem">
+          <caption>Ordem Cronológica</caption>
+          <thead><tr><th scope="col">Fonte dos recursos</th><th scope="col">Categoria contratual</th><th scope="col">Data de vencimento</th><th scope="col">Data de pagamento</th><th scope="col">Credor</th><th scope="col">Valor do pagamento</th><th scope="col">Justificativa de alteração</th></tr></thead>
+          <tbody id="registros-ordem"></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="justificativas-ordem" aria-labelledby="titulo-justificativas-ordem">
+      <h2 id="titulo-justificativas-ordem">Justificativas de alterações da ordem</h2>
+      <div id="identificacao-credito-ordem"></div>
+      <div id="texto-justificativa-ordem"></div>
+      <ul id="documentos-justificativas-ordem"></ul>
+    </section>
+    <div id="atualizacao-ordem" class="update-info"></div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>
+</body>
+</html>
