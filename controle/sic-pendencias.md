@@ -35,3 +35,23 @@ Fontes: Cartilha pp. 93–95 nos trechos 11.5/11.6; Serigy seções 11.3/11.4 e 
 | Validação e publicação | Norma e orientações ainda sem alimentação homologada | Resolver pendências, alimentar conteúdo real, aplicar itens confirmados e validar documentos, navegação, teclado e fluxo. Não acrescentar filtros, histórico, exportação ou data autônomos que C 11.5/11.6 e S 11.3/11.4 não exigem. |
 
 Continuam válidas as pendências anteriores de URL, acesso e acompanhamento SE-Ouv e sua representação Serigy. Não foram criadas novas rotas de cadastro, formulário, declarações de inexistência ou atendimento. Os dois novos modelos permanecem fora de dist; nenhuma informação do decreto foi convertida automaticamente em instrução local.
+
+
+## Relatório Anual Estatístico — C 11.7 / S 11.5
+
+Fontes: Cartilha pp. 95–97; S 11.5, itens 11.5.1–11.5.8, e exemplos correspondentes. Rota própria `/Portal-da-Transparencia/SIC/RelatorioAnualEstatistico/`; modelo no mesmo sufixo sob `modelos/`. Não há coincidência com e-SIC, necessidade de variante ou alteração de modelo anterior.
+
+| Requisito | Documento/dado/definição faltante | Providência |
+| --- | --- | --- |
+| Conteúdo anual | Relatórios oficiais ou conteúdo integral em HTML, com recebidos, atendidos, indeferidos e informações genéricas dos solicitantes | Receber a fonte institucional e conferir o mínimo em cada exercício; resumo ou link isolado não comprova o conteúdo completo. |
+| Conceitos e contagem | Definições de pedido recebido, atendido e indeferido, recortes, eventuais saldos e método de totalização | Confirmar com a área. Não forçar equação entre totais, inventar percentuais ou converter vazio em zero. |
+| Informações genéricas | Agregações/categorias reais por exercício e autorização de publicação dos derivados | Confirmar categorias e proteção de dados. Categoria, idade e sexo são exemplos C; não exigir todos nem publicar pessoas identificáveis. Aplicar `infoGenericas` apenas ao agregado real. |
+| Períodos / histórico | Pelo menos três anos anteriores à consulta com conteúdo correspondente | Inventariar cobertura exercício a exercício; um relatório isolado não comprova série histórica. Não usar os anos dos exemplos como limite ou preencher anos sem fonte. |
+| Atualidade | Relatório/dados do último exercício encerrado | Verificar exercício do conteúdo mais recente independentemente da existência de relatórios antigos e da data de upload. Não presumir completude pelo arquivo disponível. |
+| URL / documento | Destino oficial conferido para cada relatório, ou conteúdo HTML integral validado | Confirmar integridade, período e acesso público sem login; não inventar URL por ano, copiar exemplo S ou usar serigyLink para PDF. Não impor arquivo PDF se o relatório integral for HTML. |
+| Consulta | Exercícios reais e filtro funcional | Implementar filtro específico; exercício é DT, pois C não enumera parâmetros mínimos. Associar perfil e documento ao mesmo recorte. |
+| Gravação | Pelo menos um derivado editável do conjunto selecionado, incluindo informações genéricas | Definir formato a partir da fonte e testar equivalência/recorte, sem duplicações. PDF sozinho não substitui editável; não publicar a base operacional ou planilha privada automaticamente. |
+| Atualização | Data real, cobertura e fonte responsável | Preencher `#atualizacao-relatorio-sic` e marcar `dataUltimaAtualizacao` somente após conferência; nunca usar data de geração como comprovação do último exercício. |
+| Marcações | Dados e controles reais | C 11.7 ↔ S 11.5.1–11.5.8: pedidosRecebidos, pedidosAtendidos, pedidosIndeferidos, infoGenericas, filtroPesquisa, salvarRelatorio, dataUltimaAtualizacao e historicoExercicio. Aplicar somente após alimentação/implementação, sem propriedades extras para ano ou link documental. |
+
+Antes de publicar: obter e validar os dados, períodos, documentos/URLs, agregados, formato editável e atualização; implementar controles, verificar histórico e último exercício separadamente, testar exportação e acessibilidade. Sem fonte não declarar inexistência, atendimento ou números zero. Modelos anteriores, dist, menus e deploy permanecem preservados.

@@ -101,3 +101,48 @@ Os contêineres estão vazios e sem marcação de dados. Não foram copiados pra
 ### Alimentação e publicação deste complemento
 
 Receber norma vigente e conteúdo institucional validado; conferir vigência, inteiro teor, acesso público e orientações/autoridades reais; preencher somente os blocos respaldados e aplicar os itens S. Para e-SIC, integrar os blocos ao acesso na rota única documentada em tarefa futura, testando pedido, recurso e acompanhamento sem publicar dados de solicitantes. Validar HTML, teclado e destinos antes de mover conteúdo para dist. As reservas vazias não comprovam atendimento aos critérios.
+
+
+## Complemento — Relatório Anual Estatístico de acesso à informação
+
+**Fontes efetivamente consultadas:** AGENTS.md; Cartilha PETP 2026, **critério 11.7, pp. 95–97**; Serigy Docs 11, **seção 11.5**, tabela da p. 1 e exemplos de pesquisa/exportação/dados/atualização das pp. 2–3; estes dois controles e o modelo LAI como referência visual. **C** = exigência da Cartilha; **S** = marcação técnica; **DT** = organização proposta. A classificação C é obrigatória e o quadro inclui expressamente a Previdência Estadual.
+
+**Códigos exatos:** C **11.7** corresponde a S **11.5**, itens **11.5.1–11.5.8**. Não confundir S 11.5 com o critério C 11.5, que trata da regulamentação local da LAI.
+
+**Rota literal S:** `/Portal-da-Transparencia/SIC/RelatorioAnualEstatistico/`. Modelo: `modelos/Portal-da-Transparencia/SIC/RelatorioAnualEstatistico/index.html`. A rota é própria, distinta de `/SIC/eSIC`, `/SIC/Detalhe` e `/SIC/LAI`; **não requer variante nem reunião de blocos** com páginas anteriores. Nenhum modelo existente foi alterado. O arquivo fica fora de dist e não recebeu link no menu público. Reutiliza visual, cabeçalho, rodapé, acessibilidade e contexto `serigySchema="https://serigy.tce.se.gov.br/comum/sic.html"`.
+
+### Conteúdo e apresentação
+
+C exige relatório anual com quantidades de pedidos recebidos, atendidos e indeferidos e informações genéricas dos solicitantes. Gráficos são admitidos se todos os dados forem claros e acessíveis. **DT:** tabela de resumo por exercício, com acesso ao relatório integral em HTML ou arquivo real; o perfil agregado fica associado ao respectivo exercício em `#perfil-solicitantes-sic`. O índice ou um resumo incompleto não substitui o conteúdo anual mínimo. Não impor PDF separado quando a apresentação HTML integral atender ao conteúdo; a coluna de acesso documental é uma organização proposta, sem item S específico para um link de relatório.
+
+| Conteúdo / reserva | Origem | Item S / tipo futuro |
+| --- | --- | --- |
+| Exercício em `#tabela-relatorio-sic` | DT para organizar o relatório anual exigido C | Sem item de dado específico; não inventar `anoRelatorio` |
+| Pedidos recebidos | C 11.7 | 11.5.1 `pedidosRecebidos` — Numérico |
+| Pedidos atendidos | C 11.7 | 11.5.2 `pedidosAtendidos` — Numérico |
+| Pedidos indeferidos | C 11.7 | 11.5.3 `pedidosIndeferidos` — Numérico |
+| Informações genéricas e perfil agregado por exercício | C 11.7 | 11.5.4 `infoGenericas` — N/A |
+| Relatório integral em HTML/arquivo | C: conteúdo completo; índice/acesso na tabela é DT | Sem propriedade própria de documento nessa tabela S; não inventar `relatorioAnual` |
+
+Categoria do solicitante, idade e sexo são **exemplos C**, não colunas obrigatórias cumulativas. Receber apenas categorias e agregações efetivamente existentes na fonte, protegendo sigilo e dados pessoais. Não publicar requerimentos, contatos ou cadastros individuais. Não impor percentuais, denominadores ou igualdade `recebidos = atendidos + indeferidos`: confirmar conceitos, saldos e critérios de contagem da origem. Totais zero dependem de fonte; campos vazios não significam zero.
+
+O tbody e o perfil estão vazios, sem dados ou itens Serigy. Na alimentação, manter a associação entre totais, informações genéricas, documento e exercício. Se o perfil for detalhado por interação, só aplicar `serigyExecuteWaitSection`/`serigyLoadSection` com valores coincidentes após implementar o carregamento real; não copiar o sinal “+”, anos ou percentuais ilustrativos como conteúdo institucional. O exemplo S de ausência menciona informações desclassificadas: não transportá-lo como declaração de inexistência de pedidos.
+
+### Consulta, histórico, gravação e atualização
+
+| Requisito C | Reserva / decisão DT | S futuro |
+| --- | --- | --- |
+| Filtro específico genérico, sem parâmetros mínimos enumerados (p. 97) | Formulário `#filtro-relatorio-sic` e seletor por exercício `#exercicio-relatorio-sic`; este parâmetro é DT, não mínimo nominal C | 11.5.5 `filtroPesquisa` — N/A |
+| Pelo menos os três anos anteriores ao ano da consulta (p. 96) | Exercícios reais, documentos e dados anuais correspondentes | 11.5.8 `historicoExercicio` — N/A; opções reais com `serigyValue` |
+| Gravação das informações em pelo menos um formato editável (p. 97) | `#exportacao-relatorio-sic`, conjunto selecionado com totais e informações genéricas; formato a definir conforme fonte real | 11.5.6 `salvarRelatorio` — N/A, `serigyValue` do formato efetivamente disponível |
+| Atualidade: dados mais recentes relativos ao último exercício encerrado (p. 96) | `#atualizacao-relatorio-sic`, reservado para referência real e cobertura | 11.5.7 `dataUltimaAtualizacao` — Data |
+
+Não exigir todas as extensões exemplificadas em C/S. PDF no exemplo S não substitui a gravação editável C; arquivo de origem privado não é automaticamente o derivado público. Conferir que a exportação representa o recorte e o conteúdo anual, sem incluir linhas de subtotal como registros duplicados nem dados pessoais de base.
+
+Formulário, seletores e botões estão desativados, sem anos fabricados, URLs, formato presumido ou marcações funcionais. A associação futura `#pesquisar-relatorio-sic` → `#resultados-relatorio-sic` poderá usar os atributos de espera/carregamento somente após implementação. Não há gravação funcional neste modelo sem dados.
+
+**Cobertura e atualização são verificações independentes:** um relatório isolado não comprova os três anos anteriores nem que o último exercício encerrado esteja disponível. Conferir cada período, conceitos, conteúdo mínimo e fonte do relatório mais recente. A data da geração, do upload ou uma data recente no rodapé não torna o conjunto atualizado; não preencher automaticamente com a data atual. Não aplicar a série especial X/X-1/X-2/X-3 de Planejamento a este critério.
+
+### Alimentação e publicação
+
+Receber relatórios/totalizações anuais oficiais e informações genéricas agregadas, identificar os exercícios efetivamente cobertos, obter URL oficial ou conteúdo integral, derivado editável e data real de atualização. Conferir acesso e correspondência dos arquivos individualmente, sem construir URLs por exercício e sem `serigyLink` para PDF. Validar publicação dos agregados, implementar consulta/exportação, preencher apenas dados reais e aplicar os itens S correspondentes. Testar seleção, histórico, documento, exportação e acessibilidade antes de mover para dist em tarefa autorizada. Nenhum número, declaração de inexistência, link documental ou data foi criado.
