@@ -1,6 +1,6 @@
-# Planejamento e Prestação de Contas — pendências 10.1 e 10.2
+# Planejamento e Prestação de Contas — pendências dos modelos
 
-Escopo: somente C 10.1–10.2 / S 10.1–10.2. Mapeamento em `controle/planejamento-modelos.md`. Nenhum documento ou data foi inventado; os modelos não foram publicados.
+Escopo dos controles: C 10.1–10.4 / S 10.1–10.4. As pendências originais de 10.1–10.2 são preservadas; 10.3–10.4 são complementados abaixo. Mapeamento em `controle/planejamento-modelos.md`. Nenhum documento ou data foi inventado; os modelos não foram publicados.
 
 ## BalancoGeral — C 10.1
 
@@ -22,7 +22,7 @@ Escopo: somente C 10.1–10.2 / S 10.1–10.2. Mapeamento em `controle/planejame
 | Metadados e acesso | Exercício efetivo de gestão, identificação real do relatório, arquivo/URL oficial e responsável | Associar documento ao exercício certo e à Unidade, não ao nome do arquivo por dedução. Conferir destino e acesso direto. |
 | Atualização | Referência real de atualização/cobertura do conjunto | Não preencher com data da geração/upload nem transportar prazo de balanços, finanças ou outras seções. Aplicar marcação só depois de resolver o schema e haver conteúdo. |
 
-## Comuns aos dois modelos
+## Comuns aos modelos 10.1–10.2
 
 | Assunto | Pendência / providência |
 | --- | --- |
@@ -32,3 +32,33 @@ Escopo: somente C 10.1–10.2 / S 10.1–10.2. Mapeamento em `controle/planejame
 | Publicação e dados privados | Conferir derivados/documentos oficiais e acesso público; não copiar arquivos de trabalho, credenciais ou fontes privadas para `dist`. Não inventar declaração de inexistência por arquivo ausente. |
 
 Antes de publicar: resolver fontes, documentos, cobertura histórica, prazos/referências e schema; alimentar arquivos/metadados/datas reais; implementar filtros e marcações; validar por HTTP os documentos e recortes, extração e acessibilidade. Os controles atuais estão desativados, sem dados fictícios ou promessa de atendimento ao PETP. Nenhuma comunicação externa foi enviada.
+
+
+## TCE — C 10.3 / S 10.3
+
+| Requisito | Informação/documento necessário | Providência |
+| --- | --- | --- |
+| Íntegra da apreciação/julgamento | Último Acórdão/Parecer ou manifestação pertinente da Corte, com arquivo/URL direta oficial | Obter e conferir documento integral e contas a que se refere; conclusão/extrato não basta. Não criar decisões ou deduzir teor por número de arquivo. |
+| Situação das contas | Identificação institucional das contas ainda pendentes de apreciação | Confirmar exercício das contas e situação; falta de PDF não prova pendência, inexistência ou julgamento. Não confundir ano da decisão com exercício das contas. |
+| Atualidade e ressalva C | Última manifestação opinativa quando cabível conforme C p. 84; cobertura e data real da informação | Confirmar como se aplica a especificidade da Corte quando os últimos julgamentos não cobrem os exercícios citados. Não criar prazo de julgamento ou transportar máximo de 30 dias de RGF. |
+| Histórico | Decisão de referência X e série X-1/X-2/X-3, com indicação das contas pendentes conforme a fonte | Conferir a redação C frente ao acervo e à ressalva da última manifestação. Não reduzir a três arquivos totais nem inventar documentos para preencher anos. |
+| Controles | Exercícios reais e navegação histórica funcional | Implementar o seletor DT; não criar `filtroPesquisa`/exportação porque não são itens de C/S 10.3. Aplicar `integraJulgamentoTCE` e atualização só a conteúdo real, após confirmar o schema. |
+
+## RGF — C 10.4 / S 10.4
+
+| Requisito | Informação/documento necessário | Providência |
+| --- | --- | --- |
+| Aplicabilidade / emissor | Confirmação jurídico-contábil se a Unidade emite RGF próprio ou em qual Poder/órgão está consolidada | **DÚVIDA — REVISÃO NECESSÁRIA:** quadro C inclui Previdência, mas há ressalva para não emissores. Obter fundamentação e cobertura reais; não presumir dispensa nem publicar declaração inventada de não aplicação. |
+| Periodicidade exigida | RGF do último quadrimestre exigível; referência e prazo de até 30 dias após encerramento | Conferido em C p. 85. Confirmar o período concreto com a contabilidade e a correspondência do arquivo; não usar trimestre/semestre/mês por analogia nem deduzir fechamento pela data do upload. |
+| Demonstrativos e anexos | RGF integral com todos os anexos obrigatórios aplicáveis ao emissor, próprio ou consolidado pertinente | C/S não enumeram a lista nominal/quantidade de anexos nestes trechos. **DÚVIDA — REVISÃO NECESSÁRIA:** receber composição validada pela contabilidade e identificar o conjunto completo, sem criar lista universal ou estruturas financeiras não previstas. |
+| Documentos / cobertura | Arquivos oficiais ou URLs diretas, com exercício, quadrimestre, emissor e abrangência | Conferir identidade, integridade e consolidação da Unidade. Um arquivo pode reunir todos os anexos; vários arquivos devem manter o mesmo contexto. Não marcar um documento parcial como relatório completo. |
+| Histórico | Pelo menos três anos anteriores à consulta e quadrimestres reais disponíveis | Conferir acervo por período e cobertura; não limitar aos anos de exemplos nem aplicar automaticamente X/X-1/X-2/X-3 de 10.3. Não gerar períodos sem documento. |
+| Consulta | Exercícios e quadrimestres reais para os seletores DT | Implementar filtro genérico C com organização proposta, sem declarar os parâmetros como mínimos enumerados. Não copiar busca/exportação de outros conjuntos. |
+| Atualização | Data real do conjunto, cobertura e responsável | Preencher somente após haver conteúdo e confirmação do schema; não usar a data de geração. Atualidade depende também do quadrimestre exigível e do prazo, não apenas de uma data recente na página. |
+| Formatos / gravação | Documentos oficiais do conjunto; nenhuma exportação autônoma enumerada em C/S 10.4 | Não exigir CSV/editável ou formatos adicionais por copiar os modelos anteriores. O acesso ao RGF e anexos deve ser direto e funcional quando alimentado. |
+
+## Pendências comuns a 10.3–10.4
+
+Manter a divergência entre `planejamento-prestacao-contas.html` (cabeçalho/documentos) e `gestao-fiscal-planejamento.html` (exemplo de atualização) como **DÚVIDA — REVISÃO NECESSÁRIA**, sem presumir equivalência. Aplicar os itens e datas reais somente após esclarecimento e alimentação. URLs precisam de conferência; não usar `serigyLink` para PDF nem publicar arquivos privados por cópia bruta. Dados/declarações dependem de fonte institucional, não da falta de registros no modelo.
+
+Antes da publicação autorizada: resolver emissão/cobertura/anexos do RGF e situação/acervo das contas, receber e conferir documentos, preencher referências reais, implementar os controles aplicáveis, aplicar marcações no contexto correto e validar documentos, recortes, histórico, extração e acessibilidade. Nenhum arquivo dos modelos anteriores, `dist`, menu, Receitas ou deploy foi alterado neste complemento; nenhuma comunicação externa foi enviada.
