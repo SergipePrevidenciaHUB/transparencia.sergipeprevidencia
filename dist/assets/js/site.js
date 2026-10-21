@@ -2,14 +2,23 @@
   const root = document.documentElement;
   const body = document.body;
   const storageKey = "sergipeprev-acessibilidade";
-  const state = JSON.parse(localStorage.getItem(storageKey) || '{"scale":1,"contrast":false}');
+  let state = { scale: 1, contrast: false };
+  try {
+    state = JSON.parse(localStorage.getItem(storageKey) || '{"scale":1,"contrast":false}');
+  } catch (error) {
+    // Sem armazenamento, manter as preferencias apenas nesta sessao.
+  }
 
   function applyState() {
     root.style.setProperty("--escala-texto", String(state.scale));
     body.classList.toggle("high-contrast", state.contrast);
     const contrastButton = document.querySelector("[data-action='contrast']");
     if (contrastButton) contrastButton.setAttribute("aria-pressed", String(state.contrast));
-    localStorage.setItem(storageKey, JSON.stringify(state));
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(state));
+    } catch (error) {
+      // A persistencia e opcional; os controles ja foram atualizados.
+    }
   }
 
   document.addEventListener("click", function (event) {
