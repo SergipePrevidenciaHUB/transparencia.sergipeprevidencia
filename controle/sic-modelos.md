@@ -9,7 +9,7 @@ Lidos AGENTS.md; Cartilha PETP 2026, abertura da dimensão e critério 11.1 (p. 
 | Modelo fora de dist | Rota literal S | Correspondência |
 | --- | --- | --- |
 | `modelos/Portal-da-Transparencia/SIC/Detalhe/index.html` | `/Portal-da-Transparencia/SIC/Detalhe/` | S 11.1 ↔ C 11.1 e 11.2 |
-| `modelos/Portal-da-Transparencia/SIC/eSIC/index.html` | `/Portal-da-Transparencia/SIC/eSIC/` | S 11.2.1 ↔ C 11.3 e 11.4, alternativa de redirecionamento |
+| `modelos/Portal-da-Transparencia/SIC/eSIC/index.html` | `/Portal-da-Transparencia/SIC/eSIC/` | S 11.2.1 ↔ C 11.3 e 11.4, alternativa de redirecionamento; S 11.4 ↔ C 11.6, informações complementares já integradas |
 
 Reutilizados visual, cabeçalho, rodapé, busca e acessibilidade do modelo existente. Apenas o contexto `serigySchema="https://serigy.tce.se.gov.br/comum/sic.html"` foi aplicado ao main. Não há itens sobre campos vazios. Links entre os dois modelos são navegação interna DT; não foram acrescentados ao menu público. Não há filtros de conjuntos, histórico, exportação ou data de atualização autônomos exigidos por C/S neste recorte.
 
@@ -71,11 +71,11 @@ Os códigos 11.3/11.4 de S **não** correspondem aos critérios 11.3/11.4 de C: 
 ### Arquivos e coincidência da rota e-SIC
 
 - LAI: `modelos/Portal-da-Transparencia/SIC/LAI/index.html`.
-- Informações e-SIC: `modelos/variantes/sic-informacoes/Portal-da-Transparencia/SIC/eSIC/index.html`.
+- Informações e-SIC: blocos já integrados a `modelos/Portal-da-Transparencia/SIC/eSIC/index.html`; a variante `modelos/variantes/sic-informacoes/Portal-da-Transparencia/SIC/eSIC/index.html` permanece intacta como referência.
 
-**DT de isolamento:** S 11.4 utiliza a mesma rota `/SIC/eSIC` já reservada por S 11.2.1 ao acesso ao sistema. Para cumprir a preservação do HTML existente, o novo modelo informativo fica numa árvore de variante, reproduzindo o sufixo de rota documentado. `variantes/sic-informacoes` é apenas organização de modelos não publicados, **não uma rota pública**. Não foi inventada rota `/SIC/Informacoes`, nem alterado `modelos/Portal-da-Transparencia/SIC/eSIC/index.html`.
+**DT de integração:** S 11.4 utiliza a mesma rota `/SIC/eSIC` de S 11.2.1. Os quatro blocos informativos da variante foram incorporados ao main do modelo principal, após acompanhamento e antes do link para SIC presencial. A árvore `variantes/sic-informacoes` é referência não publicada, não outra rota pública. Não foi criada `/SIC/Informacoes` ou rota de cadastro próprio; o arquivo original da variante foi preservado.
 
-Na publicação futura, reunir os blocos informativos e o acesso/seguimento do SE-Ouv na **mesma página e-SIC**, sem substituir ou apagar o acesso existente. Esta variante informativa não deve ser copiada isoladamente sobre a página de acesso. A montagem depende de tarefa autorizada e alimentação real. Ambos os novos modelos ficam fora de dist, sem menus ou alterações de deploy; visual, navegação geral e acessibilidade foram reutilizados.
+A estrutura de acesso/seguimento do SE-Ouv e informações de C 11.6 já está reunida na **mesma página e-SIC não publicada**, sem substituir ou apagar os blocos anteriores. Foram copiadas somente as quatro seções complementares, sem duplicar main, h1, cabeçalho, rodapé ou busca. Não copiar a variante completa sobre a página principal nem reinserir os blocos duplicando IDs. A publicação continua dependente de alimentação real, confirmação do destino/fluxo e marcações. Nenhuma mudança em dist, menus ou deploy foi feita.
 
 ### LAI — apresentação e documento identificado
 
@@ -96,11 +96,11 @@ C 11.6 exige em destaque, na seção e-SIC, prazos de resposta e recursal, autor
 | `#autoridades-esic` | Autoridades efetivamente competentes, identificadas conforme fonte institucional | `autoridadeExame` |
 | `#procedimentos-esic`, subdividido em `#procedimento-pedido-esic` e `#procedimento-recurso-esic` | Instruções validadas de pedido e eventual recurso no fluxo adotado | `procedimentoPedido` no conjunto real; sem inventar `procedimentoRecurso` |
 
-Os contêineres estão vazios e sem marcação de dados. Não foram copiados prazos/autoridades municipais dos exemplos S, nem deduzidos prazos ou recursos do PDF do decreto cuja leitura foi apenas identificadora. Não há formulário próprio, contato novo, URL, datas ou declaração de funcionamento do sistema. SE-Ouv continua sendo o canal informado na etapa anterior; seu destino, instruções e marcação de redirecionamento permanecem pendentes conforme o controle, sem alteração do modelo anterior.
+Os contêineres de C 11.6 já estão no modelo principal, vazios e sem marcação de dados. Não foram copiados prazos/autoridades municipais dos exemplos S nem deduzidos prazos ou recursos do PDF do decreto, cuja leitura anterior foi apenas identificadora. Não há formulário próprio, contato novo, URL, data ou declaração de funcionamento. O acesso previsto ao SE-Ouv e seus conteúdos originais foram preservados; destino, instruções e marcação de redirecionamento continuam pendentes conforme o controle.
 
 ### Alimentação e publicação deste complemento
 
-Receber norma vigente e conteúdo institucional validado; conferir vigência, inteiro teor, acesso público e orientações/autoridades reais; preencher somente os blocos respaldados e aplicar os itens S. Para e-SIC, integrar os blocos ao acesso na rota única documentada em tarefa futura, testando pedido, recurso e acompanhamento sem publicar dados de solicitantes. Validar HTML, teclado e destinos antes de mover conteúdo para dist. As reservas vazias não comprovam atendimento aos critérios.
+Receber norma vigente e conteúdo institucional validado; conferir vigência, inteiro teor, acesso público e orientações/autoridades reais; preencher somente os blocos respaldados e aplicar os itens S. Para e-SIC, a integração estrutural na rota única já está concluída; falta alimentar os blocos e testar pedido, recurso e acompanhamento sem publicar dados de solicitantes. Validar HTML, teclado e destinos antes de mover conteúdo para dist. A reunião das reservas vazias não comprova atendimento aos critérios.
 
 
 ## Complemento — Relatório Anual Estatístico de acesso à informação
@@ -146,3 +146,14 @@ Formulário, seletores e botões estão desativados, sem anos fabricados, URLs, 
 ### Alimentação e publicação
 
 Receber relatórios/totalizações anuais oficiais e informações genéricas agregadas, identificar os exercícios efetivamente cobertos, obter URL oficial ou conteúdo integral, derivado editável e data real de atualização. Conferir acesso e correspondência dos arquivos individualmente, sem construir URLs por exercício e sem `serigyLink` para PDF. Validar publicação dos agregados, implementar consulta/exportação, preencher apenas dados reais e aplicar os itens S correspondentes. Testar seleção, histórico, documento, exportação e acessibilidade antes de mover para dist em tarefa autorizada. Nenhum número, declaração de inexistência, link documental ou data foi criado.
+
+
+## Estado da integração estrutural do e-SIC
+
+Rota única mantida: `/Portal-da-Transparencia/SIC/eSIC/`. Modelo principal: `modelos/Portal-da-Transparencia/SIC/eSIC/index.html`. A estrutura reúne S 11.2.1 (C 11.3–11.4: redirecionamento) e S 11.4 (C 11.6: informações), com as quatro seções importadas da variante **sem dados ou marcações sobre campos vazios**.
+
+Ordem no main: solicitação → acompanhamento → prazo de resposta → prazo recursal → autoridades → procedimentos de pedido e recurso → link para atendimento presencial. Os blocos originais, títulos, texto SE-Ouv, marcações, cabeçalho, rodapé e navegação foram preservados. A variante original permanece intacta, apenas como referência. Não foi importado o h1 ou o lead da variante nem criado formulário próprio, endereço, contato, prazo ou data.
+
+Reservas complementares: `#prazo-resposta-esic` (S 11.4.1 prazoResposta), `#prazo-recursal-esic` (S 11.4.2 recursal), `#autoridades-esic` (S 11.4.3 autoridadeExame) e `#procedimentos-esic` (S 11.4.4 procedimentoPedido, incluindo pedido e recurso). Esses itens só serão aplicados após receber as informações oficiais. Permanecem as dúvidas de representação do redirecionamento para SE-Ouv: a integração de layout não homologa `cadastroESIC`/`serigyLink` por analogia com o exemplo Fala.BR.
+
+A escolha continua sendo acesso ao sistema institucional existente. A alternativa S 11.2.2 de formulário próprio não foi implementada e não se confunde com a busca comum do cabeçalho. Para publicação faltam URL e fluxo confirmados, acesso específico a pedidos de informação e acompanhamento, simplicidade, prazos, autoridades e procedimentos validados, aplicação das marcações reais e testes de funcionamento/acessibilidade. LAI, Relatório Anual, dist e demais seções não foram alterados.
