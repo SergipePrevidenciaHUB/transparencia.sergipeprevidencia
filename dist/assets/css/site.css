@@ -426,7 +426,8 @@ tbody tr:last-child td { border-bottom: 0; }
 .high-contrast .utility-bar button,
 .high-contrast .utility-bar a,
 .high-contrast .utility-bar input,
-.high-contrast .filter-panel select { color: #fff; background: #000; }
+.high-contrast .filter-panel select,
+.high-contrast #atos-palavra { color: #fff; background: #000; }
 .high-contrast tbody tr:nth-child(even) { background: #111; }
 .high-contrast .prototype-notice,
 .high-contrast .warning-notice {
