@@ -1,0 +1,74 @@
+# Acessibilidade — conferência e pendências da dimensão 12
+
+## Fontes, alcance e método
+
+Lidos `AGENTS.md`, Cartilha PETP 2026, dimensão 12, **pp. 98–102**, e `referencias/serigy/12. Acessibilidade _ Serigy Docs.pdf`, **p. 1**. A Cartilha é a exigência (**C**); Serigy (**S**) orienta a identificação técnica. **DT** identifica recomendações de implementação/verificação, sem novos critérios PETP. Os cinco critérios incluem a Previdência Estadual e têm somente Disponibilidade como item exigido; 12.1–12.4 são obrigatórios e 12.5 é recomendado na classificação C.
+
+**Verificação realizada:** leitura estática dos componentes comuns e inspeção programática de presença de elementos, destinos locais e manifesto. Foram examinados somente os elementos de cabeçalho, navegação, busca, breadcrumb, mapa e acessibilidade nos HTMLs listados abaixo; não houve auditoria dos dados, documentos ou regras das demais dimensões. Nenhum arquivo da interface foi alterado. A cópia de trabalho contém mudanças anteriores em Receitas, que foram preservadas.
+
+**Teste efetivo em navegador: não realizado nesta rodada.** Não foram acionados botões, percorridos controles por teclado/leitor de tela, medidos estilos computados, verificados zoom/refluxo ou capturadas telas. As conclusões abaixo não são homologação de atendimento: presença de atributo Serigy, botão, CSS ou handler não comprova destaque, funcionamento ou legibilidade. Verificação de caminho no disco não equivale a resposta HTTP ou funcionamento após deploy.
+
+O projeto trata do Portal; o WordPress institucional continua fora desta inspeção. C exige 12.1–12.4 em **sítio oficial e Portal**, e 12.5 pede mapa **ao menos no sítio institucional**. Logo, a implementação local não permite declarar atendimento nos dois ambientes nem comprovar o mapa institucional.
+
+## Conferência requisito a requisito
+
+| Critério / requisito e fonte | Elemento existente / arquivo | Situação efetivamente verificada | Ajuste ou verificação necessária |
+| --- | --- | --- | --- |
+| **12.1 — símbolo de acessibilidade em destaque**, C p. 98. S 12.1: `acessibilidadeSimbolo` (Imagem), schema `https://serigy.tce.se.gov.br/comum/acessibilidade.html`; caminho S `[Portal da Transparencia]/*` | `.access-tools` no topo das oito páginas do manifesto e da entrada `dist/index.html`; imagem `/assets/imagens/simbolo-acessibilidade.svg`, alt “Acessibilidade”, link para `/mapa-do-site/`, title de acessibilidade/mapa. CSS `site.css`: `.access-tools img` (23 × 23 px). SVG tem título/descrição e símbolo branco em fundo azul. | **Evidência estática presente nas nove páginas com cabeçalho.** Recurso e destino local existem. O símbolo conduz ao mapa, não abre um painel; isso não é, por si, descumprimento de C, que não exige painel. Destaque visual, reconhecimento, nome anunciado e operação no celular não testados. Ausente nos quatro HTMLs auxiliares de portarias. Sítio WordPress não conferido. | Testar visibilidade e foco em computador/celular, modos normal/contraste e leitura do nome. Se os auxiliares forem páginas públicas, providenciar os recursos de 12.1 neles; confirmar o uso antes de decidir ajuste, sem excluí-los. Verificar separadamente o sítio institucional. Não trocar o símbolo ou aumentar seu tamanho apenas por suposição de mínimo não previsto C. |
+| **12.2 — exibição do caminho de páginas**, C pp. 98–99. S 12.2: `acessibilidadeCaminhoPaginas` (N/A) | `.breadcrumb-wrap` / `nav.breadcrumb` com nome “Caminho da página”, ancestrais e página atual; `aria-current="page"`, separadores ocultos para tecnologia assistiva. Exemplos: `dist/Portal-da-Transparencia/index.html` e `dist/mapa-do-site/index.html`; repetido nas seis páginas de conteúdo e na entrada. | **Estrutura estática presente nas nove páginas com cabeçalho**, sem evidência de trilha nos quatro auxiliares. No início, um único item atual é coerente com a raiz. Trata-se de trilha hierárquica, não de log da navegação da sessão; o componente exemplificado em S é migalha de pão. Links comuns de entrada/mapa resolvem localmente. Anúncio, foco, comportamento HTTP e adaptação visual não testados. | Conferir em navegador cada sequência, links de ancestrais, leitura da página atual e quebra de linha com texto ampliado. Não inventar páginas ancestrais só para torná-las clicáveis; rótulo intermediário sem página própria pode permanecer texto. Avaliar os auxiliares e o WordPress sem presumir dispensa. |
+| **12.3 — opção de alto contraste**, C pp. 99–100: inverter o plano de cores dominante para possibilitar visualização. S 12.3: `acessibilidadeAltoContraste` (N/A) | Botão `[data-action="contrast"]`, title “Alternar alto contraste” e `aria-pressed`; `site.js` alterna `body.high-contrast` e persiste estado. `site.css`, regras `.high-contrast`, troca fundos/textos e alguns componentes. Campo de busca geral recebe regra própria. | **Implementação estática identificada, com falha de cobertura CSS.** Em alto contraste, `--texto` vira branco, enquanto `.filter-panel input` conserva fundo branco e usa `color: var(--texto)`. A regra escura cobre `.utility-bar input` e `.filter-panel select`, mas não esse input. `#atos-palavra` em `Institucional/AtosNormativos/index.html` é um exemplo concreto afetado pela cascata comum. Não houve confirmação por estilo computado/screenshot. Os quatro auxiliares não têm botão ou script. | Corrigir futuramente a cobertura dos inputs do filtro e inspecionar texto digitado, placeholders, seleção, foco, botões, links, tabelas e resultados da busca em contraste. Validar acionamento por mouse/Enter/Espaço, alternância de `aria-pressed` e restauração do estado. Não declarar o critério atendido pela mera classe ou marcação S; conferir WordPress e auxiliares. |
+| **12.4 — ferramenta de redimensionamento de texto ou zoom**, C pp. 100–101. S 12.4: `acessibilidadeRedimensionamentoTexto` (N/A) | Botões A+, A− e A com titles; `site.js` ajusta `--escala-texto` entre 0,9 e 1,35 e restaura 1; `site.css` aplica `html { font-size: calc(16px * var(--escala-texto)); }`. Layout usa rem, flex/grid e media queries. | **Mecanismo identificado no código**, sem acionamento efetivo, medição do texto ou verificação de cortes/sobreposição. Alterar fonte raiz não garante redimensionamento de cada medida fixa, imagem ou conteúdo específico. Ausente como ferramenta própria nos auxiliares; o zoom do navegador não foi testado nem presumido como comprovação. | Testar A+/A−/restaurar, persistência, zoom do navegador, menus, busca, breadcrumb e tabelas em larguras de computador/celular. Verificar nomes dos controles com tecnologia assistiva; como DT, considerar aria-label explícito se title/letra não forem claros. A Cartilha consultada não fixa percentual mínimo: 135% não é automaticamente aprovação ou reprovação normativa. Conferir WordPress/auxiliares. |
+| **12.5 — mapa do site institucional**, C pp. 101–102; ao menos o sítio institucional deve ter mapa. S 12.5: `acessibilidadeMapaSite` (Link) | `dist/mapa-do-site/index.html`, lista hierárquica das páginas desenvolvidas, link no cabeçalho/rodapé; marcação no acesso ao mapa. Aviso explica o recorte do protótipo. | **Mapa do Portal localizado e destinos de seu manifesto existentes no disco.** Oito rotas de `searchPages` estão representadas no mapa, incluindo o próprio mapa. Não há índice dos quatro auxiliares ou de todos os PDFs, nem o mapa prova cobertura do WordPress. Isso não permite chamar o mapa do Portal de mapa completo do sítio institucional. Sem teste de HTTP/teclado em navegador. | Validar os links e a compreensão da hierarquia em navegador; manter sincronização com páginas realmente publicadas, sem incluir modelos vazios. Conferir separadamente existência, acesso e cobertura do mapa no WordPress. C não exige aqui indexar individualmente todo PDF ou todos os auxiliares: não criar essa obrigação por dedução. |
+
+## Achados transversais — recomendações técnicas, sem novos critérios
+
+| Tema / evidência | Situação e providência |
+| --- | --- |
+| **Inicialização e armazenamento** — `site.js:5` (`localStorage.getItem`/`JSON.parse`) e `:12` (`setItem`) sem proteção | JSON inválido ou acesso ao armazenamento negado pode lançar exceção. Falha no início, antes do registro dos handlers, pode impedir busca, contraste e redimensionamento no mesmo arquivo. É conclusão de inspeção de fluxo, **não teste reproduzido em navegador**. DT: tratar leitura/gravação e validar estado com valores padrão, permitindo os recursos sem persistência; depois testar armazenamento bloqueado e estado inválido. |
+| **Foco e salto ao conteúdo** — `site.css:35` (`:focus-visible`, contorno de 3px), `:57` (`.skip-link:focus`) e links `#conteudo` | Regra de foco e alvo principal existem nas nove páginas com estrutura comum. Não foram testados ordem de Tab, foco após o salto, recortes do contorno, contraste do anel ou anúncio por leitor de tela. DT: testar sem mouse nos modos normal/contraste, inclusive após ampliar; avaliar nomes acessíveis de A+/A−/A e do ícone ◐. Não há medição de contraste nem parecer de conformidade WCAG nesta rodada. |
+| **Cabeçalho/navegação** — `.brand`, `nav.main-nav`, link Início e “Site institucional” | A entrada do Portal e o sítio externo estão distinguidos. A raiz `dist/index.html` tem redirecionamento imediato relativo e link alternativo; testar o salto e a experiência assistiva, sem considerar a raiz como nova capa institucional. Os caminhos absolutos dos recursos/menus foram verificados contra dist na raiz; não foi simulada base GitHub Pages nem domínio oficial. |
+| **Busca geral** — `[data-site-search]`, input com nome acessível; `site.js` cria `role=status`, `aria-live=polite`, `aria-atomic`, lista de links, `aria-controls` e `aria-busy` | Há suporte previsto a anúncios e links navegáveis, sem deslocar o foco. O manifesto tem oito páginas e usa fetch/DOMParser sobre main; requer HTTP, com timeout e mensagem de falha. Não houve submissão real nem teste de anúncio, resultado vazio, falha, acentos ou navegação por Tab. DT: validar esses casos em navegador. A busca é tratada aqui como componente transversal solicitado, **não novo item 12 nem substituto de filtros específicos**; seu critério próprio é 1.4. |
+| **Limite do índice e mapa** — `searchPages` e mapa | O manifesto não inclui a raiz de redirecionamento, os quatro auxiliares nem PDFs; a busca geral não é auditoria integral do acervo. Não presumir que todos esses recursos devam necessariamente ser resultados independentes. DT: definir o papel público dos auxiliares e manter os índices coerentes com a navegação adotada. |
+| **Cobertura fora do componente comum** | A inspeção dos demais HTMLs foi limitada à estrutura de navegação/acessibilidade; CSS/JS específicos de Receitas e filtros das dimensões não foram auditados. Testar também esses módulos antes de declarar cobertura visual/funcional de toda a página, sem alterar suas implementações nesta rodada. |
+
+## Cobertura dos HTMLs e verificações locais
+
+Foram identificados **13 HTMLs** em dist: oito páginas do manifesto, uma entrada com redirecionamento e quatro auxiliares de portarias. Os nove primeiros têm símbolo, breadcrumb, botão de contraste, controles de fonte e site.js; os auxiliares não têm esses componentes ou scripts. Isso é constatação estrutural, não decisão de retirar arquivos nem prova de que estejam dispensados. Como estão em dist, confirmar seu papel na publicação/uso e, se forem acessíveis como páginas públicas do Portal, planejar a adequação aos recursos aplicáveis.
+
+A verificação programática confirmou existência dos destinos comuns de entrada/mapa, do símbolo, CSS e JS e dos oito destinos do manifesto; confirmou presença das oito rotas no mapa. Não acessou links externos, não abriu PDFs, não testou o robô Serigy e não fez requisições HTTP. Não foi auditado conteúdo institucional externo.
+
+## Ordem curta de correção e validação
+
+1. **Corrigir os riscos concretos do componente comum:** cobertura do input de filtro em alto contraste e tratamento do armazenamento/estado no JavaScript. Fazer isso em tarefa de implementação própria, com testes de regressão de busca e acessibilidade.
+2. **Definir a cobertura pública dos quatro auxiliares** e conferir separadamente o WordPress (recursos 12.1–12.4 e mapa institucional 12.5). Não excluir nem transformar auxiliares nesta conferência.
+3. **Executar teste real em navegador:** computador/celular, normal/contraste, teclado, foco, salto ao conteúdo, ampliação, persistência, busca e mapa; registrar página, ação e resultado. Corrigir o que o teste demonstrar, inclusive módulos específicos e navegação sob a base efetiva de publicação.
+4. **Revalidar as marcações e a abrangência:** somente após o comportamento estar comprovado; manter o mapa/manifesto sincronizados e documentar limitações. Atributo S sozinho nunca encerra uma pendência.
+
+## Arquivos consultados
+
+- `AGENTS.md`.
+- `referencias/petp/Cartilha PETP 2026 Sergipe VERSÃO FINAL v2.pdf`, pp. 98–102.
+- `referencias/serigy/12. Acessibilidade _ Serigy Docs.pdf`, p. 1.
+- `dist/assets/js/site.js` (componente comum de busca e acessibilidade).
+- `dist/assets/css/site.css` (regras comuns de navegação, contraste, texto e foco).
+- `dist/assets/imagens/simbolo-acessibilidade.svg` (conteúdo do símbolo).
+
+HTMLs lidos apenas quanto aos componentes pertinentes, sem auditoria dos registros das dimensões:
+
+- `dist/index.html`
+- `dist/mapa-do-site/index.html`
+- `dist/Portal-da-Transparencia/Despesas/index.html`
+- `dist/Portal-da-Transparencia/index.html`
+- `dist/Portal-da-Transparencia/Institucional/AtosNormativos/index.html`
+- `dist/Portal-da-Transparencia/Institucional/AtosNormativos/portarias/2023/portarias2023.html`
+- `dist/Portal-da-Transparencia/Institucional/AtosNormativos/portarias/2024/portarias2024.html`
+- `dist/Portal-da-Transparencia/Institucional/AtosNormativos/portarias/2025/portarias2025.html`
+- `dist/Portal-da-Transparencia/Institucional/AtosNormativos/portarias/2026/portarias2026.html`
+- `dist/Portal-da-Transparencia/Institucional/Informacoes/index.html`
+- `dist/Portal-da-Transparencia/Institucional/LegislacaoInterna/index.html`
+- `dist/Portal-da-Transparencia/Receitas/PrevistaArrecada/index.html`
+- `dist/Portal-da-Transparencia/RecursosHumanos/Estagiarios/index.html`
+
+## Integridade e validação desta rodada
+
+Criado somente `controle/acessibilidade-pendencias.md`. A comparação de hashes dos arquivos preexistentes de dist, modelos e controle confirma sua preservação. `git diff --check` executado no fechamento; espaços em branco do novo documento também conferidos separadamente, pois arquivo não rastreado não entra no diff comum. Não houve alteração de HTML/CSS/JS, instalação, exclusão, commit ou push. O validador do protótipo não foi necessário pela regra AGENTS, pois dist não foi alterado; as verificações realizadas foram as inspeções específicas descritas acima, sem atribuir-lhes resultado de teste em navegador.
