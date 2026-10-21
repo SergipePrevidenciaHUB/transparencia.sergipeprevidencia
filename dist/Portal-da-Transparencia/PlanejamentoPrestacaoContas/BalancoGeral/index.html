@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="/assets/css/site.css">
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
+  <script defer src="/assets/js/planejamento.js"></script>
 </head>
-<body class="awaiting-information">
+<body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
   <div class="gov-stripe" aria-hidden="true"></div>
   <div class="utility-bar"><div class="container utility-inner">
@@ -23,27 +24,35 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html">
     <h1>Prestação de Contas (Balanço Geral)</h1>
-    <p class="section-availability" role="note">As informações desta seção ainda serão disponibilizadas.</p>
-    <p class="section-availability">Consulta e exportação indisponíveis enquanto os dados e documentos não forem disponibilizados.</p>
-    <p class="lead">Prestação de contas e demonstrativos contábeis da Unidade, organizados por exercício.</p>
-    <form id="filtro-balanco-geral" class="filter-panel" role="search" aria-label="Consultar prestação de contas (balanço geral) por exercício">
-      <div class="field"><label for="exercicio-balanco-geral">Exercício</label><select id="exercicio-balanco-geral" name="ano" disabled><option value="" selected disabled>Selecione o exercício</option></select></div>
-      <div class="filter-actions">
-        <button id="pesquisar-balanco-geral" type="submit" disabled>Pesquisar</button>
-        <button type="reset" class="secondary" disabled>Limpar filtros</button>
-      </div>
+    <form id="filtro-balanco-geral" class="filter-panel" role="search" aria-label="Consultar documentos" data-planejamento-filter data-target="tabela-balanco-geral" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html" serigyItem="filtroPesquisa">
+      <div class="field"><label for="exercicio-balanco-geral">Exercício</label><select id="exercicio-balanco-geral" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option><option value="2025" serigyValue="2025">2025</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option><option value="2022" serigyValue="2022">2022</option><option value="2021" serigyValue="2021">2021</option><option value="2020" serigyValue="2020">2020</option><option value="2019" serigyValue="2019">2019</option><option value="2018" serigyValue="2018">2018</option></select></div><div class="field"><label for="unidade-balanco-geral">Unidade</label><select id="unidade-balanco-geral" name="unidade"><option value="">Todas as unidades</option><option value="FINANPREV">FINANPREV</option><option value="SergipePrevidência">SergipePrevidência</option></select></div>
+      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="tabela-balanco-geral">Pesquisar</button><button type="reset" class="secondary" serigyClearForm>Limpar filtros</button></div>
     </form>
-    <section id="resultados-balanco-geral" aria-labelledby="titulo-acervo-balanco-geral">
-      <h2 id="titulo-acervo-balanco-geral">Documentos por exercício</h2>
-      <div class="table-wrap">
-        <table id="tabela-balanco-geral">
-          <caption>Prestação de Contas (Balanço Geral) por exercício</caption>
-          <thead><tr><th scope="col">Exercício</th><th scope="col">Documentos da prestação de contas</th><th scope="col">Demonstrativos abrangidos</th></tr></thead>
-          <tbody id="registros-balanco-geral"></tbody>
-        </table>
-      </div>
-    </section>
-    <div id="atualizacao-balanco-geral" class="update-info"></div>
+    <p class="result-count" data-count-for="tabela-balanco-geral" aria-live="polite">16 registro(s) encontrado(s).</p>
+    <div class="table-wrap"><table id="tabela-balanco-geral" serigyLoadSection="tabela-balanco-geral">
+      <caption>Prestação de Contas (Balanço Geral) — documentos por período</caption>
+      <thead><tr><th scope="col">Exercício</th><th scope="col">Unidade</th><th scope="col">Documento</th></tr></thead>
+      <tbody>
+        <tr data-record="0" data-year="2025" data-unit="FINANPREV"><td>2025</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/Prestacao-de-Contas-Finanprev-2025l_compressed.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2025</a></td></tr>
+<tr data-record="1" data-year="2024" data-unit="FINANPREV"><td>2024</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/06/PROCESSO-210-2025-PCA-Exercicio-2024-FINANPREV-Retorno-SETC-Envio-TCE-e-Protocolo.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2024</a></td></tr>
+<tr data-record="2" data-year="2023" data-unit="FINANPREV"><td>2023</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PCA-2023-FINANPREV-.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2023</a></td></tr>
+<tr data-record="3" data-year="2022" data-unit="FINANPREV"><td>2022</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/09/PCA-FINANPREV-ANO-BASE-2022-PARA-ENVIO-AO-TCE.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2022</a></td></tr>
+<tr data-record="4" data-year="2021" data-unit="FINANPREV"><td>2021</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/10/PCA-EXERC-2021-FINANPREV-COMPLETA.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2021</a></td></tr>
+<tr data-record="5" data-year="2020" data-unit="FINANPREV"><td>2020</td><td>FINANPREV</td><td><a href="https://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2022/03/relatorios-prestacao-de-contas-finanprev-2020-completo.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2020</a></td></tr>
+<tr data-record="6" data-year="2019" data-unit="FINANPREV"><td>2019</td><td>FINANPREV</td><td><a href="http://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2020/07/relatorios-prestacao-de-contas-finanprev-2019.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2019</a></td></tr>
+<tr data-record="7" data-year="2018" data-unit="FINANPREV"><td>2018</td><td>FINANPREV</td><td><a href="http://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2019/05/Rel_Tecnico_Fin.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — FINANPREV — 2018</a></td></tr>
+<tr data-record="8" data-year="2025" data-unit="SergipePrevidência"><td>2025</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/07/Prestacao-de-Contas-SergiePrevidencia-2025.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2025</a></td></tr>
+<tr data-record="9" data-year="2024" data-unit="SergipePrevidência"><td>2024</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/06/PROCESSO-PCA-206-2025-PREST-CONTAS-SERGIPEPREVIDENCIA-EXERCICIO-2024-Retorno-SETC-Envio-TCE-e-Protocolo.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2024</a></td></tr>
+<tr data-record="10" data-year="2023" data-unit="SergipePrevidência"><td>2023</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PCA-2023-SERGIPEPREVIDENCIA-.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2023</a></td></tr>
+<tr data-record="11" data-year="2022" data-unit="SergipePrevidência"><td>2022</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/09/PCA-SERGIPE-ANO-BASE-2022-PARA-ENVIO-AO-TCE.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2022</a></td></tr>
+<tr data-record="12" data-year="2021" data-unit="SergipePrevidência"><td>2021</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/10/PCA-EXERC-2021SERPREV-COMPLETA-RESTITUIDA-DA-SETC.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2021</a></td></tr>
+<tr data-record="13" data-year="2020" data-unit="SergipePrevidência"><td>2020</td><td>SergipePrevidência</td><td><a href="https://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2022/03/relatorios-prestacao-de-contas-sergipeprevidenica-2020-completo.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2020</a></td></tr>
+<tr data-record="14" data-year="2019" data-unit="SergipePrevidência"><td>2019</td><td>SergipePrevidência</td><td><a href="http://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2020/07/relatorios-prestacao-de-contas-sergipeprevidenica-2019.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2019</a></td></tr>
+<tr data-record="15" data-year="2018" data-unit="SergipePrevidência"><td>2018</td><td>SergipePrevidência</td><td><a href="http://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2019/05/Rel_Tecnico_SPV.pdf" serigyItem="balancoGeralAnoAnterior">Prestação de contas — SERGIPEPREVIDENCIA — 2018</a></td></tr>
+      </tbody>
+    </table></div>
+    <div id="atualizacao-balanco-geral" class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
+    <p>A data acima refere-se à atualização desta relação no Portal.</p>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

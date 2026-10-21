@@ -1,0 +1,6 @@
+/* Somente os campos da consulta nominal, preservando o padrão do Portal. */
+.high-contrast #filtro-vinculos input,
+.high-contrast #filtro-remuneracao input {
+  color: var(--texto);
+  background: var(--fundo);
+}

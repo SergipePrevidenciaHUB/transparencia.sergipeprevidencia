@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="/assets/css/site.css">
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
+  <script defer src="/assets/js/tabelas.js"></script>
 </head>
-<body class="awaiting-information">
+<body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
   <div class="gov-stripe" aria-hidden="true"></div>
   <div class="utility-bar"><div class="container utility-inner">
@@ -23,33 +24,78 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/diarias.html">
     <h1>Valores das Diárias</h1>
-    <p class="section-availability" role="note">As informações desta seção ainda serão disponibilizadas.</p>
-    <p class="section-availability">Consulta e exportação indisponíveis enquanto os dados e documentos não forem disponibilizados.</p>
-    <p class="lead">Valores de referência das diárias dentro do Estado, fora do Estado e fora do país, conforme a legislação local.</p>
-    <form id="filtro-valores-diarias" class="filter-panel" role="search" aria-label="Consultar valores das diárias">
-      <div class="field"><label for="ano-valores-diarias">Exercício</label><select id="ano-valores-diarias" name="ano" disabled><option value="" selected disabled>Selecione o exercício</option></select></div>
-      <div class="filter-actions">
-        <button id="pesquisar-valores-diarias" type="submit" disabled>Pesquisar</button>
-        <button type="reset" class="secondary" disabled>Limpar filtros</button>
-      </div>
+    <p class="lead">Valores de referência por exercício, âmbito, grupo e cargo.</p>
+    <p>Fundamento da tabela: <a id="decreto-valores-diarias" href="https://www.se.gov.br/anexos/uploads/download/filename_novo/5589/4fe904f774ae441e53caba484bcfa3a3.pdf">Decreto nº 239/2023, de 17 de janeiro de 2023 (PDF)</a>, especialmente seu Anexo I.</p>
+    <p id="moedas-valores-diarias">Valores dentro e fora do Estado em reais (R$). Fora do país: euros (€) para viagens à União Europeia e dólares (US$) para as demais localidades.</p>
+    <form id="filtro-valores-diarias" class="filter-panel" role="search" aria-label="Consultar valores das diárias" data-table-filter data-target="tabela-valores-diarias" serigyItem="filtroPesquisa">
+      <div class="field"><label for="ano-valores-diarias">Exercício</label><select id="ano-valores-diarias" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option><option value="2026" serigyValue="2026">2026</option><option value="2025" serigyValue="2025">2025</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option></select></div>
+      <div class="filter-actions"><button id="pesquisar-valores-diarias" type="submit" serigyExecuteWaitSection="tabela-valores-diarias">Pesquisar</button><button type="reset" class="secondary" serigyClearForm>Limpar filtros</button></div>
     </form>
+    <p class="result-count" data-count-for="tabela-valores-diarias" aria-live="polite">48 registro(s) encontrado(s).</p>
     <section id="resultados-valores-diarias" aria-labelledby="titulo-valores-diarias">
       <h2 id="titulo-valores-diarias">Valores de referência</h2>
-      <div class="table-wrap">
-        <table id="tabela-valores-diarias">
-          <caption>Valores das diárias conforme a legislação local</caption>
-          <thead><tr><th scope="col">Faixa de aplicação, conforme a norma</th><th scope="col">Dentro do Estado</th><th scope="col">Fora do Estado (Brasil)</th><th scope="col">Fora do país</th></tr></thead>
-          <tbody id="registros-valores-diarias"></tbody>
-        </table>
-      </div>
-      <div id="previsao-internacional-diarias"></div>
+      <div class="table-wrap"><table id="tabela-valores-diarias" serigyLoadSection="tabela-valores-diarias" aria-describedby="moedas-valores-diarias">
+        <caption>Valores das diárias — grupos I a IV por exercício e âmbito</caption>
+        <thead><tr><th scope="col">Exercício</th><th scope="col">Âmbito</th><th scope="col">Grupo</th><th scope="col">Cargo</th><th scope="col">Valor de referência</th></tr></thead>
+        <tbody id="registros-valores-diarias">
+          <tr data-source-row="2" data-year="2026"><td>2026</td><td>Para Dentro do Estado (Intraestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td>-</td></tr>
+          <tr data-source-row="3" data-year="2026"><td>2026</td><td>Para Dentro do Estado (Intraestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 80,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 40,00</span></td></tr>
+          <tr data-source-row="4" data-year="2026"><td>2026</td><td>Para Dentro do Estado (Intraestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 60,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 30,00</span></td></tr>
+          <tr data-source-row="5" data-year="2026"><td>2026</td><td>Para Dentro do Estado (Intraestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 50,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 25,00</span></td></tr>
+          <tr data-source-row="6" data-year="2026"><td>2026</td><td>Para Fora do Estado (Interestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorNacional">R$ 1.280,00</span></td></tr>
+          <tr data-source-row="7" data-year="2026"><td>2026</td><td>Para Fora do Estado (Interestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorNacional">R$ 800,00</span></td></tr>
+          <tr data-source-row="8" data-year="2026"><td>2026</td><td>Para Fora do Estado (Interestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorNacional">R$ 600,00</span></td></tr>
+          <tr data-source-row="9" data-year="2026"><td>2026</td><td>Para Fora do Estado (Interestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorNacional">R$ 400,00</span></td></tr>
+          <tr data-source-row="10" data-year="2026"><td>2026</td><td>Para Fora do País (Internacional)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorInternacional">500,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="11" data-year="2026"><td>2026</td><td>Para Fora do País (Internacional)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorInternacional">280,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="12" data-year="2026"><td>2026</td><td>Para Fora do País (Internacional)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorInternacional">230,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="13" data-year="2026"><td>2026</td><td>Para Fora do País (Internacional)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorInternacional">160,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="14" data-year="2025"><td>2025</td><td>Para Dentro do Estado (Intraestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td>-</td></tr>
+          <tr data-source-row="15" data-year="2025"><td>2025</td><td>Para Dentro do Estado (Intraestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 80,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 40,00</span></td></tr>
+          <tr data-source-row="16" data-year="2025"><td>2025</td><td>Para Dentro do Estado (Intraestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 60,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 30,00</span></td></tr>
+          <tr data-source-row="17" data-year="2025"><td>2025</td><td>Para Dentro do Estado (Intraestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 50,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 25,00</span></td></tr>
+          <tr data-source-row="18" data-year="2025"><td>2025</td><td>Para Fora do Estado (Interestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorNacional">R$ 1.280,00</span></td></tr>
+          <tr data-source-row="19" data-year="2025"><td>2025</td><td>Para Fora do Estado (Interestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorNacional">R$ 800,00</span></td></tr>
+          <tr data-source-row="20" data-year="2025"><td>2025</td><td>Para Fora do Estado (Interestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorNacional">R$ 600,00</span></td></tr>
+          <tr data-source-row="21" data-year="2025"><td>2025</td><td>Para Fora do Estado (Interestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorNacional">R$ 400,00</span></td></tr>
+          <tr data-source-row="22" data-year="2025"><td>2025</td><td>Para Fora do País (Internacional)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorInternacional">500,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="23" data-year="2025"><td>2025</td><td>Para Fora do País (Internacional)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorInternacional">280,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="24" data-year="2025"><td>2025</td><td>Para Fora do País (Internacional)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorInternacional">230,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="25" data-year="2025"><td>2025</td><td>Para Fora do País (Internacional)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorInternacional">160,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="26" data-year="2024"><td>2024</td><td>Para Dentro do Estado (Intraestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td>-</td></tr>
+          <tr data-source-row="27" data-year="2024"><td>2024</td><td>Para Dentro do Estado (Intraestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 80,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 40,00</span></td></tr>
+          <tr data-source-row="28" data-year="2024"><td>2024</td><td>Para Dentro do Estado (Intraestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 60,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 30,00</span></td></tr>
+          <tr data-source-row="29" data-year="2024"><td>2024</td><td>Para Dentro do Estado (Intraestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 50,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 25,00</span></td></tr>
+          <tr data-source-row="30" data-year="2024"><td>2024</td><td>Para Fora do Estado (Interestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorNacional">R$ 1.280,00</span></td></tr>
+          <tr data-source-row="31" data-year="2024"><td>2024</td><td>Para Fora do Estado (Interestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorNacional">R$ 800,00</span></td></tr>
+          <tr data-source-row="32" data-year="2024"><td>2024</td><td>Para Fora do Estado (Interestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorNacional">R$ 600,00</span></td></tr>
+          <tr data-source-row="33" data-year="2024"><td>2024</td><td>Para Fora do Estado (Interestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorNacional">R$ 400,00</span></td></tr>
+          <tr data-source-row="34" data-year="2024"><td>2024</td><td>Para Fora do País (Internacional)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorInternacional">500,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="35" data-year="2024"><td>2024</td><td>Para Fora do País (Internacional)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorInternacional">280,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="36" data-year="2024"><td>2024</td><td>Para Fora do País (Internacional)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorInternacional">230,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="37" data-year="2024"><td>2024</td><td>Para Fora do País (Internacional)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorInternacional">160,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="38" data-year="2023"><td>2023</td><td>Para Dentro do Estado (Intraestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td>-</td></tr>
+          <tr data-source-row="39" data-year="2023"><td>2023</td><td>Para Dentro do Estado (Intraestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 80,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 40,00</span></td></tr>
+          <tr data-source-row="40" data-year="2023"><td>2023</td><td>Para Dentro do Estado (Intraestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 60,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 30,00</span></td></tr>
+          <tr data-source-row="41" data-year="2023"><td>2023</td><td>Para Dentro do Estado (Intraestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td>Com pernoite: <span serigyItem="valorEstadual">R$ 50,00</span><br>Sem pernoite: <span serigyItem="valorEstadual">R$ 25,00</span></td></tr>
+          <tr data-source-row="42" data-year="2023"><td>2023</td><td>Para Fora do Estado (Interestadual)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorNacional">R$ 1.280,00</span></td></tr>
+          <tr data-source-row="43" data-year="2023"><td>2023</td><td>Para Fora do Estado (Interestadual)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorNacional">R$ 800,00</span></td></tr>
+          <tr data-source-row="44" data-year="2023"><td>2023</td><td>Para Fora do Estado (Interestadual)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorNacional">R$ 600,00</span></td></tr>
+          <tr data-source-row="45" data-year="2023"><td>2023</td><td>Para Fora do Estado (Interestadual)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorNacional">R$ 400,00</span></td></tr>
+          <tr data-source-row="46" data-year="2023"><td>2023</td><td>Para Fora do País (Internacional)</td><td>I</td><td>Governador ou Vice-Governador</td><td><span serigyItem="valorInternacional">500,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="47" data-year="2023"><td>2023</td><td>Para Fora do País (Internacional)</td><td>II</td><td>1º Escalão (Secretários de Estado, autoridades equiparadas e membros de diretoria executiva de entidades administrativa)</td><td><span serigyItem="valorInternacional">280,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="48" data-year="2023"><td>2023</td><td>Para Fora do País (Internacional)</td><td>III</td><td>2º Escalão (Cargos de assessoramento superior, compreendendo os ocupantes de CCE-21, CCE-22 e CCE-23, bem como outros membros de diretorias das entidades administrativas)</td><td><span serigyItem="valorInternacional">230,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+          <tr data-source-row="49" data-year="2023"><td>2023</td><td>Para Fora do País (Internacional)</td><td>IV</td><td>Demais Cargos, Funções ou Empregos</td><td><span serigyItem="valorInternacional">160,00</span><br><small>€ na União Europeia; US$ nas demais localidades</small></td></tr>
+        </tbody>
+      </table></div>
     </section>
-    <section aria-labelledby="titulo-normas-diarias">
-      <h2 id="titulo-normas-diarias">Normas e vigência</h2>
-      <div id="normas-valores-diarias"></div>
-      <div id="vigencia-valores-diarias"></div>
+    <section aria-labelledby="titulo-observacoes-diarias">
+      <h2 id="titulo-observacoes-diarias">Observações</h2>
+      <p>Dentro do Estado, os valores com e sem pernoite estão identificados separadamente. O sinal “-” do grupo I é preservado conforme a fonte.</p>
+      <p>Fora do Estado: o Secretário Especial de Representação de Sergipe em Brasília e os respectivos servidores lotados nessa Secretaria não devem receber diárias pelo deslocamento dentro do Distrito Federal ou entre o Distrito Federal e o seu Estado de origem.</p>
     </section>
-    <div id="atualizacao-valores-diarias" class="update-info"></div>
+    <div class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/diarias.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
+    <p>Data informada para atualização desta página no Portal.</p>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

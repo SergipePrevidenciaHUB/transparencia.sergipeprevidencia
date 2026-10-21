@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="/assets/css/site.css">
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
+  <script defer src="/assets/js/planejamento.js"></script>
 </head>
-<body class="awaiting-information">
+<body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
   <div class="gov-stripe" aria-hidden="true"></div>
   <div class="utility-bar"><div class="container utility-inner">
@@ -23,23 +24,32 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html">
     <h1>Julgamento pelo Tribunal de Contas</h1>
-    <p class="section-availability" role="note">As informações desta seção ainda serão disponibilizadas.</p>
-    <p class="section-availability">Consulta e exportação indisponíveis enquanto os dados e documentos não forem disponibilizados.</p>
-    <p class="lead">Apreciação e julgamento das contas da Unidade, com decisões integrais e situação das contas por exercício.</p>
-    <div id="historico-tce" class="filter-panel" role="group" aria-label="Histórico das contas por exercício">
-      <div class="field"><label for="exercicio-tce">Exercício das contas</label><select id="exercicio-tce" name="exercicio" disabled><option value="" selected disabled>Selecione o exercício</option></select></div>
-    </div>
-    <section id="resultados-tce" aria-labelledby="titulo-acervo-tce">
-      <h2 id="titulo-acervo-tce">Contas e decisões por exercício</h2>
-      <div class="table-wrap">
-        <table id="tabela-tce">
-          <caption>Decisões e situação das contas por exercício</caption>
-          <thead><tr><th scope="col">Exercício das contas</th><th scope="col">Situação da apreciação ou julgamento</th><th scope="col">Documento integral do Tribunal de Contas</th></tr></thead>
-          <tbody id="registros-tce"></tbody>
-        </table>
-      </div>
-    </section>
-    <div id="atualizacao-tce" class="update-info"></div>
+    <form id="filtro-tce" class="filter-panel" role="search" aria-label="Consultar documentos" data-planejamento-filter data-target="tabela-tce" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html">
+      <div class="field"><label for="exercicio-tce">Exercício</label><select id="exercicio-tce" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option><option value="2022" serigyValue="2022">2022</option><option value="2021" serigyValue="2021">2021</option><option value="2020" serigyValue="2020">2020</option><option value="2019" serigyValue="2019">2019</option><option value="2018" serigyValue="2018">2018</option><option value="2017" serigyValue="2017">2017</option></select></div><div class="field"><label for="unidade-tce">Unidade</label><select id="unidade-tce" name="unidade"><option value="">Todas as unidades</option><option value="FINANPREV">FINANPREV</option><option value="SergipePrevidência">SergipePrevidência</option></select></div>
+      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="tabela-tce">Pesquisar</button><button type="reset" class="secondary" serigyClearForm>Limpar filtros</button></div>
+    </form>
+    <p class="result-count" data-count-for="tabela-tce" aria-live="polite">13 registro(s) encontrado(s).</p>
+    <div class="table-wrap"><table id="tabela-tce" serigyLoadSection="tabela-tce">
+      <caption>Julgamento pelo Tribunal de Contas — documentos por período</caption>
+      <thead><tr><th scope="col">Exercício</th><th scope="col">Unidade</th><th scope="col">Documento</th></tr></thead>
+      <tbody>
+        <tr data-record="0" data-year="2024" data-unit="SergipePrevidência"><td>2024</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/pc-2024-1.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2024)</a></td></tr>
+<tr data-record="1" data-year="2023" data-unit="SergipePrevidência"><td>2023</td><td>SergipePrevidência</td><td>Documento ainda não disponibilizado nesta relação</td></tr>
+<tr data-record="2" data-year="2022" data-unit="SergipePrevidência"><td>2022</td><td>SergipePrevidência</td><td>Documento ainda não disponibilizado nesta relação</td></tr>
+<tr data-record="3" data-year="2021" data-unit="SergipePrevidência"><td>2021</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/ACORDAO-TCE-2021.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2021)</a></td></tr>
+<tr data-record="4" data-year="2020" data-unit="SergipePrevidência"><td>2020</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/04/decisao-PC.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2020)</a></td></tr>
+<tr data-record="5" data-year="2019" data-unit="SergipePrevidência"><td>2019</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2019-SERPREV.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2019)</a></td></tr>
+<tr data-record="6" data-year="2018" data-unit="SergipePrevidência"><td>2018</td><td>SergipePrevidência</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2018-SERPREV-1-1.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2018)</a></td></tr>
+<tr data-record="7" data-year="2017" data-unit="SergipePrevidência"><td>2017</td><td>SergipePrevidência</td><td><a href="https://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2021/11/governanca-acordao-prestacao-de-contas-sergipeprevidencia-2017.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – SergipePrevidência (2017)</a></td></tr>
+<tr data-record="8" data-year="2021" data-unit="FINANPREV"><td>2021</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/02/FINAN-2021.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2021)</a></td></tr>
+<tr data-record="9" data-year="2020" data-unit="FINANPREV"><td>2020</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/PC-FINAN-2020.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2020)</a></td></tr>
+<tr data-record="10" data-year="2019" data-unit="FINANPREV"><td>2019</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/ACORDAO-DO-TCE-SE-Finanprev-2019.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2019)</a></td></tr>
+<tr data-record="11" data-year="2018" data-unit="FINANPREV"><td>2018</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2018-FINANPREV-1-1.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2018)</a></td></tr>
+<tr data-record="12" data-year="2017" data-unit="FINANPREV"><td>2017</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2017-FINANPREV.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2017)</a></td></tr>
+      </tbody>
+    </table></div>
+    <div id="atualizacao-tce" class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
+    <p>A data acima refere-se à atualização desta relação no Portal.</p>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

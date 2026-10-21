@@ -9,7 +9,7 @@
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
 </head>
-<body class="awaiting-information">
+<body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
   <div class="gov-stripe" aria-hidden="true"></div>
   <div class="utility-bar"><div class="container utility-inner">
@@ -23,21 +23,38 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/recursos-humanos.html">
     <h1>Padrão Remuneratório</h1>
-    <p class="section-availability" role="note">As informações desta seção ainda serão disponibilizadas.</p>
-    <p class="lead">Faixas remuneratórias dos cargos e funções previstos na estrutura da Unidade.</p>
+    <p class="lead">Valores por cargo, símbolo e modalidade de remuneração, conforme a planilha institucional.</p>
+    <p id="legenda-padroes">O sinal “-” reproduz a informação da planilha e não representa R$ 0,00. As modalidades são apresentadas separadamente, sem somar ou recalcular os valores. Deslize a tabela para consultar todas as colunas em telas menores.</p>
     <section aria-labelledby="titulo-padroes">
-      <h2 id="titulo-padroes">Cargos, funções e faixas remuneratórias</h2>
-      <div class="table-wrap">
-        <table id="tabela-padroes">
-          <caption>Padrão remuneratório dos cargos e funções</caption>
-          <thead><tr><th scope="col">Cargo/função</th><th scope="col">Nível, classe ou padrão</th><th scope="col">Remuneração/salário</th></tr></thead>
-          <tbody id="registros-padroes"></tbody>
+      <h2 id="titulo-padroes">Cargos, símbolos e remunerações</h2>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Padrão remuneratório com rolagem horizontal">
+        <table id="tabela-padroes" aria-describedby="legenda-padroes" serigyLoadSection="padraoRemuneratorio">
+          <caption>Padrão remuneratório por cargo e símbolo — valores em reais</caption>
+          <thead><tr><th id="padrao-cargo" scope="col">Cargo/Denominação</th><th id="padrao-simbolo" scope="col">Símbolo/Nível</th><th id="padrao-base" scope="col">Remuneração Base / Vencimento (R$)</th><th id="padrao-cc-sem-vinculo" scope="col">Remuneração CC Sem Vínculo 100% (R$)</th><th id="padrao-cc-com-vinculo" scope="col">Remuneração CC Com Vínculo 60% (R$)</th></tr></thead>
+          <tbody id="registros-padroes">
+          <tr data-source-row="2"><td headers="padrao-cargo" serigyItem="cargo">DIRETOR PRESIDENTE</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-23</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 15.365,00</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 13.325,00</td></tr>
+          <tr data-source-row="3"><td headers="padrao-cargo" serigyItem="cargo">DIRETOR ADMINISTRATIVO E FINANCEIRO</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-22</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 12.289,92</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 10.651,26</td></tr>
+          <tr data-source-row="4"><td headers="padrao-cargo" serigyItem="cargo">DIRETOR DE PREVIDENCIA</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-22</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 12.289,92</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 10.651,26</td></tr>
+          <tr data-source-row="5"><td headers="padrao-cargo" serigyItem="cargo">DIRETOR DE PLANEJAMENTO E GESTÃO</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-22</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 12.289,92</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 10.651,26</td></tr>
+          <tr data-source-row="6"><td headers="padrao-cargo" serigyItem="cargo">ASSESSOR ESPECIAL DO SISTEMA DE PROTEÇÃO SOCIAL DOS MILITARES</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-11</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 3.616,20</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 3.134,04</td></tr>
+          <tr data-source-row="7"><td headers="padrao-cargo" serigyItem="cargo">GERENTES / ASSESSORES / OUVIDOR GERAL / CHEFE DE GABINETE</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-06</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 1.695,09</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 1.469,07</td></tr>
+          <tr data-source-row="8"><td headers="padrao-cargo" serigyItem="cargo">COORDENADORES (DIVERSOS)</td><td headers="padrao-simbolo" serigyItem="descricao">CCS-13</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 1.403,78</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 842,26</td></tr>
+          <tr data-source-row="9"><td headers="padrao-cargo" serigyItem="cargo">ASSESSOR TÉCNICO I</td><td headers="padrao-simbolo" serigyItem="descricao">CCS-08</td><td headers="padrao-base" class="money">-</td><td headers="padrao-cc-sem-vinculo" class="money" serigyItem="salario">R$ 295,22</td><td headers="padrao-cc-com-vinculo" class="money" serigyItem="salario">R$ 187,78</td></tr>
+          <tr data-source-row="10"><td headers="padrao-cargo" serigyItem="cargo">OFICIAL ADMINISTRATIVO</td><td headers="padrao-simbolo" serigyItem="descricao">M-1 N</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 4.716,03</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="11"><td headers="padrao-cargo" serigyItem="cargo">OFICIAL ADMINISTRATIVO</td><td headers="padrao-simbolo" serigyItem="descricao">M-1 M</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 4.491,45</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="12"><td headers="padrao-cargo" serigyItem="cargo">OFICIAL ADMINISTRATIVO</td><td headers="padrao-simbolo" serigyItem="descricao">M-1 L</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 3.634,31</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="13"><td headers="padrao-cargo" serigyItem="cargo">OFICIAL ADMINISTRATIVO</td><td headers="padrao-simbolo" serigyItem="descricao">M-1 I</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 3.296,43</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="14"><td headers="padrao-cargo" serigyItem="cargo">EXECUTOR DE SERVIÇOS ADMINISTRATIVOS</td><td headers="padrao-simbolo" serigyItem="descricao">B-1 N</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 3.254,80</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="15"><td headers="padrao-cargo" serigyItem="cargo">MOTORISTA</td><td headers="padrao-simbolo" serigyItem="descricao">B-1 M</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 3.099,81</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="16"><td headers="padrao-cargo" serigyItem="cargo">GERENTE (CEDIDO)</td><td headers="padrao-simbolo" serigyItem="descricao">CCE-16</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 2.052,03</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="17"><td headers="padrao-cargo" serigyItem="cargo">ANALISTA DE SISTEMA</td><td headers="padrao-simbolo">-</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 4.839,91</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          <tr data-source-row="18"><td headers="padrao-cargo" serigyItem="cargo">ESPECIALISTA EM POLITICAS PUBLICAS E GESTÃO GOVERNAMENTAL</td><td headers="padrao-simbolo">-</td><td headers="padrao-base" class="money" serigyItem="salario">R$ 22.974,61</td><td headers="padrao-cc-sem-vinculo" class="money">-</td><td headers="padrao-cc-com-vinculo" class="money">-</td></tr>
+          </tbody>
         </table>
       </div>
     </section>
-    <div id="vigencia-padroes"></div>
-    <div id="normas-padroes"></div>
-    <div id="atualizacao-padroes" class="update-info"></div>
+    <div class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/recursos-humanos.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
+    <p>Data de atualização desta página no Portal; não indica vigência nem altera os períodos ou as datas dos registros.</p>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

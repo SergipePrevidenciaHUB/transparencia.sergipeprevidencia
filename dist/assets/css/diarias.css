@@ -1,0 +1,7 @@
+#tabela-relacao-diarias { min-width: 1500px; }
+#tabela-relacao-diarias td { vertical-align: top; }
+#tabela-relacao-diarias td:nth-child(3) { min-width: 180px; }
+#tabela-relacao-diarias td:nth-child(6) { min-width: 260px; }
+#tabela-relacao-diarias .money { white-space: nowrap; }
+#nome-relacao-diarias { min-width: 220px; }
+.high-contrast #nome-relacao-diarias { color: var(--texto); background: var(--fundo); }
