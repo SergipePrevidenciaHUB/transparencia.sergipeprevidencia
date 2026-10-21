@@ -50,3 +50,54 @@ Apresentação editorial em lista de definições (DT), sem tabela ou planilha o
 ## Condições para publicação
 
 Resolver as pendências de `controle/sic-pendencias.md`; confirmar contatos/setor e acesso específico ao SE-Ouv, testar solicitação e acompanhamento, validar orientação e marcações. Preencher somente os dados reais e conferir leitura por teclado, rótulos e links. Não publicar o modelo presencial sem contatos ou o eletrônico sem acesso funcional. Mover para dist e ajustar navegação somente em tarefa autorizada. Nenhuma declaração de atendimento, inexistência, data ou URL de canal foi inventada.
+
+
+## Complemento — Regulamentação local da LAI e Informações e-SIC
+
+**Fontes efetivamente consultadas:** AGENTS.md; C 11.5 (pp. 93–94, continuação) e 11.6 (pp. 94–95, somente sua continuação); S 11.3 e 11.4 (p. 1, exemplos das pp. 2–3); estes dois controles; modelo existente de acesso ao e-SIC como referência visual. Foi conferida somente a identificação da primeira página de `referencias/legislacao/DECRETO ESTADUAL LAI.pdf`, sem extrair dele prazos ou procedimentos para os modelos. **C** determina conteúdo; **S**, itens técnicos; **DT**, organização do modelo.
+
+### Correspondência exata e rotas
+
+| Critério Cartilha | Seção / item Serigy | Conteúdo / tipo | Rota documentada |
+| --- | --- | --- | --- |
+| 11.5 — instrumento normativo local que regulamenta a LAI | 11.3 / 11.3.1 `lai` | Texto ou Link | `/Portal-da-Transparencia/SIC/LAI/` |
+| 11.6 — prazos de resposta | 11.4 / 11.4.1 `prazoResposta` | Texto | `/Portal-da-Transparencia/SIC/eSIC/` |
+| 11.6 — prazo recursal | 11.4 / 11.4.2 `recursal` | Texto | Mesma rota e-SIC |
+| 11.6 — autoridades competentes para exame dos pedidos | 11.4 / 11.4.3 `autoridadeExame` | Texto | Mesma rota e-SIC |
+| 11.6 — procedimento de pedido e eventual recurso | 11.4 / 11.4.4 `procedimentoPedido` | Texto | Mesma rota e-SIC |
+
+Os códigos 11.3/11.4 de S **não** correspondem aos critérios 11.3/11.4 de C: os critérios desta etapa são **C 11.5 e 11.6**, ambos aplicáveis à Previdência Estadual e com somente Disponibilidade. Não estão enumerados filtros, histórico, exportação ou data de atualização autônomos; não foram criados. O contexto de ambos os modelos é `https://serigy.tce.se.gov.br/comum/sic.html`; os itens da tabela só serão aplicados quando existir conteúdo confirmado, nunca aos contêineres vazios.
+
+### Arquivos e coincidência da rota e-SIC
+
+- LAI: `modelos/Portal-da-Transparencia/SIC/LAI/index.html`.
+- Informações e-SIC: `modelos/variantes/sic-informacoes/Portal-da-Transparencia/SIC/eSIC/index.html`.
+
+**DT de isolamento:** S 11.4 utiliza a mesma rota `/SIC/eSIC` já reservada por S 11.2.1 ao acesso ao sistema. Para cumprir a preservação do HTML existente, o novo modelo informativo fica numa árvore de variante, reproduzindo o sufixo de rota documentado. `variantes/sic-informacoes` é apenas organização de modelos não publicados, **não uma rota pública**. Não foi inventada rota `/SIC/Informacoes`, nem alterado `modelos/Portal-da-Transparencia/SIC/eSIC/index.html`.
+
+Na publicação futura, reunir os blocos informativos e o acesso/seguimento do SE-Ouv na **mesma página e-SIC**, sem substituir ou apagar o acesso existente. Esta variante informativa não deve ser copiada isoladamente sobre a página de acesso. A montagem depende de tarefa autorizada e alimentação real. Ambos os novos modelos ficam fora de dist, sem menus ou alterações de deploy; visual, navegação geral e acessibilidade foram reutilizados.
+
+### LAI — apresentação e documento identificado
+
+**C 11.5:** disponibilizar instrumento normativo local legal/infralegal que regulamenta a Lei nº 12.527/2011, em texto ou link visível, identificado e associado à Transparência/LAI. Não basta usar a lei federal como substituto da regulamentação local. **DT:** seção editorial com reservas `#identificacao-norma-lai` e `#conteudo-norma-lai`, para identificação e acesso ao inteiro teor ou texto integral; não criar tabela de artigos.
+
+**Documento local encontrado:** `referencias/legislacao/DECRETO ESTADUAL LAI.pdf` (16 páginas). A primeira página identifica **Decreto nº 30.947, de 28 de dezembro de 2017**, do Governo de Sergipe, cuja ementa regulamenta o acesso a documentos e informações públicas nos termos da Lei Federal nº 12.527/2011, no âmbito do Poder Executivo Estadual. Essa conferência serve somente para identificar o documento disponível. Não houve homologação de vigência, auditoria integral, conferência de alterações posteriores ou definição do arquivo público definitivo.
+
+O PDF não foi copiado, vinculado por caminho de referencias ou publicado. **URL pública definitiva pendente:** não construir `/legislacao/decreto-lai.pdf` a partir do exemplo S nem presumir endereço no futuro Portal. Confirmar vigência/completude e destino oficial antes de inserir acesso real. `lai` (Texto | Link) será aplicado ao conteúdo/acesso correspondente, sem `serigyLink` para PDF e sem marcar apenas uma identificação como se o inteiro teor estivesse disponível. Nenhum link fictício ou conteúdo normativo parcial foi preenchido no modelo.
+
+### Informações e-SIC — apresentação sem procedimentos presumidos
+
+C 11.6 exige em destaque, na seção e-SIC, prazos de resposta e recursal, autoridades competentes para examinar pedidos e procedimento de realização do pedido e eventual recurso. A organização em quatro seções é DT, sem criar novas exigências ou instâncias recursais.
+
+| Reserva HTML | Alimentação necessária | S futuro |
+| --- | --- | --- |
+| `#prazo-resposta-esic` | Prazo de resposta confirmado na norma/fluxo aplicável | `prazoResposta` |
+| `#prazo-recursal-esic` | Prazo recursal confirmado | `recursal` |
+| `#autoridades-esic` | Autoridades efetivamente competentes, identificadas conforme fonte institucional | `autoridadeExame` |
+| `#procedimentos-esic`, subdividido em `#procedimento-pedido-esic` e `#procedimento-recurso-esic` | Instruções validadas de pedido e eventual recurso no fluxo adotado | `procedimentoPedido` no conjunto real; sem inventar `procedimentoRecurso` |
+
+Os contêineres estão vazios e sem marcação de dados. Não foram copiados prazos/autoridades municipais dos exemplos S, nem deduzidos prazos ou recursos do PDF do decreto cuja leitura foi apenas identificadora. Não há formulário próprio, contato novo, URL, datas ou declaração de funcionamento do sistema. SE-Ouv continua sendo o canal informado na etapa anterior; seu destino, instruções e marcação de redirecionamento permanecem pendentes conforme o controle, sem alteração do modelo anterior.
+
+### Alimentação e publicação deste complemento
+
+Receber norma vigente e conteúdo institucional validado; conferir vigência, inteiro teor, acesso público e orientações/autoridades reais; preencher somente os blocos respaldados e aplicar os itens S. Para e-SIC, integrar os blocos ao acesso na rota única documentada em tarefa futura, testando pedido, recurso e acompanhamento sem publicar dados de solicitantes. Validar HTML, teclado e destinos antes de mover conteúdo para dist. As reservas vazias não comprovam atendimento aos critérios.
