@@ -17,3 +17,23 @@ Modelo não publicado: `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/inde
 | Publicação e marcações | Dados e documentos reais ainda não recebidos/conferidos | Alimentar os blocos e aplicar nomeResponsavel, contatoResponsavel e politicaPrivacidade somente em conteúdo existente; validar rótulos, comunicação, acesso e integridade antes de mover para dist em tarefa autorizada. Não enviar mensagens externas nem publicar dados privados para teste. |
 
 Contatos gerais do rodapé não são canal homologado do encarregado. Não há conteúdo fictício, declarações de inexistência ou marcações de dados vazios. Dist, menus, deploy, Ouvidoria, SIC e modelos anteriores foram preservados. Não houve consulta externa ou confirmação institucional nesta tarefa.
+
+
+## Complemento — Serviços Públicos: C 14.3 / S 14.2.1
+
+Fontes: Cartilha pp. 109–110, critério **14.3**; Serigy Docs 14, seção **14.2**, item **14.2.1 `servicoPublico` (Link)**, p. 1 e exemplo nas pp. 1–2. Critério obrigatório, aplicável expressamente à Previdência Estadual, com somente Disponibilidade.
+
+**Rota própria:** `/Portal-da-Transparencia/LGPDeGovernoDigital/Servicos/`. Modelo `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/Servicos/index.html`. Não compartilha o caminho exato do modelo de LGPD; não há variante ou montagem conjunta necessária. O HTML pai permaneceu intacto; o breadcrumb do novo modelo referencia sua rota futura, sem inclusão em menu público.
+
+| Requisito / tema | Conteúdo ou dúvida pendente | Providência |
+| --- | --- | --- |
+| Serviços reais | Identificação dos serviços administrativos/operacionais efetivamente oferecidos digitalmente pela Unidade | Receber catálogo e confirmação da área. Não copiar exemplos C/S, presumir serviço por nome de plataforma ou usar e-SIC como substituto. |
+| URLs e formas de acesso | Destino oficial pertinente a cada serviço e vínculo ao SergipePrevidência | Conferir cada URL e o acesso digital; não construir caminho ou inserir link genérico como comprovação de serviço funcional. |
+| Funcionamento | Possibilidade real de demandar/acessar o serviço sem solicitação presencial | Verificar o fluxo previsto e suas condições com a fonte institucional; não declarar atendimento pela presença de link. Testar somente sem envio de demanda real não autorizado. |
+| Informação ao usuário | Nome, eventual descrição e orientação de acesso real de cada serviço | Obter conteúdo validado e associar ao acesso correspondente. Organização editorial é DT; não criar prazos, requisitos, autenticação, etapas ou canais por analogia. |
+| Documentos eventuais | Instruções/documentos efetivamente necessários e fornecidos para o serviço | Conferir pertinência e destino. C/S deste critério não impõem anexo adicional nem os campos completos da Carta; documento descritivo não substitui acesso digital. |
+| Marcação e controles | Acessos reais ainda não recebidos | Aplicar apenas `servicoPublico` aos links confirmados sob schema lgpd-governo-digital; sem itens de nome/descrição inventados, marcação em lista vazia ou filtro/histórico/exportação/data autônomos não previstos. |
+| Relação com outras páginas | Eventual catálogo compartilhado com Carta de Serviços | Reaproveitar somente origem validada, sem confundir divulgação da Carta, e-SIC e prestação digital. Não alterar os modelos existentes nem presumir fluxo comum. |
+| Publicação | Catálogo e funcionalidade ainda sem validação | Resolver pendências, alimentar e testar links, teclado, rótulos e fluxo digital antes de mover para dist em tarefa autorizada. Sem atualização de menus ou deploy nesta rodada. |
+
+Nenhuma informação sobre serviço, prazo, canal, URL ou documento foi inventada. Permanecem preservados os modelos de LGPD e das demais seções e as alterações preexistentes. A busca comum não substitui a verificação da prestação digital e o modelo vazio não comprova atendimento.
