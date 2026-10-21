@@ -61,6 +61,33 @@ Fontes: Cartilha PETP 2026, critério **14.4**, pp. 111–112; Serigy Docs 14, s
 - **14.2 / S 14.1.3:** modelo raiz preparado; faltam política adotada, versão e acesso integral.
 - **14.3 / S 14.2.1:** Serviços preparado; faltam catálogo real, destinos, orientações e comprovação de demanda/acesso digital.
 - **14.4 / S 14.3.1:** Dados Abertos preparado nesta etapa; faltam conjuntos, formatos reais, URLs/acesso automatizado, regras e exemplos.
-- **14.5 / S 14.1.4–14.1.5:** pesquisas e resultados de satisfação **ainda sem modelo** nesta sequência. A tabela S os associa à seção da rota raiz; conferir C 14.5 em etapa própria e preservar LGPD ao preparar esses blocos, sem inventar rota distinta ou sobrescrever o HTML existente.
+- **14.5 / S 14.1.4–14.1.5:** fragmento não publicado preparado conforme complemento abaixo, para integração à rota raiz; faltam instrumento/acesso real, regularidade e resultados confirmados. Modelo LGPD preservado, sem nova rota pública.
 
 A cobertura descrita é de preparação, não de atendimento aos critérios. Nenhuma pendência anterior foi encerrada pela criação do catálogo vazio. Modelos LGPD/Serviços e demais seções, dist, menus e deploy permaneceram preservados; nenhuma publicação ou consulta externa foi realizada.
+
+
+## Complemento — Satisfação: C 14.5 / S 14.1.4–14.1.5
+
+**Texto C exato:** “14.5 Realiza e divulga resultados de pesquisas de satisfação?” (Cartilha, p. 113). Critério obrigatório, aplicável expressamente à Previdência Estadual, com somente **Disponibilidade**. Devem ser divulgados resultados de pesquisas regularmente aplicadas; as frequências citadas são exemplos, não prazo único.
+
+**S:** 14.1.4 `pesquisaSatisfacao` (Link ou Forms) e 14.1.5 `resultadoSatisfacao` (Link, Imagem ou Texto), na seção 14.1, rota **`/Portal-da-Transparencia/LGPDeGovernoDigital/`**. Fontes conferidas: C p. 113 e S pp. 1–2, tabela e exemplo correspondentes.
+
+**Preparação sem nova página:** `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`, fragmento de seção para integrar futuramente ao main da raiz LGPD, após a política. Não publicar o fragmento como página própria, não sobrescrever o index existente nem criar subrota por suposição. O main, cabeçalho e rodapé da página raiz serão reutilizados; nenhum deles foi alterado.
+
+| Requisito / tema | Informação ou evidência faltante | Providência |
+| --- | --- | --- |
+| Realização da pesquisa | Instrumento, serviço/público avaliado e forma real de aplicação | Receber confirmação da área. Não criar perguntas, categorias, escala, serviço ou formulário próprio por suposição. |
+| Regularidade | Aplicações efetivas e regularidade adotada, com referências reais | Confirmar com a fonte, sem impor anual/semestral ou prazo fixo. Um relatório isolado não comprova regularidade. C não define série mínima ou histórico de três anos neste critério. |
+| Acesso / S 14.1.4 | Link ou instrumento real compatível com a forma de aplicação | Conferir destino/conteúdo antes de inserir pesquisaSatisfacao. Não copiar URL de exemplo ou supor pesquisa ativa. Esclarecer a apresentação se a aplicação for presencial ou não houver formulário online; não criar um só para preencher a reserva. |
+| Divulgação / S 14.1.5 | Resultados efetivamente produzidos e sua associação à pesquisa/aplicação | Receber conteúdo completo pertinente, em apresentação compatível com a fonte e as alternativas S. Não basta link para responder; não reutilizar estatísticas SIC como satisfação sem fonte metodológica. |
+| Referências e conceitos | Período/aplicação, categorias, metodologia e bases que permitam entender os resultados reais | Confirmar os elementos existentes. Não inventar NPS, percentuais, totais, notas ou denominadores nem impor indicadores fixos como mínimo C. |
+| Proteção de dados | Resultados públicos adequados e sem respostas individuais identificáveis | Conferir agregados/derivados com a área; não publicar cadastro privado, contato ou respondente. |
+| URLs / documentos / imagens | Acessos e arquivos reais, se utilizados na apresentação | Conferir correspondência e acesso. S permite Link/Imagem/Texto para resultados, sem exigir todos ou formato específico. Não gerar URL por data/nome nem criar relatório ou formato inexistente. |
+| Integração e marcações | Conteúdo e apresentação ainda não alimentados | Inserir a seção no main da raiz em tarefa autorizada, mantendo LGPD. Aplicar pesquisaSatisfacao e resultadoSatisfacao só no conteúdo real; sem marcação em div vazio ou novo item de data/filtro/exportação. |
+| Publicação | Regularidade, instrumentos, resultados e eventuais destinos ainda pendentes | Resolver fontes, alimentar e testar acesso e acessibilidade, sem enviar respostas reais não autorizadas. Não declarar atendimento ou publicar fragmento vazio. |
+
+### Situação consolidada da dimensão
+
+14.1 e 14.2 têm estrutura no modelo raiz; 14.3 em Servicos; 14.4 em DadosAbertos; 14.5 tem agora fragmento para a mesma rota raiz de 14.1/14.2. **Todos os cinco estão contemplados na preparação estrutural, sem comprovação de alimentação ou atendimento.** Permanecem pendentes identidade/contato, política, serviços digitais, conjuntos/regras/exemplos e pesquisas/resultados reais. O status anterior “14.5 ainda sem modelo” foi atualizado; nenhuma pendência institucional foi encerrada pela criação do fragmento.
+
+Não foram exigidos controles autônomos de filtro, histórico, gravação ou atualização que C/S 14.5 não enumeram. Não foram alterados dist, menus, deploy, modelos existentes ou outras seções. Sem dados, documentos, links, datas ou formatos inventados.

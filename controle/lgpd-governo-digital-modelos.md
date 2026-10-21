@@ -135,10 +135,64 @@ Este quadro é **cobertura de modelos e mapeamento**, não declaração de atend
 | 14.2 — política de privacidade | 14.1.3 politicaPrivacidade | Mesmo modelo raiz, preservado; política e acesso pendentes |
 | 14.3 — serviços públicos digitais | 14.2.1 servicoPublico | `LGPDeGovernoDigital/Servicos/index.html`, preparado e preservado; catálogo/funcionalidade pendentes |
 | 14.4 — dados abertos | 14.3.1 dadosAbertos | `LGPDeGovernoDigital/DadosAbertos/index.html`, criado nesta etapa; conjuntos/regras/exemplos pendentes |
-| 14.5 — pesquisas e resultados de satisfação | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | **Ainda não modelado neste recorte.** S o situa na seção 14.1, cuja rota é a raiz já modelada; requisitos C 14.5 deverão ser conferidos em etapa própria. Não criar outra rota ou sobrescrever LGPD por dedução |
+| 14.5 — pesquisas e resultados de satisfação | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Bloco não publicado preparado em `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`, para integração futura à raiz existente, conforme complemento 14.5; conteúdo real pendente |
 
-São três modelos para os critérios 14.1–14.4. A cobertura da dimensão permanece incompleta em 14.5. Em eventual etapa de satisfação, tratar a rota compartilhada preservando o modelo LGPD; nenhuma variante foi criada nesta rodada.
+São três modelos de página para os critérios 14.1–14.4 e, após o complemento 14.5 abaixo, um bloco de satisfação para integração à raiz. A cobertura é de estrutura não publicada dos cinco critérios, sem alimentação ou atendimento comprovado. A etapa original de Dados Abertos não criou variante; o bloco 14.5 foi preparado posteriormente, preservando os modelos anteriores.
 
 ### Alimentação e publicação
 
 Receber conjunto(s) autorizado(s), arquivos/acesso reais, formato confirmado, regras em seções e exemplos coerentes com os destinos. Validar leitura por máquina e acesso automatizado, conteúdo público, integridade e relação com o período/fonte. Escolher metadados e organização conforme a origem sem transformar DT em obrigação C. Aplicar `dadosAbertos` somente após haver conteúdo real, testar acesso e exemplos, HTML e acessibilidade antes de mover para dist em tarefa autorizada. As pendências abaixo e no controle específico não estão resolvidas pelo desenho do modelo.
+
+
+## Complemento — 14.5: pesquisas e resultados de satisfação
+
+**Fontes efetivamente consultadas:** AGENTS.md; **Cartilha PETP 2026, p. 113**, critério 14.5; Serigy Docs 14, seção **14.1. LGPD**, itens **14.1.4 e 14.1.5** (p. 1) e exemplo correspondente (p. 2); estes dois controles e modelo raiz existente. Mantém-se C (requisito), S (item técnico) e DT (apresentação/integração).
+
+### Texto exato, aplicabilidade e verificação
+
+**Redação C:** “14.5 Realiza e divulga resultados de pesquisas de satisfação?”
+
+**Classificação:** obrigatória. **Aplicabilidade:** Administração Direta e Indireta do Estado, Administração Indireta de Aracaju e **Previdências Municipais e Estadual**. **Itens exigidos:** somente **Disponibilidade**.
+
+**Conteúdo C:** divulgar resultados de pesquisas de satisfação aplicadas regularmente, para participação dos usuários na avaliação dos serviços, identificação de lacunas/deficiências e reorientação da prestação. As frequências anual, semestral ou após interação relevante são exemplos, não um prazo único obrigatório. Pesquisas de Ouvidoria, cursos/treinamentos e atendimento em unidades são exemplos de aplicação; não impor pesquisas separadas para todos esses públicos como novos critérios.
+
+| Critério C | Item S / descrição | Tipo literal S | Reserva futura |
+| --- | --- | --- | --- |
+| 14.5 | 14.1.4 `pesquisaSatisfacao` — realiza pesquisas de satisfação | Link ou Forms | `#acesso-pesquisa-satisfacao`, hoje vazio e sem item |
+| 14.5 | 14.1.5 `resultadoSatisfacao` — divulga resultados de pesquisas | Link, Imagem ou Texto | `#conteudo-resultados-satisfacao`, hoje vazio e sem item |
+
+O instrumento/acesso à pesquisa e seus resultados são conteúdos distintos. **Um link para responder, sozinho, não comprova divulgação de resultados**; dados de SIC ou manifestações de Ouvidoria não são automaticamente pesquisa de satisfação. Não copiar o endereço ou a referência temporal ilustrativa S como dados da Unidade.
+
+### Localização: bloco na rota já prevista, sem página nova
+
+S coloca ambos os itens na seção 14.1, caminho `[Portal da Transparencia]/LGPDeGovernoDigital`. Portanto, o conteúdo será apresentado em **`/Portal-da-Transparencia/LGPDeGovernoDigital/`**, junto aos blocos já preparados de encarregado e política, **não** em nova rota `/Satisfacao`.
+
+**Único HTML criado nesta etapa:** `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`. É **fragmento de seção**, não documento HTML independente ou nova página pública. A pasta variantes serve apenas para organizar a preparação não publicada. O fragmento reutiliza a classe `content-box`, títulos e estrutura semântica do Portal e contém somente o contexto do schema, sem itens de dados em campos vazios.
+
+**Integração futura DT:** inserir a seção `#pesquisas-satisfacao` no main de `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/index.html`, após a política e antes do fechamento de main, quando houver conteúdo validado e tarefa autorizada. Reutilizar cabeçalho, rodapé, estilos, acessibilidade e breadcrumb da página existente. Não copiar o fragmento isolado como index, não criar segundo main/h1, não apagar os blocos LGPD e não publicar a árvore variantes como destino próprio. IDs foram conferidos contra o modelo raiz e não colidem; a junção em memória foi validada sem editar o arquivo raiz.
+
+### Alimentação: conteúdo real e escolhas de apresentação
+
+**DT:** bloco de acesso à pesquisa e bloco de resultados, com identificação que permita associar cada resultado à pesquisa e ao período ou aplicação reais. A identificação do período/serviço, metodologia, categorias e bases de cálculo deve vir da fonte institucional quando necessária para compreender o resultado; não transforma exemplos em colunas normativas fixas.
+
+Receber instrumento/forma real de aplicação, evidência da regularidade adotada e resultados efetivamente produzidos. Definir Link/Forms ou Link/Imagem/Texto conforme a fonte e a apresentação real. S admite essas alternativas; não obriga PDF, planilha, gráfico, formulário próprio ou todas as modalidades simultaneamente. Não criar formulário de coleta sem necessidade comprovada, operação ou dados de origem.
+
+Resultados podem ser apresentados em texto, imagem/gráfico ou documento realmente existente, conforme S e fonte. Garantir leitura e acesso ao conteúdo real, sem produzir notas, escalas, percentuais, NPS, respondentes, datas ou relatórios fictícios. Não misturar populações ou períodos; não publicar respostas individuais identificáveis ou base privada. A aplicação regular deve ser confirmada pela área; um arquivo isolado não prova regularidade nem representa todas as pesquisas existentes.
+
+C 14.5 não enumera série histórica mínima, filtros, gravação, escala de avaliação, periodicidade fixa ou item autônomo de atualização. S 14.1.4–14.1.5 não documenta esses controles. Não foram criados seletor de exercício, tabela vazia de notas, formatos obrigatórios, botão exportar ou `dataUltimaAtualizacao`. Ausência desses controles autônomos não elimina a exigência de pesquisas regularmente aplicadas e resultados divulgados. Referências temporais editoriais futuras usarão somente dados reais da aplicação, sem data do dia por geração.
+
+### Cobertura atual consolidada de 14.1–14.5
+
+| Critério C | Itens S | Estrutura preparada | Pendência de alimentação |
+| --- | --- | --- | --- |
+| 14.1 | 14.1.1 nomeResponsavel; 14.1.2 contatoResponsavel | Modelo raiz, preservado | Identidade do encarregado e canal confirmado |
+| 14.2 | 14.1.3 politicaPrivacidade | Modelo raiz, preservado | Política adotada e acesso integral |
+| 14.3 | 14.2.1 servicoPublico | Modelo Servicos, preservado | Serviços, URLs, orientações e funcionamento digital |
+| 14.4 | 14.3.1 dadosAbertos | Modelo DadosAbertos, preservado | Conjuntos autorizados, arquivos/acesso, regras e exemplos |
+| 14.5 | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Fragmento nesta etapa, para integrar a rota raiz | Instrumento/acesso real, regularidade, resultados e referências da aplicação |
+
+A sequência de preparação estrutural contempla agora os cinco critérios, mas nenhum campo vazio comprova atendimento e as pendências institucionais permanecem. Não se declara a dimensão homologada, completa em dados ou pronta para publicação.
+
+### Antes da publicação de 14.5
+
+Receber e validar pesquisas/aplicações e resultados, definir apresentação real e conferir eventuais URLs/arquivos. Associar resultado e pesquisa, preencher conteúdo e aplicar apenas os dois itens S nos elementos reais. Integrar o fragmento à raiz em tarefa autorizada, preservando LGPD, e testar acesso, legibilidade e acessibilidade. Não enviar resposta ou contato externo para testar sem autorização. Nenhum menu, deploy ou HTML existente foi alterado nesta etapa.
