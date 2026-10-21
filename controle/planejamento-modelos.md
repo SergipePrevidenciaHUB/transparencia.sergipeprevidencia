@@ -117,3 +117,45 @@ C 10.4 não lista gravação de relatórios e S 10.4 não documenta `salvarRelat
 Receber informações e documentos institucionais, conferir referência das contas ou períodos fiscais, validar acervo, correspondência e acesso público. URLs do TCE ou do emissor/consolidado só entram após conferência direta; não gerar URL por exercício, copiar links de exemplos ou usar `serigyLink` para PDF. Não declarar pendência, inexistência, não aplicação ou cobertura de anexos por dedução de tabelas vazias.
 
 As reservas de atualização continuam vazias até haver conteúdo real. Antes de mover para `dist`, resolver as dúvidas no controle, alimentar e marcar somente conteúdo existente, implementar a navegação histórica de 10.3 e a consulta de 10.4 e testar recortes, documentos, extração e acessibilidade. A simples existência do modelo não atesta atendimento; os modelos anteriores, menus e deploy permanecem inalterados.
+
+
+## Complemento — Plano Estratégico e Balancetes Mensais
+
+Fontes efetivamente consultadas: AGENTS.md; Cartilha PETP 2026 **10.5, p. 86**, e **10.6, p. 87**; Serigy Docs, dimensão 10, seções **10.5 e 10.6**, tabelas da p. 1 e exemplos correspondentes da p. 2. **C** = exigência da Cartilha; **S** = marcação técnica; **DT** = organização proposta. Os quatro modelos anteriores não foram alterados.
+
+| C / S | Modelo não publicado | Rota literal prevista |
+| --- | --- | --- |
+| 10.5 / 10.5 | `modelos/Portal-da-Transparencia/PlanejamentoPrestacaoContas/PlanoEstrategico/index.html` | `/Portal-da-Transparencia/PlanejamentoPrestacaoContas/PlanoEstrategico/` |
+| 10.6 / 10.6 | `modelos/Portal-da-Transparencia/PlanejamentoPrestacaoContas/Balancetes/index.html` | `/Portal-da-Transparencia/PlanejamentoPrestacaoContas/Balancetes/` |
+
+Os modelos estão fora de `dist`, sem inclusão em menu público. Reutilizam a estrutura visual e os componentes gerais existentes. O `main` mantém somente o schema de cabeçalho/documentos `planejamento-prestacao-contas.html`. Não há marcações de dados, datas, formatos, ausência ou carregamento sobre conteúdo vazio. Permanece a divergência S entre esse schema e `gestao-fiscal-planejamento.html` nos exemplos de filtro/atualização; esclarecer antes de ativar os itens.
+
+### Plano Estratégico — 10.5
+
+**C:** aplicável às Previdências Municipais e Estadual; somente Disponibilidade. O plano deve conter objetivos estratégicos, indicadores e respectivas metas; não se confunde com PPA. **S 10.5.1:** `planoEstrategico` (Anexo), no acesso real ao plano integral. **DT:** apresentação documental em `#conteudo-plano-estrategico`, dentro da seção `#documento-plano-estrategico`, sem transcrever indicadores ou criar tabela financeira.
+
+Nem C 10.5 nem S 10.5 prescrevem filtro, série histórica, gravação de relatórios ou `dataUltimaAtualizacao`. Portanto, não há seletores, exportação ou reserva de data obrigatória neste modelo. A Cartilha menciona atualização conforme necessário, sem periodicidade numérica ou horizonte fixo. A vigência e a identificação da versão devem vir do plano real; não copiar as datas do exemplo S, nem impor formato editável ou PDF pesquisável como exigência autônoma deste critério. Obter o plano integral e conferir os três conteúdos mínimos antes da alimentação; não produzir um plano a partir do PPA ou do relatório de gestão.
+
+### Balancetes — 10.6: aplicabilidade confirmada
+
+**Conclusão expressa:** C p. 87 inclui nominalmente **Previdências Municipais e Estadual** no quadro de aplicabilidade de 10.6. Assim, o critério está no escopo da Previdência Estadual. A observação S p. 1 de aplicação apenas à **Matriz II** não afasta essa exigência C; sua correspondência técnica permanece **DÚVIDA — REVISÃO NECESSÁRIA**, sem presumir dispensa ou excluir a página. S 10.6.4–10.6.5 menciona “critérios dos contratos” nas descrições; registrar provável inconsistência editorial, sem transportar conteúdo/prazos de Contratos para Balancetes e sem alterar os nomes documentados dos itens.
+
+**C — conteúdo:** balancetes mensais da Unidade em seção própria, identificados por mês e exercício, abrangendo no mínimo execução orçamentária e financeira do mês, receitas e despesas. O índice não substitui os demonstrativos. Se PDF, deve ser pesquisável. Documento oficial assinado deve ser preservado, acompanhado de editável sem assinaturas. **Gravação:** salvar o conjunto selecionado em pelo menos um formato editável; txt/csv/ods/json são exemplos, não obrigação de oferecer todos. O exemplo S em PDF não elimina o editável C. Não publicar planilhas privadas por cópia bruta.
+
+| Reserva / conteúdo | Origem | S futuro |
+| --- | --- | --- |
+| Exercício e mês em `#tabela-balancetes` | C: identificação por período; índice tabular é DT | Sem item específico de célula; não inventar propriedades |
+| Balancete oficial | C: conteúdo mensal integral, PDF pesquisável se utilizado | 10.6.1 `balanceteMensal` (Anexo), apenas em acesso/conteúdo real |
+| Versão editável associada | C: editável junto da versão oficial assinada; coluna é DT | Sem propriedade nova; controlar correspondência por período e conteúdo |
+| `#filtro-balancetes`, `#exercicio-balancetes`, `#mes-balancetes` | C: localização por exercício e mês | 10.6.2 `filtroPesquisa` (N/A), quando funcional |
+| `#exportacao-balancetes` | C: gravação do conjunto selecionado em pelo menos um editável | 10.6.3 `salvarRelatorio` (N/A), com `serigyValue` do formato realmente oferecido |
+| `#atualizacao-balancetes` | C: indicar publicação ou última atualização real | 10.6.4 `dataUltimaAtualizacao` (Data), somente após alimentação |
+| Seletor de exercício e opções reais | C: pelo menos os três anos anteriores à consulta, por mês/exercício | 10.6.5 `historicoExercicio` (N/A), opções reais com `serigyValue` |
+
+**Atualidade:** último mês exigível disponível. C **recomenda** publicação em até 30 dias após encerramento do mês; não converter a recomendação em prazo absoluto. Confirmar o mês exigível com a contabilidade. Data da geração/importação não comprova atualidade. **Histórico:** três anos anteriores à consulta, sem reduzir ao total de três arquivos ou aplicar a série especial X de 10.1–10.3.
+
+**Consulta:** C admite também organização única facilmente localizável por Ctrl+F; o modelo prepara seletores por exercício e mês, sem declarar essa alternativa proibida. Seletores/botões estão desativados, sem opções de períodos fabricados. A associação futura `#pesquisar-balancetes` → `#resultados-balancetes` poderá usar `serigyExecuteWaitSection`/`serigyLoadSection` coincidentes após implementação; IDs são DT. Não há exportação funcional ou formato escolhido antes de receber o conjunto editável real. Conferir o recorte salvo e sua equivalência aos documentos; se vários arquivos compõem um período, manter a associação e a cobertura, sem duplicar conteúdo.
+
+### Antes da publicação de 10.5–10.6
+
+Receber os documentos e metadados institucionais; conferir integridade, vigência/referência, cobertura e acesso público; resolver as dúvidas S; preencher apenas conteúdo real e aplicar os itens confirmados. Em Balancetes, implementar e testar pesquisa, histórico, exportação editável e atualização real. URLs oficiais só após conferência individual; não criar caminhos por ano/mês nem usar `serigyLink` para PDF. Só mover para `dist` e ajustar navegação em tarefa autorizada, após validação. Nenhum dos modelos vazios comprova atendimento.

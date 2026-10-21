@@ -62,3 +62,28 @@ Antes de publicar: resolver fontes, documentos, cobertura histórica, prazos/ref
 Manter a divergência entre `planejamento-prestacao-contas.html` (cabeçalho/documentos) e `gestao-fiscal-planejamento.html` (exemplo de atualização) como **DÚVIDA — REVISÃO NECESSÁRIA**, sem presumir equivalência. Aplicar os itens e datas reais somente após esclarecimento e alimentação. URLs precisam de conferência; não usar `serigyLink` para PDF nem publicar arquivos privados por cópia bruta. Dados/declarações dependem de fonte institucional, não da falta de registros no modelo.
 
 Antes da publicação autorizada: resolver emissão/cobertura/anexos do RGF e situação/acervo das contas, receber e conferir documentos, preencher referências reais, implementar os controles aplicáveis, aplicar marcações no contexto correto e validar documentos, recortes, histórico, extração e acessibilidade. Nenhum arquivo dos modelos anteriores, `dist`, menu, Receitas ou deploy foi alterado neste complemento; nenhuma comunicação externa foi enviada.
+
+
+## PlanoEstrategico — C 10.5 / S 10.5
+
+| Requisito | Informação/documento faltante | Providência |
+| --- | --- | --- |
+| Plano integral | Plano estratégico institucional adotado, com objetivos estratégicos, indicadores e metas | Receber e conferir o documento; não substituir por PPA ou inventar conteúdo. |
+| Identificação e vigência | Versão, horizonte e identificação conforme documento real; arquivo/URL oficial | Conferir versão e acesso público. Não impor periodicidade, histórico, filtro, exportação ou data de atualização autônomos que C/S 10.5 não enumeram. |
+| Marcação | Conteúdo documental real e schema esclarecido | Aplicar somente `planoEstrategico` (Anexo, 10.5.1) ao acesso/conteúdo existente. |
+
+## Balancetes — C 10.6 / S 10.6
+
+**Aplicabilidade confirmada:** a Cartilha p. 87 inclui expressamente a Previdência Estadual. A ressalva técnica S “apenas à Matriz II” não autoriza excluir 10.6. Esclarecer a correspondência da matriz sem suspender o levantamento do acervo.
+
+| Requisito | Informação/documento faltante | Providência |
+| --- | --- | --- |
+| Conteúdo mensal | Balancetes oficiais com execução orçamentária e financeira mensal de receitas e despesas, por exercício/mês | Receber os documentos e conferir completude e período; não gerar balancetes a partir das tabelas de Receitas ou Despesas. |
+| Atualidade | Último mês exigível, data real de publicação/atualização e cobertura | Confirmar com a contabilidade. Até 30 dias é recomendação C, sem prazo absoluto inventado. Não usar data de geração do modelo. |
+| Histórico | Acervo mensal de pelo menos três anos anteriores à consulta | Conferir exercício e mês; não limitar aos exemplos S nem criar registros para períodos ausentes. |
+| Formatos e assinaturas | PDF pesquisável quando adotado; versão oficial assinada preservada e editável correspondente sem assinaturas | Receber derivados adequados e conferir equivalência; não copiar a fonte privada nem presumir que PDF satisfaça a gravação editável. |
+| Consulta e gravação | Dados dos períodos reais e conjunto exportável em pelo menos um formato editável | Ativar filtros por exercício/mês e exportação coerente com seleção. C também admite página única localizável por Ctrl+F. Não definir extensão ou empacotamento sem a fonte; não duplicar documentos no conjunto. |
+| Marcações S | `balanceteMensal`, `filtroPesquisa`, `salvarRelatorio`, `dataUltimaAtualizacao`, `historicoExercicio` (10.6.1–10.6.5) | Aplicar somente em dados/ações reais; formato real em `serigyValue` da exportação. Confirmar o schema antes de ativar. |
+| Divergências técnicas | Matriz II; descrições S 10.6.4/10.6.5 mencionam contratos; schemas diferentes nos exemplos | **DÚVIDA — REVISÃO NECESSÁRIA:** esclarecer representação com fonte técnica, sem alterar a aplicabilidade C nem importar regras de Contratos. |
+
+Antes de publicar os dois novos modelos: obter arquivos/metadados, conferir conteúdo e acesso, resolver dúvidas técnicas, alimentar e marcar somente dados existentes; implementar os controles aplicáveis de Balancetes; testar documentos, formatos, recortes, histórico, HTML e acessibilidade. Não há declaração de inexistência ou atendimento. Os quatro HTMLs anteriores, `dist`, menus e deploy foram preservados.
