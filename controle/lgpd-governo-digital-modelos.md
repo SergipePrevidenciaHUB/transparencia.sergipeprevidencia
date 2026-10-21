@@ -85,3 +85,60 @@ C 14.3 e S 14.2.1 não exigem filtro específico, consulta tabular, histórico, 
 ### Alimentação e publicação
 
 Receber catálogo real, identificação, URLs oficiais de serviços e orientações necessárias; conferir finalidade, vínculo, acesso digital e condições reais com a área responsável. Aplicar `servicoPublico` somente aos links funcionais e confirmados. Conferir documentos eventualmente fornecidos sem gerar endereço presumido ou usar serigyLink para PDF. Resolver pendências do controle, testar destinos e acessibilidade, alimentar dados reais e só então mover para dist em tarefa autorizada. Nenhuma afirmação de atendimento ou de completude foi criada, nem conteúdo da LGPD sobrescrito.
+
+
+## Complemento — Dados Abertos
+
+**Fontes efetivamente consultadas:** AGENTS.md; Cartilha PETP 2026, **critério 14.4, pp. 111–112**; Serigy Docs 14, **seção 14.3. Dados Abertos**, tabela e exemplo da p. 1; estes dois controles e o modelo de Serviços como referência visual. A tabela S da dimensão foi conferida também para o quadro de cobertura abaixo. **C** = requisito formal; **S** = marcação técnica; **DT** = escolha de apresentação. Não foram auditados conjuntos reais ou arquivos de outras dimensões nesta rodada.
+
+### Código, aplicabilidade e rota
+
+**C 14.4 ↔ S 14.3.1 `dadosAbertos` (Texto)**. O critério C é obrigatório, exige somente Disponibilidade e inclui expressamente Previdências Municipais e Estadual. A seção técnica S 14.3 não corresponde ao critério C 14.3 (Serviços Públicos).
+
+Caminho literal S: `[Portal da Transparencia]/LGPDeGovernoDigital/DadosAbertos`. Rota prevista: **`/Portal-da-Transparencia/LGPDeGovernoDigital/DadosAbertos/`**. Modelo: `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/DadosAbertos/index.html`. É rota própria, não compartilhada com o HTML raiz LGPD ou Serviços; não foi criada variante e nenhum modelo anterior foi sobrescrito.
+
+O arquivo está fora de dist, sem link no menu público e sem alteração de deploy. Reutiliza visual, cabeçalho, rodapé, breadcrumb e acessibilidade. O link do breadcrumb ao pai é referência à rota já preparada na árvore de modelos, não promessa de publicação. O main contém apenas o contexto `serigySchema="https://serigy.tce.se.gov.br/comum/lgpd-governo-digital.html"`, sem marcação de dados ou ações sobre conteúdo vazio.
+
+### Requisitos formais e organização técnica
+
+**C p. 111:** dados divulgados devem ser legíveis por máquina e em formato aberto; deve haver acesso automatizado por sistemas externos, e a página deve conter regras de utilização com seções detalhadas e exemplos. Neste ciclo, C considera o mínimo atendido quando houver pelo menos um caso de dados legível por máquina; isso não elimina as regras e exemplos nem comprova os outros critérios do Portal. O modelo vazio não constitui esse caso e não declara atendimento.
+
+| Elemento preparado | Exigência C / escolha DT | Marcação S futura |
+| --- | --- | --- |
+| `#catalogo-dados-abertos`, tbody `#conjuntos-dados-abertos` | Catálogo tabular é **DT**, não formato de apresentação obrigatório. Organiza os conjuntos realmente aprovados | Não há itens próprios S para cada coluna ou arquivo |
+| Colunas Conjunto e Descrição | **DT** para identificação do conteúdo disponível, sem inventar nome ou assunto institucional | Não criar propriedades como `nomeConjunto` ou `descricaoConjunto` |
+| Coluna Formato | **DT** de identificação do formato realmente disponibilizado; **C** exige aberto e legível por máquina | Sem propriedade específica de formato; não selecionar extensões sem arquivo real |
+| Coluna Acesso aos dados | **C** exige acesso automatizado; a apresentação como link para arquivo ou acesso real é **DT** | `dadosAbertos` é Texto, não propriedade de endpoint ou download por coluna |
+| `#regras-dados-abertos` | **C** exige regras de utilização em seções detalhadas; títulos e conteúdo específicos dependem da fonte validada | Aplicar `dadosAbertos` ao conteúdo real correspondente, no contexto da página, nunca a um bloco vazio |
+| `#exemplos-dados-abertos` | **C** exige exemplos; preparar depois de conhecer arquivos/URLs e regras reais | Não inventar novo item de exemplo nem copiar chamadas ilustrativas S |
+
+O catálogo tem somente cabeçalhos e tbody vazio, sem linhas de dados, nomes de conjuntos, links, formatos ou datas. Regras e exemplos também estão vazios. Os títulos são reservas de estrutura, não conteúdo de uso já existente. Na alimentação, associar cada conjunto, formato, acesso e instrução de maneira clara. O escopo do item S deverá conter informação real de dados abertos/regras/acesso; não marcar apenas um título de seção como evidência de disponibilização.
+
+### Formatos, consulta, atualização, licenças e acesso
+
+- **C não fixa lista cumulativa de extensões.** Escolher e validar formato aberto realmente legível por máquina, conforme os dados autorizados. Não inserir CSV, JSON ou qualquer outra extensão como obrigação autônoma, nem produzir catálogo de arquivos inexistentes. PDF isolado ou apenas descrição de arquivo não comprova acesso a dados estruturados legíveis por máquina.
+- **API não é obrigatória nos trechos consultados.** O exemplo S com GET e caminhos de API é ilustrativo; não comprova endpoint institucional nem impõe servidor, rotas, botões GET, autenticação ou parâmetros. Arquivos públicos adequados podem ser uma solução DT, desde que o acesso automatizado e as regras sejam verificados. Não gerar URL por suposição ou usar serigyLink para PDF/JSON.
+- **Consulta:** C 14.4 não lista filtro específico, campos mínimos de pesquisa ou consulta tabular; S 14.3.1 não documenta filtroPesquisa. A tabela é apenas índice DT, sem formulário de consulta. A busca comum é componente geral preservado.
+- **Atualização e histórico:** não há item autônomo de atualidade, periodicidade, série ou `dataUltimaAtualizacao`/`historicoExercicio` nesta seção. Não inventar data, frequência ou cobertura; eventual referência temporal de um conjunto será metadado DT com fonte real. As regras de atualização/histórico do critério de origem do conjunto não são dispensadas por sua inclusão neste catálogo.
+- **Gravação:** não há `salvarRelatorio` documentado nem item autônomo de exportação em C 14.4. Acesso aos arquivos abertos é conteúdo desta página, não promessa de exportação filtrada. Não confundir catálogo de dados abertos com requisitos de gravação dos demais critérios.
+- **Licença/regras:** C exige regras de utilização, mas não estabelece licença nominal, texto-padrão ou obrigação de adotar uma licença específica. Receber regras institucionais e exemplos validados; não inventar licença, atribuição, restrição, cobrança ou condição de reutilização. Se houver política/licença efetivamente adotada, registrar a fonte e a relação com os conjuntos antes de publicá-la.
+
+Não publicar automaticamente planilha de origem, dados pessoais, credenciais ou cadastros operacionais. A aprovação de derivados e a proteção do conteúdo são controles de publicação do projeto; não são novos campos normativos de C 14.4. Arquivos de teste existentes não foram homologados nem reaproveitados como prova de dados abertos reais.
+
+### Cobertura da dimensão 14 após esta etapa
+
+Este quadro é **cobertura de modelos e mapeamento**, não declaração de atendimento, dados disponíveis ou validação para publicação.
+
+| Critério C | Itens S correspondentes | Modelo / situação |
+| --- | --- | --- |
+| 14.1 — encarregado e comunicação | 14.1.1 nomeResponsavel; 14.1.2 contatoResponsavel | Raiz `LGPDeGovernoDigital/index.html`, preparado anteriormente; sem alimentação homologada |
+| 14.2 — política de privacidade | 14.1.3 politicaPrivacidade | Mesmo modelo raiz, preservado; política e acesso pendentes |
+| 14.3 — serviços públicos digitais | 14.2.1 servicoPublico | `LGPDeGovernoDigital/Servicos/index.html`, preparado e preservado; catálogo/funcionalidade pendentes |
+| 14.4 — dados abertos | 14.3.1 dadosAbertos | `LGPDeGovernoDigital/DadosAbertos/index.html`, criado nesta etapa; conjuntos/regras/exemplos pendentes |
+| 14.5 — pesquisas e resultados de satisfação | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | **Ainda não modelado neste recorte.** S o situa na seção 14.1, cuja rota é a raiz já modelada; requisitos C 14.5 deverão ser conferidos em etapa própria. Não criar outra rota ou sobrescrever LGPD por dedução |
+
+São três modelos para os critérios 14.1–14.4. A cobertura da dimensão permanece incompleta em 14.5. Em eventual etapa de satisfação, tratar a rota compartilhada preservando o modelo LGPD; nenhuma variante foi criada nesta rodada.
+
+### Alimentação e publicação
+
+Receber conjunto(s) autorizado(s), arquivos/acesso reais, formato confirmado, regras em seções e exemplos coerentes com os destinos. Validar leitura por máquina e acesso automatizado, conteúdo público, integridade e relação com o período/fonte. Escolher metadados e organização conforme a origem sem transformar DT em obrigação C. Aplicar `dadosAbertos` somente após haver conteúdo real, testar acesso e exemplos, HTML e acessibilidade antes de mover para dist em tarefa autorizada. As pendências abaixo e no controle específico não estão resolvidas pelo desenho do modelo.

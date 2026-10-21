@@ -37,3 +37,30 @@ Fontes: Cartilha pp. 109–110, critério **14.3**; Serigy Docs 14, seção **14
 | Publicação | Catálogo e funcionalidade ainda sem validação | Resolver pendências, alimentar e testar links, teclado, rótulos e fluxo digital antes de mover para dist em tarefa autorizada. Sem atualização de menus ou deploy nesta rodada. |
 
 Nenhuma informação sobre serviço, prazo, canal, URL ou documento foi inventada. Permanecem preservados os modelos de LGPD e das demais seções e as alterações preexistentes. A busca comum não substitui a verificação da prestação digital e o modelo vazio não comprova atendimento.
+
+
+## Complemento — Dados Abertos: C 14.4 / S 14.3.1
+
+Fontes: Cartilha PETP 2026, critério **14.4**, pp. 111–112; Serigy Docs 14, seção **14.3**, item **14.3.1 `dadosAbertos` (Texto)** e exemplo na p. 1. Critério obrigatório, aplicável à Previdência Estadual, com somente Disponibilidade. Rota própria `/Portal-da-Transparencia/LGPDeGovernoDigital/DadosAbertos/`; modelo no mesmo sufixo sob `modelos/`.
+
+| Tema / requisito | Informação ou arquivo pendente | Providência |
+| --- | --- | --- |
+| Conjuntos reais | Identificação do(s) conjunto(s) autorizado(s), conteúdo e origem | Receber e conferir dados publicáveis. C prevê pelo menos um caso legível por máquina neste ciclo; não declarar mínimo satisfeito por modelo vazio ou arquivo de teste não validado. |
+| Formatos | Arquivo(s) em formato aberto e legível por máquina | Confirmar o formato realmente oferecido, sem impor uma lista de extensões ou oferecer versões inexistentes. Testar leitura automatizada e integridade. |
+| URL/acesso | Destino oficial e acesso automatizado efetivo para cada conjunto | Conferir a correspondência e o funcionamento; não presumir API nem montar caminhos por nome/ano. Exemplo GET S não é endpoint da Unidade. |
+| Regras de utilização | Conteúdo institucional com seções detalhadas | Receber regras adotadas, associadas ao acesso real. Não inventar licença nominal, condições ou texto-padrão de reutilização; identificar a fonte de eventuais instrumentos existentes. |
+| Exemplos | Exemplos coerentes com os dados e acessos efetivamente aprovados | Preparar e testar somente após receber arquivos/URLs e regras. Não copiar API fictícia ou usar comando com destino presumido. |
+| Metadados e período | Descrições, referência temporal e cobertura reais, quando utilizadas como DT | Não preencher data atual automaticamente nem afirmar completude. C 14.4 não fixa periodicidade/histórico próprios; manter exigências aplicáveis ao conjunto de origem. |
+| Conteúdo público | Derivados aprovados, sem fontes privadas, dados pessoais indevidos ou credenciais | Validar a publicação; não copiar XLSX de origem ou cadastros operacionais. Arquivos de teste de outras páginas não foram homologados por esta tarefa. |
+| Marcação | Texto real de dados abertos, regras e acesso | Aplicar apenas dadosAbertos no schema correto após alimentação. Não inventar propriedades de formato/API/licença, filtro, exportação ou atualização; não marcar contêiner vazio. |
+| Publicação | Dados, regras, exemplos e acessos ainda sem alimentação | Resolver pendências, testar acesso automatizado, exemplos, links e acessibilidade antes de mover para dist em tarefa autorizada. Não incluir modelo vazio no menu. |
+
+### Cobertura e pendências restantes da dimensão 14
+
+- **14.1 / S 14.1.1–14.1.2:** modelo raiz preparado; faltam identidade e contato do encarregado confirmados.
+- **14.2 / S 14.1.3:** modelo raiz preparado; faltam política adotada, versão e acesso integral.
+- **14.3 / S 14.2.1:** Serviços preparado; faltam catálogo real, destinos, orientações e comprovação de demanda/acesso digital.
+- **14.4 / S 14.3.1:** Dados Abertos preparado nesta etapa; faltam conjuntos, formatos reais, URLs/acesso automatizado, regras e exemplos.
+- **14.5 / S 14.1.4–14.1.5:** pesquisas e resultados de satisfação **ainda sem modelo** nesta sequência. A tabela S os associa à seção da rota raiz; conferir C 14.5 em etapa própria e preservar LGPD ao preparar esses blocos, sem inventar rota distinta ou sobrescrever o HTML existente.
+
+A cobertura descrita é de preparação, não de atendimento aos critérios. Nenhuma pendência anterior foi encerrada pela criação do catálogo vazio. Modelos LGPD/Serviços e demais seções, dist, menus e deploy permaneceram preservados; nenhuma publicação ou consulta externa foi realizada.
