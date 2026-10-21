@@ -13,7 +13,7 @@ Modelo não publicado: `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/inde
 | C 14.2 / URL e acesso | Destino oficial conferido para HTML/documento integral | Confirmar acesso público, integridade e correspondência à política; não criar URL por suposição ou presumir destino definitivo de PDF. Não usar serigyLink para PDF. |
 | Normas e documentos distintos | Relação entre suporte legal, eventual ato de designação e política institucional | Manter finalidades separadas. Leis federais e ato de designação não substituem a política adotada. Se a instituição fornecer instrumentos distintos, registrar a função de cada um antes de apresentar; não presumir dois arquivos de política nem biblioteca normativa obrigatória. |
 | Atualização e controles | Sem periodicidade, filtro, histórico, exportação ou data autônomos enumerados em C 14.1/14.2 ou S 14.1.1–14.1.3 | Confirmar que a identidade, contato e versão são os efetivamente adotados. Não preencher data do dia ou criar propriedade de atualização; metadado editorial futuro deve ter fonte real. |
-| Rota e limites da seção | S 14.1 inclui também itens 14.1.4/14.1.5 para C 14.5 | Satisfação está fora desta rodada. Em etapa futura, preservar os blocos LGPD na mesma rota ao preparar os demais conteúdos; não sobrescrever nem inventar subrota por dedução. Serviços/Dados Abertos não foram modelados. |
+| Rota e limites da seção | S 14.1 inclui também itens 14.1.4/14.1.5 para C 14.5 | A estrutura de satisfação já foi integrada à raiz, conforme complemento 14.5, sem nova rota ou substituição dos blocos LGPD. Pesquisa e resultados oficiais permanecem pendentes. Serviços e Dados Abertos mantêm seus modelos próprios. |
 | Publicação e marcações | Dados e documentos reais ainda não recebidos/conferidos | Alimentar os blocos e aplicar nomeResponsavel, contatoResponsavel e politicaPrivacidade somente em conteúdo existente; validar rótulos, comunicação, acesso e integridade antes de mover para dist em tarefa autorizada. Não enviar mensagens externas nem publicar dados privados para teste. |
 
 Contatos gerais do rodapé não são canal homologado do encarregado. Não há conteúdo fictício, declarações de inexistência ou marcações de dados vazios. Dist, menus, deploy, Ouvidoria, SIC e modelos anteriores foram preservados. Não houve consulta externa ou confirmação institucional nesta tarefa.
@@ -61,7 +61,7 @@ Fontes: Cartilha PETP 2026, critério **14.4**, pp. 111–112; Serigy Docs 14, s
 - **14.2 / S 14.1.3:** modelo raiz preparado; faltam política adotada, versão e acesso integral.
 - **14.3 / S 14.2.1:** Serviços preparado; faltam catálogo real, destinos, orientações e comprovação de demanda/acesso digital.
 - **14.4 / S 14.3.1:** Dados Abertos preparado nesta etapa; faltam conjuntos, formatos reais, URLs/acesso automatizado, regras e exemplos.
-- **14.5 / S 14.1.4–14.1.5:** fragmento não publicado preparado conforme complemento abaixo, para integração à rota raiz; faltam instrumento/acesso real, regularidade e resultados confirmados. Modelo LGPD preservado, sem nova rota pública.
+- **14.5 / S 14.1.4–14.1.5:** estrutura integrada ao modelo raiz após a política; fragmento mantido como referência. Faltam pesquisa/instrumento e acesso reais, comprovação da regularidade e resultados oficiais. Sem nova rota pública.
 
 A cobertura descrita é de preparação, não de atendimento aos critérios. Nenhuma pendência anterior foi encerrada pela criação do catálogo vazio. Modelos LGPD/Serviços e demais seções, dist, menus e deploy permaneceram preservados; nenhuma publicação ou consulta externa foi realizada.
 
@@ -72,7 +72,7 @@ A cobertura descrita é de preparação, não de atendimento aos critérios. Nen
 
 **S:** 14.1.4 `pesquisaSatisfacao` (Link ou Forms) e 14.1.5 `resultadoSatisfacao` (Link, Imagem ou Texto), na seção 14.1, rota **`/Portal-da-Transparencia/LGPDeGovernoDigital/`**. Fontes conferidas: C p. 113 e S pp. 1–2, tabela e exemplo correspondentes.
 
-**Preparação sem nova página:** `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`, fragmento de seção para integrar futuramente ao main da raiz LGPD, após a política. Não publicar o fragmento como página própria, não sobrescrever o index existente nem criar subrota por suposição. O main, cabeçalho e rodapé da página raiz serão reutilizados; nenhum deles foi alterado.
+**Estrutura integrada, sem nova página:** o bloco `#pesquisas-satisfacao` está no main de `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/index.html`, após a política. O fragmento `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html` permanece intacto como referência; não deve ser publicado como página própria ou inserido novamente. Cabeçalho, rodapé, blocos LGPD e marcações anteriores foram preservados. Pesquisa e resultados oficiais ainda devem ser fornecidos.
 
 | Requisito / tema | Informação ou evidência faltante | Providência |
 | --- | --- | --- |
@@ -83,11 +83,11 @@ A cobertura descrita é de preparação, não de atendimento aos critérios. Nen
 | Referências e conceitos | Período/aplicação, categorias, metodologia e bases que permitam entender os resultados reais | Confirmar os elementos existentes. Não inventar NPS, percentuais, totais, notas ou denominadores nem impor indicadores fixos como mínimo C. |
 | Proteção de dados | Resultados públicos adequados e sem respostas individuais identificáveis | Conferir agregados/derivados com a área; não publicar cadastro privado, contato ou respondente. |
 | URLs / documentos / imagens | Acessos e arquivos reais, se utilizados na apresentação | Conferir correspondência e acesso. S permite Link/Imagem/Texto para resultados, sem exigir todos ou formato específico. Não gerar URL por data/nome nem criar relatório ou formato inexistente. |
-| Integração e marcações | Conteúdo e apresentação ainda não alimentados | Inserir a seção no main da raiz em tarefa autorizada, mantendo LGPD. Aplicar pesquisaSatisfacao e resultadoSatisfacao só no conteúdo real; sem marcação em div vazio ou novo item de data/filtro/exportação. |
+| Integração e marcações | Integração estrutural concluída; conteúdo oficial e apresentação real ainda não alimentados | Manter a seção no main da raiz e os blocos LGPD. Aplicar pesquisaSatisfacao e resultadoSatisfacao somente quando existirem dados/acessos reais; sem marcação em div vazio ou novo item de data/filtro/exportação. |
 | Publicação | Regularidade, instrumentos, resultados e eventuais destinos ainda pendentes | Resolver fontes, alimentar e testar acesso e acessibilidade, sem enviar respostas reais não autorizadas. Não declarar atendimento ou publicar fragmento vazio. |
 
 ### Situação consolidada da dimensão
 
-14.1 e 14.2 têm estrutura no modelo raiz; 14.3 em Servicos; 14.4 em DadosAbertos; 14.5 tem agora fragmento para a mesma rota raiz de 14.1/14.2. **Todos os cinco estão contemplados na preparação estrutural, sem comprovação de alimentação ou atendimento.** Permanecem pendentes identidade/contato, política, serviços digitais, conjuntos/regras/exemplos e pesquisas/resultados reais. O status anterior “14.5 ainda sem modelo” foi atualizado; nenhuma pendência institucional foi encerrada pela criação do fragmento.
+14.1, 14.2 e 14.5 têm estrutura no modelo raiz; 14.3 em Servicos e 14.4 em DadosAbertos. **Todos os cinco estão contemplados na preparação estrutural, sem comprovação de alimentação ou atendimento.** A integração de 14.5 ao principal foi concluída, mas permanecem pendentes pesquisa e resultados oficiais, assim como identidade/contato, política, serviços digitais e conjuntos/regras/exemplos das etapas anteriores. Nenhuma pendência institucional foi encerrada apenas pela integração.
 
-Não foram exigidos controles autônomos de filtro, histórico, gravação ou atualização que C/S 14.5 não enumeram. Não foram alterados dist, menus, deploy, modelos existentes ou outras seções. Sem dados, documentos, links, datas ou formatos inventados.
+Não foram exigidos controles autônomos de filtro, histórico, gravação ou atualização que C/S 14.5 não enumeram. Nesta integração foram alterados somente o modelo principal e os dois controles. Dist, menus, deploy, Serviços, Dados Abertos, demais seções e fragmento de origem foram preservados. Sem dados, documentos, links, datas ou formatos inventados.

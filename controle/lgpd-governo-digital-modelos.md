@@ -40,7 +40,7 @@ Não há item S específico de norma geral ou ato de designação nesta seção;
 
 C 14.1/14.2 não listam filtro, histórico, gravação de relatórios, data de atualização autônoma ou periodicidade numérica. S 14.1.1–14.1.3 também não documenta esses controles. Não há formulário de coleta, botão de exportação, seletor de exercício ou data fictícia. Se futuramente for útil indicar versão/data como metadado editorial, será DT com fonte real, não novo mínimo C ou serigyItem inventado.
 
-A seção S 14.1 também relaciona **14.1.4 `pesquisaSatisfacao` e 14.1.5 `resultadoSatisfacao` ao critério C 14.5**. Isso não os torna requisitos de C 14.1/14.2: pesquisas e resultados não foram modelados nesta rodada. Quando forem preparados, respeitar a rota compartilhada e preservar os blocos LGPD, sem inventar nova rota ou sobrescrever o modelo. Serviços Públicos (S 14.2 ↔ C 14.3) e Dados Abertos (S 14.3 ↔ C 14.4) também ficam fora deste recorte; não foram criados outros modelos.
+A seção S 14.1 também relaciona **14.1.4 `pesquisaSatisfacao` e 14.1.5 `resultadoSatisfacao` ao critério C 14.5**. Isso não os torna requisitos de C 14.1/14.2. O complemento 14.5 abaixo registra sua preparação e a integração estrutural ao modelo raiz, preservando encarregado e política. Os modelos Serviços Públicos (S 14.2 ↔ C 14.3) e Dados Abertos (S 14.3 ↔ C 14.4) permanecem em suas rotas próprias.
 
 ## Alimentação e publicação
 
@@ -135,9 +135,9 @@ Este quadro é **cobertura de modelos e mapeamento**, não declaração de atend
 | 14.2 — política de privacidade | 14.1.3 politicaPrivacidade | Mesmo modelo raiz, preservado; política e acesso pendentes |
 | 14.3 — serviços públicos digitais | 14.2.1 servicoPublico | `LGPDeGovernoDigital/Servicos/index.html`, preparado e preservado; catálogo/funcionalidade pendentes |
 | 14.4 — dados abertos | 14.3.1 dadosAbertos | `LGPDeGovernoDigital/DadosAbertos/index.html`, criado nesta etapa; conjuntos/regras/exemplos pendentes |
-| 14.5 — pesquisas e resultados de satisfação | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Bloco não publicado preparado em `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`, para integração futura à raiz existente, conforme complemento 14.5; conteúdo real pendente |
+| 14.5 — pesquisas e resultados de satisfação | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Bloco integrado ao modelo raiz após a política; fragmento de origem preservado em `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`; pesquisa e resultados oficiais pendentes |
 
-São três modelos de página para os critérios 14.1–14.4 e, após o complemento 14.5 abaixo, um bloco de satisfação para integração à raiz. A cobertura é de estrutura não publicada dos cinco critérios, sem alimentação ou atendimento comprovado. A etapa original de Dados Abertos não criou variante; o bloco 14.5 foi preparado posteriormente, preservando os modelos anteriores.
+São três modelos de página para a dimensão: a raiz reúne a estrutura de 14.1, 14.2 e 14.5; Servicos contempla 14.3 e DadosAbertos contempla 14.4. A cobertura é estrutural e não publicada, sem alimentação ou atendimento comprovado. O fragmento de satisfação permanece como referência, sem página ou rota adicional.
 
 ### Alimentação e publicação
 
@@ -165,11 +165,11 @@ O instrumento/acesso à pesquisa e seus resultados são conteúdos distintos. **
 
 ### Localização: bloco na rota já prevista, sem página nova
 
-S coloca ambos os itens na seção 14.1, caminho `[Portal da Transparencia]/LGPDeGovernoDigital`. Portanto, o conteúdo será apresentado em **`/Portal-da-Transparencia/LGPDeGovernoDigital/`**, junto aos blocos já preparados de encarregado e política, **não** em nova rota `/Satisfacao`.
+S coloca ambos os itens na seção 14.1, caminho `[Portal da Transparencia]/LGPDeGovernoDigital`. A estrutura de 14.5 já está integrada ao modelo dessa rota **`/Portal-da-Transparencia/LGPDeGovernoDigital/`**, após a política e junto aos blocos de encarregado, **não** em nova rota `/Satisfacao`. A página continua não publicada e sem conteúdo oficial de pesquisa/resultados.
 
-**Único HTML criado nesta etapa:** `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`. É **fragmento de seção**, não documento HTML independente ou nova página pública. A pasta variantes serve apenas para organizar a preparação não publicada. O fragmento reutiliza a classe `content-box`, títulos e estrutura semântica do Portal e contém somente o contexto do schema, sem itens de dados em campos vazios.
+**Fragmento de origem preservado:** `modelos/variantes/pesquisas-satisfacao/bloco-satisfacao.html`. É referência de seção, não documento HTML independente ou página pública. Sua estrutura foi incorporada ao modelo principal; o arquivo de origem não foi alterado nem excluído. A classe `content-box`, títulos e contexto do schema foram mantidos, sem itens de dados em campos vazios.
 
-**Integração futura DT:** inserir a seção `#pesquisas-satisfacao` no main de `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/index.html`, após a política e antes do fechamento de main, quando houver conteúdo validado e tarefa autorizada. Reutilizar cabeçalho, rodapé, estilos, acessibilidade e breadcrumb da página existente. Não copiar o fragmento isolado como index, não criar segundo main/h1, não apagar os blocos LGPD e não publicar a árvore variantes como destino próprio. IDs foram conferidos contra o modelo raiz e não colidem; a junção em memória foi validada sem editar o arquivo raiz.
+**Integração estrutural concluída (DT):** a seção `#pesquisas-satisfacao` foi inserida no main de `modelos/Portal-da-Transparencia/LGPDeGovernoDigital/index.html`, após a seção da política e antes do fechamento de main. Cabeçalho, rodapé, estilos, acessibilidade, breadcrumb, blocos LGPD e marcações anteriores foram preservados. Há somente um main e um h1; os IDs e rótulos foram validados sem colisões. Não publicar a árvore variantes como destino próprio nem reinserir o fragmento duplicando IDs. A alimentação com pesquisa e resultados oficiais permanece pendente.
 
 ### Alimentação: conteúdo real e escolhas de apresentação
 
@@ -189,10 +189,10 @@ C 14.5 não enumera série histórica mínima, filtros, gravação, escala de av
 | 14.2 | 14.1.3 politicaPrivacidade | Modelo raiz, preservado | Política adotada e acesso integral |
 | 14.3 | 14.2.1 servicoPublico | Modelo Servicos, preservado | Serviços, URLs, orientações e funcionamento digital |
 | 14.4 | 14.3.1 dadosAbertos | Modelo DadosAbertos, preservado | Conjuntos autorizados, arquivos/acesso, regras e exemplos |
-| 14.5 | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Fragmento nesta etapa, para integrar a rota raiz | Instrumento/acesso real, regularidade, resultados e referências da aplicação |
+| 14.5 | 14.1.4 pesquisaSatisfacao; 14.1.5 resultadoSatisfacao | Integrado ao modelo raiz após a política; fragmento preservado como referência | Pesquisa/instrumento, acesso real, regularidade, resultados oficiais e referências da aplicação |
 
 A sequência de preparação estrutural contempla agora os cinco critérios, mas nenhum campo vazio comprova atendimento e as pendências institucionais permanecem. Não se declara a dimensão homologada, completa em dados ou pronta para publicação.
 
 ### Antes da publicação de 14.5
 
-Receber e validar pesquisas/aplicações e resultados, definir apresentação real e conferir eventuais URLs/arquivos. Associar resultado e pesquisa, preencher conteúdo e aplicar apenas os dois itens S nos elementos reais. Integrar o fragmento à raiz em tarefa autorizada, preservando LGPD, e testar acesso, legibilidade e acessibilidade. Não enviar resposta ou contato externo para testar sem autorização. Nenhum menu, deploy ou HTML existente foi alterado nesta etapa.
+Receber e validar pesquisas/aplicações e resultados oficiais, definir apresentação real e conferir eventuais URLs/arquivos. Associar resultado e pesquisa, preencher conteúdo e aplicar apenas os dois itens S nos elementos reais. A integração estrutural já foi concluída no modelo não publicado; falta alimentar e testar acesso, legibilidade e acessibilidade antes da publicação autorizada. Não enviar resposta ou contato externo para testar sem autorização. Nesta integração foram alterados somente o modelo principal e os dois controles; dist, menus, deploy, demais modelos e fragmento de origem foram preservados.
