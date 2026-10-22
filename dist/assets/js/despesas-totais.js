@@ -15,11 +15,11 @@
       const button = document.createElement("button");
       button.type = "button";
       button.className = "secondary";
-      button.textContent = "+ " + label;
-      button.setAttribute("aria-expanded", "false");
+      button.textContent = "− " + label;
+      button.setAttribute("aria-expanded", "true");
       cell.append(button);
       row.id = table.id + "-grupo-" + (++sequence);
-      const node = {row: row, button: button, label: label, open: false, children: new Map(), rows: []};
+      const node = {row: row, button: button, label: label, open: true, children: new Map(), rows: []};
       button.addEventListener("click", function () { node.open = !node.open; render(selected); });
       return node;
     }

@@ -9,7 +9,7 @@ from integrar_licitacoes import ROOT,PAGE,render,records,date,money
 page,data,opening=render();assert PAGE.read_text(encoding='utf-8')==page
 assert page.count('data-source-row=')==len(data)
 assert page.count('serigyItem="dataLicitacao"')==opening
-assert 'serigyItem="sequencia"' not in page
+assert 'serigyItem="sequencia"' not in page.split('<!-- INICIO ENSAIO LICITACAO 8.1.6 -->')[0]
 for r in data:
     row=re.search(r'<tr data-source-row="'+str(r['linha'])+r'".*?</tr>',page,re.S)[0]
     for l in r['links']:assert html.escape(l['url'],quote=True) in row

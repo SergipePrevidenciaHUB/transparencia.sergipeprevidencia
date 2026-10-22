@@ -30,7 +30,7 @@ Fontes: `11 - sic GPT.zip` e `13 - ouvidorias GPT.zip`; Cartilha PETP 2026, dime
 |---|---|---|---|---|
 | 13.1 | `enderecoSetor`, `telefoneSetor`, `horarioFuncionamentoSetor` | Endereço, telefone e 7h–13h constam em HTMLs e no Manual de Ouvidoria. | Conteúdo e marcações implementados | Confirmar os dados atuais na revisão final. |
 | 13.2 | `faleConosco` | SE-Ouv dispõe de opções específicas de manifestação, distintas do e-SIC. | Parcial | Testar o trajeto da URL genérica até a modalidade de Ouvidoria, sem confundir pedido de informação com manifestação. |
-| 13.3 | `servicoUsuario` | O PDF chamado “Carta” contém Manual de Normas e Procedimentos da Ouvidoria; o endereço estadual `https://www.se.gov.br/busca?page=1&orgao=12` lista serviços do SergipePrevidência. Há também Carta de Serviço ao Usuário no site institucional `/servicos/`. | Parcial | Conferir fichas, requisitos, etapas, prazos e canais; testar as URLs e identificar o acesso adequado a marcar `servicoUsuario`. O PDF foi disponibilizado como manual complementar, sem `servicoUsuario`. |
+| 13.3 | `servicoUsuario` | O PDF chamado “Carta” contém Manual de Normas e Procedimentos da Ouvidoria; o endereço estadual `https://www.se.gov.br/busca?page=1&orgao=12` lista serviços do SergipePrevidência. Há também Carta de Serviço ao Usuário no site institucional `/servicos/`. | Parcial | Catálogo estadual incluído por instrução do responsável com `servicoUsuario`; conferir posteriormente fichas, requisitos, etapas, prazos e canais e disponibilidade do destino. O PDF permanece como manual complementar, sem `servicoUsuario`. |
 
 **Nomes:** o HTML de Ouvidoria indica Lucas Silva Pedrosa como titular e Sérgio Ricardo Sousa Bezerra como substituto. O responsável informou em 21/10/2026 que Lucas Silva Pedrosa é também responsável pelo SIC e pela Ouvidoria-Geral. O PDF do Manual de novembro/2025 identifica Ângela Maria Lemos de Araújo Campos como titular na época; confirmar o ato de designação vigente na revisão final; os três critérios da dimensão 13 não exigem nominalmente esses nomes.
 
@@ -39,7 +39,7 @@ Fontes: `11 - sic GPT.zip` e `13 - ouvidorias GPT.zip`; Cartilha PETP 2026, dime
 ## Ordem recomendada
 
 1. Testar o percurso do SE-Ouv até a modalidade de manifestação da Ouvidoria e até o formulário específico do e-SIC; confirmar a leitura pelo Serigy.
-2. Conferir atos de designação e autoridades dos recursos na revisão final. Verificar conteúdo das fichas da Carta de Serviços e links antes de aplicar `servicoUsuario`.
+2. Conferir atos de designação e autoridades dos recursos na revisão final. Verificar conteúdo das fichas da Carta de Serviços e disponibilidade do catálogo já marcado `servicoUsuario`.
 3. Conferir posteriormente em extração oficial anual **exclusiva de pedidos LAI/e-SIC** os recebidos, atendidos e o zero indeferido informado para 2023–2025; conciliar perfil genérico e CSVs. 2026 permanece parcial.
 4. Na data real de alimentação/publicação, registrar `dataUltimaAtualizacao` do relatório estatístico. A organização deste índice em 21/10/2026 não substitui a data efetiva da página.
 
@@ -78,3 +78,8 @@ As oito marcações documentadas na seção 11.5 estão presentes no HTML inicia
 ## Alinhamento do acesso em Cadastro
 
 /SIC/eSIC/Cadastro/ passou a usar https://falabr.cgu.gov.br em href e serigyLink de cadastroESIC, como a entrada /SIC/eSIC/. Rota local, cabeçalho, acessibilidade e retorno às informações preservados; nenhum formulário próprio ou marcação em site externo. Não alterada a Ouvidoria. A confirmação do encaminhamento institucional e a revisão das orientações ainda vinculadas ao SE-Ouv na página principal continuam pendentes antes da publicação definitiva. O teste de rotas agora espera Fala.BR e prepara apenas a base fixa de teste com a permissão sintética existente, sem afrouxar o bloqueio oficial. Resultados 4172 não mudaram; nova avaliação depende de publicação autorizada.
+
+
+## Ouvidoria — catálogo de serviços (Serigy 13.5, avaliação 4226)
+
+Incluído, por solicitação expressa, o link “Carta de Serviços ao Usuário — catálogo de serviços do SergipePrevidência” para `https://www.se.gov.br/busca?page=1&orgao=12`, com `servicoUsuario` sob o schema de Ouvidoria. O PDF permanece identificado separadamente como Manual de Normas e Procedimentos, sem essa marcação. A URL foi preservada exatamente (o HTML usa `&amp;`). A ferramenta de navegação não conseguiu abrir o destino nesta rodada; disponibilidade e conteúdo das fichas continuam pendentes de conferência. A inclusão não declara validação integral da Carta nem altera o resultado histórico do Invoker; reconhecimento depende de nova avaliação após publicação autorizada.

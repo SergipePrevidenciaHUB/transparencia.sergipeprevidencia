@@ -73,3 +73,27 @@ Implementada somente Convenios/SemTransferencia, mantendo Recebidas/Realizadas e
 ## Conferência da atualização — 22/10/2026
 
 SemTransferencia: atualização da relação confirmada pelo responsável em 22/10/2026, publicada em dataUltimaAtualizacao sob schema de Convênios. Não é data dos instrumentos. Substitui a pendência anterior de data ausente. Bloco estático fora da tabela e dos controles filtrados; JS não o regenera. O teste de acordos agora exige sua preservação em futuras integrações. Outras lacunas, inclusive obrigações e confirmação de íntegra, permanecem.
+
+
+## Histórico — opções de consulta da avaliação 4226
+
+SemTransferencia / S5 5.3.10: INVALID_OPTION em 4226 porque o seletor tinha apenas 2025/2024/2022, sem 2026. Acrescentada somente opção value/serigyValue=2026. O schema de Convênios, botão e seletor WaitSection=semTransferenciaTabela e resultado correspondente já estavam corretos; acordos-sem-transferencia.js já filtrava e informava o ano de início da vigência no resultado. Consulta 2026 retorna zero registros nesta relação, sem declarar inexistência institucional nem inserir acordo fictício. Preservados os sete acordos, URLs e atualização 22/10/2026.
+
+Teste tools/testar_historicos_4226.py em Chrome/HTTP na cópia Pages: 22 verificações por página, exercícios 2026/2025/2024 aceitos, resultado observado alterado por exercício, confirmação estável na seleção repetida e submit, limpeza para todos, documentos e datas preservados. Não houve alteração dos scripts de filtro nem nova fonte institucional. Corrigido e testado localmente; reconhecimento pelo Invoker depende de publicação autorizada e nova avaliação.
+
+
+## Ensaio separado de 5.3.5 e 5.3.6 — avaliação 4226
+
+Por solicitação expressa, foi acrescentado **um único acordo inteiramente sintético**, em seção própria após a consulta real, sob o schema de Convênios. Fonte do ensaio: constantes separadas em `tools/preparar_teste_acordo.py`, sem alterar o JSON de origem oficial. Identificação inequívoca **DADO SINTÉTICO — TESTE SERIGY** no aviso, na linha, no documento e na linha do CSV específico. Entidades Alfa/Beta declaram não existir; objeto e obrigações são artificiais, sem efeitos reais. `obrigacoes` marca somente o texto fictício e `anexoConvenio` contém o link do documento de ensaio existente `Convenios/SemTransferencia/documento-sintetico.html`. Correspondem aos itens S5 5.3.5 Texto e 5.3.6 Anexo, conferidos na documentação local. Nenhum campo real vazio foi marcado.
+
+Os sete acordos, os quatro identificadores publicáveis, as sete URLs de documentos relacionados e a atualização da relação em **22/10/2026** foram preservados. Os links reais **não** foram promovidos a íntegras confirmadas. Permanecem a aprovação das obrigações reais e a conferência documental, IDs e vigências já registradas. O ensaio não preenche essas lacunas nem demonstra conformidade oficial.
+
+O seletor de exercício existente também filtra o exemplo de 2026, separado dos sete registros e da contagem real. CSV real continua com sete linhas completas; o botão próprio do ensaio exporta apenas a linha sintética no recorte, com aviso na primeira coluna e nome do arquivo identificado. A lógica de serialização é compartilhada, sem misturar os conjuntos.
+
+**Ativar:** `.venv\Scripts\python.exe tools/preparar_teste_acordo.py --ativar`.
+**Remover:** `.venv\Scripts\python.exe tools/preparar_teste_acordo.py --desativar`.
+A remoção retira apenas a seção sintética e move seu documento de `dist` para `trabalho/acordo-sintetico-removido/`, preservando o arquivo. Não remover avisos/marcadores mantendo registros artificiais. O JavaScript tolera a ausência completa da seção de ensaio. Reativação é reversível. Nenhum arquivo de Recebidas/Realizadas foi alterado.
+
+**Bloqueio único preservado:** página, linha e documento usam `data-dado-sintetico`, detectado pelo preparador existente. Sem alteração em workflow ou preparador. A permissão continua restrita à base `/transparencia.sergipeprevidencia`, sem CNAME. Em cópia isolada contendo somente este ensaio e a rota e-SIC necessária ao preparador, o preparo oficial foi recusado; após remoção, passou, mantendo os sete acordos e a data; reativação reproduziu página e documento byte a byte. No projeto completo, os outros ensaios ainda bloqueiam publicação oficial até serem também removidos/substituídos.
+
+**Testes:** `tools/testar_acordo_sintetico.py`: 27 verificações Chrome na cópia Pages sem falhas; os dois elementos marcados visíveis no carregamento inicial, schema, aviso, exercícios 2026/2025/2024/2022, pesquisa/limpeza, documento acessível na base e CSV sintético de uma linha separado do real de sete linhas. `tools/testar_acordos_sem_transferencia.py`: 172 verificações Chrome em localhost/Pages, conciliação das sete linhas e URLs com o JSON, CSV completo/filtrado, 88 referências HTTP. Hashes de dist preservados pelos testes. A verificação antiga de ausência dos dois campos agora é restrita à área real, mantendo a exigência para os sete acordos. Reconhecimento pelo Invoker depende de publicação autorizada e nova avaliação; não executado nesta tarefa.

@@ -27,7 +27,7 @@
       <p>Consulte a declaração pelo exercício abrangido e por palavra-chave. O resultado é a declaração de não realização de concursos, não uma relação de certames.</p>
       <div class="filter-grid">
         <div class="field"><label for="concurso-exercicio">Exercício abrangido pela declaração</label>
-        <select id="concurso-exercicio" name="ano" serigyItem="historicoExercicio">
+        <select id="concurso-exercicio" name="ano" serigyItem="historicoExercicio" serigyExecuteWaitSection="concursoTabela">
           <option value="">Todo o período declarado</option>
           <option value="2026" serigyValue="2026">2026</option>
           <option value="2025" serigyValue="2025">2025</option>
@@ -54,10 +54,10 @@
         <div class="field"><label for="concurso-palavra">Palavra-chave na declaração</label><input id="concurso-palavra" name="palavra" type="search"></div>
       </div>
       <p>Período declarado: 20/03/2006 a 21/10/2026. A seleção de exercício consulta esse intervalo, sem ampliar sua cobertura.</p>
-      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="concursoDeclaracao">Consultar</button><button type="reset" serigyClearForm>Limpar</button></div>
+      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="concursoTabela">Consultar</button><button type="reset" serigyClearForm>Limpar</button></div>
     </form>
     <p id="concurso-resultado" role="status" aria-live="polite">Declaração disponível para o período informado.</p>
-    <div serigyLoadSection="concursoDeclaracao">
+    <div>
       <div id="declaracao-concurso">
     <section aria-labelledby="titulo-declaracao">
       <h2 id="titulo-declaracao">Declaração de não realização de concursos e seleções públicas</h2>
@@ -76,6 +76,7 @@
     </section>
       </div>
     </div>
+    <div class="table-wrap"><table id="concurso-tabela" serigyLoadSection="concursoTabela"><caption>Ausência de concursos — período declarado: 20/03/2006 a 21/10/2026</caption><thead><tr><th scope="col">Edital</th><th scope="col">Aprovados</th><th scope="col">Nomeados</th></tr></thead><tbody><tr><td serigyItem="editalConcurso" serigyEmpty="Não há editais de concursos realizados pelo Instituto no período declarado (20/03/2006 a 21/10/2026).">Não há editais de concursos realizados pelo Instituto no período declarado.</td><td serigyItem="aprovadosConcurso" serigyEmpty="Não há aprovados ou classificações de concursos realizados pelo Instituto no período declarado (20/03/2006 a 21/10/2026).">Não há aprovados ou classificações de concursos realizados pelo Instituto no período declarado.</td><td serigyItem="nomeadosConcurso" serigyEmpty="Não há nomeações de concursos realizados pelo Instituto no período declarado (20/03/2006 a 21/10/2026).">Não há nomeações de concursos realizados pelo Instituto no período declarado.</td></tr></tbody></table></div>
     <script>
     (function () {
       const form = document.getElementById("consulta-declaracao");
@@ -85,17 +86,36 @@
         return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR");
       }
       const text = normalize(declaration.textContent);
+      const table = document.getElementById("concurso-tabela");
+      const emptyFields = [["editalConcurso", "Não há editais"], ["aprovadosConcurso", "Não há aprovados ou classificações"], ["nomeadosConcurso", "Não há nomeações"]];
       function apply() {
         const year = form.elements.ano.value;
         const terms = normalize(form.elements.palavra.value).trim().split(/\s+/).filter(Boolean);
         const covered = !year || (/^\d{4}$/.test(year) && Number(year) >= 2006 && Number(year) <= 2026);
         const matches = covered && terms.every(function (term) { return text.includes(term); });
         declaration.hidden = !matches;
+        const scope = year ? "exercício de " + year : "período declarado";
+        table.caption.textContent = "Ausência de concursos — " + scope + ". Cobertura: 20/03/2006 a 21/10/2026.";
+        const row = document.createElement("tr");
+        if (matches) {
+          emptyFields.forEach(function (field) {
+            const td = document.createElement("td");
+            const message = field[1] + " de concursos realizados pelo Instituto no " + scope + ", conforme a declaração de 20/03/2006 a 21/10/2026.";
+            td.setAttribute("serigyItem", field[0]);
+            td.setAttribute("serigyEmpty", message);
+            td.textContent = message;
+            row.append(td);
+          });
+        } else {
+          const td = document.createElement("td");td.colSpan = 3;td.textContent = "Nenhuma declaração encontrada para esta consulta.";row.append(td);
+        }
+        table.tBodies[0].replaceChildren(row);
         status.textContent = matches
           ? "Declaração encontrada" + (year ? " para o exercício de " + year : " para o período declarado") + ". Cobertura: 20/03/2006 a 21/10/2026."
           : "Nenhuma declaração encontrada para esta consulta.";
       }
       form.addEventListener("submit", function (event) { event.preventDefault(); apply(); });
+      form.addEventListener("change", apply);
       form.addEventListener("reset", function () { window.setTimeout(apply, 0); });
     })();
     </script>
