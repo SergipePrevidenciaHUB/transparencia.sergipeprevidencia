@@ -23,6 +23,42 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/recursos-humanos.html">
     <h1>Concursos e Seleções Públicas</h1>
+    <form id="consulta-declaracao" class="filter-panel" serigyItem="filtroPesquisa" aria-label="Consultar declaração de concursos">
+      <p>Consulte a declaração pelo exercício abrangido e por palavra-chave. O resultado é a declaração de não realização de concursos, não uma relação de certames.</p>
+      <div class="filter-grid">
+        <div class="field"><label for="concurso-exercicio">Exercício abrangido pela declaração</label>
+        <select id="concurso-exercicio" name="ano" serigyItem="historicoExercicio">
+          <option value="">Todo o período declarado</option>
+          <option value="2026" serigyValue="2026">2026</option>
+          <option value="2025" serigyValue="2025">2025</option>
+          <option value="2024" serigyValue="2024">2024</option>
+          <option value="2023" serigyValue="2023">2023</option>
+          <option value="2022" serigyValue="2022">2022</option>
+          <option value="2021" serigyValue="2021">2021</option>
+          <option value="2020" serigyValue="2020">2020</option>
+          <option value="2019" serigyValue="2019">2019</option>
+          <option value="2018" serigyValue="2018">2018</option>
+          <option value="2017" serigyValue="2017">2017</option>
+          <option value="2016" serigyValue="2016">2016</option>
+          <option value="2015" serigyValue="2015">2015</option>
+          <option value="2014" serigyValue="2014">2014</option>
+          <option value="2013" serigyValue="2013">2013</option>
+          <option value="2012" serigyValue="2012">2012</option>
+          <option value="2011" serigyValue="2011">2011</option>
+          <option value="2010" serigyValue="2010">2010</option>
+          <option value="2009" serigyValue="2009">2009</option>
+          <option value="2008" serigyValue="2008">2008</option>
+          <option value="2007" serigyValue="2007">2007</option>
+          <option value="2006" serigyValue="2006">2006</option>
+        </select></div>
+        <div class="field"><label for="concurso-palavra">Palavra-chave na declaração</label><input id="concurso-palavra" name="palavra" type="search"></div>
+      </div>
+      <p>Período declarado: 20/03/2006 a 21/10/2026. A seleção de exercício consulta esse intervalo, sem ampliar sua cobertura.</p>
+      <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="concursoDeclaracao">Consultar</button><button type="reset" serigyClearForm>Limpar</button></div>
+    </form>
+    <p id="concurso-resultado" role="status" aria-live="polite">Declaração disponível para o período informado.</p>
+    <div serigyLoadSection="concursoDeclaracao">
+      <div id="declaracao-concurso">
     <section aria-labelledby="titulo-declaracao">
       <h2 id="titulo-declaracao">Declaração de não realização de concursos e seleções públicas</h2>
       <p>O Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência informa que, desde sua criação, por meio da Lei Estadual nº 5.852, de 20 de março de 2006, não realizou concursos públicos ou seleções públicas destinados ao provimento de cargos ou empregos públicos.</p>
@@ -38,6 +74,31 @@
       <h2 id="titulo-atos-concurso">Aprovados, classificações e nomeações — critério 6.7</h2>
       <p>A mesma declaração abrange a ausência de listas de aprovados com classificações e de nomeações decorrentes de concursos ou seleções públicas realizados pela Autarquia no período declarado.</p>
     </section>
+      </div>
+    </div>
+    <script>
+    (function () {
+      const form = document.getElementById("consulta-declaracao");
+      const declaration = document.getElementById("declaracao-concurso");
+      const status = document.getElementById("concurso-resultado");
+      function normalize(value) {
+        return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR");
+      }
+      const text = normalize(declaration.textContent);
+      function apply() {
+        const year = form.elements.ano.value;
+        const terms = normalize(form.elements.palavra.value).trim().split(/\s+/).filter(Boolean);
+        const covered = !year || (/^\d{4}$/.test(year) && Number(year) >= 2006 && Number(year) <= 2026);
+        const matches = covered && terms.every(function (term) { return text.includes(term); });
+        declaration.hidden = !matches;
+        status.textContent = matches
+          ? "Declaração encontrada" + (year ? " para o exercício de " + year : " para o período declarado") + ". Cobertura: 20/03/2006 a 21/10/2026."
+          : "Nenhuma declaração encontrada para esta consulta.";
+      }
+      form.addEventListener("submit", function (event) { event.preventDefault(); apply(); });
+      form.addEventListener("reset", function () { window.setTimeout(apply, 0); });
+    })();
+    </script>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

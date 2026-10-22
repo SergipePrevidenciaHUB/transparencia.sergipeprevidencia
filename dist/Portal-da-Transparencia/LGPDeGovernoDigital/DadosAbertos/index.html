@@ -9,7 +9,7 @@
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
 </head>
-<body class="awaiting-information">
+<body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
   <div class="gov-stripe" aria-hidden="true"></div>
   <div class="utility-bar"><div class="container utility-inner">
@@ -23,25 +23,47 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/lgpd-governo-digital.html">
     <h1>Dados Abertos</h1>
-    <p class="section-availability" role="note">As informações desta seção ainda serão disponibilizadas.</p>
-    <section aria-labelledby="titulo-conjuntos-abertos">
-      <h2 id="titulo-conjuntos-abertos">Conjuntos de dados</h2>
-      <div class="table-wrap">
-        <table id="catalogo-dados-abertos">
-          <caption>Catálogo de conjuntos e acesso aos dados</caption>
-          <thead><tr><th scope="col">Conjunto</th><th scope="col">Descrição</th><th scope="col">Formato</th><th scope="col">Acesso aos dados</th></tr></thead>
-          <tbody id="conjuntos-dados-abertos"></tbody>
-        </table>
-      </div>
-    </section>
-    <section aria-labelledby="titulo-regras-dados-abertos">
-      <h2 id="titulo-regras-dados-abertos">Regras de utilização</h2>
-      <div id="regras-dados-abertos"></div>
-    </section>
-    <section aria-labelledby="titulo-exemplos-dados-abertos">
-      <h2 id="titulo-exemplos-dados-abertos">Exemplos de acesso e utilização</h2>
-      <div id="exemplos-dados-abertos"></div>
-    </section>
+    <div serigyItem="dadosAbertos">
+      <p>Os arquivos abaixo disponibilizam os registros do SergipePrevidência já apresentados nas consultas deste Portal, em formato CSV legível por máquina. Cada acesso fornece o arquivo completo disponível, sem aplicar os filtros selecionados nas páginas de consulta.</p>
+      <section aria-labelledby="titulo-conjuntos-abertos">
+        <h2 id="titulo-conjuntos-abertos">Conjuntos de dados do SergipePrevidência</h2>
+        <div class="table-wrap">
+          <table id="catalogo-dados-abertos">
+            <caption>Arquivos disponíveis — registros de 2023 a 2026</caption>
+            <thead><tr><th scope="col">Conjunto</th><th scope="col">Descrição</th><th scope="col">Formato</th><th scope="col">Acesso aos dados</th></tr></thead>
+            <tbody id="conjuntos-dados-abertos">
+              <tr><th scope="row">Receitas</th><td>425 registros por UO, ano, mês e classificação da receita, com previsão na origem e arrecadação mensal. <a href="/Portal-da-Transparencia/Receitas/PrevistaArrecada/">Consultar Receitas</a>.</td><td>CSV</td><td><a href="/dados/receitas/receitas-integracao.csv">Baixar Receitas (CSV)</a></td></tr>
+              <tr><th scope="row">Relação de servidores</th><td>1.598 registros por período da relação, com nome, cargo/função, lotação, início de exercício, exoneração/inativação quando informada e carga horária informada. <a href="/Portal-da-Transparencia/RecursosHumanos/FolhaPagamento/">Consultar servidores</a>.</td><td>CSV</td><td><a href="/dados/recursos-humanos/servidores.csv">Baixar servidores (CSV)</a></td></tr>
+              <tr><th scope="row">Remuneração nominal</th><td>1.596 registros conciliados de servidores por competência, nome, cargo/função e valor de rendimentos do contracheque. <a href="/Portal-da-Transparencia/RecursosHumanos/FolhaPagamento/">Consultar remuneração</a>.</td><td>CSV</td><td><a href="/dados/recursos-humanos/remuneracao.csv">Baixar remuneração (CSV)</a></td></tr>
+              <tr><th scope="row">Estagiários</th><td>714 registros por período da relação, com nome, setor/local, contratação, término quando informado e informação sobre aditivo. <a href="/Portal-da-Transparencia/RecursosHumanos/Estagiarios/">Consultar Estagiários</a>.</td><td>CSV</td><td><a href="/dados/recursos-humanos/estagiarios.csv">Baixar Estagiários (CSV)</a></td></tr>
+              <tr><th scope="row">Terceirizados</th><td>3.009 registros por ano e mês da relação, com nome, função ou atividade e empresa empregadora. <a href="/Portal-da-Transparencia/RecursosHumanos/Terceirizados/">Consultar Terceirizados</a>.</td><td>CSV</td><td><a href="/dados/recursos-humanos/terceirizados.csv">Baixar Terceirizados (CSV)</a></td></tr>
+              <tr><th scope="row">Relação de Diárias</th><td>208 registros com beneficiário, cargo, destino, evento, período do afastamento, quantidade de diárias, total recebido e situação informada. <a href="/Portal-da-Transparencia/Diarias/Relacao/">Consultar Diárias</a>.</td><td>CSV</td><td><a href="/dados/diarias/relacao-diarias.csv">Baixar Diárias (CSV)</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section aria-labelledby="titulo-regras-dados-abertos">
+        <h2 id="titulo-regras-dados-abertos">Acesso e orientações de utilização</h2>
+        <p>Os arquivos podem ser obtidos pelos links diretos, por uma requisição HTTP GET, sem cadastro ou autenticação. São arquivos estáticos: não recebem parâmetros de consulta. Para selecionar um período ou outro recorte, leia e filtre os registros no sistema consumidor ou utilize a exportação filtrada da respectiva consulta do Portal.</p>
+        <p>Os CSVs usam codificação UTF-8 com marcador BOM e ponto e vírgula como separador. Leia os cabeçalhos como nomes dos campos, respeite as aspas do formato CSV e interprete valores monetários com a convenção decimal presente no arquivo. Campos sem preenchimento não devem ser convertidos automaticamente em zero.</p>
+        <p>Em Receitas, a previsão registrada em janeiro é anual e não deve ser repetida ou dividida pelos demais meses. O FUNPREV/2026 tem previsão anual de R$ 0,00 e registros desde junho. A coluna <code>arrecadado_no_mes</code> contém valores mensais: para obter um acumulado, some cada registro de base uma única vez até o mês escolhido. Preserve valores negativos e receitas intraorçamentárias. A soma entre UOs é bruta e não representa consolidação contábil.</p>
+        <p>Nas relações de pessoal, ano e mês identificam o período da relação ou competência, não a data de contratação. A repetição de uma pessoa em períodos diferentes não representa, por si só, duplicidade. Os arquivos refletem os períodos efetivamente disponíveis; sua referência a 2026 não presume fechamento do exercício nem cobertura de todos os meses.</p>
+      </section>
+      <section aria-labelledby="titulo-exemplos-dados-abertos">
+        <h2 id="titulo-exemplos-dados-abertos">Exemplo de acesso automatizado</h2>
+        <p>Em um navegador, a partir desta página, o exemplo abaixo obtém o CSV de Receitas como texto. O caminho relativo acompanha a base de hospedagem do Portal. Para interpretar os registros, utilize um leitor CSV com o separador indicado acima.</p>
+        <pre><code>fetch(new URL("../../../dados/receitas/receitas-integracao.csv", document.baseURI))
+  .then(function (resposta) {
+    if (!resposta.ok) throw new Error("HTTP " + resposta.status);
+    return resposta.text();
+  })
+  .then(function (csv) { console.log(csv); });</code></pre>
+      </section>
+      <section aria-labelledby="titulo-acesso-complementar">
+        <h2 id="titulo-acesso-complementar">Acesso complementar — Estado de Sergipe</h2>
+        <p><a href="https://transparencia.se.gov.br/DadosAbertos">Dados Abertos do Portal da Transparência do Estado de Sergipe</a>. Esse catálogo estadual abrange informações de diferentes órgãos e entidades; seus conjuntos não são apresentados aqui como pertencentes ao SergipePrevidência. Consulte a identificação do órgão responsável, a cobertura e as orientações na página de origem.</p>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

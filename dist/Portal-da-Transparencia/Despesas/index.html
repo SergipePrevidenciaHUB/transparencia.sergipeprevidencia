@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/assets/css/site.css">
   <script defer src="/assets/js/site.js"></script>
   <link rel="stylesheet" href="/assets/css/portal.css">
+  <script defer src="/assets/js/despesas-totais.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
@@ -32,9 +33,27 @@
       <a class="card" href="#empenhos"><strong>Consulta de empenhos</strong><span>Credores, valores, objetos e procedimentos de contratação. Aguardando dados.</span></a>
     </nav>
 
-    <section id="totais" class="content-box" aria-labelledby="titulo-totais">
+    <section id="totais" class="content-box" aria-labelledby="titulo-totais" serigySchema="https://serigy.tce.se.gov.br/comum/despesas.html">
       <h2 id="titulo-totais">Totais das despesas</h2>
-      <p><strong>Aguardando dados oficiais:</strong> totais empenhados, liquidados e pagos, com identificação do exercício e do mês ou período de referência.</p>
+      <p><strong>Aguardando dados oficiais:</strong> totais empenhados, liquidados e pagos, com identificação do exercício e do mês ou período de referência. A consulta e o download estão indisponíveis até a disponibilização dos dados.</p>
+      <form id="despesas-totais-filtro" class="filter-panel" aria-label="Consulta de totais das despesas" aria-describedby="despesas-totais-status">
+        <div class="field"><label for="despesas-totais-ano">Exercício</label><select id="despesas-totais-ano" name="ano" disabled><option value="">Exercícios aguardando dados</option></select></div>
+        <div class="field"><label for="despesas-totais-mes">Mês</label><select id="despesas-totais-mes" name="mes" disabled><option value="">Todos os meses disponíveis</option><option value="1">Janeiro</option><option value="2">Fevereiro</option><option value="3">Março</option><option value="4">Abril</option><option value="5">Maio</option><option value="6">Junho</option><option value="7">Julho</option><option value="8">Agosto</option><option value="9">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
+        <div class="field"><label for="despesas-totais-uo">Unidade Orçamentária</label><select id="despesas-totais-uo" name="codigo_uo" disabled><option value="">Todas as unidades</option><option value="37201">37201 — SergipePrevidência</option><option value="37202">37202 — SPSM</option><option value="37401">37401 — FINANPREV</option><option value="37403">37403 — FUNPREV</option></select></div>
+        <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="despesasTotaisTabela" disabled>Pesquisar</button><button type="reset" serigyClearForm disabled>Limpar</button></div>
+      </form>
+      <p id="despesas-totais-status" role="status" aria-live="polite">Consulta indisponível enquanto os dados oficiais não forem disponibilizados.</p>
+      <p>“Todas as unidades” apresentará os registros identificados por UO e período, sem gerar um total entre unidades ou entre períodos.</p>
+      <button id="despesas-totais-csv" type="button" disabled>Baixar recorte em CSV — indisponível</button>
+      <div id="despesas-totais-resultados" class="table-wrap" hidden>
+        <table id="despesas-totais-tabela" serigyLoadSection="despesasTotaisTabela">
+          <caption>Totais das despesas por unidade e período</caption>
+          <thead><tr><th scope="col">Unidade Orçamentária</th><th scope="col">Exercício</th><th scope="col">Mês</th><th scope="col">Empenhado (R$)</th><th scope="col">Liquidado (R$)</th><th scope="col">Pago (R$)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <!-- Inserir somente referência de atualização comprovada, com dataUltimaAtualizacao sob este schema. -->
+      <div id="despesas-totais-atualizacao" class="update-info" hidden></div>
     </section>
 
     <section id="classificacao" class="content-box" aria-labelledby="titulo-classificacao">
