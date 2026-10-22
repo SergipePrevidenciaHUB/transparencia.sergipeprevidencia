@@ -1,0 +1,290 @@
+{
+  "natureza": "sintetica",
+  "aviso": "DADOS SINTÉTICOS PARA TESTE DO SERIGY — NÃO REPRESENTAM DESPESAS DO SERGIPEPREVIDÊNCIA",
+  "finalidade": "Ensaio técnico sintético de Despesas 4.1, 4.2 e 4.3; sem informação financeira oficial.",
+  "atualizacao_pagina_teste": "2026-10-22",
+  "nota_data": "Data real de preparação deste conjunto sintético; não é atualização de despesas oficiais.",
+  "nota_uo": "Códigos usados como identificadores técnicos do filtro; unidades e despesas destes registros são sintéticas.",
+  "uos": {
+    "37201": "37201 — UNIDADE SINTÉTICA A",
+    "37202": "37202 — UNIDADE SINTÉTICA B",
+    "37401": "37401 — UNIDADE SINTÉTICA C",
+    "37403": "37403 — UNIDADE SINTÉTICA D"
+  },
+  "totais": [
+    {
+      "exercicio": 2023,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "valorEmpenhado": "100,00",
+      "valorLiquidado": "80,00",
+      "valorPago": "60,00"
+    },
+    {
+      "exercicio": 2024,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidade": "37401 — UNIDADE SINTÉTICA C",
+      "valorEmpenhado": "110,00",
+      "valorLiquidado": "85,00",
+      "valorPago": "63,00"
+    },
+    {
+      "exercicio": 2025,
+      "mes": 1,
+      "codigo_uo": "37403",
+      "unidade": "37403 — UNIDADE SINTÉTICA D",
+      "valorEmpenhado": "120,00",
+      "valorLiquidado": "90,00",
+      "valorPago": "66,00"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "valorEmpenhado": "130,00",
+      "valorLiquidado": "95,00",
+      "valorPago": "69,00"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 2,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "valorEmpenhado": "140,00",
+      "valorLiquidado": "100,00",
+      "valorPago": "72,00"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37202",
+      "unidade": "37202 — UNIDADE SINTÉTICA B",
+      "valorEmpenhado": "150,00",
+      "valorLiquidado": "105,00",
+      "valorPago": "75,00"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidade": "37401 — UNIDADE SINTÉTICA C",
+      "valorEmpenhado": "160,00",
+      "valorLiquidado": "110,00",
+      "valorPago": "78,00"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37403",
+      "unidade": "37403 — UNIDADE SINTÉTICA D",
+      "valorEmpenhado": "170,00",
+      "valorLiquidado": "115,00",
+      "valorPago": "81,00"
+    }
+  ],
+  "classificacao": [
+    {
+      "exercicio": 2023,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidadeDespesa": "37201 — UNIDADE SINTÉTICA A",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2024,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidadeDespesa": "37401 — UNIDADE SINTÉTICA C",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2025,
+      "mes": 1,
+      "codigo_uo": "37403",
+      "unidadeDespesa": "37403 — UNIDADE SINTÉTICA D",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidadeDespesa": "37201 — UNIDADE SINTÉTICA A",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 2,
+      "codigo_uo": "37201",
+      "unidadeDespesa": "37201 — UNIDADE SINTÉTICA A",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37202",
+      "unidadeDespesa": "37202 — UNIDADE SINTÉTICA B",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidadeDespesa": "37401 — UNIDADE SINTÉTICA C",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37403",
+      "unidadeDespesa": "37403 — UNIDADE SINTÉTICA D",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919991 — ELEMENTO SINTÉTICO A",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidadeDespesa": "37201 — UNIDADE SINTÉTICA A",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "91 — GRUPO SINTÉTICO A",
+      "elementoDespesa": "919992 — ELEMENTO SINTÉTICO B",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidadeDespesa": "37201 — UNIDADE SINTÉTICA A",
+      "funcaoDespesa": "901 — FUNÇÃO SINTÉTICA",
+      "subFuncaoDespesa": "90101 — SUBFUNÇÃO SINTÉTICA",
+      "categoriaDespesa": "9 — CATEGORIA SINTÉTICA A",
+      "grupoDespesa": "92 — GRUPO SINTÉTICO B",
+      "elementoDespesa": "929991 — ELEMENTO SINTÉTICO C",
+      "fonteRecursosDespesa": "9991 — FONTE SINTÉTICA A"
+    }
+  ],
+  "empenhos": [
+    {
+      "exercicio": 2023,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "numero_empenho": "TESTE-EMP-2023-001",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-ALFA",
+      "credorEmpenho": "CREDOR SINTÉTICO ALFA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "100,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 1 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99001/2023"
+    },
+    {
+      "exercicio": 2024,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidade": "37401 — UNIDADE SINTÉTICA C",
+      "numero_empenho": "TESTE-EMP-2024-002",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-BETA",
+      "credorEmpenho": "CREDOR SINTÉTICO BETA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "110,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 2 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99002/2024"
+    },
+    {
+      "exercicio": 2025,
+      "mes": 1,
+      "codigo_uo": "37403",
+      "unidade": "37403 — UNIDADE SINTÉTICA D",
+      "numero_empenho": "TESTE-EMP-2025-003",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-BETA",
+      "credorEmpenho": "CREDOR SINTÉTICO BETA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "120,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 3 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99003/2025"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "numero_empenho": "TESTE-EMP-2026-004",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-ALFA",
+      "credorEmpenho": "CREDOR SINTÉTICO ALFA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "130,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 4 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99004/2026"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 2,
+      "codigo_uo": "37201",
+      "unidade": "37201 — UNIDADE SINTÉTICA A",
+      "numero_empenho": "TESTE-EMP-2026-005",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-ALFA",
+      "credorEmpenho": "CREDOR SINTÉTICO ALFA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "140,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 5 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99005/2026"
+    },
+    {
+      "exercicio": 2026,
+      "mes": 1,
+      "codigo_uo": "37401",
+      "unidade": "37401 — UNIDADE SINTÉTICA C",
+      "numero_empenho": "TESTE-EMP-2026-006",
+      "credor_documento": "CPF/CNPJ FICTÍCIO TESTE-BETA",
+      "credorEmpenho": "CREDOR SINTÉTICO BETA — NÃO EXISTE",
+      "valorEmpenhoIndividual": "150,00",
+      "objetoEmpenho": "OBJETO INTEIRAMENTE SINTÉTICO 6 — SEM FORNECIMENTO REAL",
+      "modalidadeEmpenho": "Pregão — contratação inteiramente sintética",
+      "numeroProcedimento": "99006/2026"
+    }
+  ]
+}

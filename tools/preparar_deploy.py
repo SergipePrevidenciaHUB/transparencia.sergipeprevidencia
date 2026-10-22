@@ -17,7 +17,31 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 SITE = ROOT / "_site"
+TEST_PAGES_BASE_PATH = "/transparencia.sergipeprevidencia"
 
+
+def check_synthetic_content(base_path: str, allow: bool = False) -> None:
+    """Bloqueia o ensaio de despesas antes de alterar a pasta de publicação."""
+    found = []
+    for path in DIST.rglob("*"):
+        if path.is_file() and path.suffix.lower() in {".html", ".csv", ".json"}:
+            content = path.read_text(encoding="utf-8-sig").lower()
+            if any(marker in content for marker in (
+                "data-despesas-sinteticas", "data-dado-sintetico",
+                "dados sintéticos para teste do serigy",
+            )):
+                found.append(path.relative_to(DIST).as_posix())
+    if not found:
+        return
+    normalized = "/" + base_path.strip().strip("/")
+    if not allow or normalized != TEST_PAGES_BASE_PATH or (DIST / "CNAME").exists():
+        raise ValueError(
+            "Publicação oficial bloqueada: dados sintéticos de Despesas presentes. "
+            "Execute tools/preparar_teste_despesas.py --desativar. "
+            "O ensaio só pode ser preparado com --permitir-dados-sinteticos, "
+            "na base /transparencia.sergipeprevidencia e sem CNAME. "
+            "Arquivos: " + ", ".join(found)
+        )
 
 def adjust_html(content: str, base_path: str) -> str:
     """Ajusta href="/" e src="/" para prefixar com base_path, ignorando URLs protocol-relative //."""
@@ -54,7 +78,8 @@ def adjust_js(content: str, base_path: str) -> str:
     return content
 
 
-def prepare(base_path: str = "") -> None:
+def prepare(base_path: str = "", permitir_dados_sinteticos: bool = False) -> None:
+    check_synthetic_content(base_path, permitir_dados_sinteticos)
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(DIST, SITE)
@@ -88,8 +113,12 @@ def prepare(base_path: str = "") -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-path", default="", help="Subcaminho base (ex: /transparencia.sergipeprevidencia)")
+    parser.add_argument("--permitir-dados-sinteticos", action="store_true", help="Permite somente o ensaio na base fixa do GitHub Pages de teste, sem CNAME")
     args = parser.parse_args()
-    prepare(args.base_path)
+    try:
+        prepare(args.base_path, args.permitir_dados_sinteticos)
+    except ValueError as error:
+        parser.error(str(error))
 
 
 if __name__ == "__main__":

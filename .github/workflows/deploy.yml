@@ -35,7 +35,8 @@ jobs:
 
       - name: Preparar arquivos estáticos para publicação
         run: |
-          python tools/preparar_deploy.py --base-path "${{ steps.pages.outputs.base_path }}"
+          # GitHub Pages é exclusivamente o ambiente de teste Serigy.
+          python tools/preparar_deploy.py --base-path "${{ steps.pages.outputs.base_path }}" --permitir-dados-sinteticos
 
       - name: Empacotar artefato
         uses: actions/upload-pages-artifact@v3

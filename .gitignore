@@ -10,6 +10,9 @@ _site/
 /dados-entrada/**
 !/dados-entrada/**/
 !/dados-entrada/**/.gitkeep
+# Somente o ensaio sintético autorizado é reproduzível/versionado; fontes reais seguem ignoradas.
+!/dados-entrada/testes-serigy/despesas-sinteticas.json
+!/dados-entrada/testes-serigy/despesas-base-sem-dados.json
 # Documentos locais utilizados como referência
 referencias/*
 !referencias/.gitkeep
