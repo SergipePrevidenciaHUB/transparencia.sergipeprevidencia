@@ -49,3 +49,74 @@ O HTML tem somente cabeçalhos de tabela, listas documentais vazias e controles 
 | Arquivos de origem | Derivados públicos adequados e URLs oficiais conferidas, quando usados documentos | Não publicar planilhas privadas, dados bancários/credenciais ou campos pessoais adicionais por conveniência. Não inventar normas, links ou documentos para completar o modelo. |
 
 Ambos os modelos continuam fora de `dist`, com dados vazios e controles desativados. Antes de publicar: receber e conferir fontes, resolver referências temporais e associações, alimentar dados/documentos e datas reais, implementar filtros/gravações aplicáveis e só então aplicar marcações e validar. O modelo principal, outras seções, menu e deploy permanecem inalterados; nenhuma comunicação externa foi enviada.
+
+
+## Fiscais e gestores — alimentação da planilha
+
+Fonte: dados-entrada/contratos/fiscais-e-gestores.xlsx, aba CONTRATAÇÕES EM ACOMPANHAMENTO. 104 linhas de instrumentos, 348 associações nominais. Distribuição: {'Fiscal': 104, 'Fiscal substituto': 73, 'Gestor': 99, 'Gestor substituto': 72}. Nenhuma deduplicação por nome ou número. As linhas 75 e 76 da adesão 015/2024 são mantidas separadamente por contratada, com todas as funções preenchidas. A nota da linha 107 foi ignorada. Vazios e hífen nas quatro colunas de pessoas foram tratados como ausência, sem gerar nome ou associação fictícia. 68 posições ausentes.
+
+A linha 25 traz SIM na coluna VIGÊNCIA; não foi interpretado como data, vigência ou vínculo. Não foram publicados períodos de designação, situação atual, datas de vigência ou EM ACOMPANHAMENTO. Ano extraído somente do identificador do instrumento, explicitado no rótulo e na exportação; não é período de designação nem comprova histórico funcional. Confirmar datas de designação/dispensa e completude das funções com a área. Nomes e grafias foram preservados com remoção apenas de espaços nas bordas; não fundidas variantes (ex.: SOUSA/SOUZA, ACACIA/ACÁCIA). Não foram criados links. A data de atualização da relação foi informada pelo responsável em 22/10/2026 e publicada com dataUltimaAtualizacao sob o schema de Contratos (S9 9.2.5). Não representa designação ou vigência.
+
+Marcação S9 9.2: fiscalGestor no nome e contratoFiscal no instrumento da mesma linha. Filtro por nome, função e ano do instrumento, historicoExercicio/serigyValue e Wait/Load correspondentes, exportação CSV das mesmas cinco colunas do recorte. Nenhum valor financeiro foi incluído.
+
+O ano só é identificado quando há um único ano explícito no identificador. As linhas 31 e 87 não têm ano identificável: suas oito associações permanecem na consulta geral como “Não identificado”. Não foi deduzido ano de outra coluna. Associações por ano do instrumento: 2020=2, 2021=4, 2022=25, 2023=16, 2024=60, 2025=150, 2026=83; sem ano=8.
+
+Conferência automatizada em Chrome por HTTP local: 711 verificações sem falhas, 348 associações comparadas à fonte, quatro funções, anos, filtros combinados, limpeza e CSV integral/filtrado conciliados. Os demais arquivos preexistentes de dist foram comparados por hash e preservados.
+
+## Extração preparatória — relação de contratos com atas
+
+Fonte: `dados-entrada/contratos/relacao-contratos-com-atas.xlsx`, abas `CONTRATOS` e `ADITIVOS`. Preparação em `dados-entrada/contratos/contratos-extraidos.json`, fora de `dist`. Seção Serigy consultada: somente 9.1 Contratos. Não houve alimentação da página pública nesta etapa.
+
+| Grupo | Linhas preservadas | Destinos de hiperlinks F | Sem URL |
+| --- | ---: | ---: | ---: |
+| Contratos identificados como tais na coluna A | 156 | 122 | 34 |
+| Atas, separadas para revisão | 12 | 9 | 3 |
+| Outros instrumentos, separados para revisão | 11 | 11 | 0 |
+| Aditivos | 36 | 36 | 0 |
+
+Total: 215 linhas, 178 URLs distintas. As URLs foram extraídas do destino real do hiperlink F, não do texto exibido na célula. Destino extraído não significa acesso, inteiro teor ou correspondência documental conferidos. Nenhum PDF foi baixado. Células literais, aba e linha de origem foram preservadas; nenhuma linha foi deduplicada. Atas e demais instrumentos não foram automaticamente transformados em contratos.
+
+Somente oito aditivos receberam associação inequívoca na extração. Critério técnico conservador: referência explícita de número/ano, um único contrato candidato, contratado/CNPJ coincidente e ausência de conflito detectado entre título e objeto. Os 28 restantes estão separados com candidatos e motivo no JSON. A normalização de zeros na chave interna não modifica o número literal da fonte.
+
+- Referência com mais de um candidato: ADITIVOS 9–12, 18–20, 24–26 e 44. Não unir contratos nem escolher uma linha sem confirmação.
+- Contratado/CNPJ divergente ou insuficiente: ADITIVOS 13–17, 21–22, 27, 32–34, 39–41 e 43. Conferir identificação das partes; não corrigir dígitos automaticamente.
+- ADITIVOS 23: sem contrato candidato com a referência explícita. ADITIVOS 35: título indica 003/2025, mas o objeto cita 003/2024; sem associação.
+- Vigência: CONTRATOS 18 tem fim anterior ao início; CONTRATOS 48 e 80 contêm data inválida; ADITIVOS 39 contém `1110/2026`. Literais preservados, sem reparo ou separação presumida em `inicioContrato`/`fimContrato`.
+- A coluna A de CONTRATOS 10 informa apenas “Contrato”, sem número. Ausências por campo e linha estão no JSON, incluindo URLs não fornecidas.
+- Outros instrumentos: anuências, adesão/filiação, dispensas por valor e inexigibilidade (linhas 18, 22, 24, 30, 45–48, 55, 71 e 134); definir a destinação antes de publicar. Manter as 12 atas separadas, mesmo quando o nome do PDF contém “contrato”.
+
+S9 9.1 prevê `numeroContrato`, `contratado`, `valorContrato`, `objeto`, `inicioContrato`, `fimContrato`, `sequencia`, `termoAditivo` e `linkContrato`. A fonte não tem coluna estruturada de valor do contrato: valores eventualmente mencionados no objeto não foram promovidos a valor original/atualizado. Não foram inventados sequência, início/fim estruturados, atualização ou links. Confirmar significado e cobertura dos períodos de cabeçalho, valores oficiais, classificação dos instrumentos, vínculos pendentes, vigências e acesso/correspondência dos documentos antes da alimentação pública.
+
+## Alimentação da consulta principal de Contratos
+
+A página existente de Contratos recebeu os 156 registros do grupo `contratos` de `contratos-extraidos.json`, com 122 links de íntegra e somente oito aditivos associados (AGENDA: quatro; SMART NX: três; CL LOCAÇÃO: um). Os 34 contratos sem URL permanecem na consulta sem link vazio. Atas, outros instrumentos e os 28 aditivos pendentes não foram incluídos nem associados por aproximação.
+
+Gerador: `tools/integrar_contratos.py`, com `--check` para conciliação. Número literal quando fornecido (`numeroContrato`), contratado (`contratado`), objeto (`objeto`), documentos (`linkContrato`/`termoAditivo`). Vigência mantida literalmente; `inicioContrato`/`fimContrato` apenas quando as duas datas forem válidas, identificáveis e ordenadas. A vigência inválida de CONTRATOS 80 fica sem marcação de data; os demais casos ausentes ou não estruturáveis também não recebem datas presumidas. As ausências por origem continuam detalhadas no JSON. Não há `valorContrato`, `sequencia` nem `dataUltimaAtualizacao`: obter valores, ordem oficial e atualização confirmada antes de marcar esses itens.
+
+Decisão técnica de consulta: exercício extraído exclusivamente do número do instrumento, explicitado na interface, sem representar vigência ou data de celebração; registros sem ano continuam em “Todos os exercícios”. Pesquisa textual combinada por número, contratado e objeto. Histórico (`historicoExercicio`/`serigyValue`), filtro (`filtroPesquisa`) e espera/carregamento com identificador `contratosTabela` correspondentes. CSV (`salvarRelatorio`, `csv`) com uma linha por contrato no recorte e todos os links dos aditivos seguros na mesma célula, sem multiplicação de contratos.
+
+Teste `tools/testar_contratos.py`: HTML inicial conciliado ao JSON, 156 contratos/122 íntegras/oito aditivos; Chrome por HTTP local sem falhas nas 14 verificações de exercícios, pesquisa combinada, vínculo AGENDA, ausência de resultados e limpeza. CSV integral e filtrado conferidos, incluindo todos os links de aditivos (quatro no recorte AGENDA e oito no integral). Testes não comprovam acesso externo, pesquisa de texto ou correspondência dos PDFs, nem cobertura histórica completa. Essas conferências e os campos ausentes permanecem pendentes.
+
+
+### Ensaio sintético separado de Contratos
+
+Ativar: `python tools/integrar_contratos.py --sinteticos`; conferir com `--check --sinteticos`. Remover: executar o mesmo gerador sem `--sinteticos`. A geração normal omite a seção e seus documentos, preservando 156 contratos, 122 links e oito aditivos. Nenhum arquivo precisa ser excluído.
+
+Fonte independente do JSON real: função `synthetic_section` do gerador, três entidades explicitamente fictícias em 2024–2026, valores R$ 100,00/200,00/300,00 e sequências 1/2/3 somente de ensaio. Cada linha e CSV sintético contém “DADO SINTÉTICO — TESTE SERIGY”. Tabela, filtros, histórico, CSV e documentos HTML locais separados dos reais. `valorContrato` e `sequencia` não foram atribuídos aos registros reais. Atualização oficial continua pendente; nenhuma data foi inventada.
+
+Reutilizado sem alterações o bloqueio genérico por `data-dado-sintetico` de `tools/preparar_deploy.py`. Só permite `--permitir-dados-sinteticos --base-path /transparencia.sergipeprevidencia`, sem CNAME. Outros ensaios continuam sujeitos ao bloqueio mesmo após remover Contratos.
+
+`tools/testar_contratos_sinteticos.py` confere a cópia Pages em Chrome/HTTP, filtros combinados, histórico, limpeza, CSV integral/filtrado com aviso em cada linha, links locais e HTML inicial. Bloqueio oficial testado com Contratos isolado; remover a seção da cópia libera esse bloqueio isolado. Comparação da geração sem ensaio preserva os registros e marcações reais. Reconhecimento pelo Invoker depende de publicação autorizada e nova avaliação; não foi executado.
+
+
+## Ordem Cronológica — ensaio técnico sintético
+
+Quatro pagamentos inteiramente sintéticos (2023–2026), mantidos no HTML inicial com aviso individual “DADO SINTÉTICO — TESTE SERIGY”. Nomes explicitamente fictícios, sem CPF/CNPJ, datas de vencimento/pagamento e valores de ensaio. Não representam créditos, pagamentos ou ordem oficial do SergipePrevidência. Fonte sintética separada no gerador tools/preparar_teste_ordem.py; não foi utilizada planilha institucional.
+
+S9 9.3.1–8: dataVencimento, dataPagamento, credor e valorPagamento somente nos valores de teste; filtroPesquisa funcional, historicoExercicio/serigyValue nos quatro exercícios sintéticos, espera/carregamento com identificador ordemTabela, salvarRelatorio/csv do recorte. Ano, mês de pagamento e pesquisa de credor são escolhas técnicas do ensaio. CSV contém o aviso em cada linha e nome SINTETICOS-TESTE-SERIGY. dataUltimaAtualizacao=22/10/2026 identifica explicitamente a preparação do ensaio, não atualização de pagamentos reais. Não foram inventados fontes de recursos, categorias contratuais, justificativas ou documentos oficiais.
+
+Ativar: python tools/preparar_teste_ordem.py --ativar. Conferir: acrescentar --check. Desativar: python tools/preparar_teste_ordem.py --desativar. O gerador preserva a estrutura anterior em BASE_MAIN e a restitui sem apagar arquivos nem modificar outras páginas; remove a carga do JS de ensaio. O JS fica inerte sem a tabela sintética. Bloqueio oficial genérico existente reutilizado sem alterações, por data-dado-sintetico. Exceção somente para base /transparencia.sergipeprevidencia com permissão explícita e sem CNAME. Outros ensaios do portal continuam bloqueando a preparação oficial mesmo após retirar Ordem Cronológica.
+
+Teste tools/testar_ordem_sintetica.py: oito marcações conferidas no HTML inicial; Chrome/HTTP local, filtros combinados, histórico, consulta sem resultados, limpeza e CSV integral/filtrado conciliados campo a campo. Remoção em cópia restaura a estrutura anterior e libera o bloqueio isolado; recusas confirmadas para raiz, base incorreta e ausência de permissão. Demais arquivos dist preservados por hash. Invoker não executado: reconhecimento depende de publicação autorizada e nova avaliação.
+
+Fonte real ainda necessária: créditos e ordem oficial por fonte/categoria, credores/valores, vencimento conforme regulamentação e fatos, pagamentos, justificativas de alterações quando houver, cobertura mensal/histórica e atualização real. Não inferir ordem oficial apenas ordenando pagamentos; substituir integralmente os registros sintéticos por fonte conferida antes da publicação definitiva.

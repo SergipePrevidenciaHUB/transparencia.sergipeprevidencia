@@ -87,3 +87,17 @@ Antes da publicação autorizada: resolver emissão/cobertura/anexos do RGF e si
 | Divergências técnicas | Matriz II; descrições S 10.6.4/10.6.5 mencionam contratos; schemas diferentes nos exemplos | **DÚVIDA — REVISÃO NECESSÁRIA:** esclarecer representação com fonte técnica, sem alterar a aplicabilidade C nem importar regras de Contratos. |
 
 Antes de publicar os dois novos modelos: obter arquivos/metadados, conferir conteúdo e acesso, resolver dúvidas técnicas, alimentar e marcar somente dados existentes; implementar os controles aplicáveis de Balancetes; testar documentos, formatos, recortes, histórico, HTML e acessibilidade. Não há declaração de inexistência ou atendimento. Os quatro HTMLs anteriores, `dist`, menus e deploy foram preservados.
+
+## Histórico — correções técnicas da avaliação 4172
+
+Escopo desta rodada: somente Balanço Geral (S10 10.1.4), Relatório de Gestão (10.2.4) e Julgamento TCE (10.3.3). Não houve pesquisa institucional nem execução do Invoker. Documentos, URLs, linhas e datas existentes preservados integralmente.
+
+O CSV 4172 atribuiu ponto=true a Balanço/Relatório, mas registrou INVALID_OPTION para 2026; TCE permaneceu ponto=false com WAITSECTION_NOT_FOUND. Os resultados originais foram mantidos nas três linhas da matriz.
+
+Implementado: os três seletores historicoExercicio e seus botões apontam explicitamente, por serigyExecuteWaitSection, ao contêiner serigyLoadSection que engloba a tabela e a mensagem de recorte vazio. O formulário usa o schema do cabeçalho da dimensão, planejamento-prestacao-contas.html. A divergência dos exemplos (gestao-fiscal-planejamento.html) continua registrada; não foi usada para alterar as marcações/datas de atualização existentes. TCE não recebeu filtroPesquisa como nova exigência formal. Seleção, pesquisa, unidade quando existente e limpeza modificam efetivamente a consulta. Relatório passou a reutilizar planejamento.js; o controlador anterior não é mais associado ao formulário.
+
+Balanço e Relatório agora permitem selecionar 2026 (value/serigyValue), apresentando “Documento ainda não disponível nesta relação para o exercício 2026.”, sem inserir linha, link, marca de documento ou declaração de inexistência institucional. Essa é uma opção técnica de consulta, não comprovação de acervo 2026. TCE mantém seus exercícios e as pendências anteriores de documentos, inclusive 2022/2023 do SergipePrevidência. Ausências em recortes por unidade também recebem mensagem explícita, sem documento artificial.
+
+Pendências de conteúdo preservadas: recebimento/conferência de documentos ainda ausentes, inteiros teores, pesquisa de texto e cobertura; seleção 2026 não resolve essas pendências nem comprova exercício exigível ou atendimento integral. As alterações desta rodada são nos HTMLs e componente existente; geradores não foram alterados. Antes de uma regeneração, preservar/reincorporar esta estrutura para não perder as correções.
+
+Testes em Chrome por HTTP local e cópia preparada com a base /transparencia.sergipeprevidencia: 252 verificações aprovadas, 260 referências HTTP, todas as opções, eventos change/submit, combinações com unidade, mensagens vazias, 2026 sem links e limpeza. Preservadas 16 linhas de Balanço, 3 de Relatório e 13 de TCE (estas incluem duas linhas de pendência, não 13 decisões). Índice Git preservado. Relatório em trabalho/planejamento-4172/resultado.json. Reavaliar os três itens no Invoker somente após publicação autorizada; testes locais não alteram a pontuação oficial.

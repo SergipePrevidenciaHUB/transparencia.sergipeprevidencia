@@ -147,8 +147,22 @@ shutil.copytree(ROOT / "dist", official_source)
 globals_["DIST"] = official_source
 globals_["SITE"] = RUN / "pacote-oficial-sem-teste"
 assert not globals_["SITE"].exists()
-deploy["prepare"]()
-assert (globals_["SITE"] / page_route.strip("/") / "index.html").read_text(encoding="utf-8") == without
+remaining = any(any(marker in p.read_text(encoding="utf-8-sig").lower() for marker in ("data-dado-sintetico", "data-despesas-sinteticas")) for p in official_source.rglob("*.html"))
+if remaining:
+    try:
+        deploy["prepare"]()
+    except ValueError:
+        assert not globals_["SITE"].exists()
+    else:
+        raise AssertionError("Outros ensaios foram liberados indevidamente")
+    isolated = RUN / "despesas-limpas-isoladas"
+    isolated.mkdir()
+    (isolated / "index.html").write_text(without, encoding="utf-8")
+    globals_["DIST"] = isolated
+    deploy["check_synthetic_content"]("", False)
+else:
+    deploy["prepare"]()
+    assert (globals_["SITE"] / page_route.strip("/") / "index.html").read_text(encoding="utf-8") == without
 
 harness = r'''<script>
 window.addEventListener('load', async function(){
@@ -246,6 +260,6 @@ for name, count in (("totais", 1), ("classificacao", 3), ("empenhos", 1)):
     (RUN / exported["filename"]).write_text(exported["text"], encoding="utf-8")
 report.pop("exports")
 assert all(Path(name).is_file() and hashlib.sha256(Path(name).read_bytes()).hexdigest() == digest for name, digest in protected.items())
-report.update(html_inicial={"totais": 8, "classificacao": 10, "empenhos": 6}, links_http=len(set(parser.links)), bloqueios=5, remocao_reversivel=True, oficial_apos_remocao=True, arquivos_preservados=len(protected), artefato=str(pages), invoker_executado=False)
+report.update(html_inicial={"totais": 8, "classificacao": 10, "empenhos": 6}, links_http=len(set(parser.links)), bloqueios=5, remocao_reversivel=True, bloqueio_isolado_apos_remocao=True, arquivos_preservados=len(protected), artefato=str(pages), invoker_executado=False)
 (WORK / "resultado.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False))

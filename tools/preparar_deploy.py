@@ -21,7 +21,7 @@ TEST_PAGES_BASE_PATH = "/transparencia.sergipeprevidencia"
 
 
 def check_synthetic_content(base_path: str, allow: bool = False) -> None:
-    """Bloqueia o ensaio de despesas antes de alterar a pasta de publicação."""
+    """Bloqueia conjuntos sintéticos antes de alterar a pasta de publicação."""
     found = []
     for path in DIST.rglob("*"):
         if path.is_file() and path.suffix.lower() in {".html", ".csv", ".json"}:
@@ -36,12 +36,35 @@ def check_synthetic_content(base_path: str, allow: bool = False) -> None:
     normalized = "/" + base_path.strip().strip("/")
     if not allow or normalized != TEST_PAGES_BASE_PATH or (DIST / "CNAME").exists():
         raise ValueError(
-            "Publicação oficial bloqueada: dados sintéticos de Despesas presentes. "
-            "Execute tools/preparar_teste_despesas.py --desativar. "
+            "Publicação oficial bloqueada: dados sintéticos presentes (Despesas/SIC/Convênios/Sanções). "
+            "Remova/substitua todos os conjuntos sintéticos antes da publicação oficial. Para Despesas, use tools/preparar_teste_despesas.py --desativar; para SIC, substitua o conjunto de teste por estatísticas oficiais conferidas; para Convênios e Sanções, retire os registros/documentos sintéticos e preserve as declarações institucionais. "
             "O ensaio só pode ser preparado com --permitir-dados-sinteticos, "
             "na base /transparencia.sergipeprevidencia e sem CNAME. "
             "Arquivos: " + ", ".join(found)
         )
+
+# URL literal solicitada pelo Invoker. No Pages/Linux os caminhos diferenciam
+# maiúsculas de minúsculas; no Windows o destino pode ser o mesmo arquivo.
+ESIC_COMPAT_ROUTES = {
+    "portal-da-transparencia/sic/esic/cadastro/index.html":
+        "Portal-da-Transparencia/SIC/eSIC/Cadastro/index.html",
+}
+
+
+def prepare_compat_routes(site: Path) -> None:
+    """Publica somente os aliases explícitos, sem mascarar outras rotas 404."""
+    for alias, canonical in ESIC_COMPAT_ROUTES.items():
+        source = site / canonical
+        target = site / alias
+        if not source.is_file():
+            raise ValueError(f"Página de acesso e-SIC ausente: {source}")
+        if target.exists():
+            if target.samefile(source):
+                continue
+            raise ValueError(f"Rota de compatibilidade já ocupada: {target}")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+
 
 def adjust_html(content: str, base_path: str) -> str:
     """Ajusta href="/" e src="/" para prefixar com base_path, ignorando URLs protocol-relative //."""
@@ -83,6 +106,8 @@ def prepare(base_path: str = "", permitir_dados_sinteticos: bool = False) -> Non
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(DIST, SITE)
+
+    prepare_compat_routes(SITE)
 
     # Remove eventuais fragmentos HTML que não sejam páginas completas
     for frag in SITE.rglob("portarias*.html"):

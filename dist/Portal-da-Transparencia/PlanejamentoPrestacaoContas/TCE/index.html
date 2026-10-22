@@ -24,12 +24,12 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html">
     <h1>Julgamento pelo Tribunal de Contas</h1>
-    <form id="filtro-tce" class="filter-panel" role="search" aria-label="Consultar documentos" data-planejamento-filter data-target="tabela-tce" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html">
-      <div class="field"><label for="exercicio-tce">Exercício</label><select id="exercicio-tce" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option><option value="2022" serigyValue="2022">2022</option><option value="2021" serigyValue="2021">2021</option><option value="2020" serigyValue="2020">2020</option><option value="2019" serigyValue="2019">2019</option><option value="2018" serigyValue="2018">2018</option><option value="2017" serigyValue="2017">2017</option></select></div><div class="field"><label for="unidade-tce">Unidade</label><select id="unidade-tce" name="unidade"><option value="">Todas as unidades</option><option value="FINANPREV">FINANPREV</option><option value="SergipePrevidência">SergipePrevidência</option></select></div>
+    <form id="filtro-tce" class="filter-panel" role="search" aria-label="Consultar documentos" data-planejamento-filter data-target="tabela-tce" serigySchema="https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html">
+      <div class="field"><label for="exercicio-tce">Exercício</label><select id="exercicio-tce" name="ano" serigyItem="historicoExercicio" serigyExecuteWaitSection="tabela-tce"><option value="">Todos</option><option value="2024" serigyValue="2024">2024</option><option value="2023" serigyValue="2023">2023</option><option value="2022" serigyValue="2022">2022</option><option value="2021" serigyValue="2021">2021</option><option value="2020" serigyValue="2020">2020</option><option value="2019" serigyValue="2019">2019</option><option value="2018" serigyValue="2018">2018</option><option value="2017" serigyValue="2017">2017</option></select></div><div class="field"><label for="unidade-tce">Unidade</label><select id="unidade-tce" name="unidade"><option value="">Todas as unidades</option><option value="FINANPREV">FINANPREV</option><option value="SergipePrevidência">SergipePrevidência</option></select></div>
       <div class="filter-actions"><button type="submit" serigyExecuteWaitSection="tabela-tce">Pesquisar</button><button type="reset" class="secondary" serigyClearForm>Limpar filtros</button></div>
     </form>
     <p class="result-count" data-count-for="tabela-tce" aria-live="polite">13 registro(s) encontrado(s).</p>
-    <div class="table-wrap"><table id="tabela-tce" serigyLoadSection="tabela-tce">
+    <div serigyLoadSection="tabela-tce"><p data-empty-for="tabela-tce" role="status" hidden>Documento ainda não disponível nesta relação.</p><div class="table-wrap"><table id="tabela-tce">
       <caption>Julgamento pelo Tribunal de Contas — documentos por período</caption>
       <thead><tr><th scope="col">Exercício</th><th scope="col">Unidade</th><th scope="col">Documento</th></tr></thead>
       <tbody>
@@ -47,7 +47,7 @@
 <tr data-record="11" data-year="2018" data-unit="FINANPREV"><td>2018</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2018-FINANPREV-1-1.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2018)</a></td></tr>
 <tr data-record="12" data-year="2017" data-unit="FINANPREV"><td>2017</td><td>FINANPREV</td><td><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/04/2017-FINANPREV.pdf" serigyItem="integraJulgamentoTCE">Acórdão do TCE/SE – Finanprev (2017)</a></td></tr>
       </tbody>
-    </table></div>
+    </table></div></div>
     <div id="atualizacao-tce" class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
     <p>A data acima refere-se à atualização desta relação no Portal.</p>
   </main>
