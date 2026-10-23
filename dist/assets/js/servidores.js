@@ -5,7 +5,7 @@
   const rows = Array.from(document.querySelectorAll("#registros-vinculos tr"));
   const records = rows.map(row => ({row, values: JSON.parse(row.dataset.exportValues)}));
   const link = document.getElementById("exportar-vinculos");
-  const headers = ["Ano da relação", "Mês da relação", "Nome completo", "Cargo/função", "Lotação", "Data de início de exercício", "Data de exoneração ou inativação", "Carga horária informada"];
+  const headers = ["Ano da relação", "Mês da relação", "Nome completo", "Cargo/função", "Lotação", "Data de início de exercício", "Data de exoneração ou inativação", "Carga horária informada", "Valor de rendimentos do contracheque"];
   const quote = value => '"' + String(value).replace(/"/g, '""') + '"';
   const normalize = value => String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR");
   const matches = (value, query) => normalize(query).trim().split(/\s+/).filter(Boolean).every(term => normalize(value).includes(term));

@@ -1,5 +1,27 @@
 # Acessibilidade — conferência e pendências da dimensão 12
 
+## Revalidação pontual — 23/10/2026
+
+Esta seção atualiza o diagnóstico histórico abaixo. Fontes novamente conferidas: Cartilha, dimensão 12, pp. 98–102, e Serigy, seção 12, p. 1. Todos os cinco critérios incluem a Previdência Estadual; somente disponibilidade é exigida. Schema documentado: `https://serigy.tce.se.gov.br/comum/acessibilidade.html`.
+
+**Inspeção estática atual:** 39 HTMLs com o componente comum apresentam as cinco marcações sob o schema correto. Incluem páginas de navegação, entrada e documentos de ensaio com cabeçalho. Os quatro auxiliares `portarias2023.html` a `portarias2026.html` não carregam o componente, mas o preparador existente os exclui do pacote publicado; não foram alterados. Os destinos locais examinados existem. Não foi auditado o conteúdo de outras dimensões.
+
+| Critério / marcação Serigy | Estado encontrado e verificação pontual | Correção / pendência |
+| --- | --- | --- |
+| 12.1 — `acessibilidadeSimbolo` | Imagem no cabeçalho, texto alternativo e acesso ao mapa presentes nas 39 páginas com componente. Na capa e em Informações, controles possuem nomes obtidos de texto/title e foco. | Preservado. Conferir destaque e implementação no WordPress separadamente. |
+| 12.2 — `acessibilidadeCaminhoPaginas` | Breadcrumb real sob o schema; destinos conferidos no disco e, nas duas páginas testadas, por HTTP. | Preservado. WordPress não inspecionado. |
+| 12.3 — `acessibilidadeAltoContraste` | Botão nativo altera efetivamente fundo e cor de texto no Chrome; Enter/Espaço e foco testados. A correção anterior de `#atos-palavra` já existe; não foi refeita. | Sem nova alteração do contraste. Não equivale a auditoria WCAG de todos os módulos. |
+| 12.4 — `acessibilidadeRedimensionamentoTexto` | A+, A− e restauração alteram/restauram a fonte raiz; acionamento nativo de teclado testado na capa e em Informações, em 1440 e 390 px. Armazenamento já tem tratamento de exceções. | Detectado e corrigido transbordamento do e-mail de atendimento em 390 px, inclusive fora do bloco de contatos: `overflow-wrap: anywhere` apenas nos links `a[href^="mailto:"]`. Texto, destino e demais estilos preservados. |
+| 12.5 — `acessibilidadeMapaSite` | Link marcado conduz ao mapa do Portal; 39 destinos locais do mapa, incluindo recursos de navegação, respondem por HTTP. | Mapa do Portal preservado. Confirmar mapa do sítio institucional no WordPress; não declarar sua cobertura pela existência deste mapa. |
+
+**Método funcional:** Chrome headless controlado pelo protocolo DevTools, capa `/Portal-da-Transparencia/` e `/Institucional/Informacoes/`, viewports de 1440 e 390 px. Verificados estilos computados, fonte, foco visível, nomes dos controles, Enter/Espaço reais e ausência de transbordamento da página após a correção. Capturas locais e resultado ficam em `trabalho/acessibilidade-*/`; não constituem teste com leitor de tela nem auditoria visual integral. Verificações auxiliares em `trabalho/conferir_acessibilidade_atual.py` e `trabalho/testar_acessibilidade_atual.py`, fora do conteúdo publicável.
+
+**Causa externa separada:** a matriz registra que a avaliação 4172 procurou os cinco itens em `https://www.ouvidoria.se.gov.br/index`, após seguir o acesso e-SIC. Isso não demonstra ausência dos componentes nas nossas páginas nem autoriza inserir marcações no sistema externo. As páginas locais e o fluxo de acesso foram preservados; reconhecimento pelo Invoker depende de nova avaliação, não executada nesta rodada.
+
+**Providências WordPress:** conferir símbolo em destaque, breadcrumb, contraste e redimensionamento funcionais no sítio oficial (12.1–12.4) e existência/acesso/cobertura do mapa institucional (12.5). Conferir teclado, foco e celular nesse ambiente. Nenhuma alteração no WordPress foi realizada ou simulada como concluída.
+
+O diagnóstico anterior permanece como histórico; seus números de páginas e as antigas pendências de contraste/armazenamento não descrevem o estado atual. Nesta rodada, somente o ajuste CSS acima foi necessário no Portal; staging e demais alterações foram preservados.
+
 ## Fontes, alcance e método
 
 Lidos `AGENTS.md`, Cartilha PETP 2026, dimensão 12, **pp. 98–102**, e `referencias/serigy/12. Acessibilidade _ Serigy Docs.pdf`, **p. 1**. A Cartilha é a exigência (**C**); Serigy (**S**) orienta a identificação técnica. **DT** identifica recomendações de implementação/verificação, sem novos critérios PETP. Os cinco critérios incluem a Previdência Estadual e têm somente Disponibilidade como item exigido; 12.1–12.4 são obrigatórios e 12.5 é recomendado na classificação C.

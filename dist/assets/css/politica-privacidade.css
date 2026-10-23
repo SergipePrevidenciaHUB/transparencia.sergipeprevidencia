@@ -1,0 +1,17 @@
+/* Leitura do documento, sem efeitos nas demais páginas. */
+.politica-content .politica-texto,
+.politica-content .politica-sumario { max-width: 88ch; }
+.politica-content .politica-sumario > ul { padding-left: 20px; }
+.politica-content .politica-sumario li { margin: 8px 0; }
+.politica-content .politica-texto { margin-bottom: 40px; }
+.politica-content .politica-texto h2 { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--borda); }
+.politica-content .politica-texto h3 { margin-top: 30px; font-size: 1.2rem; }
+.politica-content .politica-texto li { margin: 10px 0; }
+.politica-content .politica-texto [id] { scroll-margin-top: 24px; }
+.politica-content a { overflow-wrap: anywhere; }
+.politica-content a:focus-visible { outline: 3px solid var(--azul); outline-offset: 4px; }
+.high-contrast .politica-content a:focus-visible { outline-color: #ff0; }
+@media (max-width: 700px) {
+  .politica-content .politica-texto ul,
+  .politica-content .politica-texto ol { padding-left: 24px; }
+}

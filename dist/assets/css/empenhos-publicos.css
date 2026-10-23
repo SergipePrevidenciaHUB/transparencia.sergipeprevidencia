@@ -1,0 +1,12 @@
+.empenhos-publicos .filter-panel { display:flex; flex-wrap:wrap; gap:16px; }
+.empenhos-publicos .field { flex:1 1 240px; min-width:0; }
+.empenhos-publicos input, .empenhos-publicos select { width:100%; max-width:100%; }
+.ep-table-wrap { width:100%; overflow-x:auto; margin:20px 0; }
+#ep-tabela { min-width:3000px; width:100%; font-size:1rem; }
+#ep-tabela th { white-space:normal; }
+#ep-tabela td { vertical-align:top; min-width:100px; max-width:320px; overflow-wrap:anywhere; }
+#ep-tabela .ep-money { white-space:nowrap; text-align:right; }
+#ep-tabela details { min-width:260px; }
+#ep-tabela dt { font-weight:700; margin-top:12px; }
+#ep-tabela dd { margin:4px 0; white-space:normal; }
+@media(max-width:700px) { .empenhos-publicos .field { flex:initial; width:100%; } }

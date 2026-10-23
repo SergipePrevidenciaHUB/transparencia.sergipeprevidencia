@@ -83,12 +83,7 @@
     document.getElementById("receitasTotalPrevisto").textContent=selected.totais.previsto_anual===null?"—":money(units(selected.totais.previsto_anual,scale),scale);
     document.getElementById("receitasTotalArrecadado").textContent=selected.totais.arrecadado===null?"—":money(units(selected.totais.arrecadado,scale),scale);
     document.getElementById("receitasTituloArrecadado").textContent=label?"Arrecadação acumulada até "+label:"Arrecadação acumulada — sem registros no arquivo";
-    document.getElementById("receitasReferenciaAnual").textContent="Exercício "+values.ano+" · "+form.elements.codigo_uo.selectedOptions[0].textContent+". A previsão é anual e não muda com o mês de referência."+(selected.previsao_anual.length?"":" Sem previsão anual informada.");
-    document.getElementById("receitasReferenciaMes").textContent="Soma dos registros mensais disponíveis desde o início do exercício"+(label?" até "+label:"")+"; não presume fechamento.";
-    const coverage=Object.entries(selected.recorte.meses_disponiveis_por_uo).map(([uo,list])=>"UO "+uo+": "+list.map(m=>months[m-1].toLocaleLowerCase("pt-BR")).join(", ")+"/"+values.ano);
-    document.getElementById("receitasCobertura").textContent=coverage.length?"Meses presentes no acumulado — "+coverage.join("; ")+". A cobertura não comprova fechamento contábil.":"Nenhum registro mensal disponível no recorte selecionado.";
-    document.getElementById("receitasSomaBruta").textContent=values.codigo_uo?"Soma dos registros da unidade, incluindo receitas intraorçamentárias presentes na fonte.":"Soma bruta dos registros, incluindo receitas intraorçamentárias. Não representa consolidação contábil.";
-    document.getElementById("receitasContagem").textContent=selected.classificacoes.length+" registro(s) mensais de base no acumulado. Abra Categoria Econômica → Origem → Espécie para consultar as classificações.";
+    document.getElementById("receitasSomaBruta").textContent=values.codigo_uo?"Inclui receitas intraorçamentárias.":"Soma bruta, incluindo receitas intraorçamentárias.";
     document.getElementById("receitasVazio").hidden=selected.classificacoes.length!==0;
     document.querySelectorAll("[data-receitas-export]").forEach(link=>{
       const format=link.dataset.receitasExport;if(urls[format])URL.revokeObjectURL(urls[format]);

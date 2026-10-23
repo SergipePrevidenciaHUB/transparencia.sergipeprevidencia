@@ -26,8 +26,7 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/diarias.html">
     <h1>Relação de Diárias</h1>
-    <p class="lead">Beneficiários, afastamentos e valores de diárias informados na planilha institucional.</p>
-    <p>Referências presentes na fonte: Janeiro/2023 a Setembro/2026. O mês e o ano da consulta correspondem às colunas MÊS e ANO da planilha.</p>
+    <p class="lead">Consulte os beneficiários, os períodos de afastamento, os destinos e os valores das diárias.</p>
     <form id="filtro-relacao-diarias" class="filter-panel" role="search" aria-label="Consultar relação de diárias" data-table-filter data-target="tabela-relacao-diarias" serigyItem="filtroPesquisa">
       <div class="field"><label for="nome-relacao-diarias">Nome do beneficiário</label><input id="nome-relacao-diarias" name="palavra" type="search"></div>
       <div class="field"><label for="mes-relacao-diarias">Mês de referência</label><select id="mes-relacao-diarias" name="mes"><option value="">Todos os meses</option><option value="01">Janeiro</option><option value="02">Fevereiro</option><option value="03">Março</option><option value="04">Abril</option><option value="05">Maio</option><option value="06">Junho</option><option value="07">Julho</option><option value="08">Agosto</option><option value="09">Setembro</option><option value="10">Outubro</option><option value="11">Novembro</option><option value="12">Dezembro</option></select></div>
@@ -39,10 +38,9 @@
       <div class="exports"><a id="exportar-relacao-diarias" href="/dados/diarias/relacao-diarias.csv" download="relacao-diarias.csv" serigyItem="salvarRelatorio" serigyValue="csv">Exportar registros selecionados em CSV</a></div>
       <p class="result-count" data-count-for="tabela-relacao-diarias" aria-live="polite">208 registro(s) encontrado(s).</p>
       <p id="diarias-vazio" hidden>Nenhum registro encontrado para os filtros selecionados.</p>
-      <p id="diarias-legenda">Quantidades, datas, destinos e valores mantêm as informações da fonte. Valores com mais de duas casas decimais preservam essa precisão. Em telas menores, deslize a tabela para consultar todas as colunas.</p>
       <noscript><p>Sem JavaScript, a tabela e o CSV apresentam todos os registros.</p><style>#filtro-relacao-diarias { display: none; }</style></noscript>
       <div class="table-wrap" tabindex="0" role="region" aria-label="Relação de diárias com rolagem horizontal">
-        <table id="tabela-relacao-diarias" aria-describedby="diarias-legenda">
+        <table id="tabela-relacao-diarias">
           <caption>Relação de diárias por afastamento</caption>
           <thead><tr><th scope="col">Ano de referência</th><th scope="col">Mês de referência</th><th scope="col">Nome completo do beneficiário</th><th scope="col">Cargo/função</th><th scope="col">Destino (cidade)</th><th scope="col">Motivo do afastamento</th><th scope="col">Início do afastamento</th><th scope="col">Fim do afastamento</th><th scope="col">Número de diárias</th><th scope="col">Valor total recebido</th><th scope="col">Situação na fonte</th></tr></thead>
           <tbody id="registros-relacao-diarias">
@@ -258,8 +256,7 @@
         </table>
       </div>
     </section>
-    <div class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/diarias.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>
-    <p>Data informada para atualização desta página no Portal.</p>
+    <div class="update-info" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-22">22/10/2026</time></div>
   </main>
 
   <footer class="site-footer"><div class="container footer-main"><div><img class="footer-logo" src="/assets/imagens/logo-sergipeprevidencia.png" alt="SergipePrevidência e Governo de Sergipe"></div><address><strong>Instituto de Previdência dos Servidores do Estado de Sergipe — SERGIPEPREVIDÊNCIA</strong><br>CNPJ: 08.042.552/0001-74<br>Praça General Valadão, 32 — Centro — Aracaju/SE — CEP 49010-520<br>Telefone: (79) 3198-0801 · Telefone e WhatsApp: (79) 3198-0800<br>E-mail: <a href="mailto:atendimento@sergipeprevidencia.se.gov.br">atendimento@sergipeprevidencia.se.gov.br</a><br>Atendimento: segunda a sexta-feira, das 7h às 13h</address></div><div class="footer-bottom"><div class="container footer-bottom-inner"><a href="/mapa-do-site/" serigySchema="https://serigy.tce.se.gov.br/comum/acessibilidade.html" serigyItem="acessibilidadeMapaSite">Mapa do site</a><span>Portal da Transparência</span></div></div></footer>

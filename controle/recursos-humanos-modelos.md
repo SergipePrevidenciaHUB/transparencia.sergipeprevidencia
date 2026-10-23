@@ -156,3 +156,99 @@ Após implementar as consultas: `#pesquisar-terceirizados` → `#resultados-terc
 Não ocorrência depende de confirmação institucional: para terceirizados, informar explicitamente os exercícios sem contratação (C p. 56); para editais, período e referência atualizada conforme C p. 58; para 6.7, a ausência de concursos/processos seletivos deve ser expressamente informada, quando verdadeira (C p. 59). Não confundir arquivo não recebido, certame sem nomeação conhecida e inexistência de certames. Nenhuma declaração foi inserida nos modelos.
 
 Antes de publicação: receber relação e referências históricas de terceirizados; catálogo real dos certames, editais integrais, listas ranqueadas e nomeações; conferir correspondências e acesso público; confirmar cobertura/datas; implementar filtros e gravação aplicável; alimentar e marcar somente dados reais. Não acrescentar os modelos vazios ao menu público. Modelos e pendências não atestam atendimento.
+
+
+## Alimentação real de Padrão Remuneratório — somente C 6.3
+
+A página de `dist/Portal-da-Transparencia/RecursosHumanos/PadraoRemuneratorio/index.html` recebe a aba **Padrão Remuneratório** de `dados-entrada/rh/Padrao_Remuneratorio.xlsx`: 18 linhas físicas (cabeçalho + **17 registros**), cinco colunas. Cargos, símbolos, ordem e valores são preservados. Não se alteram outros critérios, modelos, planilha ou componentes comuns.
+
+Fontes efetivamente conferidas nesta alimentação: Cartilha PETP 2026, C 6.3, pp. 51–53; Serigy Docs de Recursos Humanos, tabela S 6.2.1–4 na p. 1 e trecho do exemplo correspondente nas pp. 2–3. O quadro C inclui Previdências Municipais e Estadual. C exige disponibilidade de todas as faixas dos cargos/funções e atualidade; para tabela sem revisão no intervalo de um ano, a declaração de vigência no exercício atual exige confirmação. Não há filtro, série histórica ou exportação autônomos neste critério; não foram acrescentados.
+
+| Coluna da origem | Apresentação e marcação | Distinção de origem / decisão técnica |
+| --- | --- | --- |
+| Cargo/Denominação | Texto integral em `cargo` (S 6.2.1) | Campo C/S; não corrigir denominações nem deduzir outros cargos. |
+| Símbolo/Nível | Texto em `descricao` (S 6.2.3), somente quando diferente de “-” | A fonte identifica símbolo/nível; é a descrição da classificação disponível, sem inventar faixas ou novos atributos. |
+| Remuneração Base / Vencimento (R$) | Coluna própria; valores numéricos em `salario` (S 6.2.2) | Modalidade explícita na fonte. Não somar às demais nem convertê-la em remuneração nominal de servidor. |
+| Remuneração CC Sem Vínculo 100% (R$) | Coluna própria; valores numéricos em `salario` | Preservar título e valor originais; não recalcular percentuais. |
+| Remuneração CC Com Vínculo 60% (R$) | Coluna própria; valores numéricos em `salario` | Preservar título e valor originais, sem calcular 60% da outra coluna ou presumir composição. |
+
+Schema no `main`: `https://serigy.tce.se.gov.br/comum/recursos-humanos.html`; tabela com `serigyLoadSection="padraoRemuneratorio"`, conforme o exemplo S. Os três valores de remuneração possíveis continuam associados ao cargo/símbolo na mesma linha; cabeçalhos e atributos `headers` distinguem cada modalidade. Não se criam propriedades como salarioBase/semVinculo/comVinculo. Há 17 marcações `cargo`, 15 `descricao` e 25 `salario`. Os 28 sinais “-” (26 nas remunerações e dois nos símbolos) permanecem literais e sem marcação de valor disponível; não viram zero, N/A ou declaração de inexistência.
+
+A tabela usa caption, cabeçalhos `scope="col"`, associações explícitas de cabeçalho por célula e a rolagem/acessibilidade já existente no Portal. Nenhum CSS ou JavaScript é alterado. Não se inventa data, norma ou declaração de vigência; `dataUltimaAtualizacao` (S 6.2.4) não é aplicado sem data comprovada.
+
+
+## Estagiários — alimentação de C 6.4 / Serigy 6.3
+
+A página existente em `/Portal-da-Transparencia/RecursosHumanos/Estagiarios/` recebe `dados-entrada/rh/estagiarios.xlsx`, aba Plan1: 714 registros, preservados na ordem da fonte, sem deduplicação. Ano da relação: 2023=54; 2024=197; 2025=242; 2026=221. A fonte substitui somente a demonstração anterior da página; seus arquivos de teste antigos permanecem preservados, sem links nesta consulta.
+
+- Nome → `nomeEstagiario`; Data de Contratação → `admissaoEstagiario`; término/desligamento preenchido → `terminoEstagiario`. Os 605 términos vazios não recebem essa marcação.
+- Ano/Mês da origem representam o período da relação. Não são contratação. O filtro obrigatório de ano de contratação é derivado da Data de Contratação: 2022=1; 2023=234; 2024=168; 2025=247; 2026=64. Ano e mês da relação são filtros complementares (DT); `historicoExercicio` identifica o controle anual da relação e os exercícios reais usam `serigyValue`.
+- Setor/Local e Houve Aditivo? são complementares, sem propriedades Serigy inventadas. Vazios são exibidos como “Não informado”, preservados vazios no CSV. Não se deduz situação contratual.
+- Schema RH; formulário `filtroPesquisa`; ação `serigyExecuteWaitSection` / tabela `serigyLoadSection` associadas a `estagiarioTabela`; limpeza `serigyClearForm`; exportação `salvarRelatorio`, formato `csv`. CSV editável do recorte, sem eliminação de repetições. Linhas completas no HTML inicial e somente ocultadas pelos filtros.
+- Não há `dataUltimaAtualizacao` sobre valor ausente. A data real continua pendente. Não se declara atualidade ou cobertura histórica completa.
+
+Geração reproduzível: `.\.venv\Scripts\python.exe -B tools/integrar_estagiarios.py`; conferência sem escrita: acrescentar `--check`. O gerador trabalha somente no conteúdo da página e no CSV correspondente; o importador genérico anterior não suporta esta estrutura de sete colunas.
+
+
+## Terceirizados — carga real de C 6.5 / Serigy 6.4
+
+Fonte: `dados-entrada/rh/terceirizados.xlsx`, aba Plan1, 3.078 registros de relações mensais: 2023=673; 2024=747; 2025=902; 2026=756. Página existente: `/Portal-da-Transparencia/RecursosHumanos/Terceirizados/`. A alimentação substitui a estrutura sem dados dessa rota, sem alterar os modelos não publicados.
+
+| Coluna pública | Fonte e marcação |
+| --- | --- |
+| Ano | ANO: período da relação; controle anual obrigatório, `historicoExercicio` e opções com `serigyValue` real. |
+| Mês | MÊS: período da relação; filtro complementar DT, sem propriedade de dados inventada. |
+| Nome completo | NOME → `nomeTerceirizado`, S 6.4.1. |
+| Função ou atividade exercida | CARGO → `funcaoTerceirizado`, S 6.4.2. |
+| Empresa empregadora | EMPRESA → `empresaTerceirizado`, S 6.4.3. |
+
+Schema RH: `https://serigy.tce.se.gov.br/comum/recursos-humanos.html`. Filtro `filtroPesquisa` (S 6.4.7); ação e resultados associados a `tabela-terceirizados` por `serigyExecuteWaitSection`/`serigyLoadSection`; limpeza `serigyClearForm`. CSV editável (C 6.5; S 6.4.6 `salvarRelatorio`, `serigyValue="csv"`) com exatamente as cinco colunas, nomes e ordem da tabela. O download dinâmico segue o recorte ano/mês; o arquivo estático contém a relação completa.
+
+Todas as linhas permanecem no HTML inicial; filtros somente alteram sua visibilidade. Repetições e empresas foram preservadas, sem seleção por natureza contratual. LOTAÇÃO, DATA DE ADMISSÃO e DATA DE DEMISSÃO não são publicadas nem incorporadas aos atributos ou CSV. Campos vazios são mostrados como “Não informado”, sem marcação Serigy de valor; no CSV permanecem vazios. Não há `dataUltimaAtualizacao` sem referência real (S 6.4.4). A carga não atesta completude histórica/atualidade ou atendimento integral.
+
+Geração: `.\.venv\Scripts\python.exe -B tools/integrar_terceirizados.py`; conferência sem escrita: `--check`. Conciliação integral: `tools/testar_terceirizados.py`.
+
+
+## Relação nominal de servidores — alimentação de C 6.1 / Serigy 6.1
+
+Fonte: `dados-entrada/rh/relacao-servidores.xlsx`, aba Plan1, 1.598 registros: 2023=430; 2024=449; 2025=416; 2026=303. Ano/Mês representam o período da relação, não admissão. A rota existente `/Portal-da-Transparencia/RecursosHumanos/FolhaPagamento/` reúne a relação nominal e a estrutura ainda sem remuneração. Esta alimentação atua somente no bloco 6.1; não consulta outra planilha nem preenche C 6.2.
+
+| Coluna pública | Fonte, marcação e limites |
+| --- | --- |
+| Ano/Mês da relação | Ano/Mês da fonte; consulta temporal e `historicoExercicio` no ano com `serigyValue` dos exercícios reais. |
+| Nome completo | Nome do Servidor → `nomeServidor` (S 6.1.1). |
+| Cargo/função | Função e Cargo Efetivo identificados separadamente dentro da célula, quando preenchidos → `cargoServidor` (S 6.1.2). O literal VAZIO não compõe cargo/função nem o CSV. |
+| Lotação | Local → `lotacaoServidor` (S 6.1.4). |
+| Data de início de exercício | Data de Início de Exercicío, com rótulo fiel. Equivalência à data de admissão confirmada pela instituição para esta relação; `admissaoServidor` (S 6.1.5) aplicado às 1.598 datas, preservando valores e rótulo. |
+| Data de exoneração ou inativação | Campo homônimo → `exoneracaoServidor` (S 6.1.6) somente para data válida preenchida; ausência não prova situação ativa. |
+| Carga horária informada | Quantidade de Horas → `cargaHoraria` (S 6.1.7), preservando o número sem atribuir periodicidade ou converter valores. |
+
+Schema RH `https://serigy.tce.se.gov.br/comum/recursos-humanos.html`. Filtros de nome e cargo/função exigidos para C 6.1; ano/mês da relação permitem o recorte temporal. Busca textual simples desconsidera acentos/caixa e combina palavras no próprio campo. Formulário `filtroPesquisa`; ação/resultados ligados a `tabela-vinculos` por `serigyExecuteWaitSection`/`serigyLoadSection`; limpeza `serigyClearForm`. Exportação CSV editável do mesmo recorte (`salvarRelatorio`, `serigyValue="csv"`), com as oito colunas da tabela e sem remuneração.
+
+As linhas completas estão no HTML inicial e são apenas ocultadas pelos filtros. Não há deduplicação de pessoas ou períodos nem criação de meses ausentes. Datas/cargos vazios usam “Não informado” sem marcação de valor; CSV mantém vazio. Nenhum `dataUltimaAtualizacao` foi atribuído sem fonte real.
+
+Geração: `.\.venv\Scripts\python.exe -B tools/integrar_servidores.py`; conferência: `--check`; conciliação integral: `tools/testar_servidores.py`. O gerador preserva o bloco de remuneração, limitando o aviso de conteúdo pendente a esse bloco.
+
+
+## Remuneração nominal — alimentação de C 6.2 / Serigy 6.1
+
+Situação atual: o gerador `tools/integrar_servidores.py` alimenta os dois blocos da rota `/Portal-da-Transparencia/RecursosHumanos/FolhaPagamento/`. A etapa anterior descrita acima era restrita ao 6.1; sua relação, CSV, filtros, datas e 1.598 marcações `admissaoServidor` são preservados.
+
+Fonte de rendimentos: `dados-entrada/rh/remuneracao.xlsx`, Plan1, 2.312 linhas. Associar a `relacao-servidores.xlsx` por Ano, Mês e Nome do Servidor; a normalização limita-se a Unicode NFC, espaços e caixa. Acentos não são removidos no vínculo, nem se usam aproximações por nome. Exigir chave única dos dois lados; não somar linhas duplicadas nem decidir a associação por cargo.
+
+- **714 linhas excluídas da consulta de servidores:** Cargo Efetivo identificado literalmente como `ESTAGIARIO UNIVERSITARIO - RESOL 001/21` (6) ou `ESTAGIARIO UNIVERSITARIO - RESOL 001/22` (708). Por ano: 2023=147, 2024=170, 2025=209, 2026=188. Não se trata de remuneração da relação de servidores e nenhuma dessas linhas foi transferida para outro módulo. Os índices físicos das 714 linhas e a classificação estão em `controle/remuneracao-conciliacao.json`.
+- **Chave ambígua:** dezembro/2024, José Roberto de Lima Andrade: linhas 859/860 da relação e 1170/1171 da remuneração. Ambos os rendimentos ficam fora do bloco 6.2 até decisão institucional; os vínculos originais do 6.1 permanecem.
+- **1.596 registros conciliados:** 2023=430; 2024=447; 2025=416; 2026=303. A conta de cobertura da fonte é 2.312 = 714 estágios + 2 pendências ambíguas + 1.596 publicados.
+
+| Coluna pública | Origem e marcação confirmada |
+| --- | --- |
+| Ano/Mês da competência | Ano/Mês da remuneração, associados ao mesmo período da relação; ano com `historicoExercicio` e opções reais `serigyValue`. |
+| Nome completo | Nome da relação conciliada → `nomeServidor`, S 6.1.1 / C 6.2. |
+| Cargo/função | Função e Cargo Efetivo da relação conciliada, sem VAZIO → `cargoServidor`, S 6.1.2 / C 6.2. Nesta origem, os cargos dos registros conciliados coincidem entre as duas fontes. |
+| Valor de rendimentos do contracheque | `Valor de Rendimento Contra-Cheque` → `salarioServidor`, S 6.1.3 / C 6.2. A propriedade técnica não transforma esse valor em salário-base nem comprova a composição das rubricas. |
+
+Schema RH já existente. Filtros combináveis de nome/mês/ano: `filtroPesquisa`; ação/resultados correspondentes `tabela-remuneracao` em `serigyExecuteWaitSection`/`serigyLoadSection`; limpeza `serigyClearForm`. CSV editável do recorte com exatamente as cinco colunas (`salvarRelatorio`, `serigyValue="csv"`), sem descontos, valor líquido ou planilha de origem. Não se exige cadastro/conhecimento de CPF para abrir a relação. Dados presentes no HTML inicial, somente ocultados pelos filtros; não há marcação de atualização sem data comprovada.
+
+**DT monetária:** todas as células de rendimentos da fonte têm formato `#,##0.00_);(#,##0.00)`. Há resíduos de representação numérica menores ou iguais a 8E-12 real em parte dos valores armazenados. HTML e CSV usam os centavos exibidos na origem, calculados com Decimal e arredondamento HALF_UP, sem alterar o XLSX. O JSON registra valor armazenado/exibido por linha afetada. O gerador recusa uma precisão monetária efetiva superior à tolerância 1E-8 real e registra pendência, em vez de ocultar casas significativas por arredondamento. As somas são conciliadas em centavos com a fonte, sem agregar registros da chave ambígua.
+
+`controle/remuneracao-conciliacao.json` é interno e reproduzível: índices excluídos, duplicidades, pendências, contagens, somas por ano e evidências de precisão; não entra em `dist`. Conferência de geração: `tools/integrar_servidores.py --check`. Testes específicos: `tools/testar_servidores.py` e `tools/testar_remuneracao.py`.

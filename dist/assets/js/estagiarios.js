@@ -4,7 +4,7 @@
   if (!form) return;
   const rows = Array.from(document.querySelectorAll("#estagiarioTabela tbody tr"));
   const link = document.getElementById("exportar-estagiarios");
-  const headers = ["Ano da relação", "Mês da relação", "Nome", "Setor/Local", "Data de Contratação", "Data de Término do Contrato (ou Desligamento)", "Houve Aditivo?"];
+  const headers = ["Ano de Exercício", "Mês do Exercício", "Nome", "Setor/Local", "Data de Contratação", "Data de Término do Contrato (ou Desligamento)", "Houve Aditivo?"];
   const quote = value => '"' + String(value).replace(/"/g, '""') + '"';
   let url;
   function apply() {

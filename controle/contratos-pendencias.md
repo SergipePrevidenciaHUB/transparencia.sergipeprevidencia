@@ -120,3 +120,26 @@ Ativar: python tools/preparar_teste_ordem.py --ativar. Conferir: acrescentar --c
 Teste tools/testar_ordem_sintetica.py: oito marcações conferidas no HTML inicial; Chrome/HTTP local, filtros combinados, histórico, consulta sem resultados, limpeza e CSV integral/filtrado conciliados campo a campo. Remoção em cópia restaura a estrutura anterior e libera o bloqueio isolado; recusas confirmadas para raiz, base incorreta e ausência de permissão. Demais arquivos dist preservados por hash. Invoker não executado: reconhecimento depende de publicação autorizada e nova avaliação.
 
 Fonte real ainda necessária: créditos e ordem oficial por fonte/categoria, credores/valores, vencimento conforme regulamentação e fatos, pagamentos, justificativas de alterações quando houver, cobertura mensal/histórica e atualização real. Não inferir ordem oficial apenas ordenando pagamentos; substituir integralmente os registros sintéticos por fonte conferida antes da publicação definitiva.
+
+## Preparação da tabela real — 22/10/2026
+
+Consulta com dez colunas: exercício, sequência, número, contratado, valor, objeto, início, fim, íntegra e aditivos. Mantidos 156 contratos, 122 íntegras e oito aditivos de associação segura; não refeito o cruzamento dos 28 pendentes. Valor e sequência permanecem ausentes, com células vazias e justificativas serigyEmpty específicas; atributos não comprovam atendimento material desses campos. Não usar ordem da planilha, número de processo, numeração inventada ou zero para preenchê-los. A função data_cell preserva o item e substitui a ausência por conteúdo quando receber valor confirmado; a adaptação da nova fonte deve ser explícita, sem presumir nomes de futuras colunas. Datas separadas somente quando os limites já eram identificáveis e válidos. Demais ausências visivelmente vazias e CSV correspondente. Removidos três contratos fictícios, documentos embutidos e exportação exclusiva; gerador rejeita --sinteticos. Outros ensaios e bloqueio oficial preservados. Atualização da página mantida em 22/10/2026. Reconhecimento pelo Invoker permanece pendente, não executado nesta tarefa.
+
+## Gestores/Fiscais — apresentação dos instrumentos
+
+Retirados somente os asteriscos ornamentais nas extremidades dos identificadores, sem alterar números ou unir linhas. Mantidas 348 associações de 104 instrumentos, nas quatro funções da fonte. Alimentação atual é HTML, sem importador dedicado localizado em tools; a normalização foi incorporada ao script existente fiscais.js antes de consulta e CSV, além da limpeza no HTML inicial. Planilha original preservada. O ano extraído do instrumento não comprova período de designação, vigência ou situação do vínculo. Confirmar cobertura de contratos vigentes/encerrados e histórico das designações; conciliação com a planilha não comprova completude institucional. Preservadas nota de rodapé ignorada (linha 107), associações da adesão 015/2024, ausências de nomes e não interpretação de SIM como vigência. Atualização mantida em 22/10/2026.
+
+### Ordem Cronológica — substituição do ensaio em 23/10/2026
+
+O histórico do ensaio acima fica preservado como registro de trabalho anterior. As instruções de ativação/desativação sintética **não se aplicam mais à página alimentada**: o preparador antigo recusa sobrescrevê-la. A consulta atual contém 464 pagamentos reais preparados, atualização autorizada em 22/10/2026, cinco filtros, totais separados e CSV do recorte. Fonte, conferências e limitações estão em `controle/ordem-cronologica-verificacao.md`. Sem novos cruzamentos, justificativas inventadas ou afirmação de cobertura integral; pendem vínculo OB–LE, definição local de vencimento, cobertura institucional/histórica e fila oficial com justificativas aplicáveis. Reconhecimento pelo Invoker continua pendente de nova avaliação autorizada; bloqueio global de ensaios preservado.
+
+### Valor contratual — estrutura e preenchimento pendente
+
+Coluna pública e CSV denominados **Valor contratual**, com `serigyItem="valorContrato"` nas 156 células, sob o schema de Contratos. A extração atual não fornece valor monetário estruturado: células e CSV permanecem vazios, sem zero, substitutivo ou `serigyEmpty` nesse campo. Não se extrai valor de menções no objeto nem se inventa coluna de origem. O gerador preserva esta apresentação; o CSV reutiliza cabeçalhos e células da tabela. Quando valores oficiais forem fornecidos, mapear e confirmar sua natureza e formatação. **Estrutura implementada não significa aprovação de 9.1.3; preenchimento monetário permanece pendente.**
+
+156 contratos, 122 links e oito aditivos preservados; ensaio sintético já estava removido e não foi reativado. Conferência pontual: geração `--check`, células e cabeçalho, vínculos com a fonte, CSV integral no Chrome e snippet institucional. Nenhum dado, script de filtros ou bloqueio global de publicação foi alterado.
+
+
+### Privacidade — revisão final
+
+O campo textual de um contrato continha CPF completo formatado. A projeção pública e o gerador agora mascaram esse identificador antes de gerar HTML/CSV; fonte interna preservada, sem excluir registros ou documentos. 156 contratos, 122 links e oito aditivos mantidos.

@@ -1,0 +1,37 @@
+/* Apresentação exclusiva da consulta de Serviços Públicos. */
+.servicos-content .servicos-section { margin: 32px 0; }
+.servicos-content .servicos-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.servicos-content .servicos-validacao { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.servicos-content .servico-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  background: var(--fundo);
+}
+.servicos-content .servico-card h3 { margin: 0; font-size: 1.2rem; }
+.servicos-content .servico-card p { margin: 16px 0 24px; overflow-wrap: anywhere; }
+.servicos-content .servico-action {
+  display: inline-block;
+  margin-top: auto;
+  padding: 10px 16px;
+  border: 2px solid var(--azul);
+  border-radius: 5px;
+  color: var(--azul);
+  font-weight: 700;
+  text-decoration: none;
+}
+.servicos-content .servico-action:hover { text-decoration: underline; }
+.servicos-content .servicos-orientacao { margin-bottom: 32px; }
+.servicos-content a { overflow-wrap: anywhere; }
+.servicos-content a:focus-visible { outline: 3px solid var(--azul); outline-offset: 4px; }
+.high-contrast .servicos-content .servico-card { background: #000; color: #fff; border-color: #fff; }
+.high-contrast .servicos-content .servico-action { color: #ff0; border-color: #ff0; }
+.high-contrast .servicos-content a:focus-visible { outline-color: #ff0; }
+@media (max-width: 700px) {
+  .servicos-content .servicos-grid { grid-template-columns: minmax(0, 1fr); }
+  .servicos-content .servico-card { padding: 18px; }
+}

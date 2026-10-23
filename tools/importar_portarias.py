@@ -22,6 +22,9 @@ PAGE = ROOT / "dist/Portal-da-Transparencia/Institucional/AtosNormativos/index.h
 LINKS = ROOT / "controle/portarias-2026-vinculos.json"
 START = "    <!-- PORTARIAS:INICIO -->"
 END = "    <!-- PORTARIAS:FIM -->"
+# Suspensão de publicação por privacidade. Os novos destinos ficam somente no
+# controle interno; liberar apenas após publicação e conferência das versões públicas.
+DOCUMENTOS_SUSPENSOS = {(2023, 32), (2023, 36)}
 
 
 class PortariasParser(HTMLParser):
@@ -103,7 +106,7 @@ def read_links(records):
     for year in sorted({r["year"] for r in records}):
         path = LINKS if year == 2026 else ROOT / f"controle/portarias-{year}-vinculos.json"
         links.update(read_year_links([r for r in records if r["year"] == year], path))
-    return links
+    return {key: url for key, url in links.items() if key[:2] not in DOCUMENTOS_SUSPENSOS}
 
 
 def read_year_links(records, path):
@@ -158,7 +161,48 @@ def read_year_links(records, path):
     return links
 
 
+def read_planned_links(records, links):
+    """Destinos autorizados de publicação, separados das evidências de PDF conferido."""
+    control = (ROOT / 'controle/atos-normativos-verificacao.md').read_text(encoding='utf-8')
+    entries = {}
+    prefix = 'https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/'
+    for line in control.splitlines():
+        fields = [v.strip() for v in line.strip('|').split('|')]
+        if len(fields) != 3 or not re.match(r'^Portaria\s+N[º°]\s*\d', fields[0]):
+            continue
+        identity, filename, url = fields
+        if identity in entries or url != prefix + filename or not re.fullmatch(r'[a-z0-9-]+\.pdf', filename):
+            raise ValueError('Destino planejado inválido ou duplicado no controle de PDFs')
+        entries[identity] = url
+    planned = {}
+    for r in records:
+        if (r['year'], r['number']) in DOCUMENTOS_SUSPENSOS:
+            continue
+        if record_key(r) not in links:
+            identity = r['title'] + ' — ' + r['date']
+            if identity not in entries:
+                raise ValueError(f'Registrar destino planejado antes de gerar: {identity}')
+            planned[record_key(r)] = entries[identity]
+    if len(set(planned.values())) != len(planned) or set(planned.values()) & set(links.values()):
+        raise ValueError('Destinos planejados não são únicos ou repetem PDF já vinculado')
+    return planned
+
+
 def render(records, links):
+    planned = read_planned_links(records, links)
+    records = [dict(r, type='Portaria', url=links.get(record_key(r)),
+                    planned_url=planned.get(record_key(r))) for r in records]
+    audit = json.loads((ROOT / 'controle/resolucoes-vinculos.json').read_text(encoding='utf-8'))
+    resolutions = [r for r in audit['registros'] if r['situacao'] == 'CONFIRMADO']
+    if len({(r['colegiado'], r['ano'], r['numero']) for r in resolutions}) != len(resolutions):
+        raise ValueError('Resolução duplicada no controle')
+    for r in resolutions:
+        group = {'CIRP': 'Comitê de Investimentos dos Recursos Previdenciários (CIRP)',
+                 'CD': 'Conselho Deliberativo (CD)'}[r['colegiado']]
+        records.append(dict(type='Resolução', year=r['ano'], date=r['data'], url=r['url'],
+                            title=f"Resolução {r['colegiado']} {r['numero']:03d}/{r['ano']} — {group}",
+                            description=r['ementa']))
+    records.sort(key=lambda r: r['year'], reverse=True)
     counts = Counter(r["year"] for r in records)
     summary = "; ".join(f"{year}: {counts[year]}" for year in sorted(counts))
     options = "\n".join(f'            <option value="{year}" serigyValue="{year}">{year}</option>'
@@ -166,39 +210,42 @@ def render(records, links):
     rows = []
     for r in records:
         full_text = ""
-        if record_key(r) in links:
+        document_url = r['url'] or r.get('planned_url')
+        if r['type'] == 'Portaria' and (r['year'], r['number']) in DOCUMENTOS_SUSPENSOS:
+            document_url = None
+        if document_url:
             label = f"Íntegra de {r['title']} — {r['date']} (PDF)"
-            full_text = (f'<br><a href="{escape(links[record_key(r)], quote=True)}" '
+            full_text = (f'<br><a href="{escape(document_url, quote=True)}" '
                          f'serigyItem="atoNormativo" aria-label="{escape(label, quote=True)}">'
                          'Íntegra do ato (PDF)</a>')
         description = f'<td data-search-text>{escape(r["description"])}</td>'
         if full_text:
             # O texto do novo link não passa a integrar a busca de ementas.
             description = f'<td><span data-search-text>{escape(r["description"])}</span>{full_text}</td>'
-        rows.append(f'''          <tr data-year="{r['year']}" data-type="Portaria">
-            <td>Portaria</td><th scope="row" data-search-text>{escape(r['title'])}</th><td>{escape(r['date'])}</td>
+        title = escape(r['title'])
+        rows.append(f'''          <tr data-year="{r['year']}" data-type="{r['type']}">
+            <td>{r['type']}</td><th scope="row" data-search-text>{title}</th><td>{escape(r['date'])}</td>
             {description}
           </tr>''')
     return f'''{START}
     <section class="content-box" aria-labelledby="atos-titulo">
-      <h2 id="atos-titulo">Atos normativos próprios — Portarias</h2>
-      <div class="warning-notice" id="atos-aviso"><strong>Acervo parcial de protótipo:</strong> as ementas abaixo reproduzem as fontes fornecidas e dependem de conferência institucional. Há links para as íntegras cuja correspondência foi conferida no sítio oficial, por evidências do HTML e resposta HTTP ou pela leitura do PDF; os demais documentos continuam pendentes de vínculo. A listagem não comprova a completude do acervo, sua atualidade ou a abrangência histórica exigida. Os dados precisam de validação institucional antes da publicação definitiva.</div>
+      <h2 id="atos-titulo">Atos normativos</h2>
       <p>Registros importados por ano: {summary}. Total: {len(records)}. Dentro de cada ano, foi preservada a ordem da fonte.</p>
-      <form class="filter-panel" data-table-filter data-target="atos-tabela" serigyItem="filtroPesquisa" aria-label="Consultar atos normativos próprios" aria-describedby="atos-aviso">
-        <div class="field"><label for="atos-tipo">Tipo de ato</label><select id="atos-tipo" name="tipo"><option value="">Todos os tipos disponíveis</option><option value="Portaria">Portaria</option></select></div>
+      <form class="filter-panel" data-table-filter data-target="atos-tabela" serigyItem="filtroPesquisa" aria-label="Consultar atos normativos próprios">
+        <div class="field"><label for="atos-tipo">Tipo de ato</label><select id="atos-tipo" name="tipo"><option value="">Todos</option><option value="Portaria">Portaria</option><option value="Resolução">Resolução</option></select></div>
         <div class="field"><label for="atos-ano">Ano</label><select id="atos-ano" name="ano" serigyItem="historicoExercicio">
             <option value="">Todos os anos disponíveis</option>
 {options}
         </select></div>
         <div class="field"><label for="atos-palavra">Palavra-chave (número ou descrição)</label><input id="atos-palavra" type="search" name="palavra" aria-controls="atos-resultados"></div>
-        <div class="filter-actions"><button class="button" type="submit" serigyExecuteWaitSection="atos-resultados" aria-controls="atos-resultados">Pesquisar</button><button class="button secondary" type="reset" serigyClearForm>Limpar filtros</button></div>
+        <div class="filter-actions"><button class="button" type="submit" serigyExecuteWaitSection="atos-resultados" aria-controls="atos-resultados">Pesquisar</button><button class="button secondary" type="reset" serigyClearForm>Limpar filtros</button><button type="button" class="button secondary" onclick="exportarAtos('atos-tabela')">Exportar recorte (CSV)</button></div>
       </form>
       <div id="atos-resultados" serigyLoadSection="atos-resultados">
         <p class="result-count" data-count-for="atos-tabela" role="status" aria-live="polite" aria-atomic="true">{len(records)} registro(s) encontrado(s).</p>
         <noscript><p>Os filtros precisam de JavaScript. Todos os registros estão disponíveis na tabela abaixo.</p></noscript>
         <div class="table-wrap" tabindex="0" role="region" aria-labelledby="atos-titulo">
           <table id="atos-tabela">
-            <caption>Portarias — número, data e descrição conforme as fontes; íntegras conferidas quando disponíveis</caption>
+            <caption>Atos normativos — portarias e resoluções</caption>
             <thead><tr><th scope="col">Tipo</th><th scope="col">Número</th><th scope="col">Data</th><th scope="col">Descrição</th></tr></thead>
             <tbody>
 {chr(10).join(rows)}
@@ -207,6 +254,7 @@ def render(records, links):
         </div>
       </div>
     </section>
+{render_export()}
 {END}'''
 
 
@@ -227,6 +275,27 @@ def render_auxiliary(year):
 '''
 
 
+def render_export():
+    export_script = '''<script>
+function exportarAtos(id) {
+  const table = document.getElementById(id);
+  const quote = value => '"' + String(value).replace(/"/g, '""') + '"';
+  const lines = [['Tipo', 'Número', 'Data', 'Descrição', 'URL do documento']];
+  table.querySelectorAll('tbody tr').forEach(row => {
+    if (row.hidden) return;
+    const cells = row.querySelectorAll('td, th');
+    lines.push([cells[0].textContent, cells[1].textContent, cells[2].textContent,
+      (cells[3].querySelector('[data-search-text]') || cells[3]).textContent,
+      row.querySelector('a[href]')?.href || '']);
+  });
+  const blob = new Blob(['\\ufeff' + lines.map(row => row.map(quote).join(';')).join('\\r\\n')], {type: 'text/csv;charset=utf-8'});
+  const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
+  link.download = id + '.csv'; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+</script>'''
+    return export_script
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Confere a região gerada sem modificar arquivos.")
@@ -241,6 +310,11 @@ def main():
             raise ValueError("Página deve conter um único par de delimitadores PORTARIAS")
         start, end = page.index(START), page.index(END) + len(END)
         updated = page[:start] + render(records, links) + page[end:]
+        # A conferência pública é factual; não reinserir avisos internos antigos.
+        updated = re.sub(r'      <div class="warning-notice" id="atos-aviso">.*?</div>', '', updated)
+        updated = updated.replace(' aria-describedby="atos-aviso"', '')
+        updated = updated.replace('<p class="section-availability">Acervo parcial. Os documentos disponíveis podem ser acessados pelos links de íntegra.</p>', '')
+        updated = re.sub(r'<!-- RESOLUCOES:INICIO -->.*?<!-- RESOLUCOES:FIM -->\n?', '', updated, flags=re.S)
         updates = [(PAGE, original, updated.replace("\n", newline).encode("utf-8"))]
         for year in sorted({r["year"] for r in records}):
             path = PAGE.parent / f"portarias/{year}/portarias{year}.html"

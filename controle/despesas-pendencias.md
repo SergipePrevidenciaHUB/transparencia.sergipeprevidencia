@@ -126,6 +126,11 @@ Autorização desta rodada: completar somente a consulta de empenhos com poucos 
 **Pendências remanescentes de 4.3:** fonte oficial de empenhos e sua referência temporal, documentos públicos dos credores e tratamento institucional do CPF, vínculos reais aos procedimentos quando aplicáveis, significado do valor individual, chave/UO, conciliação e granularidade com movimentos/saldos, cobertura histórica e atualização reais. O ensaio não resolve essas questões. As cinco linhas próprias de 4.3 na matriz registram correção técnica/teste local e reconhecimento ainda pendente do Invoker; resultados e mensagens da avaliação anterior foram preservados.
 
 
+## Conferência da atualização — 22/10/2026
+
+Conferência pontual: os três blocos de Despesas já contêm dataUltimaAtualizacao sob https://serigy.tce.se.gov.br/comum/despesas.html com preparação em 22/10/2026 e ressalva explícita de que não é atualização de despesas oficiais. tools/preparar_teste_despesas.py preserva a marcação ao gerar o ensaio. Nenhuma alteração em Despesas nem no bloqueio oficial foi necessária.
+
+
 ## Avaliação 4226 — visibilidade inicial dos sete campos de classificação
 
 Arquivo disponível no projeto: dados-entrada/outros/respostas-avaliacao-4226.csv (sem o sufixo (1)). Confirmados exatamente os sete SERIGYITEM_NOT_VISIBLE de S4 4.1.4–4.1.10, correspondentes a C 4.2. Campos: unidadeDespesa, funcaoDespesa, subFuncaoDespesa, categoriaDespesa, grupoDespesa, elementoDespesa e fonteRecursosDespesa.

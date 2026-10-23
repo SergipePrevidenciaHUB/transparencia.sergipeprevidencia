@@ -32,6 +32,8 @@ body {
 a { color: var(--azul); }
 a:hover { text-decoration-thickness: 2px; }
 
+a[href^="mailto:"] { overflow-wrap: anywhere; }
+
 :focus-visible {
   outline: 3px solid var(--foco);
   outline-offset: 3px;
@@ -372,6 +374,43 @@ h3 { font-size: 1.12rem; }
   border-radius: 7px;
 }
 
+/* Consulta principal de Licitações: largura e colunas restritas a esta página. */
+main.container:has(#tabela-licitacoes) {
+  width: min(1800px, calc(100% - 40px));
+}
+main:has(#tabela-licitacoes) section:has(> .table-wrap > #tabela-licitacoes) {
+  min-width: 0;
+}
+.table-wrap:has(> #tabela-licitacoes) {
+  max-width: 100%;
+  overflow-x: auto;
+}
+#tabela-licitacoes {
+  table-layout: fixed;
+  min-width: 1400px;
+}
+#tabela-licitacoes th,
+#tabela-licitacoes td {
+  padding: 10px 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+#tabela-licitacoes th:nth-child(1) { width: 4%; }
+#tabela-licitacoes th:nth-child(2) { width: 7%; }
+#tabela-licitacoes th:nth-child(3) { width: 4%; }
+#tabela-licitacoes th:nth-child(4) { width: 7%; }
+#tabela-licitacoes th:nth-child(5) { width: 8%; }
+#tabela-licitacoes th:nth-child(6) { width: 23%; }
+#tabela-licitacoes th:nth-child(7),
+#tabela-licitacoes th:nth-child(8) { width: 6%; }
+#tabela-licitacoes th:nth-child(9),
+#tabela-licitacoes th:nth-child(10) { width: 8%; }
+#tabela-licitacoes th:nth-child(11) { width: 7%; }
+#tabela-licitacoes th:nth-child(12) { width: 12%; }
+#tabela-licitacoes td ul { margin: 0; padding-left: 1.1em; }
+@media (max-width: 600px) {
+  main.container:has(#tabela-licitacoes) { width: calc(100% - 20px); }
+}
 table { width: 100%; border-collapse: collapse; background: #fff; }
 caption { padding: 12px; font-weight: 700; text-align: left; }
 th, td { padding: 12px 14px; border-bottom: 1px solid var(--borda); text-align: left; vertical-align: top; }

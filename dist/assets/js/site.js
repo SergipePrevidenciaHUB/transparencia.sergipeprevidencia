@@ -69,6 +69,7 @@
     "/Portal-da-Transparencia/Ouvidoria/",
     "/Portal-da-Transparencia/LGPDeGovernoDigital/DadosAbertos/",
     "/Portal-da-Transparencia/LGPDeGovernoDigital/",
+    "/Portal-da-Transparencia/LGPDeGovernoDigital/PoliticaPrivacidade/",
     "/Portal-da-Transparencia/LGPDeGovernoDigital/Servicos/",
     "/mapa-do-site/"
   ];

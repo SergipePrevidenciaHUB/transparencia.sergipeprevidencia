@@ -1,0 +1,25 @@
+/* Largura da consulta, sem alterar o conteúdo ou os componentes de 4.3. */
+main.container:has(#dc-tabela) { width: min(1920px, calc(100% - 40px)); }
+main.container:has(#dc-tabela) #empenhos { max-width: 1180px; margin-inline: auto; }
+.despesas-consolidadas .filter-panel { display: flex; flex-wrap: wrap; gap: 16px; }
+.despesas-consolidadas .field { flex: 1 1 200px; min-width: 0; }
+.despesas-consolidadas select { width: 100%; max-width: 100%; }
+.dc-indicadores { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin: 24px 0; }
+.dc-indicadores > div { padding: 20px; background: var(--fundo-suave); border: 1px solid var(--borda); border-radius: 6px; }
+.dc-indicadores span, .dc-indicadores strong { display: block; }
+.dc-indicadores strong { font-size: 1.35rem; margin-top: 8px; }
+.dc-table-wrap { width: 100%; overflow-x: auto; margin: 20px 0; }
+#dc-tabela { table-layout: fixed; width: 100%; min-width: 1720px; font-size: 1rem; }
+#dc-tabela th, #dc-tabela td { overflow-wrap: anywhere; vertical-align: top; padding: 10px 8px; }
+#dc-tabela th { white-space: normal; }
+#dc-tabela .dc-money { text-align: right; white-space: nowrap; overflow-wrap: normal; }
+#dc-tabela th:nth-child(1) { width: 5%; }
+#dc-tabela th:nth-child(7) { width: 10%; }
+#dc-tabela th:nth-child(8), #dc-tabela th:nth-child(10), #dc-tabela th:nth-child(11) { width: 9%; }
+#dc-tabela th:nth-child(n+12) { width: 8%; }
+.high-contrast .dc-indicadores > div { background: #000; color: #fff; border-color: #fff; }
+@media (max-width: 700px) {
+  main.container:has(#dc-tabela) { width: calc(100% - 24px); }
+  .dc-indicadores { grid-template-columns: minmax(0, 1fr); }
+  .despesas-consolidadas .field { flex: initial; width: 100%; }
+}

@@ -135,6 +135,6 @@
     form.addEventListener("reset", function () { window.setTimeout(apply, 0); }); apply();
   }
   setup({prefix: "despesas-totais", columns: 6, money: true, items: ["valorEmpenhado", "valorLiquidado", "valorPago"]});
-  setup({prefix: "despesas-classificacao", columns: 9, hierarchy: true, items: ["unidadeDespesa", "funcaoDespesa", "subFuncaoDespesa", "categoriaDespesa", "grupoDespesa", "elementoDespesa", "fonteRecursosDespesa"]});
+  setup({prefix: "despesas-classificacao", columns: 12, hierarchy: true, moneyItems: ["valorEmpenhado", "valorLiquidado", "valorPago"], items: ["unidadeDespesa", "funcaoDespesa", "subFuncaoDespesa", "categoriaDespesa", "grupoDespesa", "elementoDespesa", "fonteRecursosDespesa", "valorEmpenhado", "valorLiquidado", "valorPago"]});
   setup({prefix: "despesas-empenhos", columns: 10, moneyItems: ["valorEmpenhoIndividual"], items: ["credorEmpenho", "valorEmpenhoIndividual", "objetoEmpenho", "modalidadeEmpenho", "numeroProcedimento"], textFilters: [{name: "numero_empenho", column: 3}, {name: "credor", column: 4}, {name: "documento", column: 5}]});
 })();

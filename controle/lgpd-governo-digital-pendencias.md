@@ -93,6 +93,27 @@ A cobertura descrita é de preparação, não de atendimento aos critérios. Nen
 Não foram exigidos controles autônomos de filtro, histórico, gravação ou atualização que C/S 14.5 não enumeram. Nesta integração foram alterados somente o modelo principal e os dois controles. Dist, menus, deploy, Serviços, Dados Abertos, demais seções e fragmento de origem foram preservados. Sem dados, documentos, links, datas ou formatos inventados.
 
 
+## Termo de Uso e Política de Privacidade integrais — 23/10/2026
+
+Fonte: `dados-entrada/lgpd-governo-digital/termo-uso-politica-privacidade.md`, preservada sem alterações. Criada a rota de leitura `/Portal-da-Transparencia/LGPDeGovernoDigital/PoliticaPrivacidade/`, com os dois textos no HTML inicial, títulos, listas e sumário por âncoras. A nova rota é decisão de apresentação; C 14.2 exige publicação da política adotada e S 14.1.3 documenta `politicaPrivacidade` como Link na página principal, sob `https://serigy.tce.se.gov.br/comum/lgpd-governo-digital.html`. Não foi inventada marcação de texto, data, histórico ou filtro para o documento.
+
+O link já marcado na página principal passa a apontar para essa rota local. Nome/contatos da encarregada e pesquisa/resultados de satisfação permanecem inalterados. Acrescentada a página ao mapa e ao manifesto da busca, sem refazer a lógica da busca ou alterar os outros módulos. CSS específico do documento, sem regras globais.
+
+**Intervenções somente editoriais:** decodificação de entidades HTML e escapes de Markdown, organização dos títulos/listas/links e remoção das quatro ocorrências de `(CASO EXISTA)`. Os direitos de informação sobre compartilhamento e sobre não consentimento continuam presentes nas duas partes do documento. Não foram reescritas disposições institucionais/legais, nomes de prestadores ou arquitetura descrita. Não foi realizada investigação cadastral/administrativa nem declarada revisão ou aprovação jurídica.
+
+**Datas de versão preservadas:** Termo menciona **14 de Julho de 2022**; Política e nota final mencionam **19 de agosto de 2022**. São referências do documento, não data de alimentação do Portal. A diferença entre as duas datas deverá ser conferida institucionalmente, sem substituir ambas por uma data recente ou afirmar versão atual homologada.
+
+**Referências e inconsistências para conferência posterior, sem correção presumida:**
+
+- Definição da ANPD como órgão integrante da Presidência e referências normativas/organizacionais de 2018–2021, próprias do texto datado de 2022; conferir eventual necessidade de atualização pela área competente.
+- Referências à Secretaria de Estado da Transparência e Controle (SETC), inclusive no atendimento de direitos da Política, enquanto o Termo se refere aos canais do SergipePrevidência; conferir responsabilidades e destinos indicados, sem investigar ou alterar atos administrativos nesta rodada.
+- Menções a AGENDA ASSESSORIA, PA ARQUIVOS, armazenamento, Log Shipping/Banese e tecnologias de monitoramento: descrição recebida preservada; correspondência com a situação atual não foi presumida.
+- Uso alternado de `SERPREV`, `SERGIPEPREVIDÊNCIA` e `NOSSOS SERVIÇOS`; nome `Natalia` sem acento no documento e `Natália` na página principal; denominação final “Instituto de Previdência do Estado de Sergipe”; redações mantidas para revisão da fonte, sem uniformização silenciosa.
+- Enumeração `3. Lei Federal nº 12.965` embutida no item da Lei nº 13.709 e outras construções gramaticais do original preservadas. Os quatro marcadores “CASO EXISTA” foram retirados apenas da apresentação pública, com os respectivos direitos conservados.
+- URLs e contatos citados no documento são referências de sua fonte histórica; disponibilidade atual, adequação institucional e revisão do conteúdo permanecem para a área responsável. Nenhuma pesquisa administrativa foi realizada.
+
+O registro anterior de alimentação abaixo é histórico: o acesso à política agora é local e integral. As pendências de versão/adaptação institucional não foram encerradas pela conversão para HTML; não há avisos internos na interface.
+
 ## Alimentação da página pública LGPD — 22/10/2026
 
 Fonte aplicada: `dados-entrada/lgpd-governo-digital/lgpd-governo-digital-dados-preparados.json`. Esta atualização descreve o estado atual de `dist/Portal-da-Transparencia/LGPDeGovernoDigital/index.html`; os registros anteriores de preparação dos modelos são históricos e os modelos não foram alterados.
@@ -128,6 +149,14 @@ Este registro atualiza apenas a situação de Dados Abertos; a preparação dos 
 
 **Testes de Dados Abertos em 22/10/2026:** HTTP 200 para a página e os 48 links/recursos internos na raiz local e na base simulada `/transparencia.sergipeprevidencia/`, preparada pelo script existente em pasta nova sob `trabalho/dados-abertos-verificacao/`. Os seis CSVs responderam com bytes idênticos aos originais, estrutura legível e contagens 425/1.598/1.596/714/3.009/208, respectivamente. Exemplo relativo de GET resolvido nas duas bases. IDs e schema conferidos; cabeçalho e rodapé preservados. Snapshot confirmou 752 arquivos fora do escopo sem alterações e exatamente uma linha da matriz alterada. Esses testes comprovam acesso local e estrutura, não reconhecimento pelo Invoker nem homologação institucional. Nenhum deploy foi publicado.
 
+
+## Serviços Públicos — organização visual em 23/10/2026
+
+Reorganizada somente a página `LGPDeGovernoDigital/Servicos/index.html`, conforme C 14.3 (pp. 109–110) e S 14.2.1, com CSS exclusivo `dist/assets/css/servicos.css`. Cartões agrupados em sistemas/aplicativos, validação de documentos e atendimento por e-mail/WhatsApp. Os cinco URLs e as cinco marcações `servicoPublico` existentes permanecem no HTML inicial, sob `https://serigy.tce.se.gov.br/comum/lgpd-governo-digital.html`.
+
+Os contatos complementares utilizam o e-mail e o telefone/WhatsApp já publicados no rodapé: `atendimento@sergipeprevidencia.se.gov.br` e `(79) 3198-0800`. O acesso `https://wa.me/557931980800` é a composição técnica desse número, sem mensagem preenchida ou envio automático. Esses contatos não receberam `servicoPublico` nem foram apresentados como comprovação de procedimento integralmente digital. Não foram criados formulários, prazos, filtros, histórico ou data de atualização.
+
+Permanecem as dúvidas anteriores sobre o escopo da autenticação de contracheque, os fluxos autenticados e os canais dos demais serviços ainda não publicados. A alteração visual e a conferência dos hrefs não comprovam processamento administrativo. Sem investigação cadastral/administrativa, mensagens ou solicitações. As verificações externas abaixo são históricas; nesta rodada a conferência se limita à preservação dos destinos, marcações e apresentação local.
 
 ## Alimentação de Serviços Públicos — 22/10/2026 (C 14.3 / S 14.2.1)
 

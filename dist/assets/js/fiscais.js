@@ -5,6 +5,12 @@
   if (!form) return;
   const table = document.getElementById("tabela-fiscais");
   const rows = Array.from(table.tBodies[0].rows);
+  // Normalizar somente ornamentos do identificador na alimentação HTML;
+  // não agrupar nem deduplicar instrumentos ou associações.
+  rows.forEach(row => {
+    const instrument = row.querySelector('[serigyItem="contratoFiscal"]');
+    if (instrument) instrument.textContent = instrument.textContent.replace(/^\s*\*+\s*/, "").replace(/\s*\*+\s*$/, "");
+  });
   const button = document.getElementById("csv-fiscais");
   let matching = rows;
   function apply() {

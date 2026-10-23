@@ -28,31 +28,31 @@
 
   <main id="conteudo" class="container" serigySchema="https://serigy.tce.se.gov.br/comum/institucional.html">
 
-    <h1>Atos Normativos</h1><p class="section-availability">Acervo parcial. Os documentos disponíveis podem ser acessados pelos links de íntegra.</p>
+    <h1>Atos Normativos</h1>
     <p class="lead">Consulta de atos normativos próprios por tipo, ano e palavra-chave.</p>
     <!-- PORTARIAS:INICIO -->
     <section class="content-box" aria-labelledby="atos-titulo">
-      <h2 id="atos-titulo">Atos normativos próprios — Portarias</h2>
-
-      <p>Registros importados por ano: 2023: 87; 2024: 62; 2025: 74; 2026: 100. Total: 323. Dentro de cada ano, foi preservada a ordem da fonte.</p>
-      <form class="filter-panel" data-table-filter data-target="atos-tabela" serigyItem="filtroPesquisa" aria-label="Consultar atos normativos próprios" aria-describedby="atos-aviso">
-        <div class="field"><label for="atos-tipo">Tipo de ato</label><select id="atos-tipo" name="tipo"><option value="">Todos os tipos disponíveis</option><option value="Portaria">Portaria</option></select></div>
+      <h2 id="atos-titulo">Atos normativos</h2>
+      <p>Registros importados por ano: 2022: 15; 2023: 101; 2024: 71; 2025: 88; 2026: 106. Total: 381. Dentro de cada ano, foi preservada a ordem da fonte.</p>
+      <form class="filter-panel" data-table-filter data-target="atos-tabela" serigyItem="filtroPesquisa" aria-label="Consultar atos normativos próprios">
+        <div class="field"><label for="atos-tipo">Tipo de ato</label><select id="atos-tipo" name="tipo"><option value="">Todos</option><option value="Portaria">Portaria</option><option value="Resolução">Resolução</option></select></div>
         <div class="field"><label for="atos-ano">Ano</label><select id="atos-ano" name="ano" serigyItem="historicoExercicio">
             <option value="">Todos os anos disponíveis</option>
             <option value="2026" serigyValue="2026">2026</option>
             <option value="2025" serigyValue="2025">2025</option>
             <option value="2024" serigyValue="2024">2024</option>
             <option value="2023" serigyValue="2023">2023</option>
+            <option value="2022" serigyValue="2022">2022</option>
         </select></div>
         <div class="field"><label for="atos-palavra">Palavra-chave (número ou descrição)</label><input id="atos-palavra" type="search" name="palavra" aria-controls="atos-resultados"></div>
-        <div class="filter-actions"><button class="button" type="submit" serigyExecuteWaitSection="atos-resultados" aria-controls="atos-resultados">Pesquisar</button><button class="button secondary" type="reset" serigyClearForm>Limpar filtros</button></div>
+        <div class="filter-actions"><button class="button" type="submit" serigyExecuteWaitSection="atos-resultados" aria-controls="atos-resultados">Pesquisar</button><button class="button secondary" type="reset" serigyClearForm>Limpar filtros</button><button type="button" class="button secondary" onclick="exportarAtos('atos-tabela')">Exportar recorte (CSV)</button></div>
       </form>
       <div id="atos-resultados" serigyLoadSection="atos-resultados">
-        <p class="result-count" data-count-for="atos-tabela" role="status" aria-live="polite" aria-atomic="true">323 registro(s) encontrado(s).</p>
+        <p class="result-count" data-count-for="atos-tabela" role="status" aria-live="polite" aria-atomic="true">381 registro(s) encontrado(s).</p>
         <noscript><p>Os filtros precisam de JavaScript. Todos os registros estão disponíveis na tabela abaixo.</p></noscript>
         <div class="table-wrap" tabindex="0" role="region" aria-labelledby="atos-titulo">
           <table id="atos-tabela">
-            <caption>Portarias — número, data e descrição conforme as fontes; íntegras conferidas quando disponíveis</caption>
+            <caption>Atos normativos — portarias e resoluções</caption>
             <thead><tr><th scope="col">Tipo</th><th scope="col">Número</th><th scope="col">Data</th><th scope="col">Descrição</th></tr></thead>
             <tbody>
           <tr data-year="2026" data-type="Portaria">
@@ -65,7 +65,7 @@
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 98/2026</th><td>De 23 de Setembro de 2026</td>
-            <td data-search-text>Designa servidor para exercer a função de responsável pela Unidade Setorial de Controle Interno – USCI do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.</td>
+            <td><span data-search-text>Designa servidor para exercer a função de responsável pela Unidade Setorial de Controle Interno – USCI do Instituto de Previdência dos Servidores do Estado de Sergipe – SergipePrevidência.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2026-098-registro-01.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 98/2026 — De 23 de Setembro de 2026 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 97/2026</th><td>De 18 de Setembro de 2026</td>
@@ -93,7 +93,7 @@
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 91/2026</th><td>De 28 de Agosto de 2026</td>
-            <td data-search-text>Nomear ANNA BEATRIZ DE CARVALHO GÓIS, no Cargo em Comissão de ASSESSOR TÉCNICO I.</td>
+            <td><span data-search-text>Nomear ANNA BEATRIZ DE CARVALHO GÓIS, no Cargo em Comissão de ASSESSOR TÉCNICO I.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2026-091-registro-02.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 91/2026 — De 28 de Agosto de 2026 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 90/2026</th><td>De 21 de Agosto de 2026</td>
@@ -101,7 +101,7 @@
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 89/2026</th><td>De 26 de Agosto de 2026</td>
-            <td data-search-text>Nomeia servidora para exercer Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe–SERGIPEPREVI e designa servidora para responder pelo expediente de função em substituição.</td>
+            <td><span data-search-text>Nomeia servidora para exercer Cargo em Comissão do Instituto de Previdência dos Servidores do Estado de Sergipe–SERGIPEPREVI e designa servidora para responder pelo expediente de função em substituição.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2026-089-registro-03.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 89/2026 — De 26 de Agosto de 2026 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 88/2026</th><td>De 26 de Agosto de 2026</td>
@@ -125,7 +125,7 @@
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 83/2026</th><td>De 31 de Julho de 2026</td>
-            <td data-search-text>Altera dispositivo da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.</td>
+            <td><span data-search-text>Altera dispositivo da Portaria nº 33/2026 que dispõe sobre o Censo Cadastral Previdenciário dos segurados ativos.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2026-083-registro-04.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 83/2026 — De 31 de Julho de 2026 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2026" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 82/2026</th><td>De 13 de Julho de 2026</td>
@@ -455,6 +455,30 @@
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 01/2026</th><td>De 06 de Janeiro de 2026</td>
             <td><span data-search-text>Designa servidores para atuarem como Gestores de Contratos no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA e dá as providências correlatas.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/01/N%C2%B001-2026-DESIGNA-GESTORES.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 01/2026 — De 06 de Janeiro de 2026 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 011/2026 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>21/08/2026</td>
+            <td><span data-search-text>Fixa diretrizes para a alocação dos recursos do FUNPREV/SE.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-ASSINADA.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 011/2026 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 21/08/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 010/2026 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>22/05/2026</td>
+            <td><span data-search-text>Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/Resolucao-10-2026.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 010/2026 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 22/05/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 012/2026 — Conselho Deliberativo (CD)</th><td>24/09/2026</td>
+            <td><span data-search-text>Aracaju, 24 de setembro de 2026 Aprova os Balancetes de Agosto de 2026 do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-12-2026-Aprova-os-balancetes-de-agosto-2026.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 012/2026 — Conselho Deliberativo (CD) — 24/09/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 011/2026 — Conselho Deliberativo (CD)</th><td>27/08/2026</td>
+            <td><span data-search-text>Dispõe sobre a distribuição de responsabilidades relativas à gestão dos bens e direitos imobiliários vinculados aos fundos previdenciários administrados pelo SERGIPEPREVIDÊNCIA e dos imóveis integrantes do patrimônio próprio da Autarquia.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-11-2026-Disciplina-a-responsabilidade-de-Gestao-do-patriminio-dos-fundos-e-Autarquia.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 011/2026 — Conselho Deliberativo (CD) — 27/08/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 010/2026 — Conselho Deliberativo (CD)</th><td>27/08/2026</td>
+            <td><span data-search-text>Aprova os Balancetes de julho/2026 do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-10-2026-Aprova-os-balancetes-de-julho-2026.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 010/2026 — Conselho Deliberativo (CD) — 27/08/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2026" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 003/2026 — Conselho Deliberativo (CD)</th><td>25/02/2026</td>
+            <td><span data-search-text>Dispõe sobre a definição da Diretoria competente para deliberação e assinatura de atos decisórios em processos administrativos específicos.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/RESOLUCAO-03-2026-APROVA-A-DEFINICAO-DE-COMPETENCIAS.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 003/2026 — Conselho Deliberativo (CD) — 25/02/2026 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 77/2025</th><td>De 18 de Dezembro de 2025</td>
             <td><span data-search-text>Designa o Diretor de Finanças e Investimentos para o exercício interino da Diretoria de Previdência do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA, no período de 22 de dezembro a 09 de janeiro de 2025.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-77-2025-DESIGNA-O-DIRETOR-DA-DIFIN-PARA-EXERCER-DIPREV-EM-EXERCICIO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 77/2025 — De 18 de Dezembro de 2025 (PDF)">Íntegra do ato (PDF)</a></td>
@@ -597,7 +621,7 @@
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria N° 41/2025</th><td>De 10 de Julho de 2025</td>
-            <td data-search-text>Altera dispositivo da Portaria n° 19 de 03 de abril de 2025, onde designa servidores para exercerem a função de Agente de Contratação do Instituto de Previdência dos Servidores do Estado de Sergipe- SergipePrevidência.</td>
+            <td><span data-search-text>Altera dispositivo da Portaria n° 19 de 03 de abril de 2025, onde designa servidores para exercerem a função de Agente de Contratação do Instituto de Previdência dos Servidores do Estado de Sergipe- SergipePrevidência.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2025-041-registro-05.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria N° 41/2025 — De 10 de Julho de 2025 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria N° 40/2025</th><td>De 10 de Julho de 2025</td>
@@ -729,7 +753,7 @@
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 006/2025</th><td>De 15 de Janeiro de 2025.</td>
-            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão da Prova de Vida” e dá outras previdências.</td>
+            <td><span data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Gestão da Prova de Vida” e dá outras previdências.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2025-006-registro-06.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 006/2025 — De 15 de Janeiro de 2025. (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 005/2025</th><td>De 15 de Janeiro de 2025.</td>
@@ -745,11 +769,67 @@
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 002/2025</th><td>De 15 de Janeiro de 2025.</td>
-            <td data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Revisão de Cadastro” e dá outras previdências.</td>
+            <td><span data-search-text>Dispõe sobre a renovação do Grupo de Trabalho “Revisão de Cadastro” e dá outras previdências.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2025-002-registro-07.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 002/2025 — De 15 de Janeiro de 2025. (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2025" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 001/2025</th><td>De 09 de janeiro de 2025.</td>
             <td><span data-search-text>Cria Comissão para instauração de Processo Administrativo, com o objetivo de apurar as circunstâncias, os motivos, os fatos, e as eventuais responsabilidades quanto ao transcurso de prazo prescricional para cobrança de saldo de proventos.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/01/N%C2%B0-01-2025-CRIA-COMISSAO-ANALISE-PROCESSO-SALDO-DE-PROVENTOS.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 001/2025 — De 09 de janeiro de 2025. (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 009/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>19/12/2025</td>
+            <td><span data-search-text>Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2026 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-No-09-2025.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 009/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 19/12/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 008/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>19/09/2025</td>
+            <td><span data-search-text>Designa o servidor responsável por secretariar</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/RESOLUCAO-No-08-2025.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 008/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 19/09/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 007/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>21/02/2025</td>
+            <td><span data-search-text>Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-7-Cirp.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 007/2025 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 21/02/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 014/2025 — Conselho Deliberativo (CD)</th><td>17/12/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de novembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-14-2025-APROVA-BALANCETES-NOVEMBRO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 014/2025 — Conselho Deliberativo (CD) — 17/12/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 013/2025 — Conselho Deliberativo (CD)</th><td>27/11/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de outubro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-13-2025-APROVA-BALANCETES-OUTUBRO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 013/2025 — Conselho Deliberativo (CD) — 27/11/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 012/2025 — Conselho Deliberativo (CD)</th><td>28/10/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de setembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/10/N%C2%B0-12-2025-APROVA-BALANCETES-DE-SETEMBRO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 012/2025 — Conselho Deliberativo (CD) — 28/10/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 010/2025 — Conselho Deliberativo (CD)</th><td>21/08/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de julho/2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-10-2025-APROVA-BALANCETES-DE-JULHO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 010/2025 — Conselho Deliberativo (CD) — 21/08/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 007/2025 — Conselho Deliberativo (CD)</th><td>28/05/2025</td>
+            <td><span data-search-text>Dispõe sobre a Política de Limites de Responsabilidades e Alçadas no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDÊNCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-07-2025-APROVA-POLITICA-DE-ALCADAS.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 007/2025 — Conselho Deliberativo (CD) — 28/05/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 001/2025 — Conselho Deliberativo (CD)</th><td>28/01/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de dezembro 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-01-2025-APROVA-BALANCETES-DE-DEZ-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 001/2025 — Conselho Deliberativo (CD) — 28/01/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 006/2025 — Conselho Deliberativo (CD)</th><td>28/05/2025</td>
+            <td><span data-search-text>Aprova o Regimento Interno do</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-06-2025-APROVA-REGIMENTO-INTERNO-CD.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 006/2025 — Conselho Deliberativo (CD) — 28/05/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 003/2025 — Conselho Deliberativo (CD)</th><td>24/02/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de janeiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-03-2025-APROVA-BALANCETES-DE-JAN.25.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 003/2025 — Conselho Deliberativo (CD) — 24/02/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 004/2025 — Conselho Deliberativo (CD)</th><td>28/03/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de fevereiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-04-2025-APROVA-BALANCETES-DE-FEV.25.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 004/2025 — Conselho Deliberativo (CD) — 28/03/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 009/2025 — Conselho Deliberativo (CD)</th><td>29/07/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de junho de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/07/N%C2%B0-09-2025-APROVA-BALANCETES-DE-JUNHO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 009/2025 — Conselho Deliberativo (CD) — 29/07/2025 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2025" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 008/2025 — Conselho Deliberativo (CD)</th><td>20/06/2025</td>
+            <td><span data-search-text>Aprova os Balancetes de maio de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/06/N%C2%B0-08-2025-APROVA-BALANCETES-DE-MAIO-1.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 008/2025 — Conselho Deliberativo (CD) — 20/06/2025 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2024" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 083/2024</th><td>De 18 de setembro de 2024.</td>
@@ -999,9 +1079,45 @@
             <td>Portaria</td><th scope="row" data-search-text>Portaria 001/2024</th><td>De 11 de Janeiro de 2024</td>
             <td><span data-search-text>Torna sem efeito as Portarias n°s 90 e 91, de 27 de janeiro de 2023, onde exclui integrante da composição dos Grupos de Trabalho, no âmbito do Sergipeprevidência.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/09/PORTARIA-01-2024-SEM-EFEITO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria 001/2024 — De 11 de Janeiro de 2024 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 006/2024 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>13/12/2024</td>
+            <td><span data-search-text>Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2025 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-6-Cirp.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 006/2024 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 13/12/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 008/2024 — Conselho Deliberativo (CD)</th><td>22/07/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de junho de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-08-2024-APROVA-BALANCETES-JUNHO-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 008/2024 — Conselho Deliberativo (CD) — 22/07/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 007/2024 — Conselho Deliberativo (CD)</th><td>26/06/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de maio de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-07-2024-APROVA-BALANCETES-MAIO-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 007/2024 — Conselho Deliberativo (CD) — 26/06/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 006/2024 — Conselho Deliberativo (CD)</th><td>28/05/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de abril de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-06-2024-APROVA-BALANCETES-ABRIL-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 006/2024 — Conselho Deliberativo (CD) — 28/05/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 005/2024 — Conselho Deliberativo (CD)</th><td>23/04/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de março de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-05-2024-APROVA-BALANCETES-MARCO-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 005/2024 — Conselho Deliberativo (CD) — 23/04/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 004/2024 — Conselho Deliberativo (CD)</th><td>26/03/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de fevereiro 2024 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-04-2024-APROVA-BALANCETES-FEVEREIRO-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 004/2024 — Conselho Deliberativo (CD) — 26/03/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 003/2024 — Conselho Deliberativo (CD)</th><td>23/02/2024</td>
+            <td><span data-search-text>Dispõe sobre dispensa de propositura de demandas judiciais e administrativas pelo Instituto de Previdência do Estado de Sergipe – SERGIPEPREVIDENCIA em relação à saldos negativos de proventos.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-03-2024-DISPOE-SOBRE-SALDO-DE-PROVETOS-teto-RGPS.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 003/2024 — Conselho Deliberativo (CD) — 23/02/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 002/2024 — Conselho Deliberativo (CD)</th><td>23/02/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de Janeiro/2024 do FINANPREV e do SERGIPEPREVIDENCIA</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-02-2024-APROVA-BALANCETES-JANEIRO-2024.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 002/2024 — Conselho Deliberativo (CD) — 23/02/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2024" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 001/2024 — Conselho Deliberativo (CD)</th><td>18/01/2024</td>
+            <td><span data-search-text>Aprova os Balancetes de Dezembro do FINANPREV e do SERGIPEPREVIDENCIA</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-01-2024-APROVA-BALANCETES-DEZEMBRO-2023.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 001/2024 — Conselho Deliberativo (CD) — 18/01/2024 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 094/2023</th><td>De 28 de Dezembro de 2023</td>
-            <td data-search-text>Altera dispositivo da Portaria n° 69, de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do SergipePrevidência.</td>
+            <td><span data-search-text>Altera dispositivo da Portaria n° 69, de 05 de junho de 2019, onde designa servidores para responder pela Ouvidoria Setorial do SergipePrevidência.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2023-094-registro-08.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 094/2023 — De 28 de Dezembro de 2023 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 093/2023</th><td>De 28 de Dezembro de 2023</td>
@@ -1189,7 +1305,7 @@
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 041/2023</th><td>De 28 de julho de 2023</td>
-            <td data-search-text>Altera dispositivos da Portaria nº 22, de 29 de janeiro de 2021, que dispõe sobre o recadastramento de todos os pensionistas universitários e dá providências correlatas.</td>
+            <td><span data-search-text>Altera dispositivos da Portaria nº 22, de 29 de janeiro de 2021, que dispõe sobre o recadastramento de todos os pensionistas universitários e dá providências correlatas.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/portaria-2023-041-registro-09.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 041/2023 — De 28 de julho de 2023 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 040/2023</th><td>De 31 de Maio de 2023</td>
@@ -1209,7 +1325,7 @@
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 036/2023</th><td>De 31 de Maio de 2023</td>
-            <td><span data-search-text>Concede o gozo de Licença Prêmio ao Executor de serviços administrativos, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-36-GOZO-DE-LICENCA-JOAO.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 036/2023 — De 31 de Maio de 2023 (PDF)">Íntegra do ato (PDF)</a></td>
+            <td data-search-text>Concede o gozo de Licença Prêmio ao Executor de serviços administrativos, do Grupo Ocupacional Apoio Administrativo do Quadro Permanente de Pessoal Efetivo do SERGIPEPREVIDÊNCIA.</td>
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 035/2023</th><td>De 31 de Maio de 2023</td>
@@ -1225,7 +1341,7 @@
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 032/2023</th><td>De 18 de Abril de 2023</td>
-            <td><span data-search-text>Resolve Retificar os processos de Licença Prêmio a Oficial Administrativo, padrão M-1 e ref.J, do grupo Ocupacional de Apoio Administrativo do quadro permanente de pessoal efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/PORTARIA-32-RETIFICACAO-DE-LICENCA.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 032/2023 — De 18 de Abril de 2023 (PDF)">Íntegra do ato (PDF)</a></td>
+            <td data-search-text>Resolve Retificar os processos de Licença Prêmio a Oficial Administrativo, padrão M-1 e ref.J, do grupo Ocupacional de Apoio Administrativo do quadro permanente de pessoal efetivo do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.</td>
           </tr>
           <tr data-year="2023" data-type="Portaria">
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 031/2023</th><td>De 12 de Abril de 2023</td>
@@ -1347,11 +1463,144 @@
             <td>Portaria</td><th scope="row" data-search-text>Portaria Nº 01/2023</th><td>De 2 de janeiro de 2023</td>
             <td><span data-search-text>Dispõe sobre a instrução da concessão do benefício de Pensão por Morte.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/03/PORTARIA-N%C2%B0-001-DISPOE-SOBRE-PENSAO-POR-MORTE-COMPILADA-V.2025.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Portaria Nº 01/2023 — De 2 de janeiro de 2023 (PDF)">Íntegra do ato (PDF)</a></td>
           </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 005/2023 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>27/10/2023</td>
+            <td><span data-search-text>Estabelece os dias de reunião e aprova o calendário de reuniões ordinárias do ano de 2024 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-05-2023-CIRP.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 005/2023 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 27/10/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 004/2023 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>27/10/2023</td>
+            <td><span data-search-text>Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-04-2023-CIRP.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 004/2023 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 27/10/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 012/2023 — Conselho Deliberativo (CD)</th><td>27/12/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de novembro do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-Aprova-balancetes-novembro-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 012/2023 — Conselho Deliberativo (CD) — 27/12/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 011/2023 — Conselho Deliberativo (CD)</th><td>27/11/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Outubro do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-Aprova-balancetes-outubro-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 011/2023 — Conselho Deliberativo (CD) — 27/11/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 010/2023 — Conselho Deliberativo (CD)</th><td>26/10/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Setembro do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-Aprova-balancetes-setembro-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 010/2023 — Conselho Deliberativo (CD) — 26/10/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 009/2023 — Conselho Deliberativo (CD)</th><td>26/09/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Agosto do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-Aprova-balancetes-agosto-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 009/2023 — Conselho Deliberativo (CD) — 26/09/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 008/2023 — Conselho Deliberativo (CD)</th><td>21/08/2023</td>
+            <td><span data-search-text>Aprova o Balancete de ju lho do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-008-Aprova-balancetes-julho-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 008/2023 — Conselho Deliberativo (CD) — 21/08/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 007/2023 — Conselho Deliberativo (CD)</th><td>27/07/2023</td>
+            <td><span data-search-text>Aprova o Balancete de junho do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-007-Aprova-balancetes-junho-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 007/2023 — Conselho Deliberativo (CD) — 27/07/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 006/2023 — Conselho Deliberativo (CD)</th><td>26/06/2023</td>
+            <td><span data-search-text>Aprova os balancetes do mês de maio do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-006-Aprova-balancetes-maio-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 006/2023 — Conselho Deliberativo (CD) — 26/06/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 005/2023 — Conselho Deliberativo (CD)</th><td>22/05/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de abril de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-005-Aprova-balancetes-abril-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 005/2023 — Conselho Deliberativo (CD) — 22/05/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 004/2023 — Conselho Deliberativo (CD)</th><td>20/04/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de março/2023 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-004-Aprova-balancetes-marco-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 004/2023 — Conselho Deliberativo (CD) — 20/04/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 003/2023 — Conselho Deliberativo (CD)</th><td>28/03/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Fevereiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-003-Aprova-balancetes-fevereiro-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 003/2023 — Conselho Deliberativo (CD) — 28/03/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 002/2023 — Conselho Deliberativo (CD)</th><td>28/02/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Janeiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-002-Aprova-balancetes-janeiro-23.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 002/2023 — Conselho Deliberativo (CD) — 28/02/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2023" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 001/2023 — Conselho Deliberativo (CD)</th><td>24/01/2023</td>
+            <td><span data-search-text>Aprova os Balancetes de Outubro, Novembro e Dezembro de 2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-001-Aprova-balancetes-out.-nov.-e-dez-22.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 001/2023 — Conselho Deliberativo (CD) — 24/01/2023 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 003/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>20/05/2022</td>
+            <td><span data-search-text>Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2022 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-03-2022-CIRP.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 003/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 20/05/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 002/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>20/05/2022</td>
+            <td><span data-search-text>Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-02-2022-CIRP.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 002/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 20/05/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CIRP 001/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP)</th><td>20/05/2022</td>
+            <td><span data-search-text>Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-01-2022-CIRP.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CIRP 001/2022 — Comitê de Investimentos dos Recursos Previdenciários (CIRP) — 20/05/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 013/2022 — Conselho Deliberativo (CD)</th><td>30/11/2022</td>
+            <td><span data-search-text>Aprova os balancetes de Setembro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-013-APROVACAO-BALANCETES-SETEMBRO-DE-2022.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 013/2022 — Conselho Deliberativo (CD) — 30/11/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 012/2022 — Conselho Deliberativo (CD)</th><td>25/10/2022</td>
+            <td><span data-search-text>Aprova o Regulamento Geral do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-APROVACAO-REGULAMENTO-GERAL-DO-SERGIPEPREVIDENCIA-.-DIGITAL.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 012/2022 — Conselho Deliberativo (CD) — 25/10/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 011/2022 — Conselho Deliberativo (CD)</th><td>25/10/2022</td>
+            <td><span data-search-text>Aprova os balancetes de Agosto/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-APROVACAO-BALANCETES-AGOSTO-DE-2022.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 011/2022 — Conselho Deliberativo (CD) — 25/10/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 010/2022 — Conselho Deliberativo (CD)</th><td>26/09/2022</td>
+            <td><span data-search-text>Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-APROVACAO-BALANCETES-JULHO-DE-2022.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 010/2022 — Conselho Deliberativo (CD) — 26/09/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 009/2022 — Conselho Deliberativo (CD)</th><td>29/08/2022</td>
+            <td><span data-search-text>Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-APROVACAO-BALANCETES-JUNHO-DE-2022.pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 009/2022 — Conselho Deliberativo (CD) — 29/08/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 008/2022 — Conselho Deliberativo (CD)</th><td>01/08/2022</td>
+            <td><span data-search-text>Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-008-APROVACAO-BALANCETES-MAIO-DE-2022..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 008/2022 — Conselho Deliberativo (CD) — 01/08/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 007/2022 — Conselho Deliberativo (CD)</th><td>30/06/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de abril/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-007-APROVACAO-BALANCETES-ABRIL-DE-2022..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 007/2022 — Conselho Deliberativo (CD) — 30/06/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 006/2022 — Conselho Deliberativo (CD)</th><td>25/05/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de Março/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-006-APROVACAO-BALANCETES-MARCO-DE-2022..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 006/2022 — Conselho Deliberativo (CD) — 25/05/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 005/2022 — Conselho Deliberativo (CD)</th><td>26/04/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de fevereiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-005-APROVACAO-BALANCETES-FEVEREIRO-DE-2022..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 005/2022 — Conselho Deliberativo (CD) — 26/04/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 004/2022 — Conselho Deliberativo (CD)</th><td>18/03/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de janeiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-004-APROVACAO-BALANCETES-JANEIRO-DE-2022..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 004/2022 — Conselho Deliberativo (CD) — 18/03/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 002/2022 — Conselho Deliberativo (CD)</th><td>03/02/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de Dezembro/2021 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-002-APROVACAO-BALANCETES-DEZEMBRO-DE-2021..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 002/2022 — Conselho Deliberativo (CD) — 03/02/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
+          <tr data-year="2022" data-type="Resolução">
+            <td>Resolução</td><th scope="row" data-search-text>Resolução CD 001/2022 — Conselho Deliberativo (CD)</th><td>07/01/2022</td>
+            <td><span data-search-text>Aprova os Balancetes de Novembro/202 1 do FINANPREV e do SERGIPEPREVIDENCIA.</span><br><a href="https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-001-APROVACAO-BALANCETES-NOVEMBRO-DE-2021..pdf" serigyItem="atoNormativo" aria-label="Íntegra de Resolução CD 001/2022 — Conselho Deliberativo (CD) — 07/01/2022 (PDF)">Íntegra do ato (PDF)</a></td>
+          </tr>
             </tbody>
           </table>
         </div>
       </div>
     </section>
+<script>
+function exportarAtos(id) {
+  const table = document.getElementById(id);
+  const quote = value => '"' + String(value).replace(/"/g, '""') + '"';
+  const lines = [['Tipo', 'Número', 'Data', 'Descrição', 'URL do documento']];
+  table.querySelectorAll('tbody tr').forEach(row => {
+    if (row.hidden) return;
+    const cells = row.querySelectorAll('td, th');
+    lines.push([cells[0].textContent, cells[1].textContent, cells[2].textContent,
+      (cells[3].querySelector('[data-search-text]') || cells[3]).textContent,
+      row.querySelector('a[href]')?.href || '']);
+  });
+  const blob = new Blob(['\ufeff' + lines.map(row => row.map(quote).join(';')).join('\r\n')], {type: 'text/csv;charset=utf-8'});
+  const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
+  link.download = id + '.csv'; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+</script>
     <!-- PORTARIAS:FIM -->
     <p><a class="button secondary" href="/Portal-da-Transparencia/Institucional/Informacoes/">Voltar às informações institucionais</a> <a class="button secondary" href="/Portal-da-Transparencia/Institucional/LegislacaoInterna/">Legislação Interna</a></p>
     <div class="update-info" serigySchema="https://serigy.tce.se.gov.br/comum/institucional.html" serigyItem="dataUltimaAtualizacao">Informações atualizadas em <time datetime="2026-10-21">21/10/2026</time></div>

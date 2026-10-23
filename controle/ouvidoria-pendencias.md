@@ -1,5 +1,19 @@
 # Ouvidoria — pendências para alimentação e publicação
 
+## Página publicada — organização visual em 23/10/2026
+
+Conferidos novamente apenas C 13.1–13.3 (pp. 103–106) e S 13.1–13.5 (p. 1), além dos controles SIC/Ouvidoria. A página em `dist/Portal-da-Transparencia/Ouvidoria/index.html` já contém dados institucionais; as reservas vazias descritas no levantamento original abaixo dizem respeito ao modelo histórico, não ao estado atual.
+
+Decisão de apresentação: acesso principal **Registrar manifestação** no SE-Ouv; endereço, telefone e horário em três cartões; titular e substituto em bloco próprio; Carta de Serviços e Manual em cartões distintos. CSS exclusivo `dist/assets/css/ouvidoria.css`, com seletores limitados a `.ouvidoria-content`, grade de uma coluna no celular e foco/cores próprios para alto contraste. Telefone existente tornado clicável (`tel:+557931980800`). Nenhum filtro, histórico, formulário ou data de atualização foi acrescentado: não são exigências enumeradas em C/S 13.
+
+Preservados Lucas Silva Pedrosa e Sérgio Ricardo Sousa Bezerra, contatos, schema `https://serigy.tce.se.gov.br/comum/ouvidoria.html` e os cinco campos visíveis no HTML inicial: `enderecoSetor`, `telefoneSetor`, `horarioFuncionamentoSetor`, `faleConosco`, `servicoUsuario`. Preservados os destinos SE-Ouv (`https://www.ouvidoria.se.gov.br/index`), catálogo estadual (`https://www.se.gov.br/busca?page=1&orgao=12`) e Manual (`https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/11/Carta-de-Servicos-Ouvidoria-atual.-14.11.25.pdf`). O Manual permanece sem `servicoUsuario`; não equivale ao catálogo geral. Orientação para procurar e-SIC no SE-Ouv substituída por link para a página local `/Portal-da-Transparencia/SIC/eSIC/`, sem modificar essa página ou seu fluxo.
+
+Pendências remanescentes: conferir administrativamente as designações e os contatos na revisão institucional; verificar a disponibilidade/conteúdo do catálogo e a atualização das fichas exigidas em C 13.3, além da versão do Manual. Nenhuma pesquisa administrativa foi realizada nesta rodada; preservado o registro anterior em `controle/sic-ouvidoria-verificacao.md`. Alteração visual não resolve essas conferências nem comprova reconhecimento pelo Invoker.
+
+Conferência pontual local: HTML/IDs/rótulos, cinco campos e URLs; renderização Chrome em 1440 e 390 px, grade responsiva, navegação com Tab, foco visível, alternância de contraste com Espaço e links/recursos locais por HTTP. Evidências e verificação de preservação das páginas SIC/demais arquivos e do índice Git em `trabalho/testar_ouvidoria_design.py` e `trabalho/ouvidoria-design-*/`. Não houve alteração no WordPress, Invoker, commit ou push.
+
+## Levantamento original do modelo — histórico
+
 Fontes: Cartilha PETP 2026, C **13.1–13.3**, pp. 103–106; Serigy Docs **13**, itens **13.1–13.5**, p. 1. Mapeamento detalhado em `controle/ouvidoria-modelos.md`. Todos os três critérios C são aplicáveis à Previdência Estadual.
 
 Modelo: `modelos/Portal-da-Transparencia/Ouvidoria/index.html`; rota prevista `/Portal-da-Transparencia/Ouvidoria/`. Não foi publicada nem ligada ao menu. Nenhuma fonte institucional específica de contato, canal ou Carta foi homologada nesta tarefa.

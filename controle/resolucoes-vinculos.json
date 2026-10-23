@@ -1,0 +1,1124 @@
+{
+  "fonte": "dados-entrada/institucional/resolucoes-atos-normativos.txt",
+  "registros": [
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 011/2026",
+      "data_informada": "21/08/2026",
+      "ementa_informada": "Fixa diretrizes para a alocação dos recursos do FUNPREV/SE",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-ASSINADA.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 11,
+      "ano": 2026,
+      "data": "21/08/2026",
+      "ementa": "Fixa diretrizes para a alocação dos recursos do FUNPREV/SE.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-ASSINADA.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 3 ESTADO DE SERGIPE INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE COMITÊ DE INVESTIMENTOS DOS RECURSOS PREVIDENCIÁRIOS DO ESTADO DE SERGIPE RESOLUÇÃO Nº 11 DE 21 DE AGOSTO DE 2026 O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no art. 8º-D da Lei nº 5.852, de 20 de março de 2006, e nos arts. 4º e 11 do Regimento Interno do C"
+      },
+      "pdf_sha256": "c9387322cbfdaefd6c55db022676e6ede89253bef7292db5a421a983a2e0f88d"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 010/2026",
+      "data_informada": "22/05/2026",
+      "ementa_informada": "Designa o membro responsável pela função de Secretário do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/Resolucao-10-2026.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 10,
+      "ano": 2026,
+      "data": "22/05/2026",
+      "ementa": "Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/Resolucao-10-2026.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 010 DE 22 DE MAIO DE 2026 Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "0c7866b5ac1b90c6c9dbf312165e2f9f580406b7b6f75f3e0a332db6a258b6ef"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 009/2025",
+      "data_informada": "19/12/2025",
+      "ementa_informada": "Estabelece os dias de reunião e aprova o calendário de reuniões de 2026 do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-No-09-2025.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 9,
+      "ano": 2025,
+      "data": "19/12/2025",
+      "ementa": "Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2026 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/08/RESOLUCAO-No-09-2025.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 2 RESOLUÇÃO Nº 09 DE 19 DE DEZEMBRO DE 2025 Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2026 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 20 de março de 2006"
+      },
+      "pdf_sha256": "4d1ac9c404d10bc497ced77e9f22c8e09b862461b27beb8bf0d186d760be1acf"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 008/2025",
+      "data_informada": "19/09/2025",
+      "ementa_informada": "Designa o servidor responsável por secretariar o CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/RESOLUCAO-No-08-2025.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 8,
+      "ano": 2025,
+      "data": "19/09/2025",
+      "ementa": "Designa o servidor responsável por secretariar",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/RESOLUCAO-No-08-2025.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 1 RESOLUÇÃO Nº 08 DE 19 DE SETEMBRO DE 2025 Designa o servidor responsável por secretariar o Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado"
+      },
+      "pdf_sha256": "e622f4f8d5ab000e6d3095b460d6e6519d5e32a7016d0b8fda9ebf7983d7a531"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 007/2025",
+      "data_informada": "21/02/2025",
+      "ementa_informada": "Aprova o Regimento Interno do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-7-Cirp.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 7,
+      "ano": 2025,
+      "data": "21/02/2025",
+      "ementa": "Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-7-Cirp.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 7 RESOLUÇÃO Nº 07 DE 21 DE FEVEREIRO DE 2025 Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "7a52ad6a0b732af2d054dd658fd75f8618a622c12f691ef611bbe73d3fb2d4c0"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 006/2024",
+      "data_informada": "13/12/2024",
+      "ementa_informada": "Estabelece os dias de reunião e aprova o calendário de reuniões ordinárias do ano de 2024 do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-6-Cirp.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 6,
+      "ano": 2024,
+      "data": "13/12/2024",
+      "ementa": "Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2025 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/09/Res.-6-Cirp.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 3 RESOLUÇÃO Nº 06 DE 13 DE DEZEMBRO DE 2024 Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2025 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 20 de março de 2006"
+      },
+      "pdf_sha256": "88d6a4d48b5c9771e1f0ff2c7bacaf7f1db1acc22c54721c3cba54fc4616341b"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 005/2022",
+      "data_informada": "27/10/2023",
+      "ementa_informada": "Estabelece os dias de reunião e aprova o calendário de reuniões ordinárias do ano de 2024 do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-05-2023-CIRP.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 5,
+      "ano": 2023,
+      "data": "27/10/2023",
+      "ementa": "Estabelece os dias de reunião e aprova o calendário de reuniões ordinárias do ano de 2024 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-05-2023-CIRP.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 3 RESOLUÇÃO Nº 05 DE 27 DE OUTUBRO DE 2023 Estabelece os dias de reunião e aprova o calendário de reuniões ordinárias do ano de 2024 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "d8254ef932b9d9e2514a66b3b9a62c6d42046e1f1156628da6b3e54be6caf52f"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 004/2022",
+      "data_informada": "27/10/2023",
+      "ementa_informada": "Indica membro responsável pela função de Secretário do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-04-2023-CIRP.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 4,
+      "ano": 2023,
+      "data": "27/10/2023",
+      "ementa": "Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-04-2023-CIRP.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 2 RESOLUÇÃO Nº 04 DE 27 DE OUTUBRO DE 2023 Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "b7adeda1074cf7dbab89af89e34455876ec5009247df74d3283ee35d692bf768"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 003/2022",
+      "data_informada": "20/05/2022",
+      "ementa_informada": "Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2022 do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-03-2022-CIRP.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 3,
+      "ano": 2022,
+      "data": "20/05/2022",
+      "ementa": "Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2022 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-03-2022-CIRP.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 3 RESOLUÇÃO Nº 03 DE 20 DE MAIO DE 2022 Estabelece os dias de reunião e aprova o calendário de reuniões do ano de 2022 do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "bd9f52f587303603a401cdbafddb33d611dc9edcecf5db093f69705d3fcbc0f1"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 002/2022",
+      "data_informada": "20/05/2022",
+      "ementa_informada": "Indica membro responsável pela função de Secretário do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-02-2022-CIRP.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 2,
+      "ano": 2022,
+      "data": "20/05/2022",
+      "ementa": "Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-02-2022-CIRP.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 1 RESOLUÇÃO Nº 02 DE 20 DE MAIO DE 2022 Indica membro responsável pela função de Secretário do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "a1e146996c1a8f8e21db47d1248d0327e07ae91e55bcdd89b0427633258b1490"
+    },
+    {
+      "colegiado": "CIRP",
+      "identificacao_informada": "Nº 001/2022",
+      "data_informada": "20/05/2022",
+      "ementa_informada": "Aprova o Regimento Interno do CIRP",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-01-2022-CIRP.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 1,
+      "ano": 2022,
+      "data": "20/05/2022",
+      "ementa": "Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/Resolucao-01-2022-CIRP.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página: 1 de 8 RESOLUÇÃO Nº 01 DE 20 DE MAIO DE 2022 Aprova o Regimento Interno do Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP. O Comitê de Investimentos dos Recursos Previdenciários do Estado de Sergipe – CIRP, de acordo com o disposto no Lei nº 5.852, de 28 de dezembro de 2"
+      },
+      "pdf_sha256": "289dea3c61fa82be482c1dcb76396222a6c3a7860dd047c5e4e645e0fa939ce1"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Regimento Interno do Conselho Deliberativo",
+      "data_informada": "data não informada",
+      "ementa_informada": "Regimento Interno",
+      "url_informada": "http://www.sergipeprevidencia.se.gov.br/wp-content/uploads/2016/03/reg-interno.pdf",
+      "situacao": "PENDENTE",
+      "motivo": "Regimento de setembro/2006; confirmar vigência e relação com o aprovado em 2025. Não cadastrar como resolução sem identificação.",
+      "pdf_sha256": "42b14796966c0cb9b6c06a5b4d5a90eb17fd3ca1b59e3334aadef70f98b06ef6"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 012/2026",
+      "data_informada": "25/09/2026",
+      "ementa_informada": "Aprova os Balancetes de agosto de 2026 do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-12-2026-Aprova-os-balancetes-de-agosto-2026.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 12,
+      "ano": 2026,
+      "data": "24/09/2026",
+      "ementa": "Aracaju, 24 de setembro de 2026 Aprova os Balancetes de Agosto de 2026 do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-12-2026-Aprova-os-balancetes-de-agosto-2026.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "SERGIPEPREVIDÊNCIA 08.042.552/0001-74 Praça General Valadão, 32, - Bairro Centro, Aracaju/SE, CEP 49010-520 RESOLUÇÃO Nº 12/2026 DE 24 DE SETEMBRO DE 2026 Aracaju, 24 de setembro de 2026 Aprova os Balancetes de Agosto de 2026 do Instituto de Previdência dos Servidores do Estado de Sergipe – SERGIPEPREVIDÊNCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "97f49544494e42107dde31ca836cdae07506e8ba922eb8543407bdb2c8abb171"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 011/2026",
+      "data_informada": "27/08/2026",
+      "ementa_informada": "Distribuição de responsabilidades pela gestão dos bens e direitos imobiliários dos fundos e imóveis da Autarquia",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-11-2026-Disciplina-a-responsabilidade-de-Gestao-do-patriminio-dos-fundos-e-Autarquia.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 11,
+      "ano": 2026,
+      "data": "27/08/2026",
+      "ementa": "Dispõe sobre a distribuição de responsabilidades relativas à gestão dos bens e direitos imobiliários vinculados aos fundos previdenciários administrados pelo SERGIPEPREVIDÊNCIA e dos imóveis integrantes do patrimônio próprio da Autarquia.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-11-2026-Disciplina-a-responsabilidade-de-Gestao-do-patriminio-dos-fundos-e-Autarquia.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "SERGIPEPREVIDÊNCIA 08.042.552/0001-74 Praça General Valadão, 32, - Bairro Centro, Aracaju/SE, CEP 49010-520 Aracaju, 27 de agosto de 2026 RESOLUÇÃO Nº11/2026 De 27 de agosto de 2026 Dispõe sobre a distribuição de responsabilidades relativas à gestão dos bens e direitos imobiliários vinculados aos fundos previdenciários administrados pelo SERGIPEPREVIDÊNCIA e dos imóveis integrantes do patrimônio próprio da Autarquia. O CONSELHO DELIBERATIVO – CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE – SERGIPEPREVIDÊNCIA , no uso das atribuições que lhe s"
+      },
+      "pdf_sha256": "7d1b5af0380f7c312165594ac404464c3763ae8f99c5796b26fdd18a21fe692b"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 010/2026",
+      "data_informada": "27/08/2026",
+      "ementa_informada": "Aprova os Balancetes de julho de 2026 do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-10-2026-Aprova-os-balancetes-de-julho-2026.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 10,
+      "ano": 2026,
+      "data": "27/08/2026",
+      "ementa": "Aprova os Balancetes de julho/2026 do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/09/RESOLUCAO-10-2026-Aprova-os-balancetes-de-julho-2026.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "SERGIPEPREVIDÊNCIA 08.042.552/0001-74 Praça General Valadão, 32, - Bairro Centro, Aracaju/SE, CEP 49010-520 Aracaju, 27 de agosto de 2026 RESOLUÇÃO Nº 10/2026 De 27 de agosto de 2026 Aprova os Balancetes de julho/2026 do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "9b0949ee2bb8b4bce1a3d23400d2cea2a4fed13aa4d08588a334f220b32342a8"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 004/2026",
+      "data_informada": "22/04/2025",
+      "ementa_informada": "Aprova os Balancetes de fevereiro e março de 2026 do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/04/RESOLUCAO-04-2026-APROVA-OS-BALANCETES-FEVER-E-MARCO-2026.pdf",
+      "situacao": "PENDENTE",
+      "motivo": "O próprio PDF diz 04/2026 com data 22/04/2025. Obter confirmação/retificação.",
+      "pdf_sha256": "824eb28cfb0d8d545708e8e4c83a94fd17899797dfa5982c27193e0ad6679d05"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 003/2026",
+      "data_informada": "25/02/2025",
+      "ementa_informada": "Define a Diretoria competente para deliberação e assinatura de atos decisórios em processos administrativos específicos",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/RESOLUCAO-03-2026-APROVA-A-DEFINICAO-DE-COMPETENCIAS.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 3,
+      "ano": 2026,
+      "data": "25/02/2026",
+      "ementa": "Dispõe sobre a definição da Diretoria competente para deliberação e assinatura de atos decisórios em processos administrativos específicos.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/RESOLUCAO-03-2026-APROVA-A-DEFINICAO-DE-COMPETENCIAS.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 2 RESOLUÇÃO N° 03/2026 De 25 de fevereiro de 2026 Dispõe sobre a definição da Diretoria competente para deliberação e assinatura de atos decisórios em processos administrativos específicos. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "de0f438ee67e37b8f8e2171e97239fff14020d3bd23d1b1979db98fcc9d07dae"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 002/2026",
+      "data_informada": "24/02/2025",
+      "ementa_informada": "Ata da segunda reunião de 2026 do CIRP, em 24 de fevereiro de 2026",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/03/Ata-02-2026-1.pdf",
+      "situacao": "PENDENTE",
+      "motivo": "PDF é ata 02/2026 do CIRP, não resolução CD.",
+      "pdf_sha256": "5340cd794fd2f0bd7f0ba55aacab0a9cc35b844dd07bb5b87e1187c0a6c8abab",
+      "arquivo_planejado": "resolucao-cd-002-2026.pdf",
+      "url_planejada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/resolucao-cd-002-2026.pdf"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 001/2026",
+      "data_informada": "data não informada",
+      "ementa_informada": "Referido ato em tramitação para análise e possível homologação pelo Governador",
+      "url_informada": "sem URL informada",
+      "situacao": "PENDENTE",
+      "motivo": "Em tramitação; não apresentar aprovação."
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 014/2025",
+      "data_informada": "17/12/2025",
+      "ementa_informada": "Aprova os Balancetes de novembro de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-14-2025-APROVA-BALANCETES-NOVEMBRO.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 14,
+      "ano": 2025,
+      "data": "17/12/2025",
+      "ementa": "Aprova os Balancetes de novembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-14-2025-APROVA-BALANCETES-NOVEMBRO.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 14/2025 De 17 de dezembro de 2025 Aprova os Balancetes de novembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "f3dfae03b4fe74512dbf92d95100d5b230325ea4e543a2b75e3b0abf6d2f8688"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 013/2025",
+      "data_informada": "27/11/2025",
+      "ementa_informada": "Aprova os Balancetes de outubro de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-13-2025-APROVA-BALANCETES-OUTUBRO.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 13,
+      "ano": 2025,
+      "data": "27/11/2025",
+      "ementa": "Aprova os Balancetes de outubro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/12/N%C2%B0-13-2025-APROVA-BALANCETES-OUTUBRO.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 13/2025 De 27 de novembro de 2025 Aprova os Balancetes de outubro/2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "eadb8539bbdd460f3262e1bdd6f3a522ecbb8145a1eae688b07adc47fb26114c"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 012/2025",
+      "data_informada": "28/10/2025",
+      "ementa_informada": "Aprova os Balancetes de setembro de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/10/N%C2%B0-12-2025-APROVA-BALANCETES-DE-SETEMBRO.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 12,
+      "ano": 2025,
+      "data": "28/10/2025",
+      "ementa": "Aprova os Balancetes de setembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/10/N%C2%B0-12-2025-APROVA-BALANCETES-DE-SETEMBRO.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 12/2025 De 28 de outubro de 2025 Aprova os Balancetes de setembro/2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "a2b333771df6ff8e21763d0c1bcb94218b9195acfaeebef662ded86c0f0e126a"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 011/2025",
+      "data_informada": "26/09/2025",
+      "ementa_informada": "Aprova os Balancetes de agosto de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-10-2025-APROVA-BALANCETES-DE-JULHO.pdf",
+      "situacao": "PENDENTE",
+      "motivo": "PDF é 010/2025 (julho), não 011/2025.",
+      "pdf_sha256": "830865bbf9a5b8effdf580b2f86acc9e91f92615318a9e21813a6993a5fc2fa5",
+      "arquivo_planejado": "resolucao-cd-011-2025.pdf",
+      "url_planejada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/resolucao-cd-011-2025.pdf"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 010/2025",
+      "data_informada": "21/08/2025",
+      "ementa_informada": "Aprova os Balancetes de julho de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-10-2025-APROVA-BALANCETES-DE-JULHO.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 10,
+      "ano": 2025,
+      "data": "21/08/2025",
+      "ementa": "Aprova os Balancetes de julho/2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-10-2025-APROVA-BALANCETES-DE-JULHO.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 10/2025 De 21 de agosto de 2025 Aprova os Balancetes de julho/2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "830865bbf9a5b8effdf580b2f86acc9e91f92615318a9e21813a6993a5fc2fa5"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 007/2025",
+      "data_informada": "28/05/2025",
+      "ementa_informada": "Política de Limites de Responsabilidades e Alçadas do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-07-2025-APROVA-POLITICA-DE-ALCADAS.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 7,
+      "ano": 2025,
+      "data": "28/05/2025",
+      "ementa": "Dispõe sobre a Política de Limites de Responsabilidades e Alçadas no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDÊNCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-07-2025-APROVA-POLITICA-DE-ALCADAS.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 5 RESOLUÇÃO Nº 007/2025 DE 28 DE MAIO DE 2025 Dispõe sobre a Política de Limites de Responsabilidades e Alçadas no âmbito do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDÊNCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "d7aaba205946bb9996b5fb85e3fda71d3916b7f4aba1fcf6e8a0d54bc19a478e"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 005/2025",
+      "data_informada": "28/05/2025",
+      "ementa_informada": "Aprova os Balancetes de dezembro de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-05-2025-APROVA-BALANCETES-DE-MARCO-E-ABRIL.pdf",
+      "situacao": "PENDENTE",
+      "motivo": "PDF aprova março/abril; descrição enviada diz dezembro/2024. Confirmar documento e ementa.",
+      "pdf_sha256": "3631dac026ef180b43b5601afce80d22b23bdf463819f7f26f38b420544f8d8f",
+      "arquivo_planejado": "resolucao-cd-005-2025.pdf",
+      "url_planejada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2026/10/resolucao-cd-005-2025.pdf"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 001/2025",
+      "data_informada": "28/01/2025",
+      "ementa_informada": "Aprova os Balancetes de dezembro de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-01-2025-APROVA-BALANCETES-DE-DEZ-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 1,
+      "ano": 2025,
+      "data": "28/01/2025",
+      "ementa": "Aprova os Balancetes de dezembro 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-01-2025-APROVA-BALANCETES-DE-DEZ-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 001/2025 De 28 de janeiro de 2025 Aprova os Balancetes de dezembro 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "897fee4aaf0e7b7e3ad0f2b0ccf4a9a58caabf3b7e791390bcda016f9601f810"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 006/2025",
+      "data_informada": "28/05/2025",
+      "ementa_informada": "Aprova o Regimento Interno do Conselho Deliberativo",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-06-2025-APROVA-REGIMENTO-INTERNO-CD.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 6,
+      "ano": 2025,
+      "data": "28/05/2025",
+      "ementa": "Aprova o Regimento Interno do",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-06-2025-APROVA-REGIMENTO-INTERNO-CD.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 11 RESOLUÇÃO Nº 06/2025 DE 28 DE MAIO DE 2025 Aprova o Regimento Interno do Conselho Deliberativo do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDÊNCIA. O CONSELHO DELIBERATIVO do Instituto de "
+      },
+      "pdf_sha256": "7f3291a96aeb3ab96f83e043485f98742483ab1d6023fc4cac628d35b4957449"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 003/2025",
+      "data_informada": "24/02/2025",
+      "ementa_informada": "Aprova os Balancetes de janeiro de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-03-2025-APROVA-BALANCETES-DE-JAN.25.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 3,
+      "ano": 2025,
+      "data": "24/02/2025",
+      "ementa": "Aprova os Balancetes de janeiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-03-2025-APROVA-BALANCETES-DE-JAN.25.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 003/2025 De 24 de fevereiro de 2025 Aprova os Balancetes de janeiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "0a9b0d4875e93e354044315adaf6b187c917089167fd4a07104b1ed14f2f84f1"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 004/2025",
+      "data_informada": "28/03/2025",
+      "ementa_informada": "Aprova os Balancetes de fevereiro de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-04-2025-APROVA-BALANCETES-DE-FEV.25.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 4,
+      "ano": 2025,
+      "data": "28/03/2025",
+      "ementa": "Aprova os Balancetes de fevereiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/08/N%C2%B0-04-2025-APROVA-BALANCETES-DE-FEV.25.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 004/2025 De 28 de março de 2025 Aprova os Balancetes de fevereiro de 2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "a4aa915ce9c93afc473a8c12a3660b4ff77abbf547c5e06aadd950039404dc8c"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 009/2025",
+      "data_informada": "29/06/2025",
+      "ementa_informada": "Aprova os Balancetes de junho de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/07/N%C2%B0-09-2025-APROVA-BALANCETES-DE-JUNHO.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 9,
+      "ano": 2025,
+      "data": "29/07/2025",
+      "ementa": "Aprova os Balancetes de junho de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/07/N%C2%B0-09-2025-APROVA-BALANCETES-DE-JUNHO.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 009/2025 De 29 de julho de 2025 Aprova os Balancetes de junho de 2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "48a903b2b26c1ea5f218aa955cb7fbf44433ec1c4e8ed10784fc48b842be1986"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 008/2025",
+      "data_informada": "20/06/2025",
+      "ementa_informada": "Aprova os Balancetes de maio de 2025 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/06/N%C2%B0-08-2025-APROVA-BALANCETES-DE-MAIO-1.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 8,
+      "ano": 2025,
+      "data": "20/06/2025",
+      "ementa": "Aprova os Balancetes de maio de 2025 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2025/06/N%C2%B0-08-2025-APROVA-BALANCETES-DE-MAIO-1.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 008/2025 De 20 de junho de 2025 Aprova os Balancetes de maio de 2025 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "7ac9d482d83b5d130942ccb0fe0acc71733f5296c82c4d65fe7a043757ffb985"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 008/2024",
+      "data_informada": "22/07/2024",
+      "ementa_informada": "Aprova os Balancetes de junho de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-08-2024-APROVA-BALANCETES-JUNHO-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 8,
+      "ano": 2024,
+      "data": "22/07/2024",
+      "ementa": "Aprova os Balancetes de junho de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-08-2024-APROVA-BALANCETES-JUNHO-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 008 De 22 de julho de 2024 Aprova os Balancetes de junho de 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "bc35ac7cb775e26009b59fc14be66d2d27ccc3ed6460ab97d9c579d8e912b9bc"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 007/2024",
+      "data_informada": "26/06/2024",
+      "ementa_informada": "Aprova os Balancetes de maio de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-07-2024-APROVA-BALANCETES-MAIO-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 7,
+      "ano": 2024,
+      "data": "26/06/2024",
+      "ementa": "Aprova os Balancetes de maio de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-07-2024-APROVA-BALANCETES-MAIO-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 007 De 26 de junho de 2024 Aprova os Balancetes de maio de 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "32c1e1f364b530002ab27ae85485d5080ae1b815699a99c20b494b5dbd19b384"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 006/2024",
+      "data_informada": "28/05/2024",
+      "ementa_informada": "Aprova os Balancetes de abril de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-06-2024-APROVA-BALANCETES-ABRIL-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 6,
+      "ano": 2024,
+      "data": "28/05/2024",
+      "ementa": "Aprova os Balancetes de abril de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-06-2024-APROVA-BALANCETES-ABRIL-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 006 De 28 de maio de 2024 Aprova os Balancetes de abril de 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "59f0e288afaab62f11ddec0177be72ba77958f567d0aacf9c1e8bf6f7f66678f"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 005/2024",
+      "data_informada": "23/04/2024",
+      "ementa_informada": "Aprova os Balancetes de março de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-05-2024-APROVA-BALANCETES-MARCO-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 5,
+      "ano": 2024,
+      "data": "23/04/2024",
+      "ementa": "Aprova os Balancetes de março de 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-05-2024-APROVA-BALANCETES-MARCO-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 005 De 23 de abril de 2024 Aprova os Balancetes de março de 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "bf117dbf1af525637115ccbc3147b9dec0a982cfdc6b374051fe2c209d68a4a2"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 004/2024",
+      "data_informada": "26/03/2024",
+      "ementa_informada": "Aprova os Balancetes de fevereiro de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-04-2024-APROVA-BALANCETES-FEVEREIRO-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 4,
+      "ano": 2024,
+      "data": "26/03/2024",
+      "ementa": "Aprova os Balancetes de fevereiro 2024 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-04-2024-APROVA-BALANCETES-FEVEREIRO-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 004 De 26 de março de 2024 Aprova os Balancetes de fevereiro 2024 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD DO INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "9850b729c0986911fb8fa9dc7c777a5b8c740bf7f691b937cd9bf0c5e1c7465d"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 003/2024",
+      "data_informada": "23/02/2024",
+      "ementa_informada": "Dispensa de demandas judiciais e administrativas relativas a saldos negativos de proventos",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-03-2024-DISPOE-SOBRE-SALDO-DE-PROVETOS-teto-RGPS.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 3,
+      "ano": 2024,
+      "data": "23/02/2024",
+      "ementa": "Dispõe sobre dispensa de propositura de demandas judiciais e administrativas pelo Instituto de Previdência do Estado de Sergipe – SERGIPEPREVIDENCIA em relação à saldos negativos de proventos.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-03-2024-DISPOE-SOBRE-SALDO-DE-PROVETOS-teto-RGPS.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 2 RESOLUÇÃO Nº 03 De 23 de fevereiro de 2024 Dispõe sobre dispensa de propositura de demandas judiciais e administrativas pelo Instituto de Previdência do Estado de Sergipe – SERGIPEPREVIDENCIA em relação à saldos negativos de proventos. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDENCIA , no uso de suas atribuições legais,"
+      },
+      "pdf_sha256": "2463e96e18c1fce29a632a51731e874777cb1cec7fa590917560f40c75f460bb"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 002/2024",
+      "data_informada": "23/02/2024",
+      "ementa_informada": "Aprova os Balancetes de janeiro de 2024 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-02-2024-APROVA-BALANCETES-JANEIRO-2024.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 2,
+      "ano": 2024,
+      "data": "23/02/2024",
+      "ementa": "Aprova os Balancetes de Janeiro/2024 do FINANPREV e do SERGIPEPREVIDENCIA",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-02-2024-APROVA-BALANCETES-JANEIRO-2024.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 002 De 23 de fevereiro de 2024 Aprova os Balancetes de Janeiro/2024 do FINANPREV e do SERGIPEPREVIDENCIA O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA , no uso de suas atribuições legais,"
+      },
+      "pdf_sha256": "5a18ab2962fa056e95456ef6f702476008ae0cf4a12f694f8ea576c882d8dff3"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 001/2024",
+      "data_informada": "18/01/2024",
+      "ementa_informada": "Aprova os Balancetes de dezembro do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-01-2024-APROVA-BALANCETES-DEZEMBRO-2023.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 1,
+      "ano": 2024,
+      "data": "18/01/2024",
+      "ementa": "Aprova os Balancetes de Dezembro do FINANPREV e do SERGIPEPREVIDENCIA",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/N%C2%B0-01-2024-APROVA-BALANCETES-DEZEMBRO-2023.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 001 De 18 de janeiro de 2024 Aprova os Balancetes de Dezembro do FINANPREV e do SERGIPEPREVIDENCIA O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, "
+      },
+      "pdf_sha256": "871830664f4560943abe880c5c3a8d4bb7f3d9ca2f8e6e6679bf1ae5c802437d"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 012/2023",
+      "data_informada": "27/12/2023",
+      "ementa_informada": "Aprova os Balancetes de novembro do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-Aprova-balancetes-novembro-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 12,
+      "ano": 2023,
+      "data": "27/12/2023",
+      "ementa": "Aprova os Balancetes de novembro do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-Aprova-balancetes-novembro-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 012 De 27 de dezembro de 2023 Aprova os Balancetes de novembro do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "7f1d25859896ff06c52a3849768758f091bdb6c6d5d20b2cd84f4def37b6a9df"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 011/2023",
+      "data_informada": "27/11/2023",
+      "ementa_informada": "Aprova os Balancetes de outubro do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-Aprova-balancetes-outubro-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 11,
+      "ano": 2023,
+      "data": "27/11/2023",
+      "ementa": "Aprova os Balancetes de Outubro do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-Aprova-balancetes-outubro-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 011 De 27 de novembro de 2023 Aprova os Balancetes de Outubro do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "854da8e53488556fd023dd7b75201d31160f7faa591ce041801a64cd9febdea0"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 010/2023",
+      "data_informada": "26/10/2023",
+      "ementa_informada": "Aprova os Balancetes de setembro do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-Aprova-balancetes-setembro-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 10,
+      "ano": 2023,
+      "data": "26/10/2023",
+      "ementa": "Aprova os Balancetes de Setembro do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-Aprova-balancetes-setembro-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 010 De 26 de outubro de 2023 Aprova os Balancetes de Setembro do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "47cc45dbe8183f650a19899f5ff01b8ded24ba23376de92a52b4b7ee05dbbe5b"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 009/2023",
+      "data_informada": "26/09/2023",
+      "ementa_informada": "Aprova os Balancetes de agosto do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-Aprova-balancetes-agosto-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 9,
+      "ano": 2023,
+      "data": "26/09/2023",
+      "ementa": "Aprova os Balancetes de Agosto do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-Aprova-balancetes-agosto-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 009 De 26 de setembro de 2023 Aprova os Balancetes de Agosto do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "cfa05c66bb9810bd509346944cc9d41cc0bb905441933e0cd78659752d9ecd87"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 008/2023",
+      "data_informada": "21/08/2023",
+      "ementa_informada": "Aprova o Balancete de julho do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-008-Aprova-balancetes-julho-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 8,
+      "ano": 2023,
+      "data": "21/08/2023",
+      "ementa": "Aprova o Balancete de ju lho do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-008-Aprova-balancetes-julho-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 008 De 21 de agosto de 2023 Aprova o Balancete de ju lho do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DOESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de acor"
+      },
+      "pdf_sha256": "a66acd0d840ced9fd548dee392a0ac34d347eac7de053663a2b161b8e6b6e601"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 007/2023",
+      "data_informada": "27/07/2023",
+      "ementa_informada": "Aprova o Balancete de junho do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-007-Aprova-balancetes-junho-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 7,
+      "ano": 2023,
+      "data": "27/07/2023",
+      "ementa": "Aprova o Balancete de junho do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-007-Aprova-balancetes-junho-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 007 De 27 de julho de 2023 Aprova o Balancete de junho do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de a"
+      },
+      "pdf_sha256": "7eceafd8eda0d498a8f783fcfd4de93be254c031ae2250693538c6a404eb3b54"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 006/2023",
+      "data_informada": "26/06/2023",
+      "ementa_informada": "Aprova os Balancetes de maio do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-006-Aprova-balancetes-maio-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 6,
+      "ano": 2023,
+      "data": "26/06/2023",
+      "ementa": "Aprova os balancetes do mês de maio do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-006-Aprova-balancetes-maio-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 006 De 26 de junho de 2023 Aprova os balancetes do mês de maio do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "94bb557675d8e59c5fd81ae3e4f36a7ac6a0f31b3beb8410c26dd43b6939902c"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 005/2023",
+      "data_informada": "22/05/2023",
+      "ementa_informada": "Aprova os Balancetes de abril de 2023 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-005-Aprova-balancetes-abril-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 5,
+      "ano": 2023,
+      "data": "22/05/2023",
+      "ementa": "Aprova os Balancetes de abril de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-005-Aprova-balancetes-abril-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 005 De 22 de maio de 2023 Aprova os Balancetes de abril de 2023 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "7d9590383f1cc173956852ffd1c85422319aea7aa5d3dcff7a36eaf4f0469f54"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 004/2023",
+      "data_informada": "20/04/2023",
+      "ementa_informada": "Aprova os Balancetes de março de 2023 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-004-Aprova-balancetes-marco-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 4,
+      "ano": 2023,
+      "data": "20/04/2023",
+      "ementa": "Aprova os Balancetes de março/2023 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-004-Aprova-balancetes-marco-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 004 De 20 de abril de 2023 Aprova os Balancetes de março/2023 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "5452652f92504f1a7f2ab6712aa2bf1e35f8f62d97c6fa01c1819ebb53cd37a3"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 003/2023",
+      "data_informada": "28/03/2023",
+      "ementa_informada": "Aprova os Balancetes de fevereiro de 2023 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-003-Aprova-balancetes-fevereiro-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 3,
+      "ano": 2023,
+      "data": "28/03/2023",
+      "ementa": "Aprova os Balancetes de Fevereiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-003-Aprova-balancetes-fevereiro-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 003 De 28 de março de 2023 Aprova os Balancetes de Fevereiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "b504ce080df4668167706186f200b4222fc493b8c4b20cf4069d2c215494818d"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 002/2023",
+      "data_informada": "28/02/2023",
+      "ementa_informada": "Aprova os Balancetes de janeiro de 2023 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-002-Aprova-balancetes-janeiro-23.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 2,
+      "ano": 2023,
+      "data": "28/02/2023",
+      "ementa": "Aprova os Balancetes de Janeiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-002-Aprova-balancetes-janeiro-23.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 002 De 28 de fevereiro de 2023 Aprova os Balancetes de Janeiro de 2023 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "faac9193170bcccbabfe317b1a0eb3510b6b381ba7b53c7fdfcb5700ed567263"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 001/2023",
+      "data_informada": "24/01/2023",
+      "ementa_informada": "Aprova os Balancetes de outubro, novembro e dezembro de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-001-Aprova-balancetes-out.-nov.-e-dez-22.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 1,
+      "ano": 2023,
+      "data": "24/01/2023",
+      "ementa": "Aprova os Balancetes de Outubro, Novembro e Dezembro de 2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2023/05/No-001-Aprova-balancetes-out.-nov.-e-dez-22.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 001 De 24 de janeiro de 2023 Aprova os Balancetes de Outubro, Novembro e Dezembro de 2022 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "e919d3175c463ecb90231858677b103ec0efaa20b1d151225977ea76676adafc"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 013/2022",
+      "data_informada": "30/11/2022",
+      "ementa_informada": "Aprova os Balancetes de setembro de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-013-APROVACAO-BALANCETES-SETEMBRO-DE-2022.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 13,
+      "ano": 2022,
+      "data": "30/11/2022",
+      "ementa": "Aprova os balancetes de Setembro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-013-APROVACAO-BALANCETES-SETEMBRO-DE-2022.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 01 3 DE 30 DE NOVEMBRO DE 2022 Aprova os balancetes de Setembro/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "be76bd0e6bc5d10537bff5a9fdab484bce0798ace7c61d9dce3d4c2e8f76f349"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 012/2022",
+      "data_informada": "25/10/2022",
+      "ementa_informada": "Aprova o Regulamento Geral do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-APROVACAO-REGULAMENTO-GERAL-DO-SERGIPEPREVIDENCIA-.-DIGITAL.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 12,
+      "ano": 2022,
+      "data": "25/10/2022",
+      "ementa": "Aprova o Regulamento Geral do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-012-APROVACAO-REGULAMENTO-GERAL-DO-SERGIPEPREVIDENCIA-.-DIGITAL.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 50 RESOLUÇÃO Nº 012 DE 25 DE OUTUBRO DE 2022 Aprova o Regulamento Geral do Instituto de Previdência dos Servidores do Estado de Sergipe - SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "52fbf95aaea82ee60af1d81cf3a735a08122ba4655ff0e95149f12d448be8ab0"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 011/2022",
+      "data_informada": "25/10/2022",
+      "ementa_informada": "Aprova os Balancetes de agosto de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-APROVACAO-BALANCETES-AGOSTO-DE-2022.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 11,
+      "ano": 2022,
+      "data": "25/10/2022",
+      "ementa": "Aprova os balancetes de Agosto/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-011-APROVACAO-BALANCETES-AGOSTO-DE-2022.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 011 DE 25 DE OUTUBRO DE 2022 Aprova os balancetes de Agosto/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "a90e10b1253de3a170270fc65f097b47d63973dffe6fb6cd5ba7d6dad32dc248"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 010/2022",
+      "data_informada": "26/09/2022",
+      "ementa_informada": "Aprova os Balancetes do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-APROVACAO-BALANCETES-JULHO-DE-2022.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 10,
+      "ano": 2022,
+      "data": "26/09/2022",
+      "ementa": "Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-010-APROVACAO-BALANCETES-JULHO-DE-2022.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 010 DE 26 DE SETEMBRO DE 2022 Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "89152a9a3f86a2670cc521dda05851fe7d8fa43fcd83c8bf62e58562b6ff1c5d"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 009/2022",
+      "data_informada": "29/08/2022",
+      "ementa_informada": "Aprova os Balancetes do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-APROVACAO-BALANCETES-JUNHO-DE-2022.pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 9,
+      "ano": 2022,
+      "data": "29/08/2022",
+      "ementa": "Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2024/07/No-009-APROVACAO-BALANCETES-JUNHO-DE-2022.pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 009 DE 29 DE AGOSTO DE 2022 Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "39af4f75b8fd6910156aa2c095ea108308e0d988113f3fefad264e841e5a9e05"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 008/2022",
+      "data_informada": "01/08/2022",
+      "ementa_informada": "Aprova os Balancetes de maio de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-008-APROVACAO-BALANCETES-MAIO-DE-2022..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 8,
+      "ano": 2022,
+      "data": "01/08/2022",
+      "ementa": "Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-008-APROVACAO-BALANCETES-MAIO-DE-2022..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 008 DE 01 DE AGOSTO DE 2022 Aprova os Balancetes do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "ae3dd94aa00ba5075f095ae1d06e5ea2e7809e77d765fa96684c0a839d04739d"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 007/2022",
+      "data_informada": "30/06/2022",
+      "ementa_informada": "Aprova os Balancetes de abril de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-007-APROVACAO-BALANCETES-ABRIL-DE-2022..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 7,
+      "ano": 2022,
+      "data": "30/06/2022",
+      "ementa": "Aprova os Balancetes de abril/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-007-APROVACAO-BALANCETES-ABRIL-DE-2022..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 007 DE 30 DE JUNHO DE 2022 Aprova os Balancetes de abril/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "7bce13446d918b38469d4717cf5e3027a05a3cc651f17827ea34658f1b08a134"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 006/2022",
+      "data_informada": "25/05/2022",
+      "ementa_informada": "Aprova os Balancetes de março de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-006-APROVACAO-BALANCETES-MARCO-DE-2022..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 6,
+      "ano": 2022,
+      "data": "25/05/2022",
+      "ementa": "Aprova os Balancetes de Março/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-006-APROVACAO-BALANCETES-MARCO-DE-2022..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 00 6 DE 25 DE MAIO DE 2022 Aprova os Balancetes de Março/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "f1a9ce8412ad135d40d881ba8443363fa9e2234f9a0f7f14500eddfd7da4dfce"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 005/2022",
+      "data_informada": "26/04/2022",
+      "ementa_informada": "Aprova os Balancetes de fevereiro de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-005-APROVACAO-BALANCETES-FEVEREIRO-DE-2022..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 5,
+      "ano": 2022,
+      "data": "26/04/2022",
+      "ementa": "Aprova os Balancetes de fevereiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-005-APROVACAO-BALANCETES-FEVEREIRO-DE-2022..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 005 DE 26 DE ABRIL DE 2022 Aprova os Balancetes de fevereiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "daf69b36a03da0e9a2bfc08310e6dd681ff9d1ff6b3486b49aa0a0086f04c535"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 004/2022",
+      "data_informada": "18/03/2022",
+      "ementa_informada": "Aprova os Balancetes de janeiro de 2022 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-004-APROVACAO-BALANCETES-JANEIRO-DE-2022..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 4,
+      "ano": 2022,
+      "data": "18/03/2022",
+      "ementa": "Aprova os Balancetes de janeiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-004-APROVACAO-BALANCETES-JANEIRO-DE-2022..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 00 4 DE 18 DE MARÇO DE 2022 Aprova os Balancetes de janeiro/2022 do FINANPREV e do SERGIPEPREVIDENCIA. O CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADODE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, d"
+      },
+      "pdf_sha256": "24946166a2eba3af0328fd8044e057baa098d9cc27c03fba7cea0e50db4986bc"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 003/2022",
+      "data_informada": "23/02/2022",
+      "ementa_informada": "Homologação da Resolução nº 03 de 03/02/2022 sobre criação e reorganização da estrutura administrativa interna",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-003-APROVA-CRIACAO-DE-SETORES-E-REORG.-ORGANOGRAMA-DECRETO..pdf",
+      "situacao": "PENDENTE",
+      "motivo": "PDF inclui Decreto 33/2022 e resolução anexa; confirmar transcrição e classificação antes da inclusão.",
+      "pdf_sha256": "265b8fb4d45e796bb14518333ae2fd4b6786ac190bd43c00e4876b3171d2d0de"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 002/2022",
+      "data_informada": "03/02/2022",
+      "ementa_informada": "Aprova os Balancetes de dezembro de 2021 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-002-APROVACAO-BALANCETES-DEZEMBRO-DE-2021..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 2,
+      "ano": 2022,
+      "data": "03/02/2022",
+      "ementa": "Aprova os Balancetes de Dezembro/2021 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-002-APROVACAO-BALANCETES-DEZEMBRO-DE-2021..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 002/2022 DE 03 DE FEVEREIRO DE 2022 Aprova os Balancetes de Dezembro/2021 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "17f089644148e6f17c450ec5b273e097ff5f2bcad77d0d2adb35e7aa1222682c"
+    },
+    {
+      "colegiado": "CD",
+      "identificacao_informada": "Nº 001/2022",
+      "data_informada": "07/01/2022",
+      "ementa_informada": "Aprova os Balancetes de novembro de 2021 do FINANPREV e do SergipePrevidência",
+      "url_informada": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-001-APROVACAO-BALANCETES-NOVEMBRO-DE-2021..pdf",
+      "situacao": "CONFIRMADO",
+      "numero": 1,
+      "ano": 2022,
+      "data": "07/01/2022",
+      "ementa": "Aprova os Balancetes de Novembro/202 1 do FINANPREV e do SERGIPEPREVIDENCIA.",
+      "url": "https://sergipeprevidencia.se.gov.br/wp-content/uploads/2022/08/No-001-APROVACAO-BALANCETES-NOVEMBRO-DE-2021..pdf",
+      "conferencia": {
+        "metodo": "Cabeçalho, ementa/conteúdo do PDF; extração de todas as páginas",
+        "evidencia": "Página:1 de 1 RESOLUÇÃO Nº 001/2022 DE 07 DE JANEIRO DE 2022 Aprova os Balancetes de Novembro/202 1 do FINANPREV e do SERGIPEPREVIDENCIA. CONSELHO DELIBERATIVO–CD, do INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DO ESTADO DE SERGIPE- SERGIPEPREVIDÊNCIA, no uso de suas atribuições legais, de"
+      },
+      "pdf_sha256": "3b93cbeac45264bb91efce7d0861379844746b37fcf1f97dd437fc9a0120c3b6"
+    }
+  ]
+}

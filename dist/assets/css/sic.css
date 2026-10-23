@@ -1,0 +1,33 @@
+/* Apresentação exclusiva das quatro páginas informativas do SIC. */
+.sic-content .sic-card {
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 24px 0;
+  background: #fff;
+}
+.sic-content .sic-card h2 { margin-top: 0; }
+.sic-content .sic-contact-grid,
+.sic-content .sic-info-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.sic-content .sic-contact-grid { margin: 0; }
+.sic-content .sic-contact-grid dt { font-weight: 700; margin-bottom: 8px; }
+.sic-content .sic-contact-grid dd { margin: 0; }
+.sic-content .sic-responsavel { grid-column: 1 / -1; padding-bottom: 20px; border-bottom: 1px solid var(--borda); }
+.sic-content .sic-info-grid > .sic-card { margin: 0; }
+.sic-content .sic-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+.sic-content .sic-action { display: inline-block; padding: 12px 18px; border: 2px solid var(--azul); border-radius: 5px; text-decoration: none; font-weight: 700; background: var(--azul); color: #fff; }
+.sic-content .sic-action.secondary { background: #fff; color: var(--azul); }
+.sic-content a { overflow-wrap: anywhere; }
+.sic-content a:focus-visible { outline: 3px solid var(--azul); outline-offset: 4px; }
+.sic-content li + li { margin-top: 10px; }
+.high-contrast .sic-content .sic-card,
+.high-contrast .sic-content .sic-action.secondary { background: #000; color: #fff; border-color: #fff; }
+.high-contrast .sic-content .sic-responsavel { border-color: #fff; }
+.high-contrast .sic-content .sic-action { background: #000; color: #ff0; border-color: #ff0; }
+.high-contrast .sic-content a:focus-visible { outline-color: #ff0; }
+@media (max-width: 700px) {
+  .sic-content .sic-contact-grid,
+  .sic-content .sic-info-grid { grid-template-columns: minmax(0, 1fr); }
+  .sic-content .sic-card { padding: 18px; }
+  .sic-content .sic-actions { flex-direction: column; align-items: stretch; }
+}

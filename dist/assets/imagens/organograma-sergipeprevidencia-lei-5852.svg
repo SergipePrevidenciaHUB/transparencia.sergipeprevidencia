@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1415" role="img" aria-labelledby="title desc">
+<title id="title">Organograma da estrutura básica do SergipePrevidência</title>
+<desc id="desc">O SergipePrevidência tem órgãos colegiados, Diretoria Executiva e órgãos de apoio e assessoramento. Os órgãos colegiados são Conselho Deliberativo, Conselho Fiscal e CIRP. A Diretoria Executiva reúne Presidência, DIFIN, DIPLAG e DIPREV. As gerências abaixo das três diretorias estão ligadas por linhas conforme a Lei 5.852 de 2006 compilada.</desc>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#123453}
+.head{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#4d6478}
+.group{font-size:24px;font-weight:700}.name{font-size:20px;font-weight:700}
+.detail{font-size:16px}.foot{font-size:16px;fill:#425b70}
+.white{fill:#fff}.whiteSub{fill:#dcecf8}
+.line{stroke:#779fbd;stroke-width:4;fill:none;stroke-linejoin:round}
+.dash{stroke:#9cb4c5;stroke-width:3;stroke-dasharray:8 7;fill:none}
+</style>
+<rect width="1800" height="1520" fill="#f7fafc"/>
+<text x="80" y="58" class="head">Estrutura organizacional básica</text>
+
+<rect x="600" y="120" width="600" height="88" rx="14" fill="#15456e"/>
+<text x="900" y="155" text-anchor="middle" class="name white">SERGIPEPREVIDÊNCIA</text>
+<text x="900" y="183" text-anchor="middle" class="detail whiteSub">Autarquia estadual</text>
+<path class="line" d="M900 208 V248 M310 248 H1172 M310 248 V275 M1172 248 V275"/>
+
+<rect x="75" y="275" width="470" height="69" rx="10" fill="#dfeff3" stroke="#a7cbd7" stroke-width="2"/>
+<text x="310" y="319" text-anchor="middle" class="group">
+<tspan x="310" dy="0">ÓRGÃOS COLEGIADOS</tspan>
+</text>
+<rect x="75" y="366" width="470" height="84" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="310" y="399" text-anchor="middle" class="name">
+<tspan x="310" dy="0">CD</tspan>
+</text>
+<text x="310" y="425" text-anchor="middle" class="detail">
+<tspan x="310" dy="0">Conselho Deliberativo</tspan>
+</text>
+<rect x="75" y="472" width="470" height="84" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="310" y="505" text-anchor="middle" class="name">
+<tspan x="310" dy="0">CF</tspan>
+</text>
+<text x="310" y="531" text-anchor="middle" class="detail">
+<tspan x="310" dy="0">Conselho Fiscal</tspan>
+</text>
+<rect x="75" y="578" width="470" height="84" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="310" y="611" text-anchor="middle" class="name">
+<tspan x="310" dy="0">CIRP</tspan>
+</text>
+<text x="310" y="637" text-anchor="middle" class="detail">
+<tspan x="310" dy="0">Comitê de Investimentos dos Recursos Previdenciários</tspan>
+</text>
+<rect x="610" y="275" width="1125" height="69" rx="10" fill="#dce9fa" stroke="#a4c2e5" stroke-width="2"/>
+<text x="1172" y="319" text-anchor="middle" class="group">
+<tspan x="1172" dy="0">DIRETORIA EXECUTIVA</tspan>
+</text>
+<rect x="1010" y="366" width="325" height="84" rx="10" fill="#174d78" stroke="#174d78" stroke-width="2"/>
+<text x="1172" y="401" text-anchor="middle" class="name white">
+<tspan x="1172" dy="0">PR · Presidência</tspan>
+</text>
+<text x="1172" y="427" text-anchor="middle" class="detail whiteSub">
+<tspan x="1172" dy="0">Diretor-Presidente</tspan>
+</text>
+<path class="line" d="M1172 450 V486 M790 486 H1554 M790 486 V515 M1172 486 V515 M1554 486 V515"/>
+<rect x="625" y="515" width="330" height="92" rx="10" fill="#dce9fa" stroke="#a4c2e5" stroke-width="2"/>
+<text x="790" y="551" text-anchor="middle" class="name">
+<tspan x="790" dy="0">DIFIN</tspan>
+</text>
+<text x="790" y="578" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Finanças e Investimentos</tspan>
+</text>
+<path class="line" d="M790 607 V625 H599 V1041"/>
+<path class="line" d="M599 677 H625"/>
+<rect x="625" y="640" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="790" y="670" text-anchor="middle" class="name">
+<tspan x="790" dy="0">GEAINV</tspan>
+</text>
+<text x="790" y="694" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Arrecadação e Investimentos</tspan>
+</text>
+<path class="line" d="M599 768 H625"/>
+<rect x="625" y="731" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="790" y="761" text-anchor="middle" class="name">
+<tspan x="790" dy="0">GERPAG</tspan>
+</text>
+<text x="790" y="785" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Pagamento</tspan>
+</text>
+<path class="line" d="M599 859 H625"/>
+<rect x="625" y="822" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="790" y="852" text-anchor="middle" class="name">
+<tspan x="790" dy="0">GERCOMP</tspan>
+</text>
+<text x="790" y="876" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Compensação Previdenciária</tspan>
+</text>
+<path class="line" d="M599 950 H625"/>
+<rect x="625" y="913" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="790" y="943" text-anchor="middle" class="name">
+<tspan x="790" dy="0">GEOF</tspan>
+</text>
+<text x="790" y="967" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Execução Orçamentária e Financeira</tspan>
+</text>
+<path class="line" d="M599 1041 H625"/>
+<rect x="625" y="1004" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="790" y="1034" text-anchor="middle" class="name">
+<tspan x="790" dy="0">GECON</tspan>
+</text>
+<text x="790" y="1058" text-anchor="middle" class="detail">
+<tspan x="790" dy="0">Contabilidade</tspan>
+</text>
+<rect x="1008" y="515" width="330" height="92" rx="10" fill="#dce9fa" stroke="#a4c2e5" stroke-width="2"/>
+<text x="1173" y="551" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">DIPLAG</tspan>
+</text>
+<text x="1173" y="578" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Planejamento e Gestão</tspan>
+</text>
+<path class="line" d="M1173 607 V625 H982 V1041"/>
+<path class="line" d="M982 677 H1008"/>
+<rect x="1008" y="640" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1173" y="670" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">GECOM</tspan>
+</text>
+<text x="1173" y="694" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Comunicação e Participação Ativa</tspan>
+</text>
+<path class="line" d="M982 768 H1008"/>
+<rect x="1008" y="731" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1173" y="761" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">GERPLANEA</tspan>
+</text>
+<text x="1173" y="785" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Planejamento, Estatística e Atuária</tspan>
+</text>
+<path class="line" d="M982 859 H1008"/>
+<rect x="1008" y="822" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1173" y="852" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">GEADI</tspan>
+</text>
+<text x="1173" y="876" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Gestão Administrativa</tspan>
+</text>
+<path class="line" d="M982 950 H1008"/>
+<rect x="1008" y="913" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1173" y="943" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">GEREH</tspan>
+</text>
+<text x="1173" y="967" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Recursos Humanos</tspan>
+</text>
+<path class="line" d="M982 1041 H1008"/>
+<rect x="1008" y="1004" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1173" y="1034" text-anchor="middle" class="name">
+<tspan x="1173" dy="0">OG</tspan>
+</text>
+<text x="1173" y="1058" text-anchor="middle" class="detail">
+<tspan x="1173" dy="0">Ouvidoria-Geral</tspan>
+</text>
+<rect x="1390" y="515" width="330" height="92" rx="10" fill="#dce9fa" stroke="#a4c2e5" stroke-width="2"/>
+<text x="1555" y="551" text-anchor="middle" class="name">
+<tspan x="1555" dy="0">DIPREV</tspan>
+</text>
+<text x="1555" y="578" text-anchor="middle" class="detail">
+<tspan x="1555" dy="0">Previdência</tspan>
+</text>
+<path class="line" d="M1555 607 V625 H1364 V768"/>
+<path class="line" d="M1364 677 H1390"/>
+<rect x="1390" y="640" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1555" y="670" text-anchor="middle" class="name">
+<tspan x="1555" dy="0">GERAT</tspan>
+</text>
+<text x="1555" y="694" text-anchor="middle" class="detail">
+<tspan x="1555" dy="0">Atendimento</tspan>
+</text>
+<path class="line" d="M1364 768 H1390"/>
+<rect x="1390" y="731" width="330" height="74" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1555" y="761" text-anchor="middle" class="name">
+<tspan x="1555" dy="0">GERCON</tspan>
+</text>
+<text x="1555" y="785" text-anchor="middle" class="detail">
+<tspan x="1555" dy="0">Concessão</tspan>
+</text>
+<rect x="75" y="1170" width="1660" height="64" rx="10" fill="#e8eff6" stroke="#c4d5e3" stroke-width="2"/>
+<text x="905" y="1211" text-anchor="middle" class="group">
+<tspan x="905" dy="0">ÓRGÃOS DE APOIO E ASSESSORAMENTO · art. 6º, IV</tspan>
+</text>
+<rect x="75" y="1256" width="310" height="100" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="230" y="1290" text-anchor="middle" class="name">
+<tspan x="230" dy="0">GDP</tspan>
+</text>
+<text x="230" y="1318" text-anchor="middle" class="detail">
+<tspan x="230" dy="0">Gabinete do</tspan>
+<tspan x="230" dy="20">Diretor-Presidente</tspan>
+</text>
+<rect x="412" y="1256" width="310" height="100" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="567" y="1290" text-anchor="middle" class="name">
+<tspan x="567" dy="0">AGIN</tspan>
+</text>
+<text x="567" y="1318" text-anchor="middle" class="detail">
+<tspan x="567" dy="0">Assessoria-Geral</tspan>
+<tspan x="567" dy="20">de Informática</tspan>
+</text>
+<rect x="749" y="1256" width="310" height="100" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="904" y="1290" text-anchor="middle" class="name">
+<tspan x="904" dy="0">AESPM</tspan>
+</text>
+<text x="904" y="1318" text-anchor="middle" class="detail">
+<tspan x="904" dy="0">Proteção Social</tspan>
+<tspan x="904" dy="20">dos Militares</tspan>
+</text>
+<rect x="1086" y="1256" width="310" height="100" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1241" y="1290" text-anchor="middle" class="name">
+<tspan x="1241" dy="0">ASSEPCI</tspan>
+</text>
+<text x="1241" y="1318" text-anchor="middle" class="detail">
+<tspan x="1241" dy="0">Processos e</tspan>
+<tspan x="1241" dy="20">Controle Interno</tspan>
+</text>
+<rect x="1423" y="1256" width="310" height="100" rx="10" fill="#fff" stroke="#c2d4e2" stroke-width="2"/>
+<text x="1578" y="1290" text-anchor="middle" class="name">
+<tspan x="1578" dy="0">ASSERINST</tspan>
+</text>
+<text x="1578" y="1318" text-anchor="middle" class="detail">
+<tspan x="1578" dy="0">Relações</tspan>
+<tspan x="1578" dy="20">Institucionais</tspan>
+</text>
+<text x="75" y="1380" class="foot">Fonte: Lei nº 5.852/2006, arts. 6º, 19, 21 e 21-B.</text>
+</svg>

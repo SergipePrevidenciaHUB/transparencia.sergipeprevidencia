@@ -159,3 +159,39 @@ Nem C 10.5 nem S 10.5 prescrevem filtro, série histórica, gravação de relat�
 ### Antes da publicação de 10.5–10.6
 
 Receber os documentos e metadados institucionais; conferir integridade, vigência/referência, cobertura e acesso público; resolver as dúvidas S; preencher apenas conteúdo real e aplicar os itens confirmados. Em Balancetes, implementar e testar pesquisa, histórico, exportação editável e atualização real. URLs oficiais só após conferência individual; não criar caminhos por ano/mês nem usar `serigyLink` para PDF. Só mover para `dist` e ajustar navegação em tarefa autorizada, após validação. Nenhum dos modelos vazios comprova atendimento.
+
+
+## Alimentação do Relatório de Gestão — C 10.2 / S 10.2
+
+A página pública existente `/Portal-da-Transparencia/PlanejamentoPrestacaoContas/RelatorioGestao/` recebe somente os três registros da seção `secoes.relatorioGestao` de `dados-entrada/planejamento/planejamento-prestacao-contas-consolidado.json`: 2023, 2024 e 2025. Os URLs foram preservados literalmente, inclusive o hífen antes de `.pdf` no relatório 2025. O arquivo consolidado foi localizado na pasta indicada após a confirmação do caminho; não se usou o índice alternativo `planejamento-prestacao-contas-links.json`. Os modelos não publicados e as demais páginas permanecem intactos.
+
+- S 10.2.1: três links `relatorioGestao` (Anexo), no HTML inicial sob `https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html`, conforme cabeçalho S p. 1 e exemplo documental S p. 2. Não se aplicou `serigyLink` a PDFs.
+- S 10.2.2 e 10.2.4: filtro funcional por exercício com `filtroPesquisa`, `historicoExercicio` e opções `serigyValue` reais. O formulário usa o schema literal do exemplo de pesquisa: `https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html`. Botão/resultados ligados a `tabela-relatorio-gestao` por `serigyExecuteWaitSection`/`serigyLoadSection`; limpeza `serigyClearForm`. Reutiliza `tabelas.js` sem alteração desse componente. Filtrar oculta linhas sem remover os três links do DOM.
+- S 10.2.3: “Informações atualizadas em 21/10/2026”, com `dataUltimaAtualizacao` em contêiner próprio sob `https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html`, exatamente como o exemplo de atualização S p. 2. A referência de atualização foi expressamente fornecida para a relação no Portal; não foi deduzida de upload, emissão ou conteúdo dos PDFs.
+
+**Divergência documentada:** o cabeçalho e os documentos usam `planejamento-prestacao-contas.html`; os exemplos de pesquisa e atualização usam `gestao-fiscal-planejamento.html`. Nesta página preenchida, os contextos foram separados de acordo com os exemplos correspondentes, sem converter as demais páginas nem afirmar que os dois schemas são aliases. Essa escolha técnica deve ser conferida posteriormente na leitura do Serigy; não encerra a dúvida global anotada para outros modelos.
+
+Não há exportação autônoma ou marcação `salvarRelatorio`: o acesso aos documentos reais é o conteúdo oferecido. A carga de três links não declara atendimento integral, completude histórica, conteúdo validado ou PDF pesquisável. Pendências documentais em `controle/planejamento-pendencias.md`.
+
+
+## Alimentação dos cinco índices — 10.1, 10.3, 10.4, 10.5 e 10.6
+
+Fonte exclusiva: `dados-entrada/planejamento/planejamento-prestacao-contas-consolidado.json`. Foram consultados os trechos aplicáveis da Cartilha (10.1 pp. 81–82; 10.3 p. 84; 10.4 p. 85; 10.5 p. 86; 10.6 p. 87) e as tabelas/exemplos correspondentes de S10 pp. 1–2. A implementação atualiza somente cinco páginas existentes; RelatorioGestao, demais páginas e modelos são preservados. Não há cópia de documentos para `dist`, URLs locais presumidas ou ampliação de exercícios.
+
+| Página / fonte | Conteúdo apresentado | Marcações documentais e controles |
+| --- | --- | --- |
+| BalancoGeral / balancoGeral | 16 prestações, FINANPREV e SergipePrevidência, 2018–2025; nenhum Balanço 2026 | `balancoGeralAnoAnterior`; filtros de exercício/unidade; `filtroPesquisa` e `historicoExercicio`. Não se presumem os quatro demonstrativos mínimos como já conferidos. |
+| TCE / integraJulgamentoTCE | 11 decisões vinculadas e dois períodos sem documento disponibilizado nesta relação (SergipePrevidência 2022/2023) | `integraJulgamentoTCE` somente nos 11 links reais; `historicoExercicio`. Filtros exercício/unidade são DT adicionais: 10.3 não recebeu `filtroPesquisa`, que não figura nos itens S desse critério. |
+| RGF / RGF | 11 documentos: três quadrimestres de cada ano 2023–2025 e 1º/2º de 2026 | `RGF` (maiúsculo), filtros por exercício, `filtroPesquisa`/`historicoExercicio`; quadrimestre identificado na tabela. Não se inventa emissor/unidade ou anexos por dedução. |
+| PlanoEstrategico / planoEstrategico | Um plano institucional 2023–2027 (revisão indicada no arquivo da origem) e seis complementares: PPA, LDO, LOA e três planos anuais | Somente o plano institucional recebe `planoEstrategico`. Complementares sem essa marcação. Não há filtro, histórico ou exportação autônomos inventados para C 10.5. |
+| Balancetes / balanceteMensal | 91 períodos de três unidades (SergipePrevidência, FINANPREV, FUNPREV), com 90 PDFs e 71 editáveis, 161 links | `balanceteMensal` nos PDFs correspondentes; no período junho/2023, o editável real fica no contexto `balanceteMensal`, sem o PDF divergente. Links editáveis funcionais recebem `salvarRelatorio` e `serigyValue` da extensão real. Filtros exercício/unidade/mês, `filtroPesquisa`/`historicoExercicio`. |
+
+**Aplicabilidade de 10.6:** a Cartilha p. 87 inclui expressamente Previdência Estadual; a ressalva técnica Matriz II de S10 não foi usada para excluir o critério. A carga documental não afirma atendimento integral, fechamento ou completude histórica. A série especial de 10.1/10.3 e a exigibilidade dos relatórios permanecem sujeitas às conferências já registradas.
+
+**Schemas:** documentos sob `https://serigy.tce.se.gov.br/comum/planejamento-prestacao-contas.html`, como cabeçalho/exemplos documentais; formulários/histórico e atualização sob `https://serigy.tce.se.gov.br/comum/gestao-fiscal-planejamento.html`, conforme exemplos de pesquisa/atualização. Os links editáveis de Balancetes usam o contexto documental PC e os itens técnicos de gravação S 10.6.3. A divergência não foi transformada em alias nem aplicada a RelatorioGestao. A extração pelo robô permanece a conferir.
+
+Nas cinco páginas, a referência fornecida “Informações atualizadas em 21/10/2026” está em `dataUltimaAtualizacao` no contexto do exemplo de atualização, distinguida da emissão dos documentos. Em Plano Estratégico, essa informação é metadado da relação solicitado pelo projeto e baseado no exemplo geral; não se cria um novo item normativo de atualidade em 10.5.
+
+**Decisões técnicas:** `planejamento.js` filtra linhas HTML por atributos de exercício, unidade e mês, sem removê-las do DOM. As opções e os contadores correspondem apenas aos registros fornecidos; não há totais financeiros ou conversão de unidade. O campo público “Não disponibilizado nesta relação” informa ausência de vínculo nessa consulta, sem declarar inexistência institucional. Todos os URLs publicáveis são literais do JSON, com escape HTML, inclusive parâmetros dos complementares e formatos originais. `null` não vira link, botão ou download simulado. Não se aplicou `serigyLink` a PDF.
+
+**Regeneração limitada:** `tools/integrar_planejamento.py` gera apenas BalancoGeral, TCE, RGF, PlanoEstrategico e Balancetes; `--check` confere sem gravar. `tools/testar_planejamento.py` concilia todos os vínculos, nulidades, exclusões e marcações com a fonte. A preservação das demais páginas, inclusive RelatorioGestao, é também conferida por hashes nesta rodada.
