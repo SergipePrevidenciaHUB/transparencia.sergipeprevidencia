@@ -18,14 +18,12 @@ def public_text(value):
         return '***.***.***-' + digits[-2:] if valid else match.group()
     return re.sub(r'(?<!\d)\d{3}\.\d{3}\.\d{3}-\d{2}(?!\d)', mask, str(value))
 
-def data_cell(value, item, reason):
+def data_cell(value, item, reason, record_id):
     # A futura adaptação da fonte fornece o valor confirmado aqui, sem inferir colunas.
     # Zero numérico é conteúdo; None/texto vazio são ausência justificada.
     esc = lambda v: html.escape(public_text(v), quote=True).replace('\r', '&#13;').replace('\n', '&#10;')
     if value is None or str(value).strip() == '':
-        if item == 'valorContrato':
-            # A coluna preparada não supre o valor monetário ainda não fornecido.
-            return '<td serigyItem="valorContrato"></td>'
+        reason += ' Campo '+item+'; registro '+str(record_id)+'.'
         return '<td serigyItem="'+item+'" serigyEmpty="'+esc(reason)+'"></td>'
     return '<td serigyItem="'+item+'">'+esc(value)+'</td>'
 
@@ -64,13 +62,13 @@ def render(sinteticos=False):
             links.append('<li><a serigyItem="termoAditivo" href="' + esc(a['url_integra']) + '">' + esc(a['identificacao_literal']) + '</a></li>')
         ad = '<ul>' + ''.join(links) + '</ul>' if links else ''
         cells = '<td>'+year+'</td>'
-        cells += data_cell(None, 'sequencia', 'Sequência não fornecida na fonte conferida; aguarda informação confirmada, sem usar ordem da planilha ou número do contrato.')
-        cells += data_cell(c['numero_literal'], 'numeroContrato', 'Número do contrato ausente na fonte fornecida.')
-        cells += data_cell(c['contratado_literal'], 'contratado', 'Contratado ausente na fonte fornecida.')
-        cells += data_cell(None, 'valorContrato', 'Valor contratual não fornecido na fonte conferida; ausência não representa valor zero.')
-        cells += data_cell(c['objeto_literal'], 'objeto', 'Objeto ausente na fonte fornecida.')
-        cells += data_cell(start, 'inicioContrato', 'Início da vigência não identificável com segurança na fonte fornecida.')
-        cells += data_cell(end, 'fimContrato', 'Fim da vigência não identificável com segurança na fonte fornecida.')
+        cells += data_cell(c.get('sequencia'), 'sequencia', 'Sequência não fornecida na fonte conferida; aguarda informação confirmada, sem usar ordem da planilha ou número do contrato.', c['id_origem'])
+        cells += data_cell(c['numero_literal'], 'numeroContrato', 'Número do contrato ausente na fonte fornecida.', c['id_origem'])
+        cells += data_cell(c['contratado_literal'], 'contratado', 'Contratado ausente na fonte fornecida.', c['id_origem'])
+        cells += data_cell(c.get('valorContrato'), 'valorContrato', 'Valor contratual não fornecido na fonte conferida; ausência não representa valor zero.', c['id_origem'])
+        cells += data_cell(c['objeto_literal'], 'objeto', 'Objeto ausente na fonte fornecida.', c['id_origem'])
+        cells += data_cell(start, 'inicioContrato', 'Início da vigência não identificável com segurança na fonte fornecida.', c['id_origem'])
+        cells += data_cell(end, 'fimContrato', 'Fim da vigência não identificável com segurança na fonte fornecida.', c['id_origem'])
         cells += '<td>'+doc+'</td><td>'+ad+'</td>'
         rows.append('<tr data-source-row="'+str(c['linha_origem'])+'" data-year="'+year+'">'+cells+'</tr>')
 

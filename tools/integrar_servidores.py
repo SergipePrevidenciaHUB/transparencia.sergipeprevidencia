@@ -187,6 +187,7 @@ def render(records):
             marker = f' serigyItem="{item}"' if item and present else ''
             if item and not present:
                 reason = 'Rendimento não atribuído: associação ambígua na fonte.' if i == 8 else 'Campo não informado na relação fornecida; não se presume situação do vínculo.'
+                reason += f' Campo {item}; registro Plan1:{number}; exercício {values[0]}, mês {values[1]}.'
                 marker = f' serigyItem="{item}" serigyEmpty="{escape(reason, quote=True)}"'
             label = MONTHS[int(value)-1] if i == 1 else value
             if i == 8 and present:

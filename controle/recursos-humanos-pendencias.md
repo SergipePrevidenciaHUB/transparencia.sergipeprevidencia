@@ -179,3 +179,8 @@ Removidas explicações de processamento da interface de Padrão Remuneratório,
 ### Amostras legadas retiradas da publicação
 
 Os CSV/JSON antigos receitas-teste (12 registros fictícios sem UO) e estagiarios-teste (oito registros fictícios), identificados no inventário original, continuavam em dist sem links ativos. Foram retirados do pacote e preservados em trabalho/revisao-final/amostras-legadas. Não se confundem com a planilha receitas-teste.xlsx de 425 registros reais, nem com os 714 estagiários reais. O texto legado de teste nos metadados de Receitas foi substituído por descrição factual, sem declaração de homologação ou completude.
+
+
+## 4252 — ausências individualizadas em FolhaPagamento
+
+6.1.6: mantidos os 1.598 cadastros, 27 datas reais de exoneração/inativação e 1.571 células visualmente vazias. Cada ausência agora inclui campo, Plan1:linha de origem e ano/mês, identificadores já usados na conciliação; não contém CPF nem afirma vínculo ativo. A mesma rotina individualiza as duas ausências remuneratórias ambíguas, sem atribuir valores. Datas presentes não recebem serigyEmpty. Definições Serigy, p. 2: motivo explicativo único e distinto por atributo. CSV e conteúdo público preservados; gerador e Chrome conferidos. A informação faltante e as ambiguidades do RH permanecem; correção técnica não equivale à aprovação de 6.1.6 pelo robô. Evidências: trabalho/conferencia-4252-campos/testes.json.

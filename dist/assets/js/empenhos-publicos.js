@@ -19,7 +19,13 @@
       text(row.cells[3].textContent).includes(text(form.elements.nome.value.trim())) &&
       (!doc || row.dataset.tipo !== 'CPF' && row.cells[2].textContent.replace(/[.\/\-\s]/g, '').toLowerCase().includes(doc.replace(/[.\/\-\s]/g, '').toLowerCase())));
     const selected = new Set(matching);
-    rows.forEach(row => { row.hidden = !selected.has(row); });
+    rows.forEach(row => {
+      row.hidden = !selected.has(row);
+      row.querySelectorAll('[data-serigy-item]').forEach(cell => {
+        if (row.hidden) cell.removeAttribute('serigyItem');
+        else cell.setAttribute('serigyItem', cell.dataset.serigyItem);
+      });
+    });
     document.getElementById('ep-status').textContent = matching.length + ' registros no recorte.';
     table.dataset.consulta = String(Number(table.dataset.consulta || 0) + 1);
     button.disabled = !matching.length;

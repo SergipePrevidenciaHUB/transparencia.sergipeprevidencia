@@ -45,7 +45,7 @@ def generate(doc,d):
     for r in rows:
         attrs=' '.join('data-'+k+'="'+e(str(v),quote=True)+'"' for k,v in [('ano',r['ano']),('mes',r['mes']),('entidade',r['entidade']),('elemento',label(r,'elemento'))]+[(m,r[m+'_centavos']) for m in MEASURES])
         marks=['']+ITEMS+['','','']
-        tds=''.join('<td'+(' serigyItem="'+item+'"' if item and value else '')+(' class="dc-money"' if i>=11 else '')+'>'+e(value)+'</td>' for i,(item,value) in enumerate(zip(marks,cells(r))))
+        tds=''.join('<td'+(' data-serigy-item="'+item+'"'+(' serigyItem="'+item+'"' if r in initial else '') if item and value else '')+(' class="dc-money"' if i>=11 else '')+'>'+e(value)+'</td>' for i,(item,value) in enumerate(zip(marks,cells(r))))
         rendered.append('<tr '+attrs+(' hidden' if r not in initial else '')+'>'+tds+'</tr>')
     table='<section id="classificacao" class="content-box despesas-consolidadas"'+schema+'><h2 id="titulo-classificacao">Despesas por classificação orçamentária</h2><p id="dc-status" role="status" aria-live="polite">40 registros no recorte.</p><button type="button" id="dc-csv" serigyItem="salvarRelatorio" serigyValue="csv">Exportar CSV</button><div class="dc-table-wrap" tabindex="0" role="region" aria-label="Classificação orçamentária"><table id="dc-tabela" serigyLoadSection="despesasConsolidadasTabela"><caption>Classificação orçamentária por competência e entidade</caption><thead><tr>'+''.join('<th scope="col">'+e(h)+'</th>' for h in HEADERS)+'</tr></thead><tbody>\n'+'\n'.join(rendered)+'\n</tbody></table></div>'+date+'</section>'
     untouched=block(doc,'empenhos')

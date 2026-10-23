@@ -19,7 +19,13 @@
       (!form.elements.entidade.value || row.dataset.entidade === form.elements.entidade.value) &&
       (!form.elements.elemento.value || row.dataset.elemento === form.elements.elemento.value));
     const selected = new Set(matching);
-    rows.forEach(row => { row.hidden = !selected.has(row); });
+    rows.forEach(row => {
+      row.hidden = !selected.has(row);
+      row.querySelectorAll('[data-serigy-item]').forEach(cell => {
+        if (row.hidden) cell.removeAttribute('serigyItem');
+        else cell.setAttribute('serigyItem', cell.dataset.serigyItem);
+      });
+    });
     measures.forEach((measure, i) => {
       const cell = document.getElementById('dc-' + measure);
       cell.textContent = matching.length ? 'R$ ' + money(matching.reduce((sum, row) => sum + BigInt(row.dataset[measure]), 0n)) : '—';

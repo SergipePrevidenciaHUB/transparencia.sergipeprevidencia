@@ -143,3 +143,8 @@ Coluna pública e CSV denominados **Valor contratual**, com `serigyItem="valorCo
 ### Privacidade — revisão final
 
 O campo textual de um contrato continha CPF completo formatado. A projeção pública e o gerador agora mascaram esse identificador antes de gerar HTML/CSV; fonte interna preservada, sem excluir registros ou documentos. 156 contratos, 122 links e oito aditivos mantidos.
+
+
+## 4252 — justificativas de valor e sequência
+
+9.1.3/9.1.7: JSON contratos-extraidos.json e relacao-contratos-com-atas.xlsx conferidos; SHA256 da planilha coincide com a extração. Cabeçalhos: Tipo da Celebração, Modalidade/Nº da Licitação, Órgão/Entidade, Período de Vigência, Descrição Sucinta do Objeto e Links Contratos. Não há campos confirmados de valor ou sequência para os 156 contratos. Não inferir sequência do número contratual, modalidade, posição ou linha da planilha. As 156 células valorContrato e 156 sequencia continuam vazias, sem zero, agora com serigyEmpty verdadeiro e único por campo/id_origem; demais ausências intencionais da tabela também individualizadas. Mantidos 122 links e oito aditivos. A rotina retira serigyEmpty quando recebe conteúdo confirmado; as propriedades opcionais valorContrato/sequencia no registro de entrada não são novos dados nem nomes presumidos de colunas da futura planilha. Obter os dados oficiais e mapear sua origem continua pendente. HTML e CSV não recebem textos substitutivos. Reconhecimento técnico e atendimento material continuam distintos. Evidências: trabalho/conferencia-4252-campos/testes.json.

@@ -51,7 +51,9 @@ def update(slug):
 
 def filter_form(route, rows, slug):
     fields = []
-    years = sorted({r['ano'] for r in rows}, reverse=True)
+    # Exercícios consultáveis independem da existência de uma decisão publicada.
+    recent = {2026, 2025, 2024, 2023} if route == 'TCE' else set()
+    years = sorted({r['ano'] for r in rows} | recent, reverse=True)
     options = ''.join(f'<option value="{y}" serigyValue="{y}">{y}</option>' for y in years)
     fields.append(f'<div class="field"><label for="exercicio-{slug}">Exercício</label><select id="exercicio-{slug}" name="ano" serigyItem="historicoExercicio"><option value="">Todos</option>{options}</select></div>')
     units = sorted({r['unidade'] for r in rows if r.get('unidade')})
